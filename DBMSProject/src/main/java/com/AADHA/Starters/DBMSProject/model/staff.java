@@ -1,16 +1,15 @@
 package com.AADHA.Starters.DBMSProject.model;
 
-public class Student {
-    private int SRN,phone_1,phone_2,PIN,class_no,section_no;
-    private String name,DOB,admission_date,email,blood_grp,guardian,mother;
-    private String street,city,state,Aadhar_no;
+public class staff {
+    private int emp_id,phone_1,phone_2,exp_years,salary,PIN;
+    private String name,DOB,joining_date,email,blood_grp,street,city,state,Aadhar_no,PAN_no,dept_name;
 
-    public int getSRN() {
-        return SRN;
+    public int getEmp_id() {
+        return emp_id;
     }
 
-    public void setSRN(int SRN) {
-        this.SRN = SRN;
+    public void setEmp_id(int emp_id) {
+        this.emp_id = emp_id;
     }
 
     public int getPhone_1() {
@@ -29,28 +28,28 @@ public class Student {
         this.phone_2 = phone_2;
     }
 
+    public int getExp_years() {
+        return exp_years;
+    }
+
+    public void setExp_years(int exp_years) {
+        this.exp_years = exp_years;
+    }
+
+    public int getSalary() {
+        return salary;
+    }
+
+    public void setSalary(int salary) {
+        this.salary = salary;
+    }
+
     public int getPIN() {
         return PIN;
     }
 
     public void setPIN(int PIN) {
         this.PIN = PIN;
-    }
-
-    public int getClass_no() {
-        return class_no;
-    }
-
-    public void setClass_no(int class_no) {
-        this.class_no = class_no;
-    }
-
-    public int getSection_no() {
-        return section_no;
-    }
-
-    public void setSection_no(int section_no) {
-        this.section_no = section_no;
     }
 
     public String getName() {
@@ -69,12 +68,12 @@ public class Student {
         this.DOB = DOB;
     }
 
-    public String getAdmission_date() {
-        return admission_date;
+    public String getJoining_date() {
+        return joining_date;
     }
 
-    public void setAdmission_date(String admission_date) {
-        this.admission_date = admission_date;
+    public void setJoining_date(String joining_date) {
+        this.joining_date = joining_date;
     }
 
     public String getEmail() {
@@ -91,22 +90,6 @@ public class Student {
 
     public void setBlood_grp(String blood_grp) {
         this.blood_grp = blood_grp;
-    }
-
-    public String getGuardian() {
-        return guardian;
-    }
-
-    public void setGuardian(String guardian) {
-        this.guardian = guardian;
-    }
-
-    public String getMother() {
-        return mother;
-    }
-
-    public void setMother(String mother) {
-        this.mother = mother;
     }
 
     public String getStreet() {
@@ -139,5 +122,21 @@ public class Student {
 
     public void setAadhar_no(String aadhar_no) {
         Aadhar_no = aadhar_no;
+    }
+
+    public String getDept_name() {
+        return dept_name;
+    }
+
+    public void setDept_name(String dept_name) {
+        this.dept_name = dept_name;
+    }
+
+    public String getPAN_no() {
+        return PAN_no;
+    }
+
+    public void setPAN_no(String PAN_no) {
+        this.PAN_no = PAN_no;
     }
 }

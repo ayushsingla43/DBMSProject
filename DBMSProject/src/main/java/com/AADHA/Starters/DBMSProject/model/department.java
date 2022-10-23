@@ -1,0 +1,54 @@
+package com.AADHA.Starters.DBMSProject.model;
+
+public class department {
+    private int contact,floor_no,room_no;
+    private String dept_name,email,head;
+
+    public int getContact() {
+        return contact;
+    }
+
+    public void setContact(int contact) {
+        this.contact = contact;
+    }
+
+    public int getFloor_no() {
+        return floor_no;
+    }
+
+    public void setFloor_no(int floor_no) {
+        this.floor_no = floor_no;
+    }
+
+    public int getRoom_no() {
+        return room_no;
+    }
+
+    public void setRoom_no(int room_no) {
+        this.room_no = room_no;
+    }
+
+    public String getDept_name() {
+        return dept_name;
+    }
+
+    public void setDept_name(String dept_name) {
+        this.dept_name = dept_name;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getHead() {
+        return head;
+    }
+
+    public void setHead(String head) {
+        this.head = head;
+    }
+}
