@@ -3,6 +3,7 @@ package com.AADHA.Starters.DBMSProject.model;
 public class alumni {
     private int SRN,last_class,leave_year;
     private String name,admission_date,email,phone_1,phone_2,photo;
+    char gender;
 
     public int getSRN() {
         return SRN;
@@ -74,5 +75,13 @@ public class alumni {
 
     public void setPhoto(String photo) {
         this.photo = photo;
+    }
+
+    public char getGender() {
+        return gender;
+    }
+
+    public void setGender(char gender) {
+        this.gender = gender;
     }
 }

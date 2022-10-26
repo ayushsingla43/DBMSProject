@@ -3,6 +3,7 @@ package com.AADHA.Starters.DBMSProject.model;
 public class staff {
     private int emp_id,exp_years,salary,PIN,curr=1;
     private String name,DOB,joining_date,email,blood_grp,phone_1,phone_2,street,city,state,Aadhar_no,PAN_no,dept_name,photo;
+    char gender;
 
     public int getEmp_id() {
         return emp_id;
@@ -154,5 +155,13 @@ public class staff {
 
     public void setPhoto(String photo) {
         this.photo = photo;
+    }
+
+    public char getGender() {
+        return gender;
+    }
+
+    public void setGender(char gender) {
+        this.gender = gender;
     }
 }

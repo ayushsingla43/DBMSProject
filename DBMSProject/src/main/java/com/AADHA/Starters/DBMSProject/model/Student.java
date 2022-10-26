@@ -4,6 +4,7 @@ public class Student {
     private int SRN,PIN,class_no,section_no;
     private String name,DOB,admission_date,email,blood_grp,guardian,mother,phone_1,phone_2;
     private String street,city,state,Aadhar_no,photo;
+    char gender;
 
     public int getSRN() {
         return SRN;
@@ -147,5 +148,13 @@ public class Student {
 
     public void setPhoto(String photo) {
         this.photo = photo;
+    }
+
+    public char getGender() {
+        return gender;
+    }
+
+    public void setGender(char gender) {
+        this.gender = gender;
     }
 }
