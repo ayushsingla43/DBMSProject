@@ -1,8 +1,8 @@
 package com.AADHA.Starters.DBMSProject.model;
 
 public class books {
-    private int book_id,ISBN,SRN_own;
-    private String name,author,genre,DOP,staff_own,return_date;
+    private int book_id,ISBN,SRN_own,staff_own;
+    private String name,author,genre,DOP,return_date;
 
     public int getBook_id() {
         return book_id;
@@ -60,11 +60,11 @@ public class books {
         this.DOP = DOP;
     }
 
-    public String getStaff_own() {
+    public int getStaff_own() {
         return staff_own;
     }
 
-    public void setStaff_own(String staff_own) {
+    public void setStaff_own(int staff_own) {
         this.staff_own = staff_own;
     }
 

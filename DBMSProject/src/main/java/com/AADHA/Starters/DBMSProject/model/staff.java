@@ -1,8 +1,8 @@
 package com.AADHA.Starters.DBMSProject.model;
 
 public class staff {
-    private int emp_id,phone_1,phone_2,exp_years,salary,PIN;
-    private String name,DOB,joining_date,email,blood_grp,street,city,state,Aadhar_no,PAN_no,dept_name;
+    private int emp_id,phone_1,phone_2,exp_years,salary,PIN,curr=1;
+    private String name,DOB,joining_date,email,blood_grp,street,city,state,Aadhar_no,PAN_no,dept_name,photo;
 
     public int getEmp_id() {
         return emp_id;
@@ -138,5 +138,21 @@ public class staff {
 
     public void setPAN_no(String PAN_no) {
         this.PAN_no = PAN_no;
+    }
+
+    public int getCurr() {
+        return curr;
+    }
+
+    public void setCurr(int curr) {
+        this.curr = curr;
+    }
+
+    public String getPhoto() {
+        return photo;
+    }
+
+    public void setPhoto(String photo) {
+        this.photo = photo;
     }
 }

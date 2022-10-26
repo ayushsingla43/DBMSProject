@@ -1,8 +1,7 @@
 package com.AADHA.Starters.DBMSProject.model;
 
 public class class_ {
-    private int class_no,section_no,floor_no,room_no;
-    private String incharge;
+    private int class_no,section_no,floor_no,room_no,incharge;
 
     public int getClass_no() {
         return class_no;
@@ -36,11 +35,11 @@ public class class_ {
         this.room_no = room_no;
     }
 
-    public String getIncharge() {
+    public int getIncharge() {
         return incharge;
     }
 
-    public void setIncharge(String incharge) {
+    public void setIncharge(int incharge) {
         this.incharge = incharge;
     }
 }

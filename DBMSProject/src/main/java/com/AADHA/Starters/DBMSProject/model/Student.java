@@ -3,7 +3,7 @@ package com.AADHA.Starters.DBMSProject.model;
 public class Student {
     private int SRN,phone_1,phone_2,PIN,class_no,section_no;
     private String name,DOB,admission_date,email,blood_grp,guardian,mother;
-    private String street,city,state,Aadhar_no;
+    private String street,city,state,Aadhar_no,photo;
 
     public int getSRN() {
         return SRN;
@@ -139,5 +139,13 @@ public class Student {
 
     public void setAadhar_no(String aadhar_no) {
         Aadhar_no = aadhar_no;
+    }
+
+    public String getPhoto() {
+        return photo;
+    }
+
+    public void setPhoto(String photo) {
+        this.photo = photo;
     }
 }

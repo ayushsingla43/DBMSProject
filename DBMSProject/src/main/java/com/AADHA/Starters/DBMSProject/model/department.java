@@ -1,8 +1,8 @@
 package com.AADHA.Starters.DBMSProject.model;
 
 public class department {
-    private int contact,floor_no,room_no;
-    private String dept_name,email,head;
+    private int contact,floor_no,room_no,head;
+    private String dept_name,email;
 
     public int getContact() {
         return contact;
@@ -44,11 +44,11 @@ public class department {
         this.email = email;
     }
 
-    public String getHead() {
+    public int getHead() {
         return head;
     }
 
-    public void setHead(String head) {
+    public void setHead(int head) {
         this.head = head;
     }
 }

@@ -2,7 +2,7 @@ package com.AADHA.Starters.DBMSProject.model;
 
 public class alumni {
     private int SRN,phone_1,phone_2,last_class,leave_year;
-    private String name,admission_date,email;
+    private String name,admission_date,email,photo;
 
     public int getSRN() {
         return SRN;
@@ -66,5 +66,13 @@ public class alumni {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public String getPhoto() {
+        return photo;
+    }
+
+    public void setPhoto(String photo) {
+        this.photo = photo;
     }
 }
