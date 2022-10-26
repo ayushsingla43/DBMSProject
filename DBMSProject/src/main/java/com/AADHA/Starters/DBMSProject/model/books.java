@@ -1,8 +1,8 @@
 package com.AADHA.Starters.DBMSProject.model;
 
 public class books {
-    private int book_id,ISBN,SRN_own,staff_own;
-    private String name,author,genre,DOP,return_date;
+    private int book_id,SRN_own,staff_own;
+    private String name,ISBN,author,genre,DOP,return_date;
 
     public int getBook_id() {
         return book_id;
@@ -12,11 +12,11 @@ public class books {
         this.book_id = book_id;
     }
 
-    public int getISBN() {
+    public String getISBN() {
         return ISBN;
     }
 
-    public void setISBN(int ISBN) {
+    public void setISBN(String ISBN) {
         this.ISBN = ISBN;
     }
 

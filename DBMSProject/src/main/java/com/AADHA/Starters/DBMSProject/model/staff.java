@@ -1,8 +1,8 @@
 package com.AADHA.Starters.DBMSProject.model;
 
 public class staff {
-    private int emp_id,phone_1,phone_2,exp_years,salary,PIN,curr=1;
-    private String name,DOB,joining_date,email,blood_grp,street,city,state,Aadhar_no,PAN_no,dept_name,photo;
+    private int emp_id,exp_years,salary,PIN,curr=1;
+    private String name,DOB,joining_date,email,blood_grp,phone_1,phone_2,street,city,state,Aadhar_no,PAN_no,dept_name,photo;
 
     public int getEmp_id() {
         return emp_id;
@@ -12,19 +12,19 @@ public class staff {
         this.emp_id = emp_id;
     }
 
-    public int getPhone_1() {
+    public String getPhone_1() {
         return phone_1;
     }
 
-    public void setPhone_1(int phone_1) {
+    public void setPhone_1(String phone_1) {
         this.phone_1 = phone_1;
     }
 
-    public int getPhone_2() {
+    public String getPhone_2() {
         return phone_2;
     }
 
-    public void setPhone_2(int phone_2) {
+    public void setPhone_2(String phone_2) {
         this.phone_2 = phone_2;
     }
 

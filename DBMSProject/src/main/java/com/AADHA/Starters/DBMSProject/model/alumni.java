@@ -1,8 +1,8 @@
 package com.AADHA.Starters.DBMSProject.model;
 
 public class alumni {
-    private int SRN,phone_1,phone_2,last_class,leave_year;
-    private String name,admission_date,email,photo;
+    private int SRN,last_class,leave_year;
+    private String name,admission_date,email,phone_1,phone_2,photo;
 
     public int getSRN() {
         return SRN;
@@ -12,19 +12,19 @@ public class alumni {
         this.SRN = SRN;
     }
 
-    public int getPhone_1() {
+    public String getPhone_1() {
         return phone_1;
     }
 
-    public void setPhone_1(int phone_1) {
+    public void setPhone_1(String phone_1) {
         this.phone_1 = phone_1;
     }
 
-    public int getPhone_2() {
+    public String getPhone_2() {
         return phone_2;
     }
 
-    public void setPhone_2(int phone_2) {
+    public void setPhone_2(String phone_2) {
         this.phone_2 = phone_2;
     }
 

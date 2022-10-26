@@ -1,14 +1,14 @@
 package com.AADHA.Starters.DBMSProject.model;
 
 public class department {
-    private int contact,floor_no,room_no,head;
-    private String dept_name,email;
+    private int floor_no,room_no,head;
+    private String contact,dept_name,email;
 
-    public int getContact() {
+    public String getContact() {
         return contact;
     }
 
-    public void setContact(int contact) {
+    public void setContact(String contact) {
         this.contact = contact;
     }
 
