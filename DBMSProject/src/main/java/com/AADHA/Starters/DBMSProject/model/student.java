@@ -1,10 +1,10 @@
 package com.AADHA.Starters.DBMSProject.model;
 
-public class Student {
+public class student {
     private int SRN,PIN,class_no,section_no;
     private String name,DOB,admission_date,email,blood_grp,guardian,mother,phone_1,phone_2;
-    private String street,city,state,Aadhar_no,photo;
-    char gender;
+    private String street,city,state,Aadhar_no,photo,UID,password;
+    private char gender;
 
     public int getSRN() {
         return SRN;
@@ -12,22 +12,6 @@ public class Student {
 
     public void setSRN(int SRN) {
         this.SRN = SRN;
-    }
-
-    public String getPhone_1() {
-        return phone_1;
-    }
-
-    public void setPhone_1(String phone_1) {
-        this.phone_1 = phone_1;
-    }
-
-    public String getPhone_2() {
-        return phone_2;
-    }
-
-    public void setPhone_2(String phone_2) {
-        this.phone_2 = phone_2;
     }
 
     public int getPIN() {
@@ -110,6 +94,22 @@ public class Student {
         this.mother = mother;
     }
 
+    public String getPhone_1() {
+        return phone_1;
+    }
+
+    public void setPhone_1(String phone_1) {
+        this.phone_1 = phone_1;
+    }
+
+    public String getPhone_2() {
+        return phone_2;
+    }
+
+    public void setPhone_2(String phone_2) {
+        this.phone_2 = phone_2;
+    }
+
     public String getStreet() {
         return street;
     }
@@ -148,6 +148,22 @@ public class Student {
 
     public void setPhoto(String photo) {
         this.photo = photo;
+    }
+
+    public String getUID() {
+        return UID;
+    }
+
+    public void setUID(String UID) {
+        this.UID = UID;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
     }
 
     public char getGender() {

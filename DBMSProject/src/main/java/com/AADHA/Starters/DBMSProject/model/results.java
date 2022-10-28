@@ -12,8 +12,8 @@ public class results {
         this.SRN = SRN;
     }
 
-    public int getSession_no() {
-        return session_no;
+    public int getSession_no(int session_no) {
+        return this.session_no;
     }
 
     public void setSession_no(int session_no) {

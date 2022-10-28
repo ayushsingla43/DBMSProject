@@ -2,7 +2,8 @@ package com.AADHA.Starters.DBMSProject.model;
 
 public class staff {
     private int emp_id,exp_years,salary,PIN,curr=1;
-    private String name,DOB,joining_date,email,blood_grp,phone_1,phone_2,street,city,state,Aadhar_no,PAN_no,dept_name,photo;
+    private String name,DOB,joining_date,email,blood_grp,phone_1,phone_2;
+    private String street,city,state,Aadhar_no,PAN_no,dept_name,photo,UID,password;
     char gender;
 
     public int getEmp_id() {
@@ -163,5 +164,21 @@ public class staff {
 
     public void setGender(char gender) {
         this.gender = gender;
+    }
+
+    public String getUID() {
+        return UID;
+    }
+
+    public void setUID(String UID) {
+        this.UID = UID;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
     }
 }

@@ -11,8 +11,8 @@ public class class_ {
         this.class_no = class_no;
     }
 
-    public int getSection_no() {
-        return section_no;
+    public int getSection_no(int section_no) {
+        return this.section_no;
     }
 
     public void setSection_no(int section_no) {

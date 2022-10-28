@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+  <form th:action="@{/attemptLogIn}" method="get">
+      <input type="text" placeholder="UID" th:field="*{UID}"><br>
+      <input type="password" placeholder="password" th:field="*{password}"><br>
+      <select th:field="*{type}">
+          <option th:value="'stu'" th:text="'Student'"></option>
+          <option th:value="'stf'" th:text="'Staff'"></option>
+      </select>
+      <input type="submit">
+
+  </form>
+</body>
+</html>
