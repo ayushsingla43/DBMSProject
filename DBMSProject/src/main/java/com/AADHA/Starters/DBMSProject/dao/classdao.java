@@ -8,10 +8,10 @@ import java.util.List;
 import java.util.Map;
 
 @Repository
-public class class_imp {
+public class classdao {
     private final JdbcTemplate jdbc;
 
-    public class_imp(JdbcTemplate j) {
+    public classdao(JdbcTemplate j) {
         this.jdbc = j;
     }
 

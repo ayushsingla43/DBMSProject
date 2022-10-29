@@ -8,6 +8,8 @@ public class DbmsProjectApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DbmsProjectApplication.class, args);
+		System.out.println("Server Running.....!!!!");
 	}
+
 
 }
