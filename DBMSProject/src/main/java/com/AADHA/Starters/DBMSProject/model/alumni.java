@@ -2,8 +2,7 @@ package com.AADHA.Starters.DBMSProject.model;
 
 public class alumni {
     private int SRN,last_class,leave_year;
-    private String name,admission_date,email,phone_1,phone_2,photo;
-    char gender;
+    private String name,admission_date,email,phone_1,phone_2,photo,gender,Aadhar_no;
 
     public int getSRN() {
         return SRN;
@@ -77,11 +76,19 @@ public class alumni {
         this.photo = photo;
     }
 
-    public char getGender() {
+    public String getGender() {
         return gender;
     }
 
-    public void setGender(char gender) {
+    public void setGender(String gender) {
         this.gender = gender;
+    }
+
+    public String getAadhar_no() {
+        return Aadhar_no;
+    }
+
+    public void setAadhar_no(String aadhar_no) {
+        Aadhar_no = aadhar_no;
     }
 }

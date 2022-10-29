@@ -3,8 +3,7 @@ package com.AADHA.Starters.DBMSProject.model;
 public class student {
     private int SRN,PIN,class_no,section_no;
     private String name,DOB,admission_date,email,blood_grp,guardian,mother,phone_1,phone_2;
-    private String street,city,state,Aadhar_no,photo,UID,password;
-    private char gender;
+    private String street,city,state,Aadhar_no,photo,UID,password,gender;
 
     public int getSRN() {
         return SRN;
@@ -31,7 +30,7 @@ public class student {
     }
 
     public int getSection_no() {
-        return section_no;
+        return this.section_no;
     }
 
     public void setSection_no(int section_no) {
@@ -166,11 +165,11 @@ public class student {
         this.password = password;
     }
 
-    public char getGender() {
+    public String getGender() {
         return gender;
     }
 
-    public void setGender(char gender) {
+    public void setGender(String gender) {
         this.gender = gender;
     }
 }

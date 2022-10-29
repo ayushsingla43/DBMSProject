@@ -12,7 +12,7 @@ public class results {
         this.SRN = SRN;
     }
 
-    public int getSession_no(int session_no) {
+    public int getSession_no() {
         return this.session_no;
     }
 

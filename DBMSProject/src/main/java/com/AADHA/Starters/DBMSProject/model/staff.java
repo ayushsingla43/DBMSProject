@@ -2,9 +2,8 @@ package com.AADHA.Starters.DBMSProject.model;
 
 public class staff {
     private int emp_id,exp_years,salary,PIN,curr=1;
-    private String name,DOB,joining_date,email,blood_grp,phone_1,phone_2;
-    private String street,city,state,Aadhar_no,PAN_no,dept_name,photo,UID,password;
-    char gender;
+    private String name,DOB,email,blood_grp,phone_1,phone_2;
+    private String street,city,state,Aadhar_no,PAN_no,photo,UID,password,gender;
 
     public int getEmp_id() {
         return emp_id;
@@ -70,14 +69,6 @@ public class staff {
         this.DOB = DOB;
     }
 
-    public String getJoining_date() {
-        return joining_date;
-    }
-
-    public void setJoining_date(String joining_date) {
-        this.joining_date = joining_date;
-    }
-
     public String getEmail() {
         return email;
     }
@@ -126,14 +117,6 @@ public class staff {
         Aadhar_no = aadhar_no;
     }
 
-    public String getDept_name() {
-        return dept_name;
-    }
-
-    public void setDept_name(String dept_name) {
-        this.dept_name = dept_name;
-    }
-
     public String getPAN_no() {
         return PAN_no;
     }
@@ -158,11 +141,11 @@ public class staff {
         this.photo = photo;
     }
 
-    public char getGender() {
+    public String getGender() {
         return gender;
     }
 
-    public void setGender(char gender) {
+    public void setGender(String gender) {
         this.gender = gender;
     }
 

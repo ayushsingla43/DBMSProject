@@ -1,7 +1,7 @@
 package com.AADHA.Starters.DBMSProject.model;
 
 public class courses {
-    private int class_no,section_no,emp_id;
+    private int class_no,section_no,emp_id,session_no;
     private String dept_name;
 
     public int getClass_no() {
@@ -12,7 +12,7 @@ public class courses {
         this.class_no = class_no;
     }
 
-    public int getSection_no(int section_no) {
+    public int getSection_no() {
         return this.section_no;
     }
 
@@ -34,5 +34,13 @@ public class courses {
 
     public void setDept_name(String dept_name) {
         this.dept_name = dept_name;
+    }
+
+    public int getSession_no() {
+        return session_no;
+    }
+
+    public void setSession_no(int session_no) {
+        this.session_no = session_no;
     }
 }

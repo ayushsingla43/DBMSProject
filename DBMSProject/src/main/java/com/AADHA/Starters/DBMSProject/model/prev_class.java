@@ -11,7 +11,7 @@ public class prev_class {
         this.SRN = SRN;
     }
 
-    public int getSession_no(int section_no) {
+    public int getSession_no() {
         return session_no;
     }
 

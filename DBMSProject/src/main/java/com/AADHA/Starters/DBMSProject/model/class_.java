@@ -11,7 +11,7 @@ public class class_ {
         this.class_no = class_no;
     }
 
-    public int getSection_no(int section_no) {
+    public int getSection_no() {
         return this.section_no;
     }
 
