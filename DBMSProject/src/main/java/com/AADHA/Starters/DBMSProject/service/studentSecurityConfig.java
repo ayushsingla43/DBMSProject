@@ -12,6 +12,7 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.password.NoOpPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
+import org.springframework.security.web.authentication.AuthenticationFailureHandler;
 
 @Configuration
 @Order(2)
@@ -34,6 +35,7 @@ public class studentSecurityConfig {
         p.setPasswordEncoder(passwordEncoder2());
         return p;
     }
+
     @Bean
     public SecurityFilterChain filterChain2(HttpSecurity http)throws Exception{
         http.authenticationProvider(authenticationProvider2());
@@ -46,7 +48,8 @@ public class studentSecurityConfig {
                 .loginPage("/studentLogin")
                 .usernameParameter("UID")
                 .loginProcessingUrl("/student/login")
-                .defaultSuccessUrl("/home")
+                .defaultSuccessUrl("/student/home")
+                .failureUrl("/student/login")
                 .permitAll()
                 .and()
                 .logout().logoutUrl("/student/logout")

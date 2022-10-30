@@ -18,7 +18,7 @@ public class login {
         return "studentLogin.html";
     }
 
-    @GetMapping("/home")
+    @GetMapping("/student/home")
     public String viewStudentHome(){
         return "home.html";
     }
@@ -28,5 +28,8 @@ public class login {
         return "staffLogin.html";
     }
 
-
+    @GetMapping("/staff/home")
+    public String viewStaffHome(){
+        return "home.html";
+    }
 }
