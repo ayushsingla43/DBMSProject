@@ -29,7 +29,7 @@ public class student {
         this.class_no = class_no;
     }
 
-    public int getSection_no() {
+    public int getSection_no(   ) {
         return this.section_no;
     }
 

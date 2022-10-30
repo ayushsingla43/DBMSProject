@@ -10,38 +10,38 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
-import org.springframework.web.servlet.view.RedirectView;
+// import org.springframework.web.servlet.view.RedirectView;
 
 import java.util.List;
 import java.util.Map;
 
 @Controller
-public class student_list {
+public class studentList {
     @Autowired
     JdbcTemplate j;
 
-    @GetMapping("/studentList")
+    @GetMapping("/student/list")
     public ModelAndView student_list(){
         classdao cls = new classdao(j);
         List<String> class_no = cls.Classes();
         List<String> section_no = cls.Sections();
 
         ModelAndView mv = new ModelAndView();
-        mv.setViewName("student_list.html");
+        mv.setViewName("studentList.html");
         mv.addObject("class",class_no);
         mv.addObject("section",section_no);
         return mv;
     }
 
-    @PostMapping("/filter")
+    @PostMapping("/student/list")
     // @ResponseBody
     public ModelAndView filter(String St_SRN,String St_name,String class_,String section,String Emp_id,String limit){
-        System.out.println(St_SRN);
-        System.out.println(St_name);
-        System.out.println(class_);
-        System.out.println(section);
-        System.out.println(Emp_id);
-        System.out.println(limit);
+        // System.out.println(St_SRN);
+        // System.out.println(St_name);
+        // System.out.println(class_);
+        // System.out.println(section);
+        // System.out.println(Emp_id);
+        // System.out.println(limit);
         studentdao stud=new studentdao(j);
         List<Map<String,Object>> res = stud.viewquery(St_SRN,St_name,class_,section,Emp_id,limit);
         for (Map<String,Object> x : res){
@@ -51,11 +51,10 @@ public class student_list {
         List<String> class_no = cls.Classes();
         List<String> section_no = cls.Sections();
 
-        ModelAndView mv = new ModelAndView("student_list");
+        ModelAndView mv = new ModelAndView("studentList");
         mv.addObject("class",class_no);
         mv.addObject("section",section_no);
         mv.addObject("students", res);
-//        System.out.println("bdouedio");
         return mv;
     }
 

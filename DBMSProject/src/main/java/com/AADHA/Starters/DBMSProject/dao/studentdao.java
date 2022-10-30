@@ -3,6 +3,8 @@ package com.AADHA.Starters.DBMSProject.dao;
 import java.util.List;
 import java.util.Map;
 
+import com.AADHA.Starters.DBMSProject.model.student;
+import com.AADHA.Starters.DBMSProject.util.MappingRow;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
@@ -86,5 +88,10 @@ public class studentdao {
         List<Map<String,Object>> filteredstudents=jdbc.queryForList(query);
 
         return filteredstudents;
+    }
+
+    public student info(int SRN){
+        String query = "select * from student where SRN=?";
+        return jdbc.queryForObject(query, MappingRow.rmstudent,SRN);
     }
 }

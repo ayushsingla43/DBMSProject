@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teacher List</title>
+</head>
+<body>
+<a href="#" th:href="@{/addteacher}">Insert</a><br>
+
+<form th:action="@{/staff/list}" method="Post">
+  <input type="text" placeholder="Employee ID" id="emp_id" name="emp_id">
+  <input type="text" placeholder="Name" id="emp_name" name="name">
+  <!-- <input type="text" placeholder="Session" id="emp_id" name="emp_id"> -->
+  <select name="session" id="session">
+    <!-- <option value="" disabled select>Select Session</option> -->
+    <option value="">Select Session</option>
+    <option th:each="ssn:${ssns}" th:value="${ssn}" th:text="${ssn}"></option>
+  </select>
+  <input type="text" placeholder="Department" id="dept" name="dept">
+  <input type="text" placeholder="Class" id="class_" name="class_">
+  <input type="text" placeholder="Section" id="section" name="section">
+  <select name="limit" id="limit" required>
+    <option value="" disabled selected hidden>Limit</option>
+    <option value="50">50</option>
+    <option value="100">100</option>
+    <option value="200">200</option>
+    <option value="500">500</option>
+    <option value="1000">1000</option>
+  </select>
+  <br>
+  <input type="submit" placeholder="Search">
+</form>
+
+<table>
+  <thead>
+  <td>Employee ID</td>
+  <td>Name</td>
+  <td>Contact Info</td>
+  <td>Email</td>
+  <td>Salary</td>
+  </thead>
+  <tr th:each="stf : ${staffs}">
+    <td>[[${stf.get("emp_id")}]]</td>
+    <td>[[${stf.get("name")}]]</td>
+    <td>[[${stf.get("phone_1")}]]</td>
+    <td>[[${stf.get("email")}]]</td>
+    <td>[[${stf.get("Salary")}]]</td>
+  </tr>
+</table>
+
+</body>
+</html>
