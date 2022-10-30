@@ -5,6 +5,8 @@
     <title>home</title>
 </head>
 <body>
-      ye karlo pehle
+      <h1 th:if="${type=='student'}">Welcome Student!</h1>
+        <h1 th:unless="${type=='student'}">Welcome Teacher!</h1>
+        <h4>Name: [[${User.getName()}]]</h4>
 </body>
 </html>
