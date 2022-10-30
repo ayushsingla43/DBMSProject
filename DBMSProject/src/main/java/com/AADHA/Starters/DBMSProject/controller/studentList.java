@@ -51,7 +51,7 @@ public class studentList {
         List<String> class_no = cls.Classes();
         List<String> section_no = cls.Sections();
 
-        ModelAndView mv = new ModelAndView("studentList");
+        ModelAndView mv = new ModelAndView("studentList.html");
         mv.addObject("class",class_no);
         mv.addObject("section",section_no);
         mv.addObject("students", res);

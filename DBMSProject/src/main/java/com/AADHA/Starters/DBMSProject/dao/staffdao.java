@@ -3,12 +3,17 @@ package com.AADHA.Starters.DBMSProject.dao;
 import com.AADHA.Starters.DBMSProject.model.staff;
 import com.AADHA.Starters.DBMSProject.model.student;
 import com.AADHA.Starters.DBMSProject.util.MappingRow;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 import java.util.Map;
 
+@Repository
 public class staffdao {
+    @Autowired
     private final JdbcTemplate jdbc;
 
     public staffdao(JdbcTemplate j){
@@ -78,5 +83,15 @@ public class staffdao {
     public staff info(int emp_id){
         String query = "select * from staff where emp_id=?";
         return jdbc.queryForObject(query, MappingRow.rmstaff,emp_id);
+    }
+
+    public staff getStaffByUID(String uid){
+        String sql = "select * from `staff` where UID=?";
+        try{
+            return jdbc.queryForObject(sql, MappingRow.rmstaff, uid);
+        }
+        catch(EmptyResultDataAccessException e){
+            return null;
+        }
     }
 }

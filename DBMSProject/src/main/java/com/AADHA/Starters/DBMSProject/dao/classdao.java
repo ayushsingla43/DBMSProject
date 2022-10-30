@@ -1,5 +1,6 @@
 package com.AADHA.Starters.DBMSProject.dao;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
@@ -9,6 +10,7 @@ import java.util.Map;
 
 @Repository
 public class classdao {
+    @Autowired
     private final JdbcTemplate jdbc;
 
     public classdao(JdbcTemplate j) {

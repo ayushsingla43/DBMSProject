@@ -5,11 +5,14 @@ import java.util.Map;
 
 import com.AADHA.Starters.DBMSProject.model.student;
 import com.AADHA.Starters.DBMSProject.util.MappingRow;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
 @Repository
 public class studentdao {
+    @Autowired
     private final JdbcTemplate jdbc;
 
     public studentdao(JdbcTemplate j){
@@ -93,5 +96,20 @@ public class studentdao {
     public student info(int SRN){
         String query = "select * from student where SRN=?";
         return jdbc.queryForObject(query, MappingRow.rmstudent,SRN);
+    }
+
+    public student findByUID(String uid){
+        String sql = "select * from  student where UID = ?";
+        try{
+            System.out.println("Working");
+            student st =  jdbc.queryForObject(sql, MappingRow.rmstudent, uid);
+            System.out.println(st.toString());
+            return st;
+        }
+        catch(EmptyResultDataAccessException e)
+        {
+            System.out.println("Error");
+            return null;
+        }
     }
 }

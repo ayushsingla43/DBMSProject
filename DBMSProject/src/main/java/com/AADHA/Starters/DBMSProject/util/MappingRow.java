@@ -30,7 +30,8 @@ public final class MappingRow {
             stf.setAadhar_no(row.getString("Aadhar_no"));
             stf.setPAN_no(row.getString("PAN_no"));
             stf.setCurr(row.getInt("curr"));
-
+            stf.setUID(row.getString("UID"));
+            stf.setPassword(row.getString("password"));
             return stf;
         }
     };
@@ -97,6 +98,8 @@ public final class MappingRow {
             stu.setAadhar_no(row.getString("Aadhar_no"));
             stu.setClass_no(row.getInt("class_no"));
             stu.setSection_no(row.getInt("section_no"));
+            stu.setPassword(row.getString("password"));
+            stu.setUID(row.getString("UID"));
             return stu;
         }
     };
