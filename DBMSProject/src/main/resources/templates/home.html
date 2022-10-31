@@ -3,10 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>home</title>
+    <link rel="stylesheet" th:href="@{/styles/student_list.css}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 </head>
 <body>
+        <nav th:replace="components/navbar :: navbar"></nav>
       <h1 th:if="${type=='student'}">Welcome Student!</h1>
         <h1 th:unless="${type=='student'}">Welcome Teacher!</h1>
         <h4>Name: [[${User.getName()}]]</h4>
 </body>
+<footer th:replace="components/footer :: footer"></footer>
 </html>

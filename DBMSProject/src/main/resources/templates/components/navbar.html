@@ -9,7 +9,8 @@
 
         <div class="nav_buttons ">
             <div class="item hover-underline-animation">
-                <a href="page name">My profile</a>
+               <span th:if="${authority==1}"><a href="studentProfile.html" th:href="@{/student/profile}">My profile</a></span>
+                <span th:if="${authority==2}"><a href="staffProfile.html" th:href="@{/staff/profile}">My profile</a></span>
             </div>
 
             <div class="item hover-underline-animation">

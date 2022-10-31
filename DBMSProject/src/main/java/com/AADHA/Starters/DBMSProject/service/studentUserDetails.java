@@ -50,4 +50,5 @@ public class studentUserDetails implements UserDetails {
     public boolean isEnabled() {
         return true;
     }
+
 }

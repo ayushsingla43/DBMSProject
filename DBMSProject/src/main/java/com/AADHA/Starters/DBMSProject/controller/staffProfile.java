@@ -8,6 +8,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.servlet.ModelAndView;
 
+import javax.servlet.http.HttpSession;
+
 @Controller
 public class staffProfile {
 
@@ -15,12 +17,10 @@ public class staffProfile {
     JdbcTemplate j;
 
     @GetMapping("/staff/profile")
-    public ModelAndView profile(){
-        staffdao stfd = new staffdao(j);
-        staff stf = stfd.info(1010);
+    public ModelAndView profile(HttpSession session ){
         ModelAndView mv = new ModelAndView();
         mv.setViewName("staffProfile.html");
-        mv.addObject("stf",stf);
+        mv.addObject("stf",(staff)session.getAttribute("staff"));
         return mv;
     }
 }

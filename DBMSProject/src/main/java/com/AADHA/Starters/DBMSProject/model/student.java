@@ -1,9 +1,41 @@
 package com.AADHA.Starters.DBMSProject.model;
 
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
+
+@Component
+@Scope("session")
 public class student {
     private int SRN,PIN,class_no,section_no;
     private String name,DOB,admission_date,email,blood_grp,guardian,mother,phone_1,phone_2;
     private String street,city,state,Aadhar_no,photo,UID,password,gender;
+
+    @Override
+    public String toString() {
+        return "student{" +
+                "SRN=" + SRN +
+                ", PIN=" + PIN +
+                ", class_no=" + class_no +
+                ", section_no=" + section_no +
+                ", name='" + name + '\'' +
+                ", DOB='" + DOB + '\'' +
+                ", admission_date='" + admission_date + '\'' +
+                ", email='" + email + '\'' +
+                ", blood_grp='" + blood_grp + '\'' +
+                ", guardian='" + guardian + '\'' +
+                ", mother='" + mother + '\'' +
+                ", phone_1='" + phone_1 + '\'' +
+                ", phone_2='" + phone_2 + '\'' +
+                ", street='" + street + '\'' +
+                ", city='" + city + '\'' +
+                ", state='" + state + '\'' +
+                ", Aadhar_no='" + Aadhar_no + '\'' +
+                ", photo='" + photo + '\'' +
+                ", UID='" + UID + '\'' +
+                ", password='" + password + '\'' +
+                ", gender='" + gender + '\'' +
+                '}';
+    }
 
     public int getSRN() {
         return SRN;

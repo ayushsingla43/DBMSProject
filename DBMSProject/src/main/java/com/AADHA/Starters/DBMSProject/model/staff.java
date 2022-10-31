@@ -1,5 +1,10 @@
 package com.AADHA.Starters.DBMSProject.model;
 
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
+
+@Component
+@Scope("session")
 public class staff {
     private int emp_id,exp_years,salary,PIN,curr=1;
     private String name,DOB,email,blood_grp,phone_1,phone_2;
