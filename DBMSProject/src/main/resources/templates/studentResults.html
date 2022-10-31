@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" th:href="@{/styles/profile.css}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>result</title>
+</head>
+
+<body>
+    <nav th:replace="components/navbar :: navbar"></nav>
+    <form th:action="@{/student/results}" method="post">
+        <select name="session_no" id="session_no" required>
+            <option value="" disabled selected hidden>select session</option>
+            <option th:each="no:${session_nos}" th:value="${no}" th:text="${no}"></option>
+        </select>
+        <input type="submit">
+    </form>
+    <table>
+        <tr>
+            <td class="name"><b>[[${stu.getName()}]]</b></td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td colspan="2">SRN:</td>
+            <td colspan="2">[[${stu.getSRN()}]]</td>
+        </tr>
+        <tr>
+            <td colspan="2">Class:</td>
+            <td colspan="2">[[${class_.get("class_no")}]]-[[${class_.get("section_no")}]]</td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td>course</td>
+            <td>marks</td>
+            <td>grade</td>
+        </tr>
+        <tr th:each="mark:${marks}">
+            <td>[[${mark.get("course")}]]</td>
+            <td>[[${mark.get("marks")}]]</td>
+            <td th:if="${mark.get('marks')>80}">A</td>
+            <td th:if="${mark.get('marks')>60 and mark.get('marks')<=80}">B</td>
+            <td th:if="${mark.get('marks')>40 and mark.get('marks')<=60}">C</td>
+            <td th:if="${mark.get('marks')>20 and mark.get('marks')<=40}">D</td>
+            <td th:if="${mark.get('marks')<=20}">E</td>
+        </tr>
+        <tr>
+            <td>Total Percentage</td>
+            <td>[[${percentage}]]</td>
+        </tr>
+    </table>
+
+</body>
+
+<footer th:replace="components/footer :: footer"></footer>
+
+</html>
+

@@ -24,7 +24,7 @@ public class staffList {
         mv.setViewName("staffList.html");
         coursesdao cls =new coursesdao(j);
         List<String>ssns=cls.sessions();
-        mv.addObject("ssns",ssns);
+        mv.addObject("ssns",ssns); 
         return mv;
     }
 

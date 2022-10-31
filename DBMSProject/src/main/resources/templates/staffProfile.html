@@ -1,79 +1,81 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="https://www.thymeleaf.org">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" th:href="@{/styles/profile.css}">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <title>Staff</title>
+   <title>Staff</title>
 </head>
 
 <body>
-    <nav th:replace="components/navbar :: navbar"></nav>
-    <div class="profile_info">
-        <div class="details-1">
-            <div class="profile_pic">
-                <div>
-                    <img src="https://pbs.twimg.com/media/EjY_lxhUcAAqCde.jpg" alt="img">
+    <div>
+        <nav th:replace="components/navbar :: navbar"></nav>
+        <div class="profile_info">
+            <div class="details-1">
+                <div class="profile_pic">
+                    <div>
+                        <img src="https://pbs.twimg.com/media/EjY_lxhUcAAqCde.jpg" alt="img">
+                    </div>
+                </div>
+                <div class="profile_details">
+                    <table>
+                        <tr>
+                            <td class="name"><b>[[${stf.getName()}]]</b></td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td colspan="2">Emp_Id:</td>
+                            <td colspan="2">[[${stf.getEmp_id()}]]</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">DOB:</td>
+                            <td colspan="2">[[${stf.getDOB()}]]</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">Gender:</td>
+                            <td th:if="${stf.getGender()=='M'}">Male</td>
+                            <td th:if="${stf.getGender()=='F'}">Female</td>
+                            <td th:if="${stf.getGender()=='N'}">None</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">Email:</td>
+                            <td colspan="2">[[${stf.getEmail()}]]</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">Contact:</td>
+                            <td colspan="2">[[${stf.getPhone_1()}]],[[${stf.getPhone_2()}]]</td>
+                        </tr>
+                    </table>
                 </div>
             </div>
-            <div class="profile_details">
+
+            <div class="details-2">
                 <table>
                     <tr>
-                        <td class="name"><b>[[${stf.getName()}]]</b></td>
-                    </tr>
-                </table>
-                <table>
-                    <tr>
-                        <td colspan="2">Emp_Id:</td>
-                        <td colspan="2">[[${stf.getEmp_id()}]]</td>
+                        <td class="attribute">Departments</td>
+                        <td class="value"></td>
                     </tr>
                     <tr>
-                        <td colspan="2">DOB:</td>
-                        <td colspan="2">[[${stf.getDOB()}]]</td>
+                        <td class="attribute">Address</td>
+                        <td class="value">[[${stf.getStreet()}]], [[${stf.getCity()}]], [[${stf.getState()}]],
+                            [[${stf.getPIN()}]]</td>
                     </tr>
                     <tr>
-                        <td colspan="2">Gender:</td>
-                        <td th:if="${stf.getGender()=='M'}">Male</td>
-                        <td th:if="${stf.getGender()=='F'}">Female</td>
-                        <td th:if="${stf.getGender()=='N'}">None</td>
+                        <td class="attribute">Blood Group</td>
+                        <td class="value">[[${stf.getBlood_grp()}]]</td>
                     </tr>
                     <tr>
-                        <td colspan="2">Email:</td>
-                        <td colspan="2">[[${stf.getEmail()}]]</td>
-                    </tr>
-                    <tr>
-                        <td colspan="2">Contact:</td>
-                        <td colspan="2">[[${stf.getPhone_1()}]],[[${stf.getPhone_2()}]]</td>
+                        <td class="attribute">Experience Years</td>
+                        <td class="value">[[${stf.getExp_years()}]]</td>
                     </tr>
                 </table>
             </div>
         </div>
-
-        <div class="details-2">
-            <table>
-                <tr>
-                    <td class="attribute">Departments</td>
-                    <td class="value"></td>
-                </tr>
-                <tr>
-                    <td class="attribute">Address</td>
-                    <td class="value">[[${stf.getStreet()}]], [[${stf.getCity()}]], [[${stf.getState()}]], [[${stf.getPIN()}]]</td>
-                </tr>
-                <tr>
-                    <td class="attribute">Blood Group</td>
-                    <td class="value">[[${stf.getBlood_grp()}]]</td>
-                </tr>
-                <tr>
-                    <td class="attribute">Experience Years</td>
-                    <td class="value">[[${stf.getExp_years()}]]</td>
-                </tr>
-            </table>
-        </div>
+        <div th:replace="components/footer :: footer"></div>
     </div>
 </body>
-
-<footer th:replace="components/footer :: footer"></footer>
 
 </html>

@@ -1,0 +1,66 @@
+nav {
+    border-bottom: 2px solid black;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.item:hover {
+    color:black;
+
+}
+
+
+.item {
+
+    font-size: 17pt;
+
+    padding-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    max-height: 10px;
+}
+
+
+
+.nav_bar {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 0%;
+    height:max-content;
+    color: azure;
+    background-color:rgb(156, 18, 46) ;
+
+}
+
+.logo_img{
+    min-width: 16%;
+    max-width: 100px;
+    height: same as width;
+}
+.nav_content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0%;
+
+}
+
+.img_div{
+    margin-left: 2.5%;
+    display: flex;
+    /* min-width: 10%;
+    max-width: 20%;
+    min-height: 10%;
+    max-width: 10%; */
+
+}
+
+.nav_buttons{
+    display: flex;
+    align-self: center;
+    flex-direction: row-reverse;
+    vertical-align: bottom;
+    margin-right: 2%;
+}

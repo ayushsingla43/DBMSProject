@@ -1,113 +1,29 @@
+@import "nav.css";
+@import "footer.css";
+
+
 *{
   box-sizing: border-box;
   margin:0;
   padding:0;
 }
 
+.profile_container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 body{
   margin:0px;
   padding:0;
-  
-  background-color: #eeebc5;
-  }
-a {
-  color: inherit; 
-  text-decoration: inherit; 
-}
-
-.item:hover {
-  color:black;
-  
-}
-
-.item {
-
-  font-size: 17pt;
-  
-  padding-bottom: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
-  max-height: 10px;
-}
-
-/* .hover-underline-animation {
-  display: inline-block;
-  position: relative;
-
-}
-
-.hover-underline-animation:after {
-  content: '';
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: #205772;
-  transform-origin: bottom right;
-}
-  /* transition: transform 0.25s ease-out; */
-
-.hover-underline-animation:hover:after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
-}
-
-.nav_bar {
-    width: 100%;
-    margin: 0 auto;
-    margin-top: 0%;
-    color: azure;
-    background-color:rgb(156, 18, 46) ;
-    
-}
-
-.logo_img{
-  width: 100px;
-  height: 100px;
-}
-.nav_content {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 0%;
-    
-}
-
-.img_div{
-  margin-left: 2.5%;
   display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  min-height: 100vh;
+  background-color: #eeebc5;
 }
-
-.line {
-
-    margin-top: 2px;
-    width: 100%;
-    height: 2px;
-    background: black;
-  }
-
-  .red,.green{
-    flex-grow: 1;
-    width: 50%;
-  }
-
-  .nav_buttons{
-    display: flex;
-    align-self: center;
-    flex-direction: row-reverse;
-    vertical-align: bottom;
-    margin-right: 2%;
-  }
-  img {
-
-        min-height: 10px;
-        min-width: 10px;
-
-        max-width: 200px;
-        max-height: 200px;
-  }
-
+  
   .name{
     font-weight: bold;
     font-size: 20pt;
@@ -127,18 +43,26 @@ a {
 .details-1 {    
     display: flex;
     /* align-content: center; */
-    /* justify-content: center; */
-
-    margin-left: 30%;
+    /* justify-content:center; */
+    width: 100vh;
+    display: flex;
+    margin-left: 35%;
 }
 .profile_info {
   margin-top: 5%;
+  flex : 1; 
 }
 
 .profile_pic{
+    flex: 1;
+    max-width: 200px;
+    max-height: same as width;
 
-    margin-right: 4%;
-  
+}
+
+.profile_pic img{
+  max-width: 200px;
+  max-height: same as width;
 }
 
 .profile_details{
@@ -146,75 +70,18 @@ a {
   align-self: center;
 }
 
-
-footer{
-  margin-top: 14%;
-  background-color:rgb(156, 18, 46)
-}
-.foot-content{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-  color: azure;
-}
-
-.foot-content h2{
-  font-weight: bold;
-  text-transform: capitalize;
-  line-height: 2rem;
-}
-
-.foot-content p{
-
-  max-width: 70%;
-  margin: 10px auto;
-  font-size: 14px;
-
-}
-
-.foot-content h3{
-  margin: 10px auto;
-
-}
-
-.social_links{
-  list-style: none;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  padding: 0px;
-  
-}
-.social_links li{
-  margin-left: 10px;
-}
-.social_links a:hover i{
-
-  color: #205772;
-
-}
-
-.copyright{
-  margin-top: 1%;
-  text-align: center;
-  justify-content: center;
-  font-weight: 400;
-  color: azure;
-}
-
 .details-2{
   width: 100%;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center; */
+  /* justify-content: center; */
+  margin-left: 35%;
   margin-top: 5%;
 }
 
 .attribute {
-    min-width: 200px;
-    max-width: 300px;
+    min-width: 40vh;
+    max-width: 70vh;
     /* padding: 10% ; */
 
     padding: 10px;

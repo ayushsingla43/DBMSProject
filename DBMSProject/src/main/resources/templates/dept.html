@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[[${dept.getDept_name()}]]</title>
+</head>
+<body>
+    <h1>[[${dept.getDept_name()}]]</h1><br>
+    <table>
+        <tr>
+            <td>Floor no:</td>
+            <td>[[${dept.getFloor_no()}]]</td>
+        </tr>
+        <tr>
+            <td>Room no:</td>
+            <td>[[${dept.getRoom_no()}]]</td>
+        </tr>
+        <tr>
+            <td>Incharge:</td>
+            <td>[[${incharge.getName()}]]</td>
+        </tr>
+        <tr>
+            <td>Contact no.:</td>
+            <td>[[${dept.getContact()}]]</td>
+        </tr>
+        <tr>
+            <td>Email :</td>
+            <td>[[${dept.getEmail()}]]</td>
+        </tr>
+    </table>
+    <form th:action="@{'/staff/dept/'+${dept.getDept_name()}}" method="Post">
+        <select name="show" id="show" required>
+            <option disabled selected hidden>Select Teacher</option>
+            <option value="2">All Teachers</option>
+            <option value="1">Currently working</option>
+        </select>
+        <input type="submit" placeholder="Show">
+    </form>
+
+    <table>
+        <thead>
+            <td>Employee ID</td>
+            <td>Name</td>
+            <td>Contact Info</td>
+            <td>Joining Date</td>
+            <td>Leaving Date</td>
+        </thead>
+        <tr th:each="staff: ${staffs}">
+            <td>[[${staff.get("emp_id")}]]</td>
+            <td>[[${staff.get("name")}]]</td>
+            <td>[[${staff.get("phone_1")}]]</td>
+            <td>[[${staff.get("joining_date")}]]</td>
+            <td>[[${staff.get("leaving_date")}]]</td>
+        </tr>
+    </table>
+    
+
+</body>
+</html>

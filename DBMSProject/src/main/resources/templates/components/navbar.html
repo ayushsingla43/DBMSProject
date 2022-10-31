@@ -9,16 +9,16 @@
 
         <div class="nav_buttons ">
             <div class="item hover-underline-animation">
-               <span th:if="${authority==1}"><a href="studentProfile.html" th:href="@{/student/profile}">My profile</a></span>
-                <span th:if="${authority==2}"><a href="staffProfile.html" th:href="@{/staff/profile}">My profile</a></span>
-            </div>
+                <span th:if="${session.authority==1}"><a href="studentProfile.html" th:href="@{/student/profile}">My profile</a></span>
+                 <span th:if="${session.authority>=2}"><a href="staffProfile.html" th:href="@{/staff/profile}">My profile</a></span>
+             </div>
 
             <div class="item hover-underline-animation">
                 <a href="page name">More</a>
             </div>
 
             <div class="item hover-underline-animation">
-                <a href="page name">Results List</a>
+                <a th:href="@{/student/results}">Results List</a>
             </div>
 
             <div class="item hover-underline-animation">
@@ -29,7 +29,5 @@
                 <a href="page name">Student List</a>
             </div>
         </div>
-    </div>
-
-    <div class="line"></div>
+    </div>  
 </nav>

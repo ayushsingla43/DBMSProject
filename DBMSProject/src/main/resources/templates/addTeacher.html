@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Insert Teacher</title>
+</head>
+<body>
+    <h3 th:if="${message!=null}">[[${message}]]</h3>
+  <form th:action="@{/staff/addTeacher}" method="post">
+      <input type="text" id="Stf_name" name="stf_name" placeholder="Name" required><br>
+      <input type="text" id="Stf_gender" name="stf_gender" placeholder="Gender" required><br>
+      <input type="number" id="Stf_exp" name="stf_exp" placeholder="Experience" required><br>
+      <input type="number" id="Stf_pin" name="stf_pin" placeholder="PIN" required><br>
+      <input type="number" id="Stf_salary" name="stf_salary" placeholder="Salary" required><br>
+      <input type="text" id="Stf_dob" name="stf_dob" placeholder="DOB" required><br>
+      <input type="email" id="Stf_email" name="stf_email" placeholder="Email" required><br>
+      <input type="text" id="Stf_bg" name="stf_bg" placeholder="Blood Group" required><br>
+      <input type="text" id="Stf_phone1" name="stf_phone1" placeholder="Phone1" required><br>
+      <input type="text" id="Stf_phone2" name="stf_phone2" placeholder="Phone2" required><br>
+      <input type="text" id="Stf_street" name="stf_street" placeholder="Address:Street" required><br>
+      <input type="text" id="Stf_city" name="stf_city" placeholder="Address:City" required><br>
+      <input type="text" id="Stf_state" name="stf_state" placeholder="Address:State" required><br>
+      <input type="text" id="Stf_aadhar" name="stf_aadhar" placeholder="Aadhar Number" required><br>
+      <input type="text" id="Stf_pan" name="stf_pan" placeholder="PAN Number" required><br>
+      <input type="text" id="Stf_photo" name="stf_photo" placeholder="Photo" required><br>
+      <input type="submit">
+  </form>
+</body>
+</html>

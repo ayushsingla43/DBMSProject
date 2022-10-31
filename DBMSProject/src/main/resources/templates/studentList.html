@@ -1,78 +1,83 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="https://www.thymeleaf.org" >
-<head >
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" th:href="@{/styles/student_list.css}">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-
     <title>Student_List</title>
 </head>
+
 <body>
+    <div>
+        <nav th:replace="components/navbar :: navbar"></nav>
+        <div class="insert_button">
+            <a href="#" th:href="@{/addstudent}">Insert</a><br>
+        </div>
 
-<nav th:replace="components/navbar :: navbar"></nav>
-<div class="insert_button">
-    <a href="#" th:href="@{/addstudent}" >Insert</a><br>
-</div>
+        <div class="content">
+            <div class="student_list">
+                <form th:action="@{/student/list}" method="Post">
+                    <!-- <label for="St_SRN">Student Id</label> -->
+                    <input type="text" id="St_SRN" name="St_SRN" placeholder="Student ID">
+                    <!-- <label for="St_name">Student Name</label> -->
+                    <input type="text" id="St_name" name="St_name" placeholder="Student Name">
+                    <!-- <label for="St_class">Class</label> -->
+                    <select name="class_" id="St_class">
+                        <option value="">Select Class</option>
+                        <option th:each="cls:${class}" th:value="${cls}" th:text="${cls}"></option>
+                    </select>
+                    <!-- <label for="St_section">Section</label> -->
+                    <select name="section" id="St_section">
+                        <option value="">Select Section</option>
+                        <option th:each="sec:${section}" th:value="${sec}" th:text="${sec}"></option>
+                    </select>
+                    <!-- <label for="Emp_id">Teacher Id</label> -->
+                    <input type="text" id="Emp_id" name="Emp_id" placeholder="Teacher ID">
+                    <!-- <label for="limit">Limit</label> -->
+                    <select name="limit" id="limit" required>
+                        <option value="" disabled selected hidden>Select limit</option>
+                        <option value="50">50</option>
+                        <option value="100">100</option>
+                        <option value="200">200</option>
+                        <option value="500">500</option>
+                        <option value="1000">1000</option>
+                    </select><br>
+                    <input type="submit" class="submit_button">
 
-<div class="student_list">
-    <form th:action="@{/student/list}" method="Post">
-        <!-- <label for="St_SRN">Student Id</label> -->
-        <input type="text" id="St_SRN" name="St_SRN" placeholder="Student ID">
-        <!-- <label for="St_name">Student Name</label> -->
-        <input type="text" id="St_name" name="St_name" placeholder="Student Name">
-        <!-- <label for="St_class">Class</label> -->
-        <select name="class_" id="St_class">
-            <option value="">Select Class</option>
-            <option th:each="cls:${class}" th:value="${cls}" th:text="${cls}"></option>
-        </select>
-        <!-- <label for="St_section">Section</label> -->
-        <select name="section" id="St_section">
-            <option value="">Select Section</option>
-            <option th:each="sec:${section}" th:value="${sec}" th:text="${sec}"></option>
-        </select>
-        <!-- <label for="Emp_id">Teacher Id</label> -->
-        <input type="text" id="Emp_id" name="Emp_id" placeholder="Teacher ID">
-        <!-- <label for="limit">Limit</label> -->
-        <select name="limit" id="limit" required>
-            <option value="" disabled selected hidden>Select limit</option>
-            <option value="50">50</option>
-            <option value="100">100</option>
-            <option value="200">200</option>
-            <option value="500">500</option>
-            <option value="1000">1000</option>
-        </select><br>
-        <input type="submit" class="submit_button">
+                </form>
+            </div>
+            <div class="registration_table">
+                <table>
+                    <thead>
+                        <td>Registation No.</td>
+                        <td>Name</td>
+                        <td>Contact info</td>
+                        <td>Class</td>
+                        <td>Result</td>
+                        <td>Tranfer</td>
+                        <td>Edit</td>
+                    </thead>
+                    <tr th:each="stud : ${students}">
+                        <td>[[${stud.get("SRN")}]]</td>
+                        <td>[[${stud.get("name")}]]</td>
+                        <td>[[${stud.get("phone_1")}]]</td>
+                        <td>[[${stud.get("class_no")}]]-[[${stud.get("section_no")}]]</td>
 
-    </form>
-</div>
-<div class="registration_table">
-    <table>
-        <thead>
-        <td >Registation No.</td>
-        <td>Name</td>
-        <td>Contact info</td>
-        <td>Class</td>
-        <td>Result</td>
-        <td>Tranfer</td>
-        <td>Edit</td>
-        </thead>
-        <tr th:each="stud : ${students}">
-            <td>[[${stud.get("SRN")}]]</td>
-            <td>[[${stud.get("name")}]]</td>
-            <td>[[${stud.get("phone_1")}]]</td>
-            <td>[[${stud.get("class_no")}]]-[[${stud.get("section_no")}]]</td>
+                        <td>Result</td>
+                        <td>Transfer</td>
+                        <td>Edit</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
 
-            <td>Result</td>
-            <td>Transfer</td>
-            <td>Edit</td>
-        </tr>
-    </table>
-</div>
+    <footer th:replace="components/footer :: footer"></footer>
 
 </body>
-<footer th:replace="components/footer :: footer"></footer>
+
 
 
 </html>

@@ -101,9 +101,9 @@ public class studentdao {
     public student findByUID(String uid){
         String sql = "select * from  student where UID = ?";
         try{
-            System.out.println("Working");
+            // System.out.println("Working");
             student st =  jdbc.queryForObject(sql, MappingRow.rmstudent, uid);
-            System.out.println(st.toString());
+            // System.out.println(st.toString());
             return st;
         }
         catch(EmptyResultDataAccessException e)
