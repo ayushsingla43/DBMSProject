@@ -1,16 +1,11 @@
 package com.AADHA.Starters.DBMSProject.dao;
 
 import com.AADHA.Starters.DBMSProject.model.staff;
-import com.AADHA.Starters.DBMSProject.model.student;
 import com.AADHA.Starters.DBMSProject.util.MappingRow;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
-import org.springframework.web.servlet.ModelAndView;
-
-import javax.servlet.http.HttpSession;
-import java.sql.SQLException;
 import java.util.List;
 import java.util.Map;
 

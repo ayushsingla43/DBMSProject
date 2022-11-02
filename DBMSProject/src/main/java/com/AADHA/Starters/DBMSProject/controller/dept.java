@@ -23,7 +23,7 @@ public class dept {
     JdbcTemplate j;
 
     @GetMapping("/staff/dept/{dept_name}")
-    public ModelAndView dept(@PathVariable("dept_name") String dept_name){
+    public ModelAndView deptProfile(@PathVariable("dept_name") String dept_name){
         System.out.println("get one!!!!!!!!!!!!!1");
         ModelAndView mv=new ModelAndView();
         mv.setViewName("dept.html");
@@ -51,7 +51,7 @@ public class dept {
     }
 
     @PostMapping("/staff/dept/{dept_name}")
-    public ModelAndView dept(@PathVariable("dept_name") String dept_name,String show){
+    public ModelAndView deptProfile(@PathVariable("dept_name") String dept_name,String show){
         System.out.println("post one!!!!!!!!!!!!!1");
 
         ModelAndView mv=new ModelAndView();
