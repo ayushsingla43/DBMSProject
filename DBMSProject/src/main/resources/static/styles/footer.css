@@ -4,8 +4,11 @@ a {
 }
 
 footer{
-    margin-top: 14%;
-    background-color:rgb(156, 18, 46)
+    margin-top: 10%;
+    background-color:#01416F;
+    border-top: 2px solid black;
+    
+    
 }
 .foot-content{
     display: flex;
@@ -17,6 +20,7 @@ footer{
 }
 
 .foot-content h2{
+    padding: 1%;
     font-weight: bold;
     text-transform: capitalize;
     line-height: 2rem;
@@ -58,4 +62,5 @@ footer{
     justify-content: center;
     font-weight: 400;
     color: azure;
+    margin-bottom: 5px;
 }

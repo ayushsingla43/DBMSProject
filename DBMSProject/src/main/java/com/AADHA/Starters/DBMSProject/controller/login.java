@@ -35,8 +35,9 @@ public class login {
     public ModelAndView viewStudentHome(HttpServletRequest request, HttpSession session){
         Principal principal = request.getUserPrincipal();
         studentdao sdao = new studentdao(j);
-        student stu = sdao.findByUID(principal.getName());
+        student stu = sdao.getStudentByUID(principal.getName());
         session.setAttribute("student", stu);
+        session.setAttribute("UID", stu.getUID());
         session.setAttribute("authority",1);
         ModelAndView mv = new ModelAndView("/home.html");
         mv.addObject("User", stu);
@@ -55,6 +56,7 @@ public class login {
         Principal principal = request.getUserPrincipal();
         staff stf = Sdao.getStaffByUID(principal.getName());
         session.setAttribute("staff", stf);
+        session.setAttribute("UID", stf.getUID());
         session.setAttribute("authority", gA.Autority(stf));
         ModelAndView mv = new ModelAndView("/home.html");
         mv.addObject("User", stf);

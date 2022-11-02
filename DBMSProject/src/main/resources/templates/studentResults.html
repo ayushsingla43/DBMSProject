@@ -11,7 +11,7 @@
 
 <body>
     <nav th:replace="components/navbar :: navbar"></nav>
-    <form th:action="@{/student/results}" method="post">
+    <form th:action="@{'/student/results/'+${session.student.getUID()}}" method="post">
         <select name="session_no" id="session_no" required>
             <option value="" disabled selected hidden>select session</option>
             <option th:each="no:${session_nos}" th:value="${no}" th:text="${no}"></option>

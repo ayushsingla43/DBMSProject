@@ -25,4 +25,10 @@ public class workindao {
         List<Map<String,Object>>res=jdbc.queryForList(query);
         return res;
     }
+
+    public List<Map<String,Object>> alldept(Integer emp_id){
+        String query="select dept_name from works_in where emp_id=?";
+        List<Map<String,Object>>res=jdbc.queryForList(query,emp_id);
+        return res;
+    }
 }

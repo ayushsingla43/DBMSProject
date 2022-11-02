@@ -1,12 +1,25 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<link rel="stylesheet" th:href="@{/styles/login.css}">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Index</title>
+    <meta charset="UTF-8">
+    <title>Login</title>
 </head>
+<div th:if="${param.error}">
+    <h4 style="color: red">[[${session.SPRING_SECURITY_LAST_EXCEPTION.message}]]</h4>
+</div>
+
 <body>
-<h1>Welcome to our School</h1>
-<a th:href="@{/student/login}">Student Login</a>
-<a th:href="@{/staff/login}">Staff Login</a>
+    <!-- <h2>Login</h2> -->
+    <div class="card">
+        <div class="head">
+            <h1>Welcome to our school</h1>
+        </div>
+        <div class="card2">
+          <a th:href="@{/student/login}"><h1>Student Login</h1></a>
+          <br>
+          <a th:href="@{/staff/login}"><h1>Staff Login</h1></a>
+        </div>
+    </div>
 </body>
-</html>
+</html> 

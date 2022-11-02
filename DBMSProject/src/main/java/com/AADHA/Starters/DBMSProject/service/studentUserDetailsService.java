@@ -11,7 +11,7 @@ public class studentUserDetailsService implements UserDetailsService {
     @Autowired private studentdao sdao;
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-        student stu = sdao.findByUID(username);
+        student stu = sdao.getStudentByUID(username);
         if(stu == null) {
             System.out.println("User not found");
             throw new UsernameNotFoundException("No user found");

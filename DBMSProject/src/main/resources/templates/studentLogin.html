@@ -1,23 +1,36 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="https://www.thymeleaf.org">
+<link rel="stylesheet" th:href="@{/styles/login.css}">
 
 <head>
     <meta charset="UTF-8">
     <title>Student Login</title>
 </head>
+<div th:if="${param.error}">
+    <h4 style="color: red">[[${session.SPRING_SECURITY_LAST_EXCEPTION.message}]]</h4>
+</div>
 
 <body>
-    <h2>Student Login</h2>
-    <div th:if="${param.error}">
-        <h4 style="color: red">[[${session.SPRING_SECURITY_LAST_EXCEPTION.message}]]</h4>
+    <!-- <h2>Student Login</h2> -->
+
+    <div class="card">
+        <div class="head">
+            <h1>Student Login</h1>
+        </div>
+        <div class="card2">
+            <form th:action="@{/student/login}" method="post">
+                <input type="text" placeholder="UID" name="UID" required>
+                <!-- <label>UID</label> -->
+                <br>
+                <input type="password" placeholder="password" name="password" required >
+                <!-- <label>Password</label> -->
+                <br>
+                <input type="submit" value="login" class="button">
+            </form>
+        </div>
     </div>
-    <div>
-        <form th:action="@{/student/login}" method="post">
-            <input type="text" placeholder="UID" name="UID" required>
-            <input type="password" placeholder="password" name="password" required>
-            <input type="submit" value="login">
-        </form>
-    </div>
+
+
 </body>
 
 </html>

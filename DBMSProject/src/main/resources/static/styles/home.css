@@ -57,4 +57,20 @@
          display: flex;
          
       }
+      .heading{
+         display: flex;
+         justify-content: center;
+         align-content: center;
+      }
+      .p-img{
+         display: flex;
+         justify-content: center;
+         align-content: center;
+      }
+      .p-quotes{
+         display: flex;
+         justify-content: center;
+         align-content: center;
+
+      }
       

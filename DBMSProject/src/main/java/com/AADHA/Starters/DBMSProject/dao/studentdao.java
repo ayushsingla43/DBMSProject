@@ -98,17 +98,13 @@ public class studentdao {
         return jdbc.queryForObject(query, MappingRow.rmstudent,SRN);
     }
 
-    public student findByUID(String uid){
+    public student getStudentByUID(String uid){
         String sql = "select * from  student where UID = ?";
         try{
-            // System.out.println("Working");
-            student st =  jdbc.queryForObject(sql, MappingRow.rmstudent, uid);
-            // System.out.println(st.toString());
-            return st;
+            return jdbc.queryForObject(sql, MappingRow.rmstudent, uid);
         }
         catch(EmptyResultDataAccessException e)
         {
-            System.out.println("Error");
             return null;
         }
     }

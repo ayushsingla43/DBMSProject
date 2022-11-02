@@ -10,11 +10,13 @@ import org.apache.tomcat.util.digester.SetNextRule;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.AADHA.Starters.DBMSProject.dao.resultsdao;
+import com.AADHA.Starters.DBMSProject.dao.studentdao;
 import com.AADHA.Starters.DBMSProject.model.student;
 
 @Controller
@@ -28,12 +30,14 @@ public class results {
     resultsdao resdao;
 
 
-    @RequestMapping("/student/results")
-    public ModelAndView resultStudent(HttpSession session){
+    @RequestMapping("/student/results/{UID}")
+    public ModelAndView resultStudent(@PathVariable("UID") String UID){
         ModelAndView mv = new ModelAndView();
-        student stu = (student)session.getAttribute("student");
+        studentdao stud = new studentdao(j);
+        student stu = stud.getStudentByUID(UID);
         System.out.println(stu.toString());
         List<Integer> session_no = resdao.allSession(stu.getSRN());
+        System.out.println("hello");
         mv.setViewName("studentResults.html");
         mv.addObject("stu", stu);
         mv.addObject("class_",new HashMap<String,String>(){{
@@ -44,29 +48,26 @@ public class results {
         return mv;
     }
 
-    @PostMapping("/student/results")
-    public ModelAndView resultStudent(HttpSession session,String session_no){
+    @PostMapping("/student/results/{UID}")
+    public ModelAndView resultStudent(String session_no,@PathVariable("UID") String UID){
         ModelAndView mv = new ModelAndView();
         mv.setViewName("studentResults.html");
-        student stu = (student)session.getAttribute("student");
+        studentdao stud = new studentdao(j);
+        student stu = stud.getStudentByUID(UID);
+        List<Integer> session_nos = resdao.allSession(stu.getSRN());
         System.out.println(stu.toString());
         List<Map<String,Object>> mark = resdao.getMarks(stu.getSRN(),Integer.parseInt(session_no));
         Integer Total_marks=0;
         Double counter=0.0;
-        // System.out.println(stu.toString());
-        // for(Map<String,Object> mp:mark) for(Object tmk: mp.values()){
-        //     System.out.println(tmk);
-        // }
         for(Map<String,Object> mp:mark){
-            System.out.println(stu.toString());
             Total_marks+=(Integer)mp.get("marks");
             counter+=1.0;
         }
-        System.out.println(stu.toString());
         mv.addObject("stu", stu);
         mv.addObject("class_", resdao.getClass(stu.getSRN(), Integer.parseInt(session_no)));
         mv.addObject("marks", resdao.getMarks(stu.getSRN(), Integer.parseInt(session_no)));
         mv.addObject("percentage", Total_marks/counter);
+        mv.addObject("session_nos", session_nos);
         return mv;
     }
 }

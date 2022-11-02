@@ -56,7 +56,11 @@
                 <table>
                     <tr>
                         <td class="attribute">Departments</td>
-                        <td class="value"></td>
+                        <td class="value">
+                            <th:block th:each="dept:${department}">
+                                [[${dept.get("dept_name")}]],
+                            </th:block>
+                        </td>
                     </tr>
                     <tr>
                         <td class="attribute">Address</td>
