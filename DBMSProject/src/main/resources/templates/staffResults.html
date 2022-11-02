@@ -6,36 +6,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" th:href="@{/styles/student_list.css}">
-    <title>Student List</title>
+    <title>Student_List</title>
 </head>
 
 <body>
     <div>
         <nav th:replace="components/navbar :: navbar"></nav>
         <div class="insert_button">
-            <a href="#" th:href="@{/student/add}">Insert</a><br>
+            <a href="#" th:href="@{/addResult}">Insert</a><br>
         </div>
 
         <div class="content">
             <div class="student_list">
-                <form th:action="@{/student/list}" method="Post">
-                    <!-- <label for="St_SRN">Student Id</label> -->
-                    <input type="text" id="St_SRN" name="St_SRN" placeholder="Student ID">
-                    <!-- <label for="St_name">Student Name</label> -->
-                    <input type="text" id="St_name" name="St_name" placeholder="Student Name">
-                    <!-- <label for="St_class">Class</label> -->
+                <form th:action="@{/staff/results}" method="Post">
+                    <input type="text" id="emp_id" name="emp_id" placeholder="Teacher ID" required>
+                    <input type="text" id="SRN" name="SRN" placeholder="Student Id">
                     <select name="class_" id="St_class">
-                        <option value="">Select Class</option>
+                        <option value="" >Select Class</option>
                         <option th:each="cls:${class}" th:value="${cls}" th:text="${cls}"></option>
                     </select>
-                    <!-- <label for="St_section">Section</label> -->
                     <select name="section" id="St_section">
-                        <option value="">Select Section</option>
+                        <option value="" >Select Section</option>
                         <option th:each="sec:${section}" th:value="${sec}" th:text="${sec}"></option>
                     </select>
-                    <!-- <label for="Emp_id">Teacher Id</label> -->
-                    <input type="text" id="Emp_id" name="Emp_id" placeholder="Teacher ID">
-                    <!-- <label for="limit">Limit</label> -->
+                    <select name="course" id="St_course" required>
+                        <option value=""disabled selected hidden>Select Course</option>
+                        <option th:each="crs:${course}" th:value="${crs}" th:text="${crs}"></option>
+                    </select>
+                    <select name="session" id="session" required>
+                        <option value=""disabled selected hidden>Select Session</option>
+                        <option th:each="ses:${session_nos}" th:value="${ses}" th:text="${ses}"></option>
+                    </select>
                     <select name="limit" id="limit" required>
                         <option value="" disabled selected hidden>Select limit</option>
                         <option value="50">50</option>
@@ -45,27 +46,22 @@
                         <option value="1000">1000</option>
                     </select><br>
                     <input type="submit" class="submit_button">
-
                 </form>
             </div>
             <div class="registration_table">
                 <table>
                     <thead>
-                        <td>Registration No.</td>
-                        <td>Name</td>
-                        <td>Contact info</td>
+                        <td>Student Id</td>
+                        <td>Student Name</td>
                         <td>Class</td>
-                        <td>Result</td>
-                        <td>Tranfer</td>
+                        <td>[[${css}]]</td>
                         <td>Edit</td>
                     </thead>
                     <tr th:each="stud : ${students}">
                         <td>[[${stud.get("SRN")}]]</td>
-                        <td><a th:href="'/student/profile/'+${stud.get('UID')}">[[${stud.get("name")}]]</a></td>
-                        <td>[[${stud.get("phone_1")}]]</td>
-                        <td>[[${stud.get("class_no")}]]-[[${stud.get("section_no")}]]</td>
-                        <td> <a th:href="'/student/results/'+${stud.get('UID')}">Results</a> </td>
-                        <td>Transfer</td>
+                        <td>[[${stud.get("name")}]]</td>
+                        <td>[[${stud.get("class")}]]-[[${stud.get("section")}]]</td>
+                        <td>[[${stud.get("marks")}]]</td>
                         <td>Edit</td>
                     </tr>
                 </table>

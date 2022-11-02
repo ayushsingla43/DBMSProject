@@ -18,7 +18,12 @@
             </div>
 
             <div class="item hover-underline-animation">
-                <a th:href="@{'/student/results/'+${session.student.getUID()}}">Results List</a>
+                <span th:if="${session.authority==1}">
+                    <a th:href="@{'/student/results/'+${session.student.getUID()}}">Results</a>
+                </span> 
+                <span th:if="${session.authority>1}">
+                    <a th:href="@{/staff/results}">Results</a>
+                </span>
             </div>
 
             <div class="item hover-underline-animation">

@@ -8,7 +8,6 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.AADHA.Starters.DBMSProject.dao.coursesdao;
@@ -40,14 +39,14 @@ public class list {
         mv.addObject("ssns",ssns);
         staffdao staf=new staffdao(j);
         List<Map<String,Object>> staffs= staf.listquery(emp_id,name,session,dept,class_,section,limit);
-        for(Map<String,Object> stf: staffs){
-            System.out.print(stf.get("emp_id"));
-            System.out.print(stf.get("name"));
-            System.out.print(stf.get("phone_1"));
-            System.out.print(stf.get("salary"));
-            System.out.print(stf.get("email"));
-            System.out.println();
-        }
+        // for(Map<String,Object> stf: staffs){
+        //     System.out.print(stf.get("emp_id"));
+        //     System.out.print(stf.get("name"));
+        //     System.out.print(stf.get("phone_1"));
+        //     System.out.print(stf.get("salary"));
+        //     System.out.print(stf.get("email"));
+        //     System.out.println();
+        // }
         mv.addObject("staffs",staffs);
         return mv;
     }
@@ -81,14 +80,5 @@ public class list {
         mv.addObject("section",section_no);
         mv.addObject("students", res);
         return mv;
-    }
-
-    @GetMapping("/addstudent")
-    @ResponseBody
-    public String addstudent(){
-        System.out.println("to be done");
-        // ModelAndView mv=new ModelAndView();
-        // mv.setViewName("logIn.html");
-        return "to be done";
     }
 }

@@ -78,6 +78,12 @@ input {
     background-color: #FAF7F0;
 }
 
+a {
+    color: inherit;
+    text-decoration: inherit;
+    
+ }
+
 .button:hover {
     background-color: #EDE4E0;
     cursor: pointer;

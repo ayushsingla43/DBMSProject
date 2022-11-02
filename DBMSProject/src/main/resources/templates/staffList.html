@@ -4,11 +4,11 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Teacher List</title>
+  <title>Staff List</title>
 </head>
 <body>
   <div>
-    <a href="#" th:href="@{/staff/addTeacher}">Insert</a><br>
+    <a href="#" th:href="@{/staff/add}">Insert</a><br>
 
     <form th:action="@{/staff/list}" method="Post">
       <input type="text" placeholder="Employee ID" id="emp_id" name="emp_id">
@@ -41,13 +41,17 @@
       <td>Contact Info</td>
       <td>Email</td>
       <td>Salary</td>
+      <td>Edit</td>
+      <td>Delete</td>
       </thead>
       <tr th:each="stf : ${staffs}">
         <td>[[${stf.get("emp_id")}]]</td>
-        <td>[[${stf.get("name")}]]</td>
+        <td> <a th:href="@{'/staff/profile/'+${stf.get('UID')}}">[[${stf.get("name")}]]</a></td>
         <td>[[${stf.get("phone_1")}]]</td>
         <td>[[${stf.get("email")}]]</td>
         <td>[[${stf.get("salary")}]]</td>
+        <td> <a th:href="@{'/staff/edit/'+${stf.get('UID')}}">Edit</a> </td>
+        <td>Delete</td>
       </tr>
     </table>
   </div>

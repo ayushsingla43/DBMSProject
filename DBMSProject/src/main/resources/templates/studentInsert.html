@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Insert Student</title>
+</head>
+<body>
+  <h3 th:if="${message!=null}">[[${message}]]</h3>
+  <form th:action="@{/student/add}" method="post">
+    <input type="text" id="Std_name" name="std_name" placeholder="Name" required><br>
+    <input type="text" id="Std_gender" name="std_gender" placeholder="Gender" ><br>
+    <input type="text" id="Std_date" name="std_date" placeholder="Admission Date" required><br>
+    <input type="number" id="Std_pin" name="std_pin" placeholder="PIN" ><br>
+    <input type="text" id="Std_mother" name="std_mother" placeholder="Mother"><br>
+    <input type="text" id="Std_guardian" name="std_guardian" placeholder="Guardian" required><br>
+    <select name="std_class" id="Std_class">
+      <option value="">Select Class</option>
+      <option th:each="cls:${class}" th:value="${cls}" th:text="${cls}"></option>
+    </select><br>
+    <select name="std_section" id="Std_section">
+      <option value="">Select Section</option>
+      <option th:each="sec:${section}" th:value="${sec}" th:text="${sec}"></option>
+    </select><br>
+    <input type="text" id="Std_dob" name="std_dob" placeholder="DOB" required><br>
+    <input type="email" id="Std_email" name="std_email" placeholder="Email" required><br>
+    <input type="text" id="Std_bg" name="std_bg" placeholder="Blood Group" ><br>
+    <input type="text" id="Std_phone1" name="std_phone1" placeholder="Phone1" required><br>
+    <input type="text" id="Std_phone2" name="std_phone2" placeholder="Phone2" ><br>
+    <input type="text" id="Std_street" name="std_street" placeholder="Address:Street" ><br>
+    <input type="text" id="Std_city" name="std_city" placeholder="Address:City" ><br>
+    <input type="text" id="Std_state" name="std_state" placeholder="Address:State" ><br>
+    <input type="text" id="Std_aadhar" name="std_aadhar" placeholder="Aadhar Number" required><br>
+    <input type="text" id="Std_photo" name="std_photo" placeholder="Photo" ><br>
+    <input type="submit">
+  </form>
+</body>
+</html>

@@ -19,13 +19,13 @@ public class staffdao {
     }
 
     public List<Map<String,Object>> listquery(String emp_id, String name, String session, String dept, String class_, String section, String limit){
-        String query="select distinct emp_id,name,phone_1,email,salary from staff";
+        String query="select distinct emp_id,name,phone_1,email,salary,UID from staff";
         Boolean wr=false;
 
-        if (dept!="") query+=" natural join work_in";
-        if(session!="" || class_!="" || section!="") query+=" natural join courses";
+        if (!dept.equals("")) query+=" natural join work_in";
+        if(!session.equals("") || !class_.equals("") || !section.equals("")) query+=" natural join courses";
 
-        if (emp_id!=""){
+        if (!emp_id.equals("")){
             if(wr==false){
                 query+=" where";
                 wr=true;
@@ -33,7 +33,7 @@ public class staffdao {
             else query+=" and";
             query+=" emp_id="+emp_id;
         }
-        if (name!=""){
+        if (!name.equals("")){
             if(wr==false){
                 query+=" where";
                 wr=true;
@@ -41,7 +41,7 @@ public class staffdao {
             else query+=" and";
             query+=" name="+name;
         }
-        if (session!=""){
+        if (!session.equals("")){
             if(wr==false){
                 query+=" where";
                 wr=true;
@@ -49,7 +49,7 @@ public class staffdao {
             else query+=" and";
             query+=" session_no="+session;
         }
-        if (dept!=""){
+        if (!dept.equals("")){
             if(wr==false){
                 query+=" where";
                 wr=true;
@@ -57,7 +57,7 @@ public class staffdao {
             else query+=" and";
             query+=" dept_name="+dept;
         }
-        if (class_!=""){
+        if (!class_.equals("")){
             if(wr==false){
                 query+=" where";
                 wr=true;
@@ -65,7 +65,7 @@ public class staffdao {
             else query+=" and";
             query+=" class_no="+class_;
         }
-        if (section!=""){
+        if (!section.equals("")){
             if(wr==false){
                 query+=" where";
                 wr=true;
@@ -103,15 +103,16 @@ public class staffdao {
         }
     }
 
-    public void insertTeacher(String stf_name, String stf_gender, int stf_exp, int stf_pin, int
-            stf_salary, String stf_dob, String stf_email, String stf_bg, String stf_phone1, String
-                                              stf_phone2, String stf_street, String stf_city, String stf_state, String stf_aadhar,
-                                      String stf_pan, String stf_photo, String stf_pss){
+    public void insertTeacher(String stf_name, String stf_gender, int stf_exp, int stf_pin, int stf_salary, String stf_dob, String stf_email, String stf_bg, String stf_phone1, String stf_phone2, String stf_street, String stf_city, String stf_state, String stf_aadhar, String stf_pan, String stf_photo, String stf_pss){
         String sql = "insert into staff(name,gender,phone_1,phone_2, DOB, email, blood_grp,exp_years, salary, PIN,street,city, Aadhar_no, PAN_no,state, photo, password) values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
-        jdbc.update(sql ,stf_name, stf_gender, stf_phone1, stf_phone2, stf_dob, stf_email, stf_bg, stf_exp, stf_salary, stf_pin, stf_street, stf_city,
-                stf_aadhar, stf_pan, stf_state, stf_photo, stf_pss);
+        jdbc.update(sql ,stf_name, stf_gender, stf_phone1, stf_phone2, stf_dob, stf_email, stf_bg, stf_exp, stf_salary, stf_pin, stf_street, stf_city, stf_aadhar, stf_pan, stf_state, stf_photo, stf_pss);
         staff stf = getStaffByAttribute("Aadhar_no", stf_aadhar);
         sql = "update staff set UID=? where Aadhar_no=?";
         jdbc.update(sql, "stf"+Integer.toString(stf.getEmp_id()), stf_aadhar);
+    }
+
+    public void editTeacher(String UID,String stf_name, String stf_gender, int stf_exp, int stf_pin, int stf_salary, String stf_dob, String stf_email, String stf_bg, String stf_phone1, String stf_phone2, String stf_street, String stf_city, String stf_state, String stf_aadhar, String stf_pan, String stf_photo){
+        String sql = "update staff set name=?,gender=?,phone_1=?,phone_2=?, DOB=?, email=?, blood_grp=?,exp_years=?, salary=?, PIN=?,street=?,city=?, Aadhar_no=?, PAN_no=?,state=?, photo=? where UID=?";
+        jdbc.update(sql ,stf_name, stf_gender, stf_phone1, stf_phone2, stf_dob, stf_email, stf_bg, stf_exp, stf_salary, stf_pin, stf_street, stf_city, stf_aadhar, stf_pan, stf_state, stf_photo,UID);
     }
 }

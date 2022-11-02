@@ -26,6 +26,7 @@ public class profile {
         workindao wrkd = new workindao(j);
         staff stf = (staff)stfd.getStaffByUID(str);
         mv.addObject("stf",stf);
+        System.out.println(str);
         mv.addObject("department", wrkd.alldept(stf.getEmp_id()));
         System.out.println(str);
         return mv;

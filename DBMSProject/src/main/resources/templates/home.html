@@ -13,7 +13,7 @@
        <h1 th:if="${type=='student'}">Welcome Student!</h1>
         <h1 th:unless="${type=='student'}">Welcome Teacher!</h1>
         <h4>Name: [[${User.getName()}]]</h4>
-        <h4>Name: [[${session.authority}]]</h4>
+        <h4>Authority Level: [[${session.authority}]]</h4>
         <div class="container"> 
            <div class="swiper">
               <div class="swiper-wrapper">
