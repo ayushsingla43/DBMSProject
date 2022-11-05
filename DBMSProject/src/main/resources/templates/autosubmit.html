@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name ="myform" th:action="@{/staff/assign}" method="post">
+        <input name="emp_id" th:value="${emp_id}">
+        <input name="class_" value="">
+        <input name="section" value="">
+        <input name="dept" th:value="${dept_name}">
+        <input name="limit" value="100">
+        <input type="submit"> 
+    </form>
+    <script>
+        document.myform.submit();
+    </script>
+</body>
+</html>

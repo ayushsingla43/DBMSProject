@@ -3,13 +3,12 @@ nav {
 }
 
 a {
-    color: inherit;
-    text-decoration: inherit;
+    color: inherit !important;
+    text-decoration: inherit !important;
 }
 
 .item:hover {
     color: black;
-
 }
 
 
@@ -81,6 +80,7 @@ a {
 .dropdown {
     position: relative;
     display: inline-block;
+    padding-bottom: 2px;
     border-radius: 5px;
 }
 
@@ -93,6 +93,7 @@ a {
     font-size: 10pt;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     padding: 12px 12px;
+   
     z-index: 2;
 }
 
@@ -116,6 +117,7 @@ a {
 }
 
 .first {
+    padding-left: 5px;
     padding-top: 0px;
     margin-top: 5px;
 }
@@ -126,9 +128,13 @@ a {
 
 .dropdown-content a:hover {
     /* text-align: center; */
-    color: black;
+    color: #115a8e!important;
 }
 
-input[type=number] {
-    -moz-appearance: textfield;
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
 }

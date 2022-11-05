@@ -67,7 +67,7 @@ public class coursesdao {
                 query+=" and";
             query+=" crs.section_no="+section;
         }
-        if(!emp_id.equals("")){
+        if(!dept.equals("")){
                 query+=" and";
             query+=" crs.dept_name='"+dept+"'";
         }
@@ -80,4 +80,13 @@ public class coursesdao {
         String query="update courses set emp_id="+new_emp+" where class_no="+class_no+" and section_no="+Section_no+" and dept_name='"+dept_name+"' and session_no="+currentsession();
         jdbc.execute(query);
     }
+
+    public boolean checktech(String emp_id,String dept_name){
+            String query="select * from courses where session_no="+currentsession()+" and dept_name='"+dept_name+"' and emp_id="+emp_id;
+            System.out.println(query);
+            List<Map<String,Object>> res=jdbc.queryForList(query);
+            System.out.println(res.size());
+            return res.size()>0;
+    }
+
 }

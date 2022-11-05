@@ -31,4 +31,9 @@ public class workindao {
         List<Map<String,Object>>res=jdbc.queryForList(query,emp_id);
         return res;
     }
+
+    public void removestaff(String emp_id,String dept_name){
+        String date=String.valueOf(java.time.LocalDate.now());
+        jdbc.update("update works_in set leaving_date='"+date+"' where dept_name='"+dept_name+"' and emp_id="+emp_id);
+    }
 }

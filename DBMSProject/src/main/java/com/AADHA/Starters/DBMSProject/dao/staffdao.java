@@ -115,4 +115,19 @@ public class staffdao {
         String sql = "update staff set name=?,gender=?,phone_1=?,phone_2=?, DOB=?, email=?, blood_grp=?,exp_years=?, salary=?, PIN=?,street=?,city=?, Aadhar_no=?, PAN_no=?,state=?, photo=? where UID=?";
         jdbc.update(sql ,stf_name, stf_gender, stf_phone1, stf_phone2, stf_dob, stf_email, stf_bg, stf_exp, stf_salary, stf_pin, stf_street, stf_city, stf_aadhar, stf_pan, stf_state, stf_photo,UID);
     }
+
+    public List<Map<String,Object>> checkdept(String emp_id){
+        String query="select * from works_in where leaving_date='' and emp_id="+emp_id;
+        List<Map<String,Object>> res=jdbc.queryForList(query);
+        if(res.size()>0){
+            return res;
+        }
+        else{
+            return null;
+        }
+    }
+
+    public void deletestaff(String emp_id){
+        jdbc.update("update staff set curr=0 where emp_id="+emp_id);
+    }
 }

@@ -77,4 +77,12 @@ public class resultsdao {
 
         return res;
     }
+
+    public void updateResult(String sRN, String Session_no, String Marks, String course){
+        int SRN = Integer.parseInt(sRN);
+        int session_no = Integer.parseInt(Session_no);
+        int marks = Integer.parseInt(Marks);
+        String sql = "update results set marks=? where SRN=? and session_no=? and course=?";
+        this.jdbc.update(sql, marks, SRN, session_no, course);
+    }
 }

@@ -60,12 +60,12 @@
 					</thead>
 					<tr th:each="stf : ${staffs}">
 						<td>[[${stf.get("emp_id")}]]</td>
-						<td> <a th:href="@{'/staff/profile/'+${stf.get('UID')}}">[[${stf.get("name")}]]</a></td>
+						<td class="button"> <a th:href="@{'/staff/profile/'+${stf.get('UID')}}">[[${stf.get("name")}]]</a></td>
 						<td>[[${stf.get("phone_1")}]]</td>
 						<td>[[${stf.get("email")}]]</td>
 						<td>[[${stf.get("salary")}]]</td>
-						<td> <a th:href="@{'/staff/edit/'+${stf.get('UID')}}">Edit</a> </td>
-						<td>Delete</td>
+						<td class="button"> <a th:href="@{'/staff/edit/'+${stf.get('UID')}}">Edit</a> </td>
+						<td class="button"><a th:href="@{'/staff/delete/'+${stf.get('emp_id')}}">Delete</a></td>
 					</tr>
 				</table>
 			</div>

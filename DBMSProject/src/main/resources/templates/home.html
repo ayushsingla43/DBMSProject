@@ -1,73 +1,50 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="https://www.thymeleaf.org">
+
 <head>
     <meta charset="UTF-8">
     <title>home</title>
     <link rel="stylesheet" th:href="@{/styles/home.css}">
-    
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 </head>
+
 <body>
-  <div>
-        <nav th:replace="components/navbar :: navbar"></nav>
-       <h1>Welcome [[${User.getName()}]]!</h1>
-        <div class="container"> 
-           <div class="swiper">
-              <div class="swiper-wrapper">
-                  <div class="swiper-slide"><img th:src="@{/images/Assembly.png}" alt="logo"/></div>
-                  <div class="swiper-slide"><img th:src="@{/images/basketball.png}" alt="logo"  /></div>
-                  <div class="swiper-slide"><img th:src="@{/images/classroom.png}" alt="logo" /></div>
-                  <div class="swiper-slide"><img th:src="@{/images/rangoli.png}" alt="logo" /></div>  
-                  <div class="swiper-slide"><img th:src="@{/images/shinobu3.png}" alt="logo" /></div>
- 
-              </div>
-              <div class="swiper-pagination"></div>
-              <!-- <div class="swiper-button-prev"></div>
-              <div class="swiper-button-next"></div> -->
-               <!-- <div class="swiper-scrollbar"></div>  -->
-          </div>
-    </div>
-<!-- 
     <div>
-      <h1>OUR DEAN RNC</h1>
+        <nav th:replace="components/navbar :: navbar"></nav>
+        <h1>Welcome [[${User.getName()}]]!</h1>
+        <div class="container">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img th:src="@{/images/Assembly.png}" alt="logo" /></div>
+                    <div class="swiper-slide"><img th:src="@{/images/basketball.png}" alt="logo" /></div>
+                    <div class="swiper-slide"><img th:src="@{/images/classroom.png}" alt="logo" /></div>
+                    <div class="swiper-slide"><img th:src="@{/images/rangoli.png}" alt="logo" /></div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script>
+
+            const swiper = new Swiper('.swiper', {
+                autoplay: {
+                    delay: 3000,
+                    disableOnInteraction: false,
+                },
+                loop: true,
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevE1: '.swiper-button-prev',
+                },
+            });
+        </script>
     </div>
-    <div class="principal-quote">
-        
-        <div class="p-img">
-            <img src="https://www.iitbhu.ac.in/sites/default/files/styles/medium/public/pictures/2021-01/RaviPhoto2.jpg?itok=v2jp0Awi" alt="Pricipal">
-
-        </div>
-        <div class="p-quotes">
-            
-
-        </div>
-       
-    </div> -->
- 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-      <script>
- 
-          const swiper=new Swiper('.swiper',{
-              autoplay:{
-                 delay :3000,
-                 disableOnInteraction: false,
- 
-             },
-             loop :true,
-             pagination: {
-                 el :'.swiper-pagination',
-                 clickable :true,
-             },
-             navigation: {
-                 nextEl : '.swiper-button-next',
-                 prevE1 : '.swiper-button-prev',
-             },
-         
- 
-          });
-      </script> 
-  </div>
-  <footer th:replace="components/footer :: footer"></footer>
+    <footer th:replace="components/footer :: footer"></footer>
 </body>
 
 </html>

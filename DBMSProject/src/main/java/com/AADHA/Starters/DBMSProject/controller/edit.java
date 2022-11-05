@@ -87,7 +87,7 @@ public class edit {
     public ModelAndView insertStudent(@PathVariable("UID") String UID, String std_name, String std_gender, String std_date, Integer std_pin,String std_mother, String std_guardian, String std_class, String std_section,String std_dob, String std_email, String std_bg, String std_phone1, String std_phone2, String std_street, String std_city,String std_state, String std_aadhar, String std_photo)
     {
         studentdao stddao = new studentdao(j);
-        ModelAndView mv = new ModelAndView("studentInsert.html");
+        ModelAndView mv = new ModelAndView("studentEdit.html");
         Integer Std_class = Integer.valueOf(std_class);
         Integer Std_section = Integer.valueOf(std_section);
         student stu=stddao.getStudentByAttribute("Aadhar_no", std_aadhar);

@@ -1,24 +1,24 @@
 @import "nav.css";
 @import "footer.css";
 
-*{
+* {
     box-sizing: border-box;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
 
-body{
-    margin:0px;
-    padding:0;
+body {
+    margin: 0px;
+    padding: 0;
     display: flex;
     flex-direction: column;
-    justify-content:space-between;
+    justify-content: space-between;
     min-height: 100vh;
     background-color: #DBF3FC;
 }
 
 
-.insert_button{
+.insert_button {
     display: flex;
     align-self: center;
     flex-direction: row-reverse;
@@ -29,102 +29,86 @@ body{
 
 }
 
-.submit_button{
+.submit_button {
+    border: 1px solid black;
+    border-radius: 10px;
     margin: 8px 45%;
     width: 10%;
     font-size: 15px;
+    padding: 2px;
+    background-color: #0b5f9b;
 }
-.submit_button:hover{
+
+.submit_button:hover {
+   
     cursor: pointer;
-    background-color: #722020;
+    background-color: #0b5f9b;
 }
 
-.list{
-    /* width:100%; */
-    display: flex;
-
-    justify-content: center;
-    align-items: center;
-    /* margin: 2% auto; */
-}
-.details_table{
+.list {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
-.details_table table{
+.details_table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.details_table table {
     width: 80%;
     border-collapse: collapse;
 }
 
 
-.name{
+.name {
     font-weight: bold;
     font-size: 20pt;
     min-width: 10px;
     max-width: 200px;
 }
 
-td
-{
+/* td {
     font-weight: 500;
     font-size: 15pt;
     min-width: 80px;
     max-width: 150px;
-}
+} */
 
 
-.details-1 {
-    display: flex;
-    /* align-content: center; */
-    /* justify-content: center; */
-
-    margin-left: 30%;
-}
-.profile_info {
-    margin-top: 5%;
-}
-
-.profile_pic{
-
-    margin-right: 4%;
-
-}
-
-.details_table{
-    margin-left: 5%;
+.details_table {
+    
     align-self: center;
 }
 
 
-.details_table thead td{
+.details_table thead td {
     font-weight: bold;
 }
 
 
-.details_table thead,tr,td{
-    margin-left: 5%;
+.details_table thead,
+tr,
+td {
+   
     align-self: center;
     border: 1px solid black;
     border-collapse: collapse;
+    font-size: 15pt;
 
 }
 
-/* .details_table tr{
- margin-left: 5%;
- align-self: center;
-} */
 
-.details_table td{
-    /* margin-left: 5%;
-    align-self: center; */
+.details_table td {
     text-align: center;
-    max-width: 400px;
+    padding: 1%;
 }
 
 
-.details-2{
+/* .details-2 {
     width: 100%;
     display: flex;
     align-items: center;
@@ -135,17 +119,43 @@ td
 .attribute {
     min-width: 200px;
     max-width: 300px;
-    /* padding: 10% ; */
-
     padding: 10px;
 }
 
-.value{
+.value {
     max-width: 300px;
     padding: 10px;
-}
+} */
 
-.details-1 table{
+/* .details-1 table {
     min-width: 150%;
     max-width: 270%;
+} */
+
+input,
+select {
+    background: transparent;
+    border: none;
+    border-bottom: 1.5px solid rgba(0, 0, 0, .4);
+    font-size: 12pt;
+
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+
+}
+
+.highlight:hover {
+    
+    color: blue !important ;
+}
+
+
+.button:hover {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(39, 130, 209);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }

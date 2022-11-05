@@ -1,0 +1,66 @@
+@import "nav.css";
+@import "footer.css";
+body{
+    margin:0px;
+    padding:0;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    min-height: 100vh;
+    background-color: #DBF3FC !important;
+  }
+
+  a {
+    color: inherit !important;
+    text-decoration: inherit !important;
+}
+
+  .content {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container{
+    width: fit-content;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  }
+
+  .form_container h2{
+    padding: 30px 20px 20px 20px ;
+    text-align: center;
+    color: black;
+    border-bottom: 2px solid rgba(0,0,0,0.3);
+    /* background-color: aquamarine; */
+  }
+
+  .form_container h4 {
+    text-align: center;
+  }
+
+  .my_input{
+    padding: 10px;
+  }
+
+  .block {
+
+    display: flex;
+  }
+
+
+  h5{
+    padding-top: 10px;
+  }
+
+  .my_button{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+  }
+
+

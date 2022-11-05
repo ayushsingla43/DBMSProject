@@ -1,37 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Insert Student</title>
+	<meta charset="UTF-8">
+	<title>Insert Student</title>
+	<link rel="stylesheet" href="/styles/stuinsert.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
+
 <body>
-  <h3 th:if="${message!=null}">[[${message}]]</h3>
-  <form th:action="@{/student/add}" method="post">
-    <input type="text" id="Std_name" name="std_name" placeholder="Name" required><br>
-    <input type="text" id="Std_gender" name="std_gender" placeholder="Gender" ><br>
-    <input type="date" id="Std_date" name="std_date" placeholder="Admission Date" required><br>
-    <input type="number" id="Std_pin" name="std_pin" placeholder="PIN" ><br>
-    <input type="text" id="Std_mother" name="std_mother" placeholder="Mother"><br>
-    <input type="text" id="Std_guardian" name="std_guardian" placeholder="Guardian" required><br>
-    <select name="std_class" id="Std_class" required>
-      <option value="" disabled selected hidden>Select Class</option>
-      <option th:each="cls:${class}" th:value="${cls}" th:text="${cls}"></option>
-    </select><br>
-    <select name="std_section" id="Std_section" required>
-      <option value="" disabled selected hidden>Select Section</option>
-      <option th:each="sec:${section}" th:value="${sec}" th:text="${sec}"></option>
-    </select><br>
-    <input type="date" id="Std_dob" name="std_dob" placeholder="DOB" required><br>
-    <input type="email" id="Std_email" name="std_email" placeholder="Email" required><br>
-    <input type="text" id="Std_bg" name="std_bg" placeholder="Blood Group" ><br>
-    <input type="text" id="Std_phone1" name="std_phone1" placeholder="Phone1" required><br>
-    <input type="text" id="Std_phone2" name="std_phone2" placeholder="Phone2" ><br>
-    <input type="text" id="Std_street" name="std_street" placeholder="Address:Street" ><br>
-    <input type="text" id="Std_city" name="std_city" placeholder="Address:City" ><br>
-    <input type="text" id="Std_state" name="std_state" placeholder="Address:State" ><br>
-    <input type="text" id="Std_aadhar" name="std_aadhar" placeholder="Aadhar Number" required><br>
-    <input type="text" id="Std_photo" name="std_photo" placeholder="Photo" ><br>
-    <input type="submit">
-  </form>
+	<h3 th:if="${message!=null}">[[${message}]]</h3>
+	<div>
+		<nav th:replace="components/navbar :: navbar"></nav>
+		<div class="content">
+			<div class="container">
+				<div class="form_container">
+					<h2>Student Insert Form</h2>
+					<h4>Please Fill Student Details Properly</h4>
+					<form th:action="@{/student/add}" method="post">
+						<div margin="10px"></div>
+						<h5 padding-left="10px">Personel details</h5>
+						<div class="block">
+							<div class="form-floating col-md-4 my_input">
+								<label for="Name">Name</label>
+								<input type="text" class="form-control" id="Std_name" name="std_name" required>
+							</div>
+							<div class="form-floating col-md-4 my_input">
+								<label for="Gender">Gender</label>
+								<input type="text" class="form-control" id="Std_gender" name="std_gender">
+							</div>
+							<div class="form-floating col-md-4 my_input">
+								<input type="text" class="form-control" id="Std_bg" name="std_bg">
+								<label for="Blood Group">Blood Group</label>
+							</div>
+						</div>
+						<div class="block">
+							<div class="form-floating col-md-4 my_input">
+								<input type="date" class="form-control" id="Std_dob" name="std_dob" required>
+								<label for="DOB">Date of Birth</label>
+							</div>
+							<div class="form-floating col-md-4 my_input">
+								<input type="date" class="form-control" id="Std_date" name="std_date" required>
+								<label for="Admission Date">Admission Date</label>
+							</div>
+						</div>
+						<div class="block">
+							<div class="form-floating col-md-4 my_input">
+								<input type="text" class="form-control" id="Std_aadhar" name="std_aadhar"
+									placeholder="Aadhar Number" required>
+								<label for="Aadhar Number">Aadhar Number</label>
+							</div>
+							<div class="form-floating col-md-4 my_input">
+								<input type="text" class="form-control" id="Std_mother" name="std_mother">
+								<label for="Mother">Mother</label>
+							</div>
+							<div class="form-floating col-md-4 my_input">
+								<input type="text" class="form-control" id="Std_guardian" name="std_guardian"
+									placeholder="Guardian" required>
+								<label for="Guardian">Father/Gaurdian</label>
+							</div>
+						</div>
+						<div class="block">
+							<div class="form-floating col-md-5 my_input">
+								<input type="email" class="form-control" id="Std_email" name="std_email"
+									placeholder="Email" required>
+								<label for="Email">Email</label>
+							</div>
+							<div class="form-floating col-md-3 my_input">
+								<select name="std_class" class="form-control" id="Std_class" required>
+									<option value="" disabled selected hclass="form-control" idden></option>
+									<option th:each="cls:${class}" th:value="${cls}" th:text="${cls}"></option>
+								</select>
+								<label for="Class">Class</label>
+							</div>
+							<div class="form-floating col-md-3 my_input">
+								<select name="std_section" class="form-control" id="Std_section" required>
+									<option value="" disabled selected hclass="form-control" idden></option>
+									<option th:each="sec:${section}" th:value="${sec}" th:text="${sec}"></option>
+								</select>
+								<label for="Section">Select Section</label>
+							</div>
+						</div>
+						<h5>Contact Details</h5>
+						<div class="block">
+							<div class="form-floating col-md-5 my_input">
+								<input type="text" class="form-control" id="Std_phone1" name="std_phone1"
+									placeholder="Phone1" required>
+								<label for="Phone">Phone Number</label>
+							</div>
+							<div class="form-floating col-md-5 my_input">
+								<input type="text" class="form-control" id="Std_phone2" name="std_phone2">
+								<label for="Phone2">Second Phone Number</label>
+							</div>
+						</div>
+						<h5>Address</h5>
+						<div class="block">
+							<div class="form-floating col-md-4 my_input">
+								<input type="text" class="form-control" id="Std_street" name="std_street">
+								<label for="Street">Street</label>
+							</div>
+							<div class="form-floating col-md-4 my_input">
+								<input type="text" class="form-control" id="Std_city" name="std_city"
+									placeholder="Address:City">
+								<label for="city">City</label>
+							</div>
+							<div class="form-floating col-md-4 my_input">
+								<input type="text" class="form-control" id="Std_state" name="std_state"
+									placeholder="Address:State">
+								<label for="State">State</label>
+							</div>
+						</div>
+						<div class="block">
+							<div class="form-floating col-md-4 my_input">
+								<input type="number" class="form-control" id="Std_pin" name="std_pin">
+								<label for="PIN">PIN</label>
+							</div>
+						</div>
+						<div class="form-floating col-md-4 my_input">
+							<input type="text" class="form-control" id="Std_photo" name="std_photo" placeholder="Photo">
+						</div>
+						<div class="my_button">
+							<button type="submit" class="btn btn-primary">Submit</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<footer th:replace="components/footer :: footer"></footer>
+	</div>
+	<div th:replace="components/bootstrap :: bootstrap"></div>
 </body>
+
+
+
 </html>
