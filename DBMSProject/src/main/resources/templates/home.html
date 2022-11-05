@@ -10,10 +10,7 @@
 <body>
   <div>
         <nav th:replace="components/navbar :: navbar"></nav>
-       <h1 th:if="${type=='student'}">Welcome Student!</h1>
-        <h1 th:unless="${type=='student'}">Welcome Teacher!</h1>
-        <h4>Name: [[${User.getName()}]]</h4>
-        <h4>Authority Level: [[${session.authority}]]</h4>
+       <h1>Welcome [[${User.getName()}]]!</h1>
         <div class="container"> 
            <div class="swiper">
               <div class="swiper-wrapper">
@@ -25,14 +22,14 @@
  
               </div>
               <div class="swiper-pagination"></div>
-              <div class="swiper-button-prev"></div>
-              <div class="swiper-button-next"></div>
+              <!-- <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div> -->
                <!-- <div class="swiper-scrollbar"></div>  -->
           </div>
     </div>
-
+<!-- 
     <div>
-      <h1>OUR RANDI DEAN RNC</h1>
+      <h1>OUR DEAN RNC</h1>
     </div>
     <div class="principal-quote">
         
@@ -41,12 +38,11 @@
 
         </div>
         <div class="p-quotes">
-            <p>if i was the dean i will allow to have sex in campus and solve this query hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi...
-            </p>
+            
 
         </div>
        
-    </div>
+    </div> -->
  
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
       <script>

@@ -22,7 +22,7 @@ public class staffdao {
         String query="select distinct emp_id,name,phone_1,email,salary,UID from staff";
         Boolean wr=false;
 
-        if (!dept.equals("")) query+=" natural join work_in";
+        if (!dept.equals("")) query+=" natural join works_in";
         if(!session.equals("") || !class_.equals("") || !section.equals("")) query+=" natural join courses";
 
         if (!emp_id.equals("")){
@@ -39,7 +39,7 @@ public class staffdao {
                 wr=true;
             }
             else query+=" and";
-            query+=" name="+name;
+            query+=" name='"+name+"'";
         }
         if (!session.equals("")){
             if(wr==false){
@@ -55,7 +55,7 @@ public class staffdao {
                 wr=true;
             }
             else query+=" and";
-            query+=" dept_name="+dept;
+            query+=" dept_name='"+dept+"'";
         }
         if (!class_.equals("")){
             if(wr==false){

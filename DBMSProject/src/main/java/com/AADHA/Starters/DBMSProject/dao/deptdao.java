@@ -1,5 +1,9 @@
 package com.AADHA.Starters.DBMSProject.dao;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
 // import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,5 +24,15 @@ public class deptdao {
 
     public department findbyDeptname(String deptname){
         return jdbc.queryForObject("select * from department where dept_name='"+deptname+"'",MappingRow.rmdepartment);
+    }
+
+    public List<String> getAllDepts(){
+        String query = "select dept_name from department";
+        List<Map<String,Object>> res = jdbc.queryForList(query);
+        List<String> depts = new ArrayList<String>();
+        for(Map<String, Object> x:res){
+            for (Map.Entry<String,Object> y : x.entrySet()) depts.add(String.valueOf( y.getValue()));
+        }
+        return depts;
     }
 }

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" th:href="@{/styles/student_list.css}">
+    <title>Assigned Teachhers</title>
+</head>
+
+<body>
+    <div>
+        <nav th:replace="components/navbar :: navbar"></nav>
+
+        <div class="content">
+            <div class="assign_list">
+                <form th:action="@{/staff/assign}" method="Post">
+                    <input type="text" name="emp_id" placeholder="Employee ID">
+                    <select name="class_" id="St_class">
+                        <option value="">Select Class</option>
+                        <option th:each="cls:${class}" th:value="${cls}" th:text="${cls}"></option>
+                    </select>
+                    <select name="section" id="St_section">
+                        <option value="">Select Section</option>
+                        <option th:each="sec:${section}" th:value="${sec}" th:text="${sec}"></option>
+                    </select>
+                    <select name ="dept" >
+                        <option value="">Select Department</option>
+                        <option th:each="dprt:${department}" th:value="${dprt}" th:text="${dprt}"></option>
+                    </select>
+                    <select name="limit" id="limit" required>
+                        <option value="" disabled selected hidden>Select limit</option>
+                        <option value="50">50</option>
+                        <option value="100">100</option>
+                        <option value="200">200</option>
+                        <option value="500">500</option>
+                        <option value="1000">1000</option>
+                    </select><br>
+                    <input type="submit" class="submit_button">
+
+                </form>
+            </div>
+            <div class="registration_table">
+                <table>
+                    <thead>
+                        <td>Class</td>
+                        <td>Subject</td>
+                        <td>Current Teacher (ID)</td>
+                        <td>Current Teacher (Name)</td>
+                        <td>Action</td>
+                    </thead>
+                    <tr th:each="asn : ${assign}">
+                        <td>[[${asn.get("class_no")}]] - [[${asn.get("section_no")}]]</td>
+                        <td>[[${asn.get("dept_name")}]]</td>
+                        <td>[[${asn.get("emp_id")}]]</td>
+                        <td>[[${asn.get("name")}]]</td>
+                        <td>
+                        <form th:action="@{/staff/assign/change}" method="Post">
+                            <input type="hidden" name="emp_id" th:value='${asn.get("emp_id")}'>
+                            <input type="hidden" name="class_no" th:value='${asn.get("class_no")}'>
+                            <input type="hidden" name="section_no" th:value='${asn.get("section_no")}'>
+                            <input type="hidden" name="dept_name" th:value='${asn.get("dept_name")}'>
+                            <input type="hidden" name="name" th:value='${asn.get("name")}'>
+                            
+                            <input type="submit" value="Edit">
+                        </form>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <footer th:replace="components/footer :: footer"></footer>
+
+</body>
+
+
+
+</html>

@@ -27,14 +27,11 @@ public class results {
 
     @RequestMapping("/student/results/{UID}")
     public ModelAndView resultStudent(@PathVariable("UID") String UID){
-        ModelAndView mv = new ModelAndView();
+        ModelAndView mv = new ModelAndView("studentResults.html");
         studentdao stud = new studentdao(j);
-        student stu = stud.getStudentByUID(UID);
         resultsdao res = new resultsdao(j);
-        System.out.println(stu.toString());
+        student stu = stud.getStudentByUID(UID);
         List<Integer> session_no = res.allSession(stu.getSRN());
-        System.out.println("hello");
-        mv.setViewName("studentResults.html");
         mv.addObject("stu", stu);
         mv.addObject("class_",new HashMap<String,String>(){{
             put("class_no","");
@@ -46,13 +43,11 @@ public class results {
 
     @PostMapping("/student/results/{UID}")
     public ModelAndView resultStudent(String session_no,@PathVariable("UID") String UID){
-        ModelAndView mv = new ModelAndView();
-        mv.setViewName("studentResults.html");
+        ModelAndView mv = new ModelAndView("studentResults.html");
         studentdao stud = new studentdao(j);
-        student stu = stud.getStudentByUID(UID);
         resultsdao res = new resultsdao(j);
+        student stu = stud.getStudentByUID(UID);
         List<Integer> session_nos = res.allSession(stu.getSRN());
-        System.out.println(stu.toString());
         List<Map<String,Object>> mark = res.getMarks(stu.getSRN(),Integer.parseInt(session_no));
         Integer Total_marks=0;
         Double counter=0.0;
@@ -70,34 +65,32 @@ public class results {
 
     @RequestMapping("/staff/results")
     public ModelAndView resultStaff() {
+        ModelAndView mv = new ModelAndView("staffResults.html");
         classdao cls = new classdao(j);
         resultsdao res = new resultsdao(j);
         List<Integer> session_nos = res.totalSession();
         List<String> class_no = cls.Classes();
         List<String> section_no = cls.Sections();
         List<String> courses = res.getAllCourses();
-        ModelAndView mv = new ModelAndView();
-        mv.setViewName("staffResults.html");
+        String course="Marks";
         mv.addObject("class",class_no);
         mv.addObject("section",section_no);
         mv.addObject("course", courses);
         mv.addObject("session_nos", session_nos);
-        String course="Marks";
         mv.addObject("css", course);
         return mv;
     }
     
     @PostMapping("/staff/results")
     public ModelAndView resultstaff(String emp_id,String SRN,String class_,String section,String course, String session,String limit){
+        ModelAndView mv = new ModelAndView("staffResults.html");
         classdao cls = new classdao(j);
         resultsdao res = new resultsdao(j);
         List<Integer> session_nos = res.totalSession();
         List<String> class_no = cls.Classes();
         List<String> section_no = cls.Sections();
         List<String> courses = res.getAllCourses();
-        ModelAndView mv = new ModelAndView();
         List<Map<String,Object>> studnets=res.getPrevResult(emp_id, SRN, class_, section, course, session, limit);
-        mv.setViewName("staffResults.html");
         mv.addObject("class",class_no);
         mv.addObject("section",section_no);
         mv.addObject("course", courses);

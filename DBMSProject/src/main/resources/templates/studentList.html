@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" th:href="@{/styles/student_list.css}">
+    <link rel="stylesheet" th:href="@{/styles/list.css}">
     <title>Student List</title>
 </head>
 
@@ -19,23 +19,17 @@
         <div class="content">
             <div class="student_list">
                 <form th:action="@{/student/list}" method="Post">
-                    <!-- <label for="St_SRN">Student Id</label> -->
-                    <input type="text" id="St_SRN" name="St_SRN" placeholder="Student ID">
-                    <!-- <label for="St_name">Student Name</label> -->
+                    <input type="number" id="St_SRN" name="St_SRN" placeholder="Student ID">
                     <input type="text" id="St_name" name="St_name" placeholder="Student Name">
-                    <!-- <label for="St_class">Class</label> -->
                     <select name="class_" id="St_class">
                         <option value="">Select Class</option>
                         <option th:each="cls:${class}" th:value="${cls}" th:text="${cls}"></option>
                     </select>
-                    <!-- <label for="St_section">Section</label> -->
                     <select name="section" id="St_section">
                         <option value="">Select Section</option>
                         <option th:each="sec:${section}" th:value="${sec}" th:text="${sec}"></option>
                     </select>
-                    <!-- <label for="Emp_id">Teacher Id</label> -->
-                    <input type="text" id="Emp_id" name="Emp_id" placeholder="Teacher ID">
-                    <!-- <label for="limit">Limit</label> -->
+                    <input type="number" id="Emp_id" name="Emp_id" placeholder="Teacher ID">
                     <select name="limit" id="limit" required>
                         <option value="" disabled selected hidden>Select limit</option>
                         <option value="50">50</option>
@@ -55,9 +49,7 @@
                         <td>Name</td>
                         <td>Contact info</td>
                         <td>Class</td>
-                        <td>Result</td>
-                        <td>Tranfer</td>
-                        <td>Edit</td>
+                        <td colspan="3">Actions</td>
                     </thead>
                     <tr th:each="stud : ${students}">
                         <td>[[${stud.get("SRN")}]]</td>
@@ -65,8 +57,8 @@
                         <td>[[${stud.get("phone_1")}]]</td>
                         <td>[[${stud.get("class_no")}]]-[[${stud.get("section_no")}]]</td>
                         <td> <a th:href="'/student/results/'+${stud.get('UID')}">Results</a> </td>
-                        <td>Transfer</td>
-                        <td>Edit</td>
+                        <td> <a th:href="'/staff/removeStudent/'+${stud.get('UID')}" onclick="return confirmSubmission()">Transfer</a></td>
+                        <td><a th:href="@{'/student/edit/'+${stud.get('UID')}}">Edit</a></td> 
                     </tr>
                 </table>
             </div>
@@ -74,6 +66,14 @@
     </div>
 
     <footer th:replace="components/footer :: footer"></footer>
+    <script>
+        var confirmSubmission = function(){
+            if(!confirm("Confirm student transfer?")){
+                return false;
+            }
+            return true;
+        }
+    </script>
 
 </body>
 

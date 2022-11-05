@@ -8,21 +8,21 @@
     <h3 th:if="${message!=null}">[[${message}]]</h3>
   <form th:action="@{'/staff/edit/'+${stf.getUID()}}" method="post">
       <input type="text" id="Stf_name" name="stf_name" placeholder="Name" required th:value="${stf.getName()}"><br>
-      <input type="text" id="Stf_gender" name="stf_gender" placeholder="Gender" required th:value="${stf.getGender()}"><br>
-      <input type="number" id="Stf_exp" name="stf_exp" placeholder="Experience" required th:value="${stf.getExp_years()}"><br>
+      <input type="text" id="Stf_gender" name="stf_gender" placeholder="Gender" th:value="${stf.getGender()}"><br>
+      <input type="number" id="Stf_exp" name="stf_exp" placeholder="Experience" th:value="${stf.getExp_years()}"><br>
       <input type="number" id="Stf_salary" name="stf_salary" placeholder="Salary" required th:value="${stf.getSalary()}"><br>
-      <input type="text" id="Stf_dob" name="stf_dob" placeholder="DOB" required th:value="${stf.getDOB()}"><br>
+      <input type="date" id="Stf_dob" name="stf_dob" placeholder="DOB" required th:value="${stf.getDOB()}"><br>
       <input type="email" id="Stf_email" name="stf_email" placeholder="Email" required th:value="${stf.getEmail()}"><br>
-      <input type="text" id="Stf_bg" name="stf_bg" placeholder="Blood Group" required th:value="${stf.getBlood_grp()}"><br>
+      <input type="text" id="Stf_bg" name="stf_bg" placeholder="Blood Group" th:value="${stf.getBlood_grp()}"><br>
       <input type="text" id="Stf_phone1" name="stf_phone1" placeholder="Phone1" required th:value="${stf.getPhone_1()}"><br>
-      <input type="text" id="Stf_phone2" name="stf_phone2" placeholder="Phone2" required th:value="${stf.getPhone_2()}"><br>
-      <input type="number" id="Stf_pin" name="stf_pin" placeholder="PIN" required th:value="${stf.getPIN()}"><br>
-      <input type="text" id="Stf_street" name="stf_street" placeholder="Address:Street" required th:value="${stf.getStreet()}"><br>
-      <input type="text" id="Stf_city" name="stf_city" placeholder="Address:City" required th:value="${stf.getCity()}"><br>
-      <input type="text" id="Stf_state" name="stf_state" placeholder="Address:State" required th:value="${stf.getState()}"><br>
+      <input type="text" id="Stf_phone2" name="stf_phone2" placeholder="Phone2" th:value="${stf.getPhone_2()}"><br>
+      <input type="number" id="Stf_pin" name="stf_pin" placeholder="PIN" th:value="${stf.getPIN()}"><br>
+      <input type="text" id="Stf_street" name="stf_street" placeholder="Address:Street" th:value="${stf.getStreet()}"><br>
+      <input type="text" id="Stf_city" name="stf_city" placeholder="Address:City" th:value="${stf.getCity()}"><br>
+      <input type="text" id="Stf_state" name="stf_state" placeholder="Address:State" th:value="${stf.getState()}"><br>
       <input type="text" id="Stf_aadhar" name="stf_aadhar" placeholder="Aadhar Number" required th:value="${stf.getAadhar_no()}"><br>
       <input type="text" id="Stf_pan" name="stf_pan" placeholder="PAN Number" required th:value="${stf.getPAN_no()}"><br>
-      <input type="text" id="Stf_photo" name="stf_photo" placeholder="Photo" required th:value="${stf.getPhoto()}"><br>
+      <input type="text" id="Stf_photo" name="stf_photo" placeholder="Photo" th:value="${stf.getPhoto()}"><br>
       <input type="submit">
   </form>
 </body>

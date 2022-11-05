@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Student</title>
+</head>
+<body>
+  <h3 th:if="${message!=null}">[[${message}]]</h3>
+  <form th:action="@{'/student/edit/'+${stu.getUID()}}" method="post">
+    <input type="text" id="Std_name" name="std_name" placeholder="Name" required th:value="${stu.getName()}"><br>
+    <input type="text" id="Std_gender" name="std_gender" placeholder="Gender" th:value="${stu.getGender()}"><br>
+    <input type="date" id="Std_date" name="std_date" placeholder="Admission Date" required th:value="${stu.getAdmission_date()}"><br>
+    <input type="number" id="Std_pin" name="std_pin" placeholder="PIN" th:value="${stu.getPIN()}"><br>
+    <input type="text" id="Std_mother" name="std_mother" placeholder="Mother" th:value="${stu.getMother()}"><br>
+    <input type="text" id="Std_guardian" name="std_guardian" placeholder="Guardian" required th:value="${stu.getGuardian()}"><br>
+    <select name="std_class" id="Std_class" required>
+      <option th:value="${stu.getClass_no()}"  selected hidden>[[${stu.getClass_no()}]]</option>
+      <option th:each="cls:${class}" th:value="${cls}" th:text="${cls}"></option>
+    </select><br>
+    <select name="std_section" id="Std_section" required>
+      <option th:value="${stu.getSection_no()}"  selected hidden>[[${stu.getSection_no()}]]</option>
+      <option th:each="sec:${section}" th:value="${sec}" th:text="${sec}"></option>
+    </select><br>
+    <input type="date" id="Std_dob" name="std_dob" placeholder="DOB" required th:value="${stu.getDOB()}"><br>
+    <input type="email" id="Std_email" name="std_email" placeholder="Email" required th:value="${stu.getEmail()}"><br>
+    <input type="text" id="Std_bg" name="std_bg" placeholder="Blood Group" th:value="${stu.getBlood_grp()}"><br>
+    <input type="text" id="Std_phone1" name="std_phone1" placeholder="Phone1" required th:value="${stu.getPhone_1()}"><br>
+    <input type="text" id="Std_phone2" name="std_phone2" placeholder="Phone2" th:value="${stu.getPhone_2()}"><br>
+    <input type="text" id="Std_street" name="std_street" placeholder="Address:Street" th:value="${stu.getStreet()}"><br>
+    <input type="text" id="Std_city" name="std_city" placeholder="Address:City" th:value="${stu.getCity()}"><br>
+    <input type="text" id="Std_state" name="std_state" placeholder="Address:State" th:value="${stu.getState()}"><br>
+    <input type="text" id="Std_aadhar" name="std_aadhar" placeholder="Aadhar Number" required th:value="${stu.getAadhar_no()}"><br>
+    <input type="text" id="Std_photo" name="std_photo" placeholder="Photo" th:value="${stu.getPhoto()}"+><br>
+    <input type="submit">
+  </form>
+</body>
+</html>

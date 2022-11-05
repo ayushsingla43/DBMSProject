@@ -14,10 +14,6 @@
              </div>
 
             <div class="item hover-underline-animation">
-                <a href="page name">More</a>
-            </div>
-
-            <div class="item hover-underline-animation">
                 <span th:if="${session.authority==1}">
                     <a th:href="@{'/student/results/'+${session.student.getUID()}}">Results</a>
                 </span> 
@@ -25,11 +21,20 @@
                     <a th:href="@{/staff/results}">Results</a>
                 </span>
             </div>
-
+            <div class="item hover-underline-animation">
+                <span th:if="${session.authority>1}">
+                    <a th:href="@{/staff/assign}">Assigned Teachers</a>
+                </span>
+            </div>
             <div class="item hover-underline-animation">
                 <a th:href="@{/staff/list}">Staff List</a>
             </div>
-
+            <div class="dropdown">
+                <a class="dropbtn">Departments</a>
+                <div class="dropdown-content">
+                    <a class="first" th:each="dept:${session.depts}" th:href="@{'/staff/dept/' +${dept}}" method="get">[[${dept}]]</a>
+                </div>
+            </div>
             <div class="item hover-underline-animation">
                 <a th:href="@{/student/list}">Student List</a>
             </div>

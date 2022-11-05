@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assign Teacher</title>
+</head>
+<body>
+    [[${asn.get("emp_id")}]]<br>
+    [[${asn.get("name")}]]<br>
+    [[${asn.get("dept_name")}]]<br>
+    [[${asn.get("class_no")}]]<br>
+    [[${asn.get("section_no")}]]<br>
+    <form th:action="@{/staff/assign/change2}" method="post">
+        <input type="hidden" name="emp_id" th:value='${asn.get("emp_id")}'>
+        <input type="hidden" name="class_no" th:value='${asn.get("class_no")}'>
+        <input type="hidden" name="section_no" th:value='${asn.get("section_no")}'>
+        <input type="hidden" name="dept_name" th:value='${asn.get("dept_name")}'>
+        <select name="new_emp">
+            <option disabled selected hidden></option>
+            <option th:each="stf:${staff}" th:value='${stf.get("emp_id")}' th:text='${stf.get("emp_id") + stf.get("name")}'></option>
+        </select>
+        <input type="submit">
+    </form>
+</body>
+</html>

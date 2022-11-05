@@ -20,22 +20,18 @@ public class profile {
 
     @GetMapping("/staff/profile/{UID}")
     public ModelAndView profStaff(@PathVariable("UID") String str){
-        ModelAndView mv = new ModelAndView();
-        mv.setViewName("staffProfile.html");
+        ModelAndView mv = new ModelAndView("staffProfile.html");
         staffdao stfd = new staffdao(j);
         workindao wrkd = new workindao(j);
         staff stf = (staff)stfd.getStaffByUID(str);
         mv.addObject("stf",stf);
-        System.out.println(str);
         mv.addObject("department", wrkd.alldept(stf.getEmp_id()));
-        System.out.println(str);
         return mv;
     }
 
     @GetMapping("/student/profile/{UID}")
     public ModelAndView profStudent(@PathVariable("UID") String str){
-        ModelAndView mv = new ModelAndView();
-        mv.setViewName("studentProfile.html");
+        ModelAndView mv = new ModelAndView("studentProfile.html");
         studentdao stud = new studentdao(j);
         mv.addObject("stu", stud.getStudentByUID(str));
         return mv;

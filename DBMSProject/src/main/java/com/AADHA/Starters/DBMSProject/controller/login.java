@@ -1,5 +1,6 @@
 package com.AADHA.Starters.DBMSProject.controller;
 
+import com.AADHA.Starters.DBMSProject.dao.deptdao;
 import com.AADHA.Starters.DBMSProject.dao.getAuthority;
 import com.AADHA.Starters.DBMSProject.dao.staffdao;
 import com.AADHA.Starters.DBMSProject.dao.studentdao;
@@ -15,6 +16,7 @@ import org.springframework.web.servlet.ModelAndView;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import java.security.Principal;
+import java.util.List;
 
 @Controller
 public class login {
@@ -33,13 +35,16 @@ public class login {
 
     @GetMapping("/student/home")
     public ModelAndView viewStudentHome(HttpServletRequest request, HttpSession session){
+        ModelAndView mv = new ModelAndView("/home.html");
         Principal principal = request.getUserPrincipal();
         studentdao sdao = new studentdao(j);
         student stu = sdao.getStudentByUID(principal.getName());
+        deptdao dptd = new deptdao(j);
+        List<String> depts = dptd.getAllDepts();
+        session.setAttribute("depts", depts);
         session.setAttribute("student", stu);
         session.setAttribute("UID", stu.getUID());
         session.setAttribute("authority",1);
-        ModelAndView mv = new ModelAndView("/home.html");
         mv.addObject("User", stu);
         return mv;
     }
@@ -51,14 +56,17 @@ public class login {
 
     @GetMapping("/staff/home")
     public ModelAndView viewStaffHome(HttpServletRequest request, HttpSession session){
+        ModelAndView mv = new ModelAndView("/home.html");
         staffdao Sdao = new staffdao(j);
         getAuthority gA = new getAuthority(j);
+        deptdao dptd = new deptdao(j);
         Principal principal = request.getUserPrincipal();
         staff stf = Sdao.getStaffByUID(principal.getName());
+        List<String> depts = dptd.getAllDepts();
+        session.setAttribute("depts", depts);
         session.setAttribute("staff", stf);
         session.setAttribute("UID", stf.getUID());
         session.setAttribute("authority", gA.Autority(stf));
-        ModelAndView mv = new ModelAndView("/home.html");
         mv.addObject("User", stf);
         return mv;
     }

@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.AADHA.Starters.DBMSProject.dao.coursesdao;
+import com.AADHA.Starters.DBMSProject.dao.deptdao;
 import com.AADHA.Starters.DBMSProject.dao.staffdao;
 import com.AADHA.Starters.DBMSProject.dao.classdao;
 import com.AADHA.Starters.DBMSProject.dao.studentdao;
@@ -22,31 +23,37 @@ public class list {
 
     @GetMapping("/staff/list")
     public ModelAndView teachersearch(){
-        ModelAndView mv=new ModelAndView();
-        mv.setViewName("staffList.html");
-        coursesdao cls =new coursesdao(j);
-        List<String>ssns=cls.sessions();
+        ModelAndView mv=new ModelAndView("staffList.html");
+        classdao cls = new classdao(j);
+        coursesdao crs =new coursesdao(j);
+        deptdao dep = new deptdao(j);
+        List<String> class_no = cls.Classes();
+        List<String> section_no = cls.Sections();
+        List<String>ssns=crs.sessions();
+        List<String>depts=dep.getAllDepts();
         mv.addObject("ssns",ssns); 
+        mv.addObject("class",class_no);
+        mv.addObject("section",section_no);
+        mv.addObject("depts",depts);
         return mv;
     }
 
     @PostMapping("/staff/list")
     public ModelAndView teacherlist(String emp_id,String name,String session,String dept,String class_,String section,String limit){
-        ModelAndView mv=new ModelAndView();
-        mv.setViewName("staffList.html");
-        coursesdao cls =new coursesdao(j);
-        List<String>ssns=cls.sessions();
-        mv.addObject("ssns",ssns);
+        ModelAndView mv=new ModelAndView("staffList.html");
+        classdao cls = new classdao(j);
+        coursesdao crs =new coursesdao(j);
+        deptdao dep = new deptdao(j);
         staffdao staf=new staffdao(j);
+        List<String> class_no = cls.Classes();
+        List<String> section_no = cls.Sections();
+        List<String>ssns=crs.sessions();
+        List<String>depts=dep.getAllDepts();
         List<Map<String,Object>> staffs= staf.listquery(emp_id,name,session,dept,class_,section,limit);
-        // for(Map<String,Object> stf: staffs){
-        //     System.out.print(stf.get("emp_id"));
-        //     System.out.print(stf.get("name"));
-        //     System.out.print(stf.get("phone_1"));
-        //     System.out.print(stf.get("salary"));
-        //     System.out.print(stf.get("email"));
-        //     System.out.println();
-        // }
+        mv.addObject("ssns",ssns); 
+        mv.addObject("class",class_no);
+        mv.addObject("section",section_no);
+        mv.addObject("depts",depts);
         mv.addObject("staffs",staffs);
         return mv;
     }
@@ -65,20 +72,48 @@ public class list {
 
     @PostMapping("/student/list")
     public ModelAndView filter(String St_SRN,String St_name,String class_,String section,String Emp_id,String limit){
-        // System.out.println(St_SRN);System.out.println(St_name);System.out.println(class_);System.out.println(section);System.out.println(Emp_id);System.out.println(limit);
+        ModelAndView mv = new ModelAndView("studentList.html");
         studentdao stud=new studentdao(j);
-        List<Map<String,Object>> res = stud.viewquery(St_SRN,St_name,class_,section,Emp_id,limit);
-        // for (Map<String,Object> x : res){
-        //     System.out.println(String.valueOf(x.get("SRN"))+' '+String.valueOf(x.get("name"))+' '+String.valueOf(x.get("phone_1"))+' '+String.valueOf(x.get("class_no"))+' '+String.valueOf(x.get("section_no")));
-        // }
+        classdao cls = new classdao(j);
+        List<Map<String,Object>> stu = stud.viewquery(St_SRN,St_name,class_,section,Emp_id,limit);
+        List<String> class_no = cls.Classes();
+        List<String> section_no = cls.Sections();
+        mv.addObject("class",class_no);
+        mv.addObject("section",section_no);
+        mv.addObject("students", stu);
+        return mv;
+    }
+
+    @GetMapping("/staff/assign")
+    public ModelAndView assign(){
+        ModelAndView mv=new ModelAndView("staffassign.html");
         classdao cls = new classdao(j);
         List<String> class_no = cls.Classes();
         List<String> section_no = cls.Sections();
+        coursesdao crs=new coursesdao(j);
+        List<String> department=crs.Courses();
+        mv.addObject("section", section_no);
+        mv.addObject("class", class_no);
+        mv.addObject("department",department);
 
-        ModelAndView mv = new ModelAndView("studentList.html");
-        mv.addObject("class",class_no);
-        mv.addObject("section",section_no);
-        mv.addObject("students", res);
+
+        return mv;
+    }
+
+    @PostMapping("/staff/assign")
+    public ModelAndView assign(String emp_id,String class_,String section,String dept,String limit){
+        ModelAndView mv=new ModelAndView("staffassign.html");
+        classdao cls = new classdao(j);
+        List<String> class_no = cls.Classes();
+        List<String> section_no = cls.Sections();
+        coursesdao crs=new coursesdao(j);
+        List<String> department=crs.Courses();
+        List<Map<String,Object>> assign=crs.assignquery(emp_id, class_, section, dept, limit);
+        mv.addObject("assign", assign);
+
+        mv.addObject("section", section_no);
+        mv.addObject("class", class_no);
+        mv.addObject("department",department);
         return mv;
     }
 }

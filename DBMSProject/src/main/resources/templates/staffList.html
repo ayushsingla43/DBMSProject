@@ -1,60 +1,77 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="https://www.thymeleaf.org">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Staff List</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" th:href="@{/styles/list.css}">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+	<title>Staff List</title>
 </head>
+
 <body>
-  <div>
-    <a href="#" th:href="@{/staff/add}">Insert</a><br>
-
-    <form th:action="@{/staff/list}" method="Post">
-      <input type="text" placeholder="Employee ID" id="emp_id" name="emp_id">
-      <input type="text" placeholder="Name" id="emp_name" name="name">
-      <!-- <input type="text" placeholder="Session" id="emp_id" name="emp_id"> -->
-      <select name="session" id="session">
-        <!-- <option value="" disabled select>Select Session</option> -->
-        <option value="">Select Session</option>
-        <option th:each="ssn:${ssns}" th:value="${ssn}" th:text="${ssn}"></option>
-      </select>
-      <input type="text" placeholder="Department" id="dept" name="dept">
-      <input type="text" placeholder="Class" id="class_" name="class_">
-      <input type="text" placeholder="Section" id="section" name="section">
-      <select name="limit" id="limit" required>
-        <option value="" disabled selected hidden>Limit</option>
-        <option value="50">50</option>
-        <option value="100">100</option>
-        <option value="200">200</option>
-        <option value="500">500</option>
-        <option value="1000">1000</option>
-      </select>
-      <br>
-      <input type="submit" placeholder="Search">
-    </form>
-
-    <table>
-      <thead>
-      <td>Employee ID</td>
-      <td>Name</td>
-      <td>Contact Info</td>
-      <td>Email</td>
-      <td>Salary</td>
-      <td>Edit</td>
-      <td>Delete</td>
-      </thead>
-      <tr th:each="stf : ${staffs}">
-        <td>[[${stf.get("emp_id")}]]</td>
-        <td> <a th:href="@{'/staff/profile/'+${stf.get('UID')}}">[[${stf.get("name")}]]</a></td>
-        <td>[[${stf.get("phone_1")}]]</td>
-        <td>[[${stf.get("email")}]]</td>
-        <td>[[${stf.get("salary")}]]</td>
-        <td> <a th:href="@{'/staff/edit/'+${stf.get('UID')}}">Edit</a> </td>
-        <td>Delete</td>
-      </tr>
-    </table>
-  </div>
-
+	<div>
+		<nav th:replace="components/navbar :: navbar"></nav>
+		<div class="insert_button">
+			<a href="#" th:href="@{/staff/add}">Insert</a><br>
+		</div>
+		<div class="content">
+			<div class="list">
+				<form th:action="@{/staff/list}" method="Post">
+					<input type="number" placeholder="Employee ID" id="emp_id" name="emp_id">
+					<input type="text" placeholder="Name" id="emp_name" name="name">
+					<select name="session" id="session">
+						<option value="">Select Session</option>
+						<option th:each="ssn:${ssns}" th:value="${ssn}" th:text="${ssn}"></option>
+					</select>
+					<select name="dept" id="dept">
+						<option value="">Select Department</option>
+						<option th:each="dept:${depts}" th:value="${dept}" th:text="${dept}"></option>
+					</select>
+					<select name="class_" id="class_">
+						<option value="">Select Class</option>
+						<option th:each="cls:${class}" th:value="${cls}" th:text="${cls}"></option>
+					</select>
+					<select name="section" id="section">
+						<option value="">Select Section</option>
+						<option th:each="sec:${section}" th:value="${sec}" th:text="${sec}"></option>
+					</select>
+					<select name="limit" id="limit" required>
+						<option value="" disabled selected hidden>Limit</option>
+						<option value="50">50</option>
+						<option value="100">100</option>
+						<option value="200">200</option>
+						<option value="500">500</option>
+						<option value="1000">1000</option>
+					</select><br>
+					<input type="submit" placeholder="Search" class="submit_button">
+				</form>
+			</div>
+			<div class="details_table">
+				<table>
+					<thead>
+						<td>Employee ID</td>
+						<td>Name</td>
+						<td>Contact Info</td>
+						<td>Email</td>
+						<td>Salary</td>
+						<td colspan="2">Actions</td>
+					</thead>
+					<tr th:each="stf : ${staffs}">
+						<td>[[${stf.get("emp_id")}]]</td>
+						<td> <a th:href="@{'/staff/profile/'+${stf.get('UID')}}">[[${stf.get("name")}]]</a></td>
+						<td>[[${stf.get("phone_1")}]]</td>
+						<td>[[${stf.get("email")}]]</td>
+						<td>[[${stf.get("salary")}]]</td>
+						<td> <a th:href="@{'/staff/edit/'+${stf.get('UID')}}">Edit</a> </td>
+						<td>Delete</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+	<footer th:replace="components/footer :: footer"></footer>
 </body>
+
 </html>

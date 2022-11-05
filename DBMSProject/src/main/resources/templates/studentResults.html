@@ -14,7 +14,7 @@
     <div class="session">
 
     
-    <form th:action="@{'/student/results/'+${session.student.getUID()}}" method="post">
+    <form th:action="@{'/student/results/'+${stu.getUID()}}" method="post">
         
         <div class="select">
             <select name="session_no" id="session_no" required>
@@ -28,7 +28,7 @@
     </form>
    </div>
    <div class="res">
-        <div class="id" style="margin_bottom:5%;">
+        <div class="id">
             <div class="info row">
                 <p>Name: [[${stu.getName()}]]</p>
             </div>
@@ -60,7 +60,7 @@
 
         </table>
        </div>
-        <div class="percentage" style="margin_top:5%;">
+        <div class="percentage">
             <p>Total Percentage:  [[${percentage}]]</p>
         </div>
    </div>

@@ -24,27 +24,14 @@ public class dept {
 
     @GetMapping("/staff/dept/{dept_name}")
     public ModelAndView deptProfile(@PathVariable("dept_name") String dept_name){
-        System.out.println("get one!!!!!!!!!!!!!1");
-        ModelAndView mv=new ModelAndView();
-        mv.setViewName("dept.html");
+        ModelAndView mv=new ModelAndView("dept.html");
         deptdao depart=new deptdao(j);
-
-        department temp=depart.findbyDeptname(dept_name);
-        mv.addObject("dept", temp);
-        staffdao inc=new staffdao(j);
-
-        staff stf=inc.info(temp.getHead());
-
-        workindao staff_filter=new workindao(j);
-        List<Map<String,Object>> staffs=staff_filter.curr(dept_name);
-
-        for (Map<String,Object>val : staffs){
-            System.out.println(val.get("emp_id"));
-            System.out.println(val.get("name"));
-            System.out.println(val.get("phone_1"));
-            System.out.println(val.get("email"));
-            System.out.println(val.get("salary"));
-        }
+        staffdao stfd=new staffdao(j);
+        workindao wrkd=new workindao(j);
+        department dpt=depart.findbyDeptname(dept_name);
+        List<Map<String,Object>> staffs=wrkd.curr(dept_name);
+        staff stf=stfd.info(dpt.getHead());
+        mv.addObject("dept", dpt);
         mv.addObject("staffs", staffs);
         mv.addObject("incharge", stf);
         return mv;
@@ -52,26 +39,16 @@ public class dept {
 
     @PostMapping("/staff/dept/{dept_name}")
     public ModelAndView deptProfile(@PathVariable("dept_name") String dept_name,String show){
-        System.out.println("post one!!!!!!!!!!!!!1");
-
-        ModelAndView mv=new ModelAndView();
+        ModelAndView mv=new ModelAndView("dept.html");
         deptdao depart=new deptdao(j);
-
-        department temp=depart.findbyDeptname(dept_name);
-        staffdao inc=new staffdao(j);
-        System.out.println("reached");
-        staff stf=inc.info(temp.getHead());
-
-        workindao staff_filter=new workindao(j);
-        System.out.println(show);
-        System.out.println(show.equals("2"));
-        if (show.equals("2"))
-            mv.addObject("staffs", staff_filter.allemp(dept_name));
-        else mv.addObject("staffs", staff_filter.curr(dept_name));
-        System.out.println("Reached");
-        mv.addObject("dept", temp);
+        staffdao stfd=new staffdao(j);
+        workindao wrkd=new workindao(j);
+        department dpt=depart.findbyDeptname(dept_name);
+        staff stf=stfd.info(dpt.getHead());
+        if (show.equals("2")) mv.addObject("staffs", wrkd.allemp(dept_name));
+        else mv.addObject("staffs", wrkd.curr(dept_name));
+        mv.addObject("dept", dpt);
         mv.addObject("incharge", stf);
-        mv.setViewName("dept.html");
         return mv;
     }
 
