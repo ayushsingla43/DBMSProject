@@ -110,11 +110,7 @@ public class edit {
     
     @PostMapping("/staff/assign/change")
     public ModelAndView staffassignedit(String emp_id,String class_no,String section_no,String dept_name,String name){
-        ModelAndView mv=new ModelAndView("staffassignedit.html");
-        // System.out.println(emp_id);
-        // System.out.println(class_no);
-        // System.out.println(section_no);
-        // System.out.println(dept_name);
+        ModelAndView mv=new ModelAndView("staffAssignEdit.html");
         Map<String,Object>asn=new HashMap<String,Object>();
         asn.put("emp_id",emp_id);
         asn.put("class_no",class_no);

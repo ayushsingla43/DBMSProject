@@ -86,31 +86,29 @@ public class list {
 
     @GetMapping("/staff/assign")
     public ModelAndView assign(){
-        ModelAndView mv=new ModelAndView("staffassign.html");
+        System.out.println("hello");
+        ModelAndView mv=new ModelAndView("staffAssign.html");
         classdao cls = new classdao(j);
+        coursesdao crs=new coursesdao(j);
         List<String> class_no = cls.Classes();
         List<String> section_no = cls.Sections();
-        coursesdao crs=new coursesdao(j);
         List<String> department=crs.Courses();
         mv.addObject("section", section_no);
         mv.addObject("class", class_no);
         mv.addObject("department",department);
-
-
         return mv;
     }
 
     @PostMapping("/staff/assign")
     public ModelAndView assign(String emp_id,String class_,String section,String dept,String limit){
-        ModelAndView mv=new ModelAndView("staffassign.html");
+        ModelAndView mv=new ModelAndView("staffAssign.html");
         classdao cls = new classdao(j);
+        coursesdao crs=new coursesdao(j);
         List<String> class_no = cls.Classes();
         List<String> section_no = cls.Sections();
-        coursesdao crs=new coursesdao(j);
         List<String> department=crs.Courses();
         List<Map<String,Object>> assign=crs.assignquery(emp_id, class_, section, dept, limit);
         mv.addObject("assign", assign);
-
         mv.addObject("section", section_no);
         mv.addObject("class", class_no);
         mv.addObject("department",department);

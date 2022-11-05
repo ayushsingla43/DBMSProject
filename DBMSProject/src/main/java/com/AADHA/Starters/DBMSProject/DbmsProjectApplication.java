@@ -10,6 +10,4 @@ public class DbmsProjectApplication {
 		SpringApplication.run(DbmsProjectApplication.class, args);
 		System.out.println("Server Running.....!!!!");
 	}
-
-
 }

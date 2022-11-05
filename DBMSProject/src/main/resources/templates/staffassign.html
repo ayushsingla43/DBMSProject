@@ -5,14 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" th:href="@{/styles/student_list.css}">
-    <title>Assigned Teachhers</title>
+    <link rel="stylesheet" th:href="@{/styles/list.css}">
+    <title>Assigned Teachers</title>
 </head>
 
 <body>
     <div>
         <nav th:replace="components/navbar :: navbar"></nav>
-
         <div class="content">
             <div class="assign_list">
                 <form th:action="@{/staff/assign}" method="Post">
@@ -38,7 +37,6 @@
                         <option value="1000">1000</option>
                     </select><br>
                     <input type="submit" class="submit_button">
-
                 </form>
             </div>
             <div class="registration_table">
@@ -62,7 +60,6 @@
                             <input type="hidden" name="section_no" th:value='${asn.get("section_no")}'>
                             <input type="hidden" name="dept_name" th:value='${asn.get("dept_name")}'>
                             <input type="hidden" name="name" th:value='${asn.get("name")}'>
-                            
                             <input type="submit" value="Edit">
                         </form>
                         </td>
@@ -71,7 +68,6 @@
             </div>
         </div>
     </div>
-
     <footer th:replace="components/footer :: footer"></footer>
 
 </body>
