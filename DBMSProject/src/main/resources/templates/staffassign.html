@@ -12,8 +12,9 @@
 <body>
     <div>
         <nav th:replace="components/navbar :: navbar"></nav>
+        <br><br>
         <div class="content">
-            <div class="assign_list">
+            <div class="list">
                 <form th:action="@{/staff/assign}" method="Post">
                     <input type="text" name="emp_id" placeholder="Employee ID">
                     <select name="class_" id="St_class">
@@ -39,7 +40,7 @@
                     <input type="submit" class="submit_button">
                 </form>
             </div>
-            <div class="registration_table">
+            <div class="details_table">
                 <table>
                     <thead>
                         <td>Class</td>
