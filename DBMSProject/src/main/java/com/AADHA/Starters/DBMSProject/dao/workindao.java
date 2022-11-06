@@ -16,12 +16,12 @@ public class workindao {
         this.jdbc=j;
     }
     public List<Map<String,Object>>curr(String dept){
-        String query="select emp_id,name,phone_1,joining_date,leaving_date from staff as stf natural join works_in as wn where wn.leaving_date='' and wn.dept_name='"+dept+"'";
+        String query="select emp_id,name,phone_1,joining_date,leaving_date,UID from staff as stf natural join works_in as wn where wn.leaving_date='' and wn.dept_name='"+dept+"'";
         List<Map<String,Object>>res=jdbc.queryForList(query);
         return res;
     }
     public List<Map<String,Object>>allemp(String dept){
-        String query="select emp_id,name,phone_1,joining_date,leaving_date from staff as stf natural join works_in as wn where wn.dept_name='"+dept+"'";
+        String query="select emp_id,name,phone_1,joining_date,leaving_date,UID from staff as stf natural join works_in as wn where wn.dept_name='"+dept+"'";
         List<Map<String,Object>>res=jdbc.queryForList(query);
         return res;
     }

@@ -36,4 +36,15 @@ public class classdao {
         }
         return section_no;
     }
+
+    public List<Map<String,Object>> allclass(){
+        System.out.println("done");
+        return jdbc.queryForList("select class_no,section_no from class order by class_no,section_no;");
+    }
+
+    public Map<String,Object> classProfile(String class_no,String Section_no){
+        String query="select class_no,section_no,floor_no,room_no,emp_id,name,phone_1 from class , staff where emp_id=incharge and class_no="+class_no+" and section_no="+Section_no;
+        Map<String,Object> res=jdbc.queryForMap(query);
+        return res;
+    }
 }

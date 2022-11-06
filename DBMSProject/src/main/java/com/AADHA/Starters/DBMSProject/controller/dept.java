@@ -38,7 +38,7 @@ public class dept {
     }
 
     @PostMapping("/staff/dept/{dept_name}")
-    public ModelAndView deptProfile(@PathVariable("dept_name") String dept_name,String show){
+    public ModelAndView deptProfile(@PathVariable("dept_name") String dept_name,String show,String message){
         ModelAndView mv=new ModelAndView("dept.html");
         deptdao depart=new deptdao(j);
         staffdao stfd=new staffdao(j);
@@ -47,6 +47,7 @@ public class dept {
         staff stf=stfd.info(dpt.getHead());
         if (show.equals("2")) mv.addObject("staffs", wrkd.allemp(dept_name));
         else mv.addObject("staffs", wrkd.curr(dept_name));
+        mv.addObject("message", message);
         mv.addObject("dept", dpt);
         mv.addObject("incharge", stf);
         return mv;

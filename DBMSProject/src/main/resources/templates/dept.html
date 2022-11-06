@@ -5,66 +5,85 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/dept.css">
+    <link rel="stylesheet" href="/bootstrap/bootstrap.css">
+    <script href="/bootstrap/bootstrap.js"></script>
     <title>[[${dept.getDept_name()}]]</title>
 </head>
 
 <body>
     <h3 th:if="${message!=null}">[[${message}]]</h3>
-    <h1>[[${dept.getDept_name()}]]</h1><br>
-    <table>
-        <tr>
-            <td>Floor no:</td>
-            <td>[[${dept.getFloor_no()}]]</td>
-        </tr>
-        <tr>
-            <td>Room no:</td>
-            <td>[[${dept.getRoom_no()}]]</td>
-        </tr>
-        <tr>
-            <td>Incharge:</td>
-            <td>[[${incharge.getName()}]]</td>
-        </tr>
-        <tr>
-            <td>Contact no.:</td>
-            <td>[[${dept.getContact()}]]</td>
-        </tr>
-        <tr>
-            <td>Email :</td>
-            <td>[[${dept.getEmail()}]]</td>
-        </tr>
-    </table>
-    <form th:action="@{'/staff/dept/'+${dept.getDept_name()}}" method="Post">
-        <select name="show" id="show" required>
-            <option disabled selected hidden>Select Teacher</option>
-            <option value="2">All Teachers</option>
-            <option value="1">Currently working</option>
-        </select>
-        <input type="submit" placeholder="Show">
-    </form>
+    <div>
+        <nav th:replace="components/navbar :: navbar"></nav>
+        <div class="content">
+            <div class="container">
+                <h1>[[${dept.getDept_name()}]] Department</h1><br>
+                <div class="main_details">
+                    <table class="my_table">
+                        <tr>
+                            <td>Floor no:</td>
+                            <td>[[${dept.getFloor_no()}]]</td>
+                        </tr>
+                        <tr>
+                            <td>Room no:</td>
+                            <td>[[${dept.getRoom_no()}]]</td>
+                        </tr>
+                        <tr>
+                            <td>Incharge:</td>
+                            <td>[[${incharge.getName()}]]</td>
+                        </tr>
+                        <tr>
+                            <td>Contact no:</td>
+                            <td>[[${dept.getContact()}]]</td>
+                        </tr>
+                        <tr>
+                            <td>Email :</td>
+                            <td>[[${dept.getEmail()}]]</td>
+                        </tr>
+                    </table>
 
-    <table>
-        <thead>
-            <td>Employee ID</td>
-            <td>Name</td>
-            <td>Contact Info</td>
-            <td>Joining Date</td>
-            <td>Leaving Date</td>
-            <td>Action</td>
-        </thead>
-        <tr th:each="staff: ${staffs}">
-            <td>[[${staff.get("emp_id")}]]</td>
-            <td>[[${staff.get("name")}]]</td>
-            <td>[[${staff.get("phone_1")}]]</td>
-            <td>[[${staff.get("joining_date")}]]</td>
-            <td>[[${staff.get("leaving_date")}]]</td>
-            <td><a th:href="@{'/staff/delete2/'+${staff.get('emp_id')}+'/'+ ${dept.getDept_name()}}"onclick="return confirmSubmission()">Remove</a></td>
-        </tr>
-    </table>
+                    <form th:action="@{'/staff/dept/'+${dept.getDept_name()}}" method="Post">
+                        <select name="show" id="show" required>
+                            <option disabled selected hidden>Select Teacher</option>
+                            <option value="2">All Teachers</option>
+                            <option value="1">Currently working</option>
+                        </select>
+                        <input type="submit" placeholder="Show" class="submit_button">
+                    </form>
+                </div>
+               
+
+
+                <div class="details_table">
+                    <table>
+                        <thead>
+                            <td>Employee ID</td>
+                            <td>Name</td>
+                            <td>Contact Info</td>
+                            <td>Joining Date</td>
+                            <td>Leaving Date</td>
+                            <td>Action</td>
+                        </thead>
+                        <tr th:each="staff: ${staffs}">
+                            <td>[[${staff.get("emp_id")}]]</td>
+                            <td>[[${staff.get("name")}]]</td>
+                            <td>[[${staff.get("phone_1")}]]</td>
+                            <td>[[${staff.get("joining_date")}]]</td>
+                            <td>[[${staff.get("leaving_date")}]]</td>
+                            <td class="button"><a th:href="@{'/staff/dept/'+${dept.getDept_name()}+'/delete/'+${staff.get('UID')}}"onclick="return confirmSubmission()">Remove</a></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <footer th:replace="components/footer :: footer"></footer>
+    </div>
+
 </body>
 
 <script>
     var confirmSubmission = function () {
-        if (!confirm("Are you sure you want to remove the staff member?")) {
+        if (!confirm("Make sure employee should not be assigned any class for this department")) {
             return false;
         }
         return true;

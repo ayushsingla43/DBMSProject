@@ -6,7 +6,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" th:href="@{/styles/list.css}">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="/bootstrap/bootstrap.css">
+	<script href="/bootstrap/bootstrap.js"></script>
 	<title>Staff List</title>
 </head>
 
@@ -23,21 +24,14 @@
 				<form th:action="@{/staff/list}" method="Post">
 					<input type="number" placeholder="Employee ID" id="emp_id" name="emp_id">
 					<input type="text" placeholder="Name" id="emp_name" name="name">
-					<select name="session" id="session">
-						<option value="">Select Session</option>
-						<option th:each="ssn:${ssns}" th:value="${ssn}" th:text="${ssn}"></option>
-					</select>
 					<select name="dept" id="dept">
 						<option value="">Select Department</option>
 						<option th:each="dept:${depts}" th:value="${dept}" th:text="${dept}"></option>
 					</select>
-					<select name="class_" id="class_">
-						<option value="">Select Class</option>
-						<option th:each="cls:${class}" th:value="${cls}" th:text="${cls}"></option>
-					</select>
-					<select name="section" id="section">
-						<option value="">Select Section</option>
-						<option th:each="sec:${section}" th:value="${sec}" th:text="${sec}"></option>
+					<select name="curr">
+						<option value="">All time staff</option>
+						<option value="1" selected>Currently working</option>
+						<option value="0">Left staff</option>
 					</select>
 					<select name="limit" id="limit" required>
 						<option value="" disabled selected hidden>Limit</option>
@@ -58,22 +52,32 @@
 						<td>Contact Info</td>
 						<td>Email</td>
 						<td>Salary</td>
+						<td>Status</td>
 						<td colspan="2">Actions</td>
 					</thead>
 					<tr th:each="stf : ${staffs}">
 						<td>[[${stf.get("emp_id")}]]</td>
-						<td class="button"> <a th:href="@{'/staff/profile/'+${stf.get('UID')}}">[[${stf.get("name")}]]</a></td>
+						<td class="highlight"> <a th:href="@{'/staff/profile/'+${stf.get('UID')}}">[[${stf.get("name")}]]</a></td>
 						<td>[[${stf.get("phone_1")}]]</td>
 						<td>[[${stf.get("email")}]]</td>
 						<td>[[${stf.get("salary")}]]</td>
+						<td>Working</td>
 						<td class="button"> <a th:href="@{'/staff/edit/'+${stf.get('UID')}}">Edit</a> </td>
-						<td class="button"><a th:href="@{'/staff/delete/'+${stf.get('emp_id')}}">Delete</a></td>
+						<td class="button"><a th:href="@{'/staff/delete/'+${stf.get('UID')}}" onclick="return confirmSubmission()">Delete</a></td>
 					</tr>
 				</table>
 			</div>
 		</div>
 	</div>
 	<footer th:replace="components/footer :: footer"></footer>
+	<script>
+        var confirmSubmission = function () {
+            if (!confirm("make sure you have deleted this employee from all his departments")) {
+                return false;
+            }
+            return true;
+        }
+    </script>
 </body>
 
 </html>

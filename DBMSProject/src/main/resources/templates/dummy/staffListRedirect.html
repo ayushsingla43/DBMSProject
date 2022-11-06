@@ -10,18 +10,17 @@
 
 <body>
     <div id="switch">[[${switch}]]</div>
-    <form th:if="${switch}==0" name="form1" th:action="@{/staff/list}" method="post">
+    <form th:if="${switch}==0" name="form1" th:action="@{'/staff/dept/'+${dept}}" method="post">
         <input name="message" th:value="${message}">
-        <input name="emp_id" value="">
-		<input name="name" value="">
-        <input name="dept" value="">
-        <input name="curr" value="1">
-        <input name="limit" value="50">
+        <input name="show" value="1">
         <input type="submit">
     </form>
-    <form th:if="${switch}==1" name="form2" th:action="@{'/staff/dept/'+${dept}}" method="post">
+    <form th:if="${switch}==1" name="form2" th:action="@{/staff/assign}" method="post">
+        <input name="emp_id" th:value="${emp_id}">
+        <input name="class_" value="">
+        <input name="section" value="">
         <input name="dept" th:value="${dept_name}">
-        <input name="show" value="1">
+        <input name="limit" value="100">
         <input name="message" th:value="${message}">
         <input type="submit">
     </form>

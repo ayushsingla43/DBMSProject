@@ -51,7 +51,7 @@ public class coursesdao {
     }
 
     public List<Map<String,Object>> assignquery(String emp_id,String class_,String section,String dept,String limit){
-        String query="select stf.emp_id as emp_id,stf.name as name, crs.class_no as class_no,crs.section_no as section_no, crs.dept_name as dept_name from courses as crs natural join staff as stf";
+        String query="select stf.emp_id as emp_id,stf.name as name, crs.class_no as class_no,crs.section_no as section_no, crs.dept_name as dept_name,stf.UID as UID from courses as crs natural join staff as stf";
 
         query+=" where crs.session_no="+currentsession();
 

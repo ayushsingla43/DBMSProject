@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" th:href="@{/styles/list.css}">
+    <link rel="stylesheet" href="/bootstrap/bootstrap.css">
+	<script href="/bootstrap/bootstrap.js"></script>
     <title>Student_List</title>
 </head>
 
@@ -71,7 +73,7 @@
                                 <input type="hidden" name="stud_section" th:value='${stud.get("section")}'>
                                 <input type="hidden" name="stud_subject" th:value='${css}'>
                                 <input type="hidden" name="stud_marks" th:value='${stud.get("marks")}'>
-                                <input type="submit" value="Edit">
+                                <input class="button" type="submit" value="Edit">
                             </form>
                         </td>
                     </tr>

@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" th:href="@{/styles/list.css}">
+    <link rel="stylesheet" href="/bootstrap/bootstrap.css">
+	<script href="/bootstrap/bootstrap.js"></script>
     <title>Assigned Teachers</title>
 </head>
 
@@ -53,7 +55,7 @@
                     </thead>
                     <tr th:each="asn : ${assign}">
                         <td>[[${asn.get("class_no")}]] - [[${asn.get("section_no")}]]</td>
-                        <td>[[${asn.get("dept_name")}]]</td>
+                        <td><a class="button" th:href="@{'/staff/dept/'+${asn.get('dept_name')}}">[[${asn.get("dept_name")}]]</a></td>
                         <td>[[${asn.get("emp_id")}]]</td>
                         <td>[[${asn.get("name")}]]</td>
                         <td>
@@ -63,7 +65,7 @@
                             <input type="hidden" name="section_no" th:value='${asn.get("section_no")}'>
                             <input type="hidden" name="dept_name" th:value='${asn.get("dept_name")}'>
                             <input type="hidden" name="name" th:value='${asn.get("name")}'>
-                            <input type="submit" value="Edit">
+                            <input class="button" type="submit" value="Edit">
                         </form>
                         </td>
                     </tr>

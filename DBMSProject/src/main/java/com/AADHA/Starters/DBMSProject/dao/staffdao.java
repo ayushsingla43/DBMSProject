@@ -18,13 +18,11 @@ public class staffdao {
         this.jdbc=j;
     }
 
-    public List<Map<String,Object>> listquery(String emp_id, String name, String session, String dept, String class_, String section, String limit){
-        String query="select distinct emp_id,name,phone_1,email,salary,UID from staff";
+    public List<Map<String,Object>> listquery(String emp_id, String name, String dept,String curr, String limit){
+        String query="select distinct emp_id,name,phone_1,email,salary,UID,curr from staff";
         Boolean wr=false;
 
         if (!dept.equals("")) query+=" natural join works_in";
-        if(!session.equals("") || !class_.equals("") || !section.equals("")) query+=" natural join courses";
-
         if (!emp_id.equals("")){
             if(wr==false){
                 query+=" where";
@@ -41,37 +39,21 @@ public class staffdao {
             else query+=" and";
             query+=" name='"+name+"'";
         }
-        if (!session.equals("")){
-            if(wr==false){
-                query+=" where";
-                wr=true;
-            }
-            else query+=" and";
-            query+=" session_no="+session;
-        }
         if (!dept.equals("")){
             if(wr==false){
                 query+=" where";
                 wr=true;
             }
             else query+=" and";
-            query+=" dept_name='"+dept+"'";
+            query+=" leaving_date='' and dept_name='"+dept+"'";
         }
-        if (!class_.equals("")){
+        if (!curr.equals("")){
             if(wr==false){
                 query+=" where";
                 wr=true;
             }
             else query+=" and";
-            query+=" class_no="+class_;
-        }
-        if (!section.equals("")){
-            if(wr==false){
-                query+=" where";
-                wr=true;
-            }
-            else query+=" and";
-            query+=" section_no="+section;
+            query+=" curr="+curr;
         }
         query+=" limit "+limit;
         List<Map<String,Object>> res=jdbc.queryForList(query);

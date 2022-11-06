@@ -24,37 +24,22 @@ public class list {
     @GetMapping("/staff/list")
     public ModelAndView teachersearch(){
         ModelAndView mv=new ModelAndView("staffList.html");
-        classdao cls = new classdao(j);
-        coursesdao crs =new coursesdao(j);
         deptdao dep = new deptdao(j);
-        List<String> class_no = cls.Classes();
-        List<String> section_no = cls.Sections();
-        List<String>ssns=crs.sessions();
         List<String>depts=dep.getAllDepts();
-        mv.addObject("ssns",ssns); 
-        mv.addObject("class",class_no);
-        mv.addObject("section",section_no);
         mv.addObject("depts",depts);
         return mv;
     }
 
     @PostMapping("/staff/list")
-    public ModelAndView teacherlist(String emp_id,String name,String session,String dept,String class_,String section,String limit){
+    public ModelAndView teacherlist(String emp_id,String name,String dept,String curr,String limit,String message){
         ModelAndView mv=new ModelAndView("staffList.html");
-        classdao cls = new classdao(j);
-        coursesdao crs =new coursesdao(j);
         deptdao dep = new deptdao(j);
         staffdao staf=new staffdao(j);
-        List<String> class_no = cls.Classes();
-        List<String> section_no = cls.Sections();
-        List<String>ssns=crs.sessions();
         List<String>depts=dep.getAllDepts();
-        List<Map<String,Object>> staffs= staf.listquery(emp_id,name,session,dept,class_,section,limit);
-        mv.addObject("ssns",ssns); 
-        mv.addObject("class",class_no);
-        mv.addObject("section",section_no);
+        List<Map<String,Object>> staffs= staf.listquery(emp_id,name,dept,curr,limit);
         mv.addObject("depts",depts);
         mv.addObject("staffs",staffs);
+        mv.addObject("message", message);
         return mv;
     }
 
@@ -100,7 +85,7 @@ public class list {
     }
 
     @PostMapping("/staff/assign")
-    public ModelAndView assign(String emp_id,String class_,String section,String dept,String limit){
+    public ModelAndView assign(String emp_id,String class_,String section,String dept,String limit,String message){
         ModelAndView mv=new ModelAndView("staffAssign.html");
         classdao cls = new classdao(j);
         coursesdao crs=new coursesdao(j);
@@ -112,6 +97,7 @@ public class list {
         mv.addObject("section", section_no);
         mv.addObject("class", class_no);
         mv.addObject("department",department);
+        mv.addObject("message", message);
         return mv;
     }
 }

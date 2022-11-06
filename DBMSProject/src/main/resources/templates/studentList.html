@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" th:href="@{/styles/list.css}">
+    <link rel="stylesheet" href="/bootstrap/bootstrap.css">
+    <script href="/bootstrap/bootstrap.js"></script>
     <title>Student List</title>
 </head>
 
@@ -54,7 +56,7 @@
                     </thead>
                     <tr th:each="stud : ${students}">
                         <td>[[${stud.get("SRN")}]]</td>
-                        <td class="button"><a
+                        <td class="highlight"><a
                                 th:href="'/student/profile/'+${stud.get('UID')}">[[${stud.get("name")}]]</a></td>
                         <td>[[${stud.get("phone_1")}]]</td>
                         <td>[[${stud.get("class_no")}]]-[[${stud.get("section_no")}]]</td>
@@ -67,7 +69,6 @@
             </div>
         </div>
     </div>
-
     <footer th:replace="components/footer :: footer"></footer>
     <script>
         var confirmSubmission = function () {
@@ -77,9 +78,6 @@
             return true;
         }
     </script>
-
 </body>
-
-
 
 </html>

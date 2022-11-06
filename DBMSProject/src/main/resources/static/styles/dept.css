@@ -1,0 +1,131 @@
+@import "nav.css";
+@import "footer.css";
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0;
+    min-height: 100vh;
+    justify-content: space-between;
+    /* background-color: #eeebc5; */
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+
+    width: auto;
+}
+h1 {
+   padding-top: 3%;
+    text-align: center;
+}
+.main_details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.details_table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.details_table table {
+    width: 90%;
+    border-collapse: collapse;
+}
+
+.details_table {
+
+    align-self: center;
+}
+
+
+.details_table thead td {
+    font-weight: bold;
+}
+
+
+.details_table thead,
+tr,
+td {
+
+    align-self: center;
+    border: 1px solid black;
+    border-collapse: separate;
+    font-size: 15pt;
+
+}
+
+
+.details_table td {
+    text-align: center;
+    padding: 1%;
+    min-width: 100px;
+    /* border: 1px solid black !important; */
+}
+
+.highlight:hover {
+
+    color: blue !important;
+}
+
+
+.button:hover {
+    background-color: rgb(39, 130, 209);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.my_table {
+    padding: 0px;
+    margin: 10px 0px 30px 0px !important;
+    
+}
+
+.my_table td {
+    padding: 0px 10px 0px 10px !important;
+   
+    
+}
+
+input,
+select {
+    background: transparent;
+    border: none;
+    border-bottom: 1.5px solid rgba(0, 0, 0, .4);
+    font-size: 12pt;
+}
+
+form {
+    display: flex;
+    padding: 20px 0px 20px 0px;
+}
+
+.submit_button {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 8px 45%;
+    font-size: 15px;
+    padding: 5px;
+    background-color: #0b5f9b;
+}
+
+.submit_button:hover {
+   
+    cursor: pointer;
+    background-color: #0b5f9b;
+}

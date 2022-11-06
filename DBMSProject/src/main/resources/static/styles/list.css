@@ -59,7 +59,7 @@ body {
 }
 
 .details_table table {
-    width: 80%;
+    width: 90%;
     border-collapse: collapse;
 }
 
@@ -70,13 +70,6 @@ body {
     min-width: 10px;
     max-width: 200px;
 }
-
-/* td {
-    font-weight: 500;
-    font-size: 15pt;
-    min-width: 80px;
-    max-width: 150px;
-} */
 
 
 .details_table {
@@ -96,7 +89,7 @@ td {
    
     align-self: center;
     border: 1px solid black;
-    border-collapse: collapse;
+    border-collapse:separate;
     font-size: 15pt;
 
 }
@@ -105,33 +98,9 @@ td {
 .details_table td {
     text-align: center;
     padding: 1%;
+    min-width:100px;
+    /* border: 1px solid black !important; */
 }
-
-
-/* .details-2 {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 5%;
-}
-
-.attribute {
-    min-width: 200px;
-    max-width: 300px;
-    padding: 10px;
-}
-
-.value {
-    max-width: 300px;
-    padding: 10px;
-} */
-
-/* .details-1 table {
-    min-width: 150%;
-    max-width: 270%;
-} */
-
 input,
 select {
     background: transparent;
@@ -154,8 +123,6 @@ a {
 
 
 .button:hover {
-    border: 1px solid black;
-    border-radius: 5px;
     background-color: rgb(39, 130, 209);
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }

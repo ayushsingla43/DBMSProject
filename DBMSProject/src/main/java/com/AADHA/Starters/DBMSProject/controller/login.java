@@ -1,5 +1,6 @@
 package com.AADHA.Starters.DBMSProject.controller;
 
+import com.AADHA.Starters.DBMSProject.dao.classdao;
 import com.AADHA.Starters.DBMSProject.dao.deptdao;
 import com.AADHA.Starters.DBMSProject.dao.getAuthority;
 import com.AADHA.Starters.DBMSProject.dao.staffdao;
@@ -40,11 +41,14 @@ public class login {
         studentdao sdao = new studentdao(j);
         student stu = sdao.getStudentByUID(principal.getName());
         deptdao dptd = new deptdao(j);
+        classdao class_=new classdao(j);
+
         List<String> depts = dptd.getAllDepts();
         session.setAttribute("depts", depts);
         session.setAttribute("student", stu);
         session.setAttribute("UID", stu.getUID());
         session.setAttribute("authority",1);
+        session.setAttribute("classes", class_.allclass());
         mv.addObject("User", stu);
         return mv;
     }
@@ -63,10 +67,12 @@ public class login {
         Principal principal = request.getUserPrincipal();
         staff stf = Sdao.getStaffByUID(principal.getName());
         List<String> depts = dptd.getAllDepts();
+        classdao class_=new classdao(j);
         session.setAttribute("depts", depts);
         session.setAttribute("staff", stf);
         session.setAttribute("UID", stf.getUID());
         session.setAttribute("authority", gA.Autority(stf));
+        session.setAttribute("classes", class_.allclass());
         mv.addObject("User", stf);
         return mv;
     }

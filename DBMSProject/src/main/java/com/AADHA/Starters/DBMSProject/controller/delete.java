@@ -15,6 +15,7 @@ import com.AADHA.Starters.DBMSProject.dao.coursesdao;
 import com.AADHA.Starters.DBMSProject.dao.staffdao;
 import com.AADHA.Starters.DBMSProject.dao.studentdao;
 import com.AADHA.Starters.DBMSProject.dao.workindao;
+import com.AADHA.Starters.DBMSProject.model.staff;
 import com.AADHA.Starters.DBMSProject.model.student;
 
 @Controller
@@ -38,37 +39,47 @@ public class delete {
         return mv;
     }
 
-    @RequestMapping("/staff/delete/{emp_id}")
-    public String deletestaff(@PathVariable String emp_id){
-        staffdao stf=new staffdao(j);
-        List<Map<String,Object>> check=stf.checkdept(emp_id);
+    @RequestMapping("/staff/delete/{UID}")
+    public ModelAndView deletestaff(@PathVariable String UID){
+        ModelAndView mv=new ModelAndView("dummy/deptRedirect.html");
+        staffdao stfd=new staffdao(j);
+        staff stf = stfd.getStaffByUID(UID);
+        List<Map<String,Object>> check=stfd.checkdept(String.valueOf(stf.getEmp_id()));
         if (check!=null){
             for(Map<String,Object> x : check){
-                return "redirect:/staff/dept/"+String.valueOf(x.get("dept_name"));
+                mv.addObject("switch", 1);
+                mv.addObject("message","you have to delete employee "+String.valueOf(stf.getEmp_id())+ " from this department first");
+                mv.addObject("dept", String.valueOf(x.get("dept_name")));
             }
         }
         else{
-            stf.deletestaff(emp_id);
-            return "redirect:/staff/list";
+            mv.addObject("switch", 0);
+            mv.addObject("message", "employee "+String.valueOf(stf.getEmp_id())+" is deleted");
+            stfd.deletestaff(String.valueOf(stf.getEmp_id()));
         }
-        return "";
+        return mv;
     }
 
-    @RequestMapping("/staff/delete2/{emp_id}/{dept_name}")
-    public ModelAndView deletestaff(@PathVariable String emp_id,@PathVariable String dept_name){
-        ModelAndView mv=new ModelAndView();
-        coursesdao stf=new coursesdao(j);
+    @RequestMapping("/staff/dept/{dept_name}/delete/{UID}")
+    public ModelAndView deletestaff(@PathVariable String UID,@PathVariable String dept_name){
+        ModelAndView mv=new ModelAndView("dummy/staffListRedirect.html");
+        coursesdao crs=new coursesdao(j);
         workindao wkn=new workindao(j);
-        boolean check=stf.checktech(emp_id, dept_name);
+        staffdao stfd = new staffdao(j);
+        staff stf = stfd.getStaffByUID(UID);
+        boolean check=crs.checktech(String.valueOf(stf.getEmp_id()), dept_name);
         if (check){
-            mv.setViewName("autosubmit.html");
             mv.addObject("dept_name", dept_name);
-            mv.addObject("emp_id", emp_id);
+            mv.addObject("emp_id", String.valueOf(stf.getEmp_id()));
+            mv.addObject("switch", 1);
+            mv.addObject("message", "Reassign these classes before deleting employee "+String.valueOf(stf.getEmp_id()));
             return mv;
         }
         else{
-            wkn.removestaff(emp_id,dept_name);
-            mv.setViewName("redirect:/staff/list");
+            wkn.removestaff(String.valueOf(stf.getEmp_id()),dept_name);
+            mv.addObject("message","Employee "+String.valueOf(stf.getEmp_id())+" deleted successfully");
+            mv.addObject("dept",dept_name);
+            mv.addObject("switch", 0);
             return mv;
         }
     }

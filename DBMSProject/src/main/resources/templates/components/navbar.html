@@ -26,14 +26,20 @@
                     <a th:href="@{/staff/assign}">Assigned Teachers</a>
                 </span>
             </div>
-            <div class="item hover-underline-animation">
-                <a th:href="@{/staff/list}">Staff List</a>
+            <div class="dropdown">
+                <a class="dropbtn">Class</a>
+                <div class="dropdown-content">
+                    <a class="first" th:each="class:${session.classes}" th:href="@{'/staff/class/' +${class.get('class_no')}}+'-'+${class.get('section_no')}" method="get">Class [[${class.get('class_no')}]]-[[${class.get('section_no')}]]</a>
+                </div>
             </div>
             <div class="dropdown">
                 <a class="dropbtn">Departments</a>
                 <div class="dropdown-content">
                     <a class="first" th:each="dept:${session.depts}" th:href="@{'/staff/dept/' +${dept}}" method="get">[[${dept}]]</a>
                 </div>
+            </div>
+            <div class="item hover-underline-animation">
+                <a th:href="@{/staff/list}">Staff List</a>
             </div>
             <div class="item hover-underline-animation">
                 <a th:href="@{/student/list}">Student List</a>
