@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Alumni</title>
+</head>
+<body>
+    <h1>Alumnis</h1>
+    <button th:if="${session.authority>=2}" onclick="func()">Click to edit!</button>
+    <div id="hidden" style="display: none;">
+        <form th:action="@{/staff/alumni/edit}" method="post">
+            <input type="number" name="del_SRN" placeholder="Delete SRN"><br>
+            <input type="number" name="add_SRN" placeholder="Insert SRN"><br>
+            <input type="submit">
+        </form>
+    </div>
+    <p th:if="${message!=null}" style="color: red;">[[${message}]]</p>
+    <div th:each="alu:${Alumnis}">
+        <div>SRN: [[${alu.getSRN()}]]</div>
+        <div>Name: [[${alu.getName()}]]</div>
+        <div>Gender: [[${alu.getGender()}]]</div>
+        <div>Email: [[${alu.getEmail()}]]</div>
+        <div>Last Class: [[${alu.getLast_class()}]]</div>
+        <div>Leave Year: [[${alu.getLeave_year()}]]</div>
+        <div>Admission Date: [[${alu.getAdmission_date()}]]</div>
+        <div>Phones: [[${alu.getPhone_1()}]] , [[${alu.getPhone_2()}]]</div>
+        <div>Photo: [[${alu.getPhoto()}]]</div>
+    </div>
+</body>
+
+<script>
+    let func=function(){
+        let divEl = document.getElementById("hidden");
+        divEl.style.display = "block";
+    }
+</script>
+</html>

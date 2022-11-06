@@ -16,7 +16,6 @@ import com.AADHA.Starters.DBMSProject.dao.classdao;
 import com.AADHA.Starters.DBMSProject.dao.coursesdao;
 import com.AADHA.Starters.DBMSProject.dao.staffdao;
 import com.AADHA.Starters.DBMSProject.dao.studentdao;
-import com.AADHA.Starters.DBMSProject.dao.workindao;
 import com.AADHA.Starters.DBMSProject.model.staff;
 import com.AADHA.Starters.DBMSProject.model.student;
 
@@ -107,27 +106,21 @@ public class edit {
         mv.addObject("message", "edited successfully");
         return mv;
     }
-    
-    @PostMapping("/staff/assign/change")
-    public ModelAndView staffassignedit(String emp_id,String class_no,String section_no,String dept_name,String name){
-        ModelAndView mv=new ModelAndView("staffAssignEdit.html");
-        Map<String,Object>asn=new HashMap<String,Object>();
-        asn.put("emp_id",emp_id);
-        asn.put("class_no",class_no);
-        asn.put("section_no",section_no);
-        asn.put("dept_name",dept_name);
-        asn.put("name",name);
-        workindao wkn=new workindao(j);
-        List<Map<String,Object>> staff=wkn.allemp(dept_name);
-        mv.addObject("staff",staff);
-        mv.addObject("asn",asn);
-        return mv;
-    }
 
-    @PostMapping("/staff/assign/change2")
-    public String redirect(String emp_id,String class_no,String section_no,String dept_name,String new_emp){
+    @PostMapping("/staff/assign/edit")
+    public ModelAndView staffAssignEdit(String class_no,String section_no,String dept_name,String new_emp,String fil_emp_id,String fil_class_no,String fil_section_no,String fil_dept_name,String fil_limit){
+        ModelAndView mv = new ModelAndView("dummy/staffAssignRedirect.html");
         coursesdao crs=new coursesdao(j);
         crs.updateassign(class_no, section_no, dept_name, new_emp);
-        return "redirect:/staff/assign";
+        Map<String,Object> filter = new HashMap<String,Object>() {{
+            put("emp_id",fil_emp_id);
+            put("class_",fil_class_no);
+            put("section",fil_section_no);
+            put("dept",fil_dept_name);
+            put("limit",fil_limit);
+        }};
+        mv.addObject("message", "Department "+dept_name+" for class "+class_no+"-"+section_no+" is reassigned to employee "+new_emp);
+        mv.addObject("filter", filter);
+        return mv;
     }
 }

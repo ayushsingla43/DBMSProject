@@ -35,6 +35,7 @@ public class delete {
         alumnidao adao = new alumnidao(j);
         adao.addAlumini(stu.getSRN(), stu.getClass_no(), Integer.parseInt(session_no), stu.getName(), stu.getAdmission_date(),
         stu.getEmail(), stu.getPhone_1(), stu.getPhone_2(), stu.getPhoto(), stu.getGender(), stu.getAadhar_no());
+        adao.updateShowAlumni(null,Integer.parseInt(UID.substring(3)));
         ModelAndView mv = new ModelAndView("studentList.html");
         return mv;
     }

@@ -1,5 +1,6 @@
 package com.AADHA.Starters.DBMSProject.controller;
 
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -15,6 +16,7 @@ import com.AADHA.Starters.DBMSProject.dao.deptdao;
 import com.AADHA.Starters.DBMSProject.dao.staffdao;
 import com.AADHA.Starters.DBMSProject.dao.classdao;
 import com.AADHA.Starters.DBMSProject.dao.studentdao;
+import com.AADHA.Starters.DBMSProject.dao.workindao;
 
 @Controller
 public class list {
@@ -89,10 +91,23 @@ public class list {
         ModelAndView mv=new ModelAndView("staffAssign.html");
         classdao cls = new classdao(j);
         coursesdao crs=new coursesdao(j);
+        workindao wrkd = new workindao(j);
         List<String> class_no = cls.Classes();
         List<String> section_no = cls.Sections();
         List<String> department=crs.Courses();
         List<Map<String,Object>> assign=crs.assignquery(emp_id, class_, section, dept, limit);
+        Map<String,Object> filter = new HashMap<String,Object>() {{
+            put("emp_id",emp_id);
+            put("class_",class_);
+            put("section",section);
+            put("dept",dept);
+            put("limit",limit);
+        }};
+        for(Map<String,Object> mp:assign){
+            List<String> emps=wrkd.allemp2(String.valueOf(mp.get("dept_name")));
+            mp.put("emps", emps);
+        }
+        mv.addObject("filter", filter);
         mv.addObject("assign", assign);
         mv.addObject("section", section_no);
         mv.addObject("class", class_no);

@@ -15,7 +15,10 @@
 	<div>
 		<nav th:replace="components/navbar :: navbar"></nav>
 		<div class="insert_button">
-			<a href="#" th:href="@{/staff/add}">Insert</a><br>
+			<div>
+				<a href="#" th:href="@{/staff/add}">Insert</a>
+			</div>
+			<br>
 		</div>
 		<h3 th:if="${message!=null}">[[${message}]]</h3>
 		<br>

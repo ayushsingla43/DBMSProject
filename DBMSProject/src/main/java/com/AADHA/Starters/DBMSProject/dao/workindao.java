@@ -1,5 +1,6 @@
 package com.AADHA.Starters.DBMSProject.dao;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
@@ -24,6 +25,14 @@ public class workindao {
         String query="select emp_id,name,phone_1,joining_date,leaving_date,UID from staff as stf natural join works_in as wn where wn.dept_name='"+dept+"'";
         List<Map<String,Object>>res=jdbc.queryForList(query);
         return res;
+    }
+
+    public List<String> allemp2(String dept){
+        String query = "select emp_id from works_in where dept_name=?";
+        List<Map<String,Object>>res=jdbc.queryForList(query,dept);
+        List<String> emps=new ArrayList<String>();
+        for(Map<String,Object> mp:res) emps.add(String.valueOf(mp.get("emp_id")));
+        return emps;
     }
 
     public List<Map<String,Object>> alldept(Integer emp_id){

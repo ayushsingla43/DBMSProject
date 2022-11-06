@@ -80,7 +80,7 @@ a {
 .dropdown {
     position: relative;
     display: inline-block;
-    padding-bottom: 2px;
+    padding-bottom: 0px;
     border-radius: 5px;
 }
 
@@ -103,7 +103,8 @@ a {
 
     margin-bottom: 2px;
     display: flex;
-    max-height: 500px;
+    min-width: 110px !important;
+    max-height: 300px;
     overflow-y: auto;
     /* overflow-x: hidden; */
     /* padding: 0px 38px 0px 38px; */

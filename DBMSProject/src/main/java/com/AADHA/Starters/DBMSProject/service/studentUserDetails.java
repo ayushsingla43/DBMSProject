@@ -2,12 +2,8 @@ package com.AADHA.Starters.DBMSProject.service;
 
 import com.AADHA.Starters.DBMSProject.model.student;
 import org.springframework.security.core.GrantedAuthority;
-import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
-
-import java.util.ArrayList;
 import java.util.Collection;
-import java.util.List;
 
 public class studentUserDetails implements UserDetails {
     private student stu;

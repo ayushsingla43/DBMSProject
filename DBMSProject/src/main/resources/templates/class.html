@@ -1,44 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/dept.css">
+    <link rel="stylesheet" href="/bootstrap/bootstrap.css">
+    <script href="/bootstrap/bootstrap.js"></script>
     <title>Class [[${class.get("class_no")}]]-[[${class.get("section_no")}]]</title>
 </head>
+
 <body>
     <h3 th:if="${message!=null}">[[${message}]]</h3>
-    <h1>Class [[${class.get("class_no")}]]-[[${class.get("section_no")}]]</h1>
-    <table>
-        <tr>
-            <td>Floor No. :</td>
-            <td>[[${class.get("floor_no")}]]</td>
-        </tr>
-        <tr>
-            <td>Room No. : </td>
-            <td>[[${class.get("room_no")}]]</td>
-        </tr>
-        <tr>
-            <td>Incharge:</td>
-            <td>[[${class.get("name")}]]</td>
-        </tr>
-        <tr>
-            <td>Contact Details:</td>
-            <td>[[${class.get("phone_1")}]]</td>
-        </tr>
-    </table>
-
-    <table>
-        <thead>
-            <td>Emplyee ID</td>
-            <td>Name</td>
-            <td>Subject</td>
-        </thead>
-        <tr th:each="subject:${subjects}">
-            <td>[[${subject.get("emp_id")}]]</td>
-            <td class="button"> <a th:href="@{'/staff/profile/'+${subject.get('UID')}}">[[${subject.get("name")}]]</a></td>
-            <td>[[${subject.get("dept_name")}]]</td>
-        </tr>
-    </table>
+    <div>
+        <nav th:replace="components/navbar :: navbar"></nav>
+        <div class="content">
+            <div class="container">
+                <h1>Class [[${class.get("class_no")}]] - [[${class.get("section_no")}]]</h1>
+                <div class="main_details">
+                    <table class="my_table">
+                        <tr>
+                            <td>Floor No :</td>
+                            <td>[[${class.get("floor_no")}]]</td>
+                        </tr>
+                        <tr>
+                            <td>Room No : </td>
+                            <td>[[${class.get("room_no")}]]</td>
+                        </tr>
+                        <tr>
+                            <td>Incharge :</td>
+                            <td>[[${class.get("name")}]]</td>
+                        </tr>
+                        <tr>
+                            <td>Contact Details :</td>
+                            <td>[[${class.get("phone_1")}]]</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="details_table">
+                <table>
+                    <thead>
+                        <td>Emplyee ID</td>
+                        <td>Name</td>
+                        <td>Subject</td>
+                    </thead>
+                    <tr th:each="subject:${subjects}">
+                        <td>[[${subject.get("emp_id")}]]</td>
+                        <td class="highlight"> <a
+                                th:href="@{'/staff/profile/'+${subject.get('UID')}}">[[${subject.get("name")}]]</a></td>
+                        <td>[[${subject.get("dept_name")}]]</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    </div>
+    <footer th:replace="components/footer :: footer"></footer>
 </body>
+
 </html>

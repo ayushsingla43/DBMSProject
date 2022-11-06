@@ -44,7 +44,7 @@ public class staffSecurityConfig {
                 .loginPage("/staffLogin")
                 .usernameParameter("UID")
                 .loginProcessingUrl("/staff/login")
-                .defaultSuccessUrl("/staff/home")
+                .defaultSuccessUrl("/staff/home",true)
                 .failureUrl("/staff/login")
                 .permitAll()
                 .and()

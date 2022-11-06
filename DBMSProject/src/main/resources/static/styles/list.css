@@ -19,13 +19,25 @@ body {
 
 
 .insert_button {
+    
+    margin: 1%;
     display: flex;
     align-self: center;
     flex-direction: row-reverse;
     vertical-align: bottom;
-    margin-right: 2%;
-    font-size: 170%;
-    color: #b90bad;
+    
+}
+.insert_button div {
+
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #0b5f9b;
+    text-align: center;
+    max-width: max-content;
+    max-height: max-content;
+    padding: 0px 5px 0px 5px;
+    font-weight: 400;
+    font-size: 15pt;
 
 }
 

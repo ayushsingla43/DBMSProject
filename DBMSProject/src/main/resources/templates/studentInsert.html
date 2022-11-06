@@ -48,8 +48,7 @@
 						</div>
 						<div class="block">
 							<div class="form-floating col-md-4 my_input">
-								<input type="text" class="form-control" id="Std_aadhar" name="std_aadhar"
-									placeholder="Aadhar Number" required>
+								<input type="text" class="form-control" id="Std_aadhar" name="std_aadhar"  placeholder="Aadhar Number" required>
 								<label for="Aadhar Number">Aadhar Number</label>
 							</div>
 							<div class="form-floating col-md-4 my_input">
@@ -70,14 +69,14 @@
 							</div>
 							<div class="form-floating col-md-3 my_input">
 								<select name="std_class" class="form-control" id="Std_class" required>
-									<option value="" disabled selected hclass="form-control" idden></option>
+									<option value="" disabled selected hidden></option>
 									<option th:each="cls:${class}" th:value="${cls}" th:text="${cls}"></option>
 								</select>
 								<label for="Class">Class</label>
 							</div>
 							<div class="form-floating col-md-3 my_input">
 								<select name="std_section" class="form-control" id="Std_section" required>
-									<option value="" disabled selected hclass="form-control" idden></option>
+									<option value="" disabled selected hidden></option>
 									<option th:each="sec:${section}" th:value="${sec}" th:text="${sec}"></option>
 								</select>
 								<label for="Section">Select Section</label>
@@ -130,10 +129,6 @@
 		</div>
 		<footer th:replace="components/footer :: footer"></footer>
 	</div>
-	<!-- <div th:replace="components/bootstrap :: bootstrap"></div> -->
-
 </body>
-
-
 
 </html>

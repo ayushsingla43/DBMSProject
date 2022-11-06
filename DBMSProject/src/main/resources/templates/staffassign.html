@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" th:href="@{/styles/list.css}">
     <link rel="stylesheet" href="/bootstrap/bootstrap.css">
-	<script href="/bootstrap/bootstrap.js"></script>
+    <script href="/bootstrap/bootstrap.js"></script>
     <title>Assigned Teachers</title>
 </head>
 
@@ -29,7 +29,7 @@
                         <option value="">Select Section</option>
                         <option th:each="sec:${section}" th:value="${sec}" th:text="${sec}"></option>
                     </select>
-                    <select name ="dept" >
+                    <select name="dept">
                         <option value="">Select Department</option>
                         <option th:each="dprt:${department}" th:value="${dprt}" th:text="${dprt}"></option>
                     </select>
@@ -56,18 +56,23 @@
                     <tr th:each="asn : ${assign}">
                         <td>[[${asn.get("class_no")}]] - [[${asn.get("section_no")}]]</td>
                         <td><a class="button" th:href="@{'/staff/dept/'+${asn.get('dept_name')}}">[[${asn.get("dept_name")}]]</a></td>
-                        <td>[[${asn.get("emp_id")}]]</td>
                         <td>[[${asn.get("name")}]]</td>
-                        <td>
-                        <form th:action="@{/staff/assign/change}" method="Post">
-                            <input type="hidden" name="emp_id" th:value='${asn.get("emp_id")}'>
+                        <form th:action="@{/staff/assign/edit}" method="Post">
                             <input type="hidden" name="class_no" th:value='${asn.get("class_no")}'>
                             <input type="hidden" name="section_no" th:value='${asn.get("section_no")}'>
                             <input type="hidden" name="dept_name" th:value='${asn.get("dept_name")}'>
                             <input type="hidden" name="name" th:value='${asn.get("name")}'>
-                            <input class="button" type="submit" value="Edit">
+                            <input type="hidden" name="fil_emp_id" th:value='${filter.get("emp_id")}'>
+                            <input type="hidden" name="fil_class_no" th:value='${filter.get("class_")}'>
+                            <input type="hidden" name="fil_section_no" th:value='${filter.get("section")}'>
+                            <input type="hidden" name="fil_dept_name" th:value='${filter.get("dept")}'>
+                            <input type="hidden" name="fil_limit" th:value='${filter.get("limit")}'>
+                            <td><select name="new_emp" class="list">
+                                <option th:value="${asn.get('emp_id')}" selected hidden>[[${asn.get("emp_id")}]]</option>
+                                <option th:each="emp:${asn.get('emps')}" th:value="${emp}" th:text="${emp}"></option>
+                            </select></td>
+                            <td><input class="button" type="submit" value="Edit"></td>
                         </form>
-                        </td>
                     </tr>
                 </table>
             </div>
