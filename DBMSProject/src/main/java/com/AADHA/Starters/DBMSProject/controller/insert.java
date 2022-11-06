@@ -93,8 +93,7 @@ public class insert {
         int length = 8;
         StringBuilder buffer = new StringBuilder(length);
         for (int i = 0; i < length; i++) {
-            int randomLimitedint = leftLimit + (int)
-                    (random.nextFloat() * (rightLimit - leftLimit + 1));
+            int randomLimitedint = leftLimit + (int)(random.nextFloat() * (rightLimit - leftLimit + 1));
             buffer.append((char) randomLimitedint);
         }
         String password = buffer.toString();

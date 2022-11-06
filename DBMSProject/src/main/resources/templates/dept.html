@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>[[${dept.getDept_name()}]]</title>
 </head>
+
 <body>
+    <h3 th:if="${message!=null}">[[${message}]]</h3>
     <h1>[[${dept.getDept_name()}]]</h1><br>
     <table>
         <tr>
@@ -54,18 +57,18 @@
             <td>[[${staff.get("phone_1")}]]</td>
             <td>[[${staff.get("joining_date")}]]</td>
             <td>[[${staff.get("leaving_date")}]]</td>
-            <td><a th:href="@{'/staff/delete2/'+${staff.get('emp_id')}+'/'+ ${dept.getDept_name()}}" onclick="return confirmSubmission()">Remove</a></td>
+            <td><a th:href="@{'/staff/delete2/'+${staff.get('emp_id')}+'/'+ ${dept.getDept_name()}}"onclick="return confirmSubmission()">Remove</a></td>
         </tr>
     </table>
-    
-
 </body>
+
 <script>
-    var confirmSubmission = function(){
-        if(!confirm("Are you sure you want to remove the staff member?")){
+    var confirmSubmission = function () {
+        if (!confirm("Are you sure you want to remove the staff member?")) {
             return false;
         }
         return true;
     }
 </script>
+
 </html>

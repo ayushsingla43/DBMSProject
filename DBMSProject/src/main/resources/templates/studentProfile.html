@@ -14,12 +14,12 @@
 <body>
     <div>
         <nav th:replace="components/navbar :: navbar"></nav>
+        <h3 th:if="${message!=null}">[[${message}]]</h3>
+        <br>
         <div class="profile_info">
-            <!-- div for profile image and some details  -->
             <div class="details-1">
                 <div class="profile_pic">
-                    <!-- for image -->
-                        <img src="https://pbs.twimg.com/media/EjY_lxhUcAAqCde.jpg" alt="img">
+                    <img src="https://pbs.twimg.com/media/EjY_lxhUcAAqCde.jpg" alt="img">
                 </div>
                 <div class="profile_details">
                     <table>
@@ -87,10 +87,7 @@
             </div>
         </div>
     </div>
-
     <footer th:replace="components/footer :: footer"></footer>
 </body>
-
-
 
 </html>

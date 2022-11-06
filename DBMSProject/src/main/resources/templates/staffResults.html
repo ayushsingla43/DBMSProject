@@ -12,27 +12,30 @@
 <body>
     <div>
         <nav th:replace="components/navbar :: navbar"></nav>
-        <br><br>
-        <h2 style="text-align: center; color: crimson; margin-bottom: 12px;" th:if="${message!=null}">[[${message}]]</h2>
+        <br>
+        <h3 th:if="${message!=null}">[[${message}]]</h3>
+        <br>
+        <h2 style="text-align: center; color: crimson; margin-bottom: 12px;" th:if="${message!=null}">[[${message}]]
+        </h2>
         <div class="content">
             <div class="list">
                 <form th:action="@{/staff/results}" method="Post">
                     <input type="text" id="emp_id" name="emp_id" placeholder="Teacher ID" required>
                     <input type="text" id="SRN" name="SRN" placeholder="Student Id">
                     <select name="class_" id="St_class">
-                        <option value="" >Select Class</option>
+                        <option value="">Select Class</option>
                         <option th:each="cls:${class}" th:value="${cls}" th:text="${cls}"></option>
                     </select>
                     <select name="section" id="St_section">
-                        <option value="" >Select Section</option>
+                        <option value="">Select Section</option>
                         <option th:each="sec:${section}" th:value="${sec}" th:text="${sec}"></option>
                     </select>
                     <select name="course" id="St_course" required>
-                        <option value=""disabled selected hidden>Select Course</option>
+                        <option value="" disabled selected hidden>Select Course</option>
                         <option th:each="crs:${course}" th:value="${crs}" th:text="${crs}"></option>
                     </select>
                     <select name="session" id="session" required>
-                        <option value=""disabled selected hidden>Select Session</option>
+                        <option value="" disabled selected hidden>Select Session</option>
                         <option th:each="ses:${session_nos}" th:value="${ses}" th:text="${ses}"></option>
                     </select>
                     <select name="limit" id="limit" required>
@@ -78,4 +81,5 @@
     </div>
     <footer th:replace="components/footer :: footer"></footer>
 </body>
+
 </html>

@@ -1,31 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Edit Results</title>
+	<meta charset="UTF-8">
+	<title>Edit Results</title>
 </head>
+
 <body>
-  <p>SRN: [[${stud_SRN}]]</p>
-  <p>Name: [[${stud_name}]]</p>
-  <p>Class: [[${stud_class}]]-[[${stud_section}]]</p>
-  <p>Subject: [[${stud_subject}]]</p>
-  <form th:action="@{/staff/result/edit2}" method="post" onsubmit="return confirmSubmission()">
-    <input type="hidden" name="stud_SRN" th:value="${stud_SRN}">
-    <input type="hidden" name="stud_name" th:value="${stud_name}">
-    <input type="hidden" name="stud_class" th:value="${stud_class}">
-    <input type="hidden" name="stud_section" th:value="${stud_section}">
-    <input type="hidden" name="stud_subject" th:value="${stud_subject}">
-    <input type="number" name="stud_marks" min="-1" max="100" th:value="${stud_marks}">
-    <input type="submit" value="submit">
-  </form>
+	<h3 th:if="${message!=null}">[[${message}]]</h3>
+	<p>SRN: [[${stud_SRN}]]</p>
+	<p>Name: [[${stud_name}]]</p>
+	<p>Class: [[${stud_class}]]-[[${stud_section}]]</p>
+	<p>Subject: [[${stud_subject}]]</p>
+	<form th:action="@{/staff/result/edit2}" method="post" onsubmit="return confirmSubmission()">
+		<input type="hidden" name="stud_SRN" th:value="${stud_SRN}">
+		<input type="hidden" name="stud_name" th:value="${stud_name}">
+		<input type="hidden" name="stud_class" th:value="${stud_class}">
+		<input type="hidden" name="stud_section" th:value="${stud_section}">
+		<input type="hidden" name="stud_subject" th:value="${stud_subject}">
+		<input type="number" name="stud_marks" min="-1" max="100" th:value="${stud_marks}">
+		<input type="submit" value="submit">
+	</form>
 </body>
 
 <script>
-  var confirmSubmission = function(){
-    if(!confirm("Continue to update the marks?")){
-      return false;
-    }
-    return true;
-  }
+	var confirmSubmission = function () {
+		if (!confirm("Continue to update the marks?")) {
+			return false;
+		}
+		return true;
+	}
 </script>
+
 </html>

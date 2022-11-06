@@ -6,12 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" th:href="@{/styles/profile.css}">
-   <title>Staff Profile</title>
+    <title>Staff Profile</title>
 </head>
 
 <body>
     <div>
         <nav th:replace="components/navbar :: navbar"></nav>
+        <br>
+        <h3 th:if="${message!=null}">[[${message}]]</h3>
+        <br>
         <div class="profile_info">
             <div class="details-1">
                 <div class="profile_pic">
@@ -64,8 +67,7 @@
                     </tr>
                     <tr>
                         <td class="attribute">Address</td>
-                        <td class="value">[[${stf.getStreet()}]], [[${stf.getCity()}]], [[${stf.getState()}]],
-                            [[${stf.getPIN()}]]</td>
+                        <td class="value">[[${stf.getStreet()}]], [[${stf.getCity()}]], [[${stf.getState()}]], [[${stf.getPIN()}]]</td>
                     </tr>
                     <tr>
                         <td class="attribute">Blood Group</td>

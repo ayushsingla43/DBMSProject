@@ -15,7 +15,8 @@
         <div class="insert_button">
             <a href="#" th:href="@{/student/add}">Insert</a><br>
         </div>
-
+        <h3 th:if="${message!=null}">[[${message}]]</h3>
+        <br>
         <div class="content">
             <div class="list">
                 <form th:action="@{/student/list}" method="Post">
@@ -53,12 +54,14 @@
                     </thead>
                     <tr th:each="stud : ${students}">
                         <td>[[${stud.get("SRN")}]]</td>
-                        <td class="button"><a th:href="'/student/profile/'+${stud.get('UID')}">[[${stud.get("name")}]]</a></td>
+                        <td class="button"><a
+                                th:href="'/student/profile/'+${stud.get('UID')}">[[${stud.get("name")}]]</a></td>
                         <td>[[${stud.get("phone_1")}]]</td>
                         <td>[[${stud.get("class_no")}]]-[[${stud.get("section_no")}]]</td>
                         <td class="button"> <a th:href="'/student/results/'+${stud.get('UID')}">Results</a> </td>
-                        <td class="button"> <a th:href="'/staff/student/delete'+${stud.get('UID')}" onclick="return confirmSubmission()">Transfer</a></td>
-                        <td class="button"><a th:href="@{'/student/edit/'+${stud.get('UID')}}">Edit</a></td> 
+                        <td class="button"> <a th:href="'/staff/student/delete'+${stud.get('UID')}"
+                                onclick="return confirmSubmission()">Transfer</a></td>
+                        <td class="button"><a th:href="@{'/student/edit/'+${stud.get('UID')}}">Edit</a></td>
                     </tr>
                 </table>
             </div>
@@ -67,8 +70,8 @@
 
     <footer th:replace="components/footer :: footer"></footer>
     <script>
-        var confirmSubmission = function(){
-            if(!confirm("Confirm student transfer?")){
+        var confirmSubmission = function () {
+            if (!confirm("Confirm student transfer?")) {
                 return false;
             }
             return true;

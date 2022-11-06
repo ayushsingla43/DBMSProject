@@ -12,7 +12,9 @@
 <body>
     <div>
         <nav th:replace="components/navbar :: navbar"></nav>
-        <br><br>
+        <br>
+        <h3 th:if="${message!=null}">[[${message}]]</h3>
+        <br>
         <div class="content">
             <div class="list">
                 <form th:action="@{/staff/assign}" method="Post">

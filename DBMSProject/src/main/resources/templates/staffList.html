@@ -16,6 +16,8 @@
 		<div class="insert_button">
 			<a href="#" th:href="@{/staff/add}">Insert</a><br>
 		</div>
+		<h3 th:if="${message!=null}">[[${message}]]</h3>
+		<br>
 		<div class="content">
 			<div class="list">
 				<form th:action="@{/staff/list}" method="Post">

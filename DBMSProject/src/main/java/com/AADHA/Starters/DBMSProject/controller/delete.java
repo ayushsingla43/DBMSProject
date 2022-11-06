@@ -55,7 +55,7 @@ public class delete {
     }
 
     @RequestMapping("/staff/delete2/{emp_id}/{dept_name}")
-    public ModelAndView deletestaff2(@PathVariable String emp_id,@PathVariable String dept_name){
+    public ModelAndView deletestaff(@PathVariable String emp_id,@PathVariable String dept_name){
         ModelAndView mv=new ModelAndView();
         coursesdao stf=new coursesdao(j);
         workindao wkn=new workindao(j);
@@ -68,7 +68,6 @@ public class delete {
         }
         else{
             wkn.removestaff(emp_id,dept_name);
-
             mv.setViewName("redirect:/staff/list");
             return mv;
         }

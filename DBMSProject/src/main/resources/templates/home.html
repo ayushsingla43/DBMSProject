@@ -13,6 +13,7 @@
     <div>
         <nav th:replace="components/navbar :: navbar"></nav>
         <h1>Welcome [[${User.getName()}]]!</h1>
+        <h3 th:if="${message!=null}">[[${message}]]</h3>
         <div class="container">
             <div class="swiper">
                 <div class="swiper-wrapper">
@@ -26,7 +27,6 @@
         </div>
         <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
         <script>
-
             const swiper = new Swiper('.swiper', {
                 autoplay: {
                     delay: 3000,
