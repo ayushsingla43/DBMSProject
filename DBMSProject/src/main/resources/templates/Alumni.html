@@ -5,6 +5,8 @@
     <title>Alumni</title>
 </head>
 <body>
+    <br>
+    <h2 style="text-align: center; color: crimson; margin-bottom: 12px;" th:if="${message!=null}">[[${message}]] </h2>
     <h1>Alumnis</h1>
     <button th:if="${session.authority>=2}" onclick="func()">Click to edit!</button>
     <div id="hidden" style="display: none;">

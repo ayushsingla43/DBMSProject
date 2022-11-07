@@ -11,18 +11,18 @@
 <body>
     <div id="switch">[[${switch}]]</div>
     <form th:if="${switch}==0" name="form1" th:action="@{'/staff/dept/'+${dept}}" method="post">
-        <input name="message" th:value="${message}">
-        <input name="show" value="1">
-        <input type="submit">
+        <h1>Redirecting to /staff/dept/[[${dept}]]</h1>
+        <input type="hidden" name="message" th:value="${message}">
+        <input type="hidden" name="show" value="1">
     </form>
     <form th:if="${switch}==1" name="form2" th:action="@{/staff/assign}" method="post">
-        <input name="emp_id" th:value="${emp_id}">
-        <input name="class_" value="">
-        <input name="section" value="">
-        <input name="dept" th:value="${dept_name}">
-        <input name="limit" value="100">
-        <input name="message" th:value="${message}">
-        <input type="submit">
+        <h1>Redirecting to /staff/assign</h1>
+        <input type="hidden" name="emp_id" th:value="${emp_id}">
+        <input type="hidden" name="class_" value="">
+        <input type="hidden" name="section" value="">
+        <input type="hidden" name="dept" th:value="${dept_name}">
+        <input type="hidden" name="limit" value="100">
+        <input type="hidden" name="message" th:value="${message}">
     </form>
     <script>
         let switchEl = document.getElementById("switch");

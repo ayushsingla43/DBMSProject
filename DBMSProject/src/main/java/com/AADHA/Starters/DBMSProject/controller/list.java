@@ -47,11 +47,10 @@ public class list {
 
     @GetMapping("/student/list")
     public ModelAndView student_list(){
+        ModelAndView mv = new ModelAndView("studentList.html");
         classdao cls = new classdao(j);
         List<String> class_no = cls.Classes();
         List<String> section_no = cls.Sections();
-        ModelAndView mv = new ModelAndView();
-        mv.setViewName("studentList.html");
         mv.addObject("class",class_no);
         mv.addObject("section",section_no);
         return mv;
@@ -73,7 +72,6 @@ public class list {
 
     @GetMapping("/staff/assign")
     public ModelAndView assign(){
-        System.out.println("hello");
         ModelAndView mv=new ModelAndView("staffAssign.html");
         classdao cls = new classdao(j);
         coursesdao crs=new coursesdao(j);
@@ -96,6 +94,10 @@ public class list {
         List<String> section_no = cls.Sections();
         List<String> department=crs.Courses();
         List<Map<String,Object>> assign=crs.assignquery(emp_id, class_, section, dept, limit);
+        for(Map<String,Object> mp:assign){
+            List<String> emps=wrkd.allemp2(String.valueOf(mp.get("dept_name")));
+            mp.put("emps", emps);
+        }
         Map<String,Object> filter = new HashMap<String,Object>() {{
             put("emp_id",emp_id);
             put("class_",class_);
@@ -103,10 +105,6 @@ public class list {
             put("dept",dept);
             put("limit",limit);
         }};
-        for(Map<String,Object> mp:assign){
-            List<String> emps=wrkd.allemp2(String.valueOf(mp.get("dept_name")));
-            mp.put("emps", emps);
-        }
         mv.addObject("filter", filter);
         mv.addObject("assign", assign);
         mv.addObject("section", section_no);

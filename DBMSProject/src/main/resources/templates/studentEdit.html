@@ -5,7 +5,8 @@
     <title>Edit Student</title>
 </head>
 <body>
-  	<h3 th:if="${message!=null}">[[${message}]]</h3>
+	<br>
+	<h2 style="text-align: center; color: crimson; margin-bottom: 12px;" th:if="${message!=null}">[[${message}]] </h2>
   	<form th:action="@{'/student/edit/'+${stu.getUID()}}" method="post">
 		<input type="text" id="Std_name" name="std_name" placeholder="Name" required th:value="${stu.getName()}"><br>
 		<input type="text" id="Std_gender" name="std_gender" placeholder="Gender" th:value="${stu.getGender()}"><br>

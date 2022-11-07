@@ -9,13 +9,15 @@
 </head>
 
 <body>
-    <h1>Redirecting to /staff/assign</h1>
-    <form name="form1" th:action="@{/staff/assign}" method="post">
-        <input type="hidden" name="message" th:value="${message}">
+    <h1>Redirecting to /staff/results</h1>
+    <form name="form1" th:action="@{/staff/results}" method="post">
+        <input name="message" th:value="${message}">
         <input type="hidden" name="emp_id" th:value='${filter.get("emp_id")}'>
-        <input type="hidden" name="class_" th:value='${filter.get("class")}'>
+        <input type="hidden" name="SRN" th:value='${filter.get("SRN")}'>
+        <input type="hidden" name="class_" th:value='${filter.get("class_")}'>
         <input type="hidden" name="section" th:value='${filter.get("section")}'>
-        <input type="hidden" name="dept" th:value='${filter.get("dept")}'>
+        <input type="hidden" name="course" th:value='${filter.get("course")}'>
+        <input type="hidden" name="session" th:value='${filter.get("session")}'>
         <input type="hidden" name="limit" th:value='${filter.get("limit")}'>
     </form>
     <script>

@@ -19,7 +19,7 @@ public class alumnii {
 
     @Autowired
     JdbcTemplate j;
-    @GetMapping(value = {"/student/alumni", "/staff/alumni"})
+    @GetMapping("/student/alumni")
     public ModelAndView showAlumni(HttpServletRequest request){
         alumnidao adao = new alumnidao(j);
         List<Map<String,Object>> li = adao.getMyAlumni();

@@ -58,7 +58,7 @@ public class resultsdao {
     }
 
     public List<Map<String,Object>> getPrevResult(String emp_id,String SRN,String class_,String section,String course, String session,String limit){
-        String query="select stu.SRN as SRN,stu.name as name,pc.class_no as class,pc.section_no as section,rst.marks as marks from courses as crs natural join prev_class as pc natural join results as rst, student as stu where crs.emp_id="+emp_id+" and crs.session_no="+session+" and crs.dept_name='"+ course +"' and pc.SRN=stu.SRN and rst.course=crs.dept_name";
+        String query="select stu.SRN as SRN,stu.name as name,pc.class_no as class,pc.section_no as section,rst.marks as marks,crs.session_no as session_no from courses as crs natural join prev_class as pc natural join results as rst, student as stu where crs.emp_id="+emp_id+" and crs.session_no="+session+" and crs.dept_name='"+ course +"' and pc.SRN=stu.SRN and rst.course=crs.dept_name";
         if (!SRN.equals("")){
             query+=" and stu.SRN="+SRN;
         }

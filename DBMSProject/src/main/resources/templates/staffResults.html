@@ -15,10 +15,8 @@
     <div>
         <nav th:replace="components/navbar :: navbar"></nav>
         <br>
-        <h3 th:if="${message!=null}">[[${message}]]</h3>
+        <h2 style="text-align: center; color: crimson; margin-bottom: 12px;" th:if="${message!=null}">[[${message}]] </h2>
         <br>
-        <h2 style="text-align: center; color: crimson; margin-bottom: 12px;" th:if="${message!=null}">[[${message}]]
-        </h2>
         <div class="content">
             <div class="list">
                 <form th:action="@{/staff/results}" method="Post">
@@ -66,12 +64,16 @@
                         <td>[[${stud.get("class")}]]-[[${stud.get("section")}]]</td>
                         <form th:action="@{/staff/result/edit}" method="post" onsubmit="return confirmSubmission()">
                             <input type="hidden" name="stud_SRN" th:value='${stud.get("SRN")}'>
-                            <input type="hidden" name="stud_name" th:value='${stud.get("name")}'>
-                            <input type="hidden" name="stud_class" th:value='${stud.get("class")}'>
-                            <input type="hidden" name="stud_section" th:value='${stud.get("section")}'>
-                            <input type="hidden" name="stud_subject" th:value='${css}'>
-                            <input type="hidden" name="stud_marks" th:value='${stud.get("marks")}'>
+                            <input type="hidden" name="stud_course" th:value='${css}'>
+                            <input type="hidden" name="stud_session" th:value='${stud.get("session_no")}'>
                             <td><input type="number" name="stud_marks" min="0" max="100" th:value="${stud.get('marks')}"></td>
+                            <input type="hidden" name="fil_emp_id" th:value='${filter.get("emp_id")}'>
+                            <input type="hidden" name="fil_SRN" th:value='${filter.get("SRN")}'>
+                            <input type="hidden" name="fil_class" th:value='${filter.get("class_")}'>
+                            <input type="hidden" name="fil_section" th:value='${filter.get("section")}'>
+                            <input type="hidden" name="fil_course" th:value='${filter.get("course")}'>
+                            <input type="hidden" name="fil_session" th:value='${filter.get("session")}'>
+                            <input type="hidden" name="fil_limit" th:value='${filter.get("limit")}'>
                             <td><input class="button" type="submit" value="Edit"></td>
                         </form>
                     </tr>

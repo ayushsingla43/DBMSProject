@@ -11,9 +11,10 @@
 </head>
 
 <body>
-	<h3 th:if="${message!=null}">[[${message}]]</h3>
 	<div>
 		<nav th:replace="components/navbar :: navbar"></nav>
+		<br>
+		<h2 style="text-align: center; color: crimson; margin-bottom: 12px;" th:if="${message!=null}">[[${message}]] </h2>
 		<div class="content">
 			<div class="container">
 				<div class="form_container">
