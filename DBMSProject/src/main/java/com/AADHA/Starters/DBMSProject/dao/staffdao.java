@@ -112,4 +112,8 @@ public class staffdao {
     public void deletestaff(String emp_id){
         jdbc.update("update staff set curr=0 where emp_id="+emp_id);
     }
+
+    public void increasexp(){
+        jdbc.update("update staff set exp_years=exp_years+1 where curr=1");
+    }
 }

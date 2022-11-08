@@ -12,6 +12,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.servlet.ModelAndView;
 
+import javax.servlet.http.HttpSession;
+
 @Controller
 public class profile {
 
@@ -19,7 +21,13 @@ public class profile {
     JdbcTemplate j;
 
     @GetMapping("/staff/profile/{UID}")
-    public ModelAndView profStaff(@PathVariable("UID") String str){
+    public ModelAndView profStaff(@PathVariable("UID") String str, HttpSession session){
+        int x = (int) session.getAttribute("authority");
+        if(x==1) return new ModelAndView("error/405.html");
+        else if (x==2) {
+            String UID = (String)session.getAttribute("UID");
+            if(!UID.equals(str)) return new ModelAndView("error/405.html");
+        }
         ModelAndView mv = new ModelAndView("staffProfile.html");
         staffdao stfd = new staffdao(j);
         workindao wrkd = new workindao(j);
@@ -30,7 +38,10 @@ public class profile {
     }
 
     @GetMapping("/student/profile/{UID}")
-    public ModelAndView profStudent(@PathVariable("UID") String str){
+    public ModelAndView profStudent(@PathVariable("UID") String str, HttpSession session){
+        if((int)session.getAttribute("authority")==1){
+            if(!str.equals((String)session.getAttribute("UID"))) return new ModelAndView("error/405.html");
+        }
         ModelAndView mv = new ModelAndView("studentProfile.html");
         studentdao stud = new studentdao(j);
         mv.addObject("stu", stud.getStudentByUID(str));

@@ -14,14 +14,10 @@
 <body>
     <div>
         <nav th:replace="components/navbar :: navbar"></nav>
-        <div class="insert_button">
-			<div>
-				<a href="#" th:href="@{/student/add}">Insert</a>
-			</div>
-			<br>
-		</div>
-        <h2 style="text-align: center; color: crimson; margin-bottom: 12px;" th:if="${message!=null}">[[${message}]] </h2>
         <br>
+        <h1 style="text-align:center; padding-bottom: 1%;">Student List</h1>
+        <h2 style="text-align: center; color: crimson; margin: 12px;" th:if="${message!=null}">[[${message}]]</h2>
+
         <div class="content">
             <div class="list">
                 <form th:action="@{/student/list}" method="Post">
@@ -43,8 +39,11 @@
                         <option value="200">200</option>
                         <option value="500">500</option>
                         <option value="1000">1000</option>
-                    </select><br>
-                    <input type="submit" class="submit_button">
+                    </select><br>              
+					<div class="insert_button">
+						<input type="submit" placeholder="Search" class="submit_button">
+						<div><a th:if="${session.authority>2}" href="#" th:href="@{/student/add}">Insert</a></div>
+					</div>
                 </form>
             </div>
             <div class="details_table">
@@ -54,16 +53,17 @@
                         <td>Name</td>
                         <td>Contact info</td>
                         <td>Class</td>
-                        <td colspan="3">Actions</td>
+                        <td th:if="${session.authority>2}" colspan="3">Actions</td>
+                        <td th:if="${session.authority==2}" colspan="1">Actions</td>
                     </thead>
                     <tr th:each="stud : ${students}">
                         <td>[[${stud.get("SRN")}]]</td>
                         <td class="highlight"><a th:href="'/student/profile/'+${stud.get('UID')}">[[${stud.get("name")}]]</a></td>
                         <td>[[${stud.get("phone_1")}]]</td>
                         <td>[[${stud.get("class_no")}]]-[[${stud.get("section_no")}]]</td>
-                        <td class="button"> <a th:href="'/student/results/'+${stud.get('UID')}">Results</a> </td>
-                        <td class="button"> <a th:href="'/staff/student/delete/'+${stud.get('UID')}" onclick="return confirmSubmission()">Transfer</a></td>
-                        <td class="button"><a th:href="@{'/student/edit/'+${stud.get('UID')}}">Edit</a></td>
+                        <td class="button" th:if="${session.authority>1}"><a th:href="'/student/results/'+${stud.get('UID')}">Results</a> </td>
+                        <td class="button" th:if="${session.authority>2}"><a th:href="'/staff/student/delete/'+${stud.get('UID')}" onclick="return confirmSubmission()">Transfer</a></td>
+                        <td class="button" th:if="${session.authority>2}"><a th:href="@{'/student/edit/'+${stud.get('UID')}}">Edit</a></td>
                     </tr>
                 </table>
             </div>

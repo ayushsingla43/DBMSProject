@@ -2,30 +2,117 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Edit Staff</title>
+	<title>Staff Edit</title>
+	<link rel="stylesheet" href="/styles/stuinsert.css">
+	<link rel="stylesheet" href="/bootstrap/bootstrap.css">
+	<script href="/bootstrap/bootstrap.js"></script>
 </head>
 <body>
-    <br>
+    <div>
+    <nav th:replace="components/navbar :: navbar"></nav>
+	<br>
     <h2 style="text-align: center; color: crimson; margin-bottom: 12px;" th:if="${message!=null}">[[${message}]] </h2>
     <br>
-    <form th:action="@{'/staff/edit/'+${stf.getUID()}}" method="post">
-        <input type="text" id="Stf_name" name="stf_name" placeholder="Name" required th:value="${stf.getName()}"><br>
-        <input type="text" id="Stf_gender" name="stf_gender" placeholder="Gender" th:value="${stf.getGender()}"><br>
-        <input type="number" id="Stf_exp" name="stf_exp" placeholder="Experience" th:value="${stf.getExp_years()}"><br>
-        <input type="number" id="Stf_salary" name="stf_salary" placeholder="Salary" required th:value="${stf.getSalary()}"><br>
-        <input type="date" id="Stf_dob" name="stf_dob" placeholder="DOB" required th:value="${stf.getDOB()}"><br>
-        <input type="email" id="Stf_email" name="stf_email" placeholder="Email" required th:value="${stf.getEmail()}"><br>
-        <input type="text" id="Stf_bg" name="stf_bg" placeholder="Blood Group" th:value="${stf.getBlood_grp()}"><br>
-        <input type="text" id="Stf_phone1" name="stf_phone1" placeholder="Phone1" required th:value="${stf.getPhone_1()}"><br>
-        <input type="text" id="Stf_phone2" name="stf_phone2" placeholder="Phone2" th:value="${stf.getPhone_2()}"><br>
-        <input type="number" id="Stf_pin" name="stf_pin" placeholder="PIN" th:value="${stf.getPIN()}"><br>
-        <input type="text" id="Stf_street" name="stf_street" placeholder="Address:Street" th:value="${stf.getStreet()}"><br>
-        <input type="text" id="Stf_city" name="stf_city" placeholder="Address:City" th:value="${stf.getCity()}"><br>
-        <input type="text" id="Stf_state" name="stf_state" placeholder="Address:State" th:value="${stf.getState()}"><br>
-        <input type="text" id="Stf_aadhar" name="stf_aadhar" placeholder="Aadhar Number" required th:value="${stf.getAadhar_no()}"><br>
-        <input type="text" id="Stf_pan" name="stf_pan" placeholder="PAN Number" required th:value="${stf.getPAN_no()}"><br>
-        <input type="text" id="Stf_photo" name="stf_photo" placeholder="Photo" th:value="${stf.getPhoto()}"><br>
-        <input type="submit">
-    </form>
+    <div class="content">
+        <div class="container">
+            <div class="form_container">
+                <h2>Staff edit Form</h2>
+				<h4>Please Fill Student Details Properly</h4>
+                <form th:action="@{'/staff/edit/'+${stf.getUID()}}" method="post">
+                    <div margin="10px"></div>
+                    <h5 padding-left="10px">Personel details</h5>
+                    <div class="block">
+                        <div class="form-floating col-md-4 my_input">
+                          <label for="Stf_name">Name</label>
+                          <input class="form-control" type="text" id="Stf_name" name="stf_name" placeholder="Name" required th:value="${stf.getName()}"><br>
+                        </div>
+                        <div class="form-floating col-md-4 my_input">
+                            <label for="Stf_gender">Gender</label>
+                           <input class="form-control" type="text" id="Stf_gender" name="stf_gender" placeholder="Gender" th:value="${stf.getGender()}"><br>
+                        </div>
+                        <div class="form-floating col-md-4 my_input">
+                            <label for="Stf_dob">Date of Birth</label>
+                            <input class="form-control" type="date" id="Stf_dob" name="stf_dob" placeholder="DOB" required th:value="${stf.getDOB()}"><br>
+                        </div>
+                    </div>
+                    <div class="block">
+                        <div class="form-floating col-md-4 my_input">
+                            <label for="Stf_exp">Experience</label>
+                            <input class="form-control" type="number" id="Stf_exp" name="stf_exp" placeholder="Experience" th:value="${stf.getExp_years()}"><br>
+
+                        </div>
+                        <div class="form-floating col-md-4 my_input">
+                            <label for="Stf_salary">Salary</label>
+                            <input class="form-control" type="number" id="Stf_salary" name="stf_salary" placeholder="Salary" required th:value="${stf.getSalary()}"><br>
+                        </div>
+                        <div class="form-floating col-md-4 my_input">
+                            <label for="Stf_email">Email</label>
+                            <input class="form-control" type="email" id="Stf_email" name="stf_email" placeholder="Email" required th:value="${stf.getEmail()}"><br>
+                        </div>
+                    </div>
+                    <div class="block">
+
+                        <div class="form-floating col-md-4 my_input">
+                            <label for="Stf_bg">Blood Group</label>
+                            <input class="form-control" type="text" id="Stf_bg" name="stf_bg" placeholder="Blood Group" th:value="${stf.getBlood_grp()}"><br>
+                        </div>
+                        <div class="form-floating col-md-4 my_input">
+                            <label for="Stf_aadhar">Aadhar Number</label>
+                            <input class="form-control" type="text" id="Stf_aadhar" name="stf_aadhar" placeholder="Aadhar Number" required th:value="${stf.getAadhar_no()}"><br>
+                        </div> 
+                        <div class="form-floating col-md-4 my_input">  
+                            <label for="Stf_pan">PAN Number</label> 
+                            <input class="form-control" type="text" id="Stf_pan" name="stf_pan" placeholder="PAN Number" required th:value="${stf.getPAN_no()}"><br>
+                        </div>    
+                    </div>
+                    <h5>Contact Details</h5>
+                    <div class="block">
+                        <div class="form-floating col-md-4 my_input"> 
+                            <label for="Stf_phone1">Phone:1</label>
+                            <input class="form-control" type="text" id="Stf_phone1" name="stf_phone1" placeholder="Phone1" required th:value="${stf.getPhone_1()}"><br>
+
+                        </div>     
+                        <div class="form-floating col-md-4 my_input"> 
+                            <label for="Stf_phone1">Phone:2</label>
+                            <input class="form-control" type="text" id="Stf_phone2" name="stf_phone2" placeholder="Phone2" th:value="${stf.   getPhone_2()}"><br>
+                        </div>
+                    </div> 
+                    <h5>Address</h5>
+                    <div class="block">
+                        <div class="form-floating col-md-4 my_input">
+                            <label for="Stf_street">Street</label>
+                            <input class="form-control" type="text" id="Stf_street" name="stf_street" placeholder="Address:Street" th:value="${stf.getStreet()}"><br>
+                       </div>
+                       <div class="form-floating col-md-4 my_input">
+                            <label for="Stf_city">City</label>
+                            <input class="form-control" type="text" id="Stf_city" name="stf_city" placeholder="Address:City" th:value="${stf.getCity()}"><br>
+                        </div>
+                        <div class="form-floating col-md-4 my_input">
+                            <label for="Stf_state">State</label>
+                            <input class="form-control" type="text" id="Stf_state" name="stf_state" placeholder="Address:State" th:value="${stf.getState()}"><br>
+                        </div>
+                    </div>
+                    <div class="block">
+                        <div class="form-floating col-md-4 my_input">
+                            <label for="Stf_pin">PIN</label>
+                            <input class="form-control" type="number" id="Stf_pin" name="stf_pin" placeholder="PIN" th:value="${stf.getPIN()}"><br>
+                        </div>    
+                    
+                        <div class="form-floating col-md-4 my_input">
+                            <label for="Stf_photo">Photo</label>
+                            <input class="form-control" type="text" id="Stf_photo" name="stf_photo" placeholder="Photo" th:value="${stf.getPhoto()}"><br>
+                        </div>
+                        <div class="my_button">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>    
+                    </div>
+                    
+                </form>
+            </div>    
+        </div>    
+    </div>
+    <footer th:replace="components/footer :: footer"></footer>
+   </div>
+
 </body>
 </html>

@@ -14,9 +14,7 @@
 <body>
     <div>
         <nav th:replace="components/navbar :: navbar"></nav>
-        <br>
-        <h2 style="text-align: center; color: crimson; margin-bottom: 12px;" th:if="${message!=null}">[[${message}]] </h2>
-        <br>
+        <h2 style="text-align: center; color: crimson; margin: 12px;" th:if="${message!=null}">[[${message}]] </h2>
         <div class="content">
             <div class="container">
                 <h1>[[${dept.getDept_name()}]] Department</h1><br>

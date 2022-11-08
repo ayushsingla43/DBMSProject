@@ -18,6 +18,8 @@ import com.AADHA.Starters.DBMSProject.dao.workindao;
 import com.AADHA.Starters.DBMSProject.model.staff;
 import com.AADHA.Starters.DBMSProject.model.student;
 
+import javax.servlet.http.HttpSession;
+
 @Controller
 public class delete {
     
@@ -25,8 +27,11 @@ public class delete {
     JdbcTemplate j;
 
     @RequestMapping(value="/staff/student/delete/{UID}")
-    public ModelAndView getMethodName(@PathVariable("UID") String UID) {
-        System.out.println(UID);
+    public ModelAndView getMethodName(@PathVariable("UID") String UID, HttpSession session) {
+        if((int)session.getAttribute("authority")<3){
+            return new ModelAndView("error/405.html");
+        }
+        ModelAndView mv = new ModelAndView("studentList.html");
         studentdao sdao = new studentdao(j);
         coursesdao cdao = new coursesdao(j);
         String session_no = cdao.currentsession();
@@ -36,12 +41,14 @@ public class delete {
         adao.addAlumini(stu.getSRN(), stu.getClass_no(), Integer.parseInt(session_no), stu.getName(), stu.getAdmission_date(),
         stu.getEmail(), stu.getPhone_1(), stu.getPhone_2(), stu.getPhoto(), stu.getGender(), stu.getAadhar_no());
         adao.updateShowAlumni(null,Integer.parseInt(UID.substring(3)));
-        ModelAndView mv = new ModelAndView("studentList.html");
         return mv;
     }
 
     @RequestMapping("/staff/delete/{UID}")
-    public ModelAndView deletestaff(@PathVariable String UID){
+    public ModelAndView deletestaff(@PathVariable String UID, HttpSession session){
+        if((int)session.getAttribute("authority")<3){
+            return new ModelAndView("error/405.html");
+        }
         ModelAndView mv=new ModelAndView("dummy/deptRedirect.html");
         staffdao stfd=new staffdao(j);
         staff stf = stfd.getStaffByUID(UID);
@@ -62,7 +69,10 @@ public class delete {
     }
 
     @RequestMapping("/staff/dept/{dept_name}/delete/{UID}")
-    public ModelAndView deletestaff(@PathVariable String UID,@PathVariable String dept_name){
+    public ModelAndView deletestaff(@PathVariable String UID,@PathVariable String dept_name, HttpSession session){
+        if((int)session.getAttribute("authority")<3){
+            return new ModelAndView("error/405.html");
+        }
         ModelAndView mv=new ModelAndView("dummy/staffListRedirect.html");
         coursesdao crs=new coursesdao(j);
         workindao wkn=new workindao(j);

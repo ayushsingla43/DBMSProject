@@ -18,13 +18,16 @@ import com.AADHA.Starters.DBMSProject.dao.classdao;
 import com.AADHA.Starters.DBMSProject.dao.studentdao;
 import com.AADHA.Starters.DBMSProject.dao.workindao;
 
+import javax.servlet.http.HttpSession;
+
 @Controller
 public class list {
     @Autowired
     JdbcTemplate j;
 
     @GetMapping("/staff/list")
-    public ModelAndView teachersearch(){
+    public ModelAndView teachersearch(HttpSession session){
+        if((int)(session.getAttribute("authority"))<3) return new ModelAndView("error/405.html");
         ModelAndView mv=new ModelAndView("staffList.html");
         deptdao dep = new deptdao(j);
         List<String>depts=dep.getAllDepts();

@@ -18,7 +18,7 @@ public class getAuthority {
         this.jdbc = jdbc;
     }
 
-    public int Autority(staff stf){
+    public int Authority(staff stf){
         String sql = "Select * from works_in where emp_id=? and dept_name=?";
         works_in wi;
         try {

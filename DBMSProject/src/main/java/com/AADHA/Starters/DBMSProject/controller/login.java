@@ -71,7 +71,7 @@ public class login {
         session.setAttribute("depts", depts);
         session.setAttribute("staff", stf);
         session.setAttribute("UID", stf.getUID());
-        session.setAttribute("authority", gA.Autority(stf));
+        session.setAttribute("authority", gA.Authority(stf));
         session.setAttribute("classes", class_.allclass());
         mv.addObject("User", stf);
         return mv;

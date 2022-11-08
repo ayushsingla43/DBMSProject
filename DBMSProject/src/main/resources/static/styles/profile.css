@@ -21,7 +21,7 @@ body{
   flex-direction: column;
   justify-content:space-between;
   min-height: 100vh;
-  background-color: #DBF3FC;
+  background-color: #DBF3FC !important;
 }
   
   .name{
@@ -72,25 +72,23 @@ body{
 }
 
 .details-2{
-  /* width: 100%; */
   display: flex;
-  /* align-items: center; */
-  /* justify-content: center; */
   margin-left: 35%;
   margin-top: 5%;
 }
+
 
 .attribute {
     min-width: 40vh;
     max-width: 70vh;
     /* padding: 10% ; */
 
-    padding: 10px;
+    padding: 5px 10px 5px 10px;
 }
 
 .value{
   max-width: 300px;
-  padding: 10px;
+  padding: 5px 10px 5px 10px;
 }
 
 .details-1 table{

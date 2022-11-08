@@ -1,6 +1,7 @@
 package com.AADHA.Starters.DBMSProject.dao;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -82,11 +83,43 @@ public class coursesdao {
     }
 
     public boolean checktech(String emp_id,String dept_name){
-            String query="select * from courses where session_no="+currentsession()+" and dept_name='"+dept_name+"' and emp_id="+emp_id;
-            System.out.println(query);
-            List<Map<String,Object>> res=jdbc.queryForList(query);
-            System.out.println(res.size());
-            return res.size()>0;
+        String query="select * from courses where session_no="+currentsession()+" and dept_name='"+dept_name+"' and emp_id="+emp_id;
+        System.out.println(query);
+        List<Map<String,Object>> res=jdbc.queryForList(query);
+        return res.size()>0;
+    }
+
+    public Map<String,List<String>> allclasscourses(){
+        List<Map<String,Object>> res=jdbc.queryForList("select * from courses where session_no="+currentsession());
+        Map<String,List<String>> ans=new HashMap<String,List<String>>();
+        String temp="";
+        for(Map<String,Object> x: res){
+            temp=String.valueOf(x.get("class_no"))+'-'+String.valueOf(x.get("section_no"));
+            System.out.println(temp);
+            List<String> t2=ans.get(temp);
+            if (t2==null){
+                t2=new ArrayList<String>();
+                t2.add(String.valueOf(x.get("dept_name")));
+                ans.put(temp,t2);
+            }
+            else{
+                t2.add(String.valueOf(x.get("dept_name")));
+            }
+            // if (ans.get(String.valueOf(x.get("class_no"))+'-'+String.valueOf(x.get("section_no")))!=null){
+            //     ans.put(String.valueOf(x.get("class_no"))+'-'+String.valueOf(x.get("section_no")), new ArrayList<String>());
+            // }
+            // ans.get(String.valueOf(x.get("class_no"))+'-'+String.valueOf(x.get("section_no"))).add(String.valueOf(x.get("dept_name")));
+        }
+        return ans;
+    }
+
+    public List<Map<String,Object>> allcs(String session){
+        return jdbc.queryForList("select * from courses where session_no="+session);
+
+    }
+
+    public void addcourse(String class_no,String section_no,String emp_id,String session_no,String dept_name){
+        jdbc.update("insert into courses values("+class_no+","+section_no+","+emp_id+","+session_no+",'"+dept_name+"')");
     }
 
 }

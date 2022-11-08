@@ -8,7 +8,7 @@
     <link rel="stylesheet" th:href="@{/styles/profile.css}">
     <link rel="stylesheet" href="/bootstrap/bootstrap.css">
 	<script href="/bootstrap/bootstrap.js"></script>
-    <title>Staff Profile</title>
+    <title>[[${stf.getName()}]]</title>
 </head>
 
 <body>
@@ -51,7 +51,7 @@
                         </tr>
                         <tr>
                             <td colspan="2">Contact:</td>
-                            <td colspan="2">[[${stf.getPhone_1()}]],[[${stf.getPhone_2()}]]</td>
+                            <td colspan="2">[[${stf.getPhone_1()}]], [[${stf.getPhone_2()}]]</td>
                         </tr>
                     </table>
                 </div>
@@ -82,8 +82,8 @@
                 </table>
             </div>
         </div>
-        <div th:replace="components/footer :: footer"></div>
     </div>
+    <div th:replace="components/footer :: footer"></div>
 </body>
 
 </html>

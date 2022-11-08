@@ -135,4 +135,13 @@ public class studentdao {
         String sql = "delete from student where UID=?";
         jdbc.update(sql, UID);
     }
+
+    public List<Map<String,Object>> allstud(String session){
+        return jdbc.queryForList("select * from student");
+    }
+
+    public void update_class(String SRN,String class_no){
+        jdbc.update("update student set class_no=? where SRN=?",class_no,SRN);
+    }
+    
 }

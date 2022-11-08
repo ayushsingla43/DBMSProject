@@ -14,14 +14,9 @@
 <body>
 	<div>
 		<nav th:replace="components/navbar :: navbar"></nav>
-		<div class="insert_button">
-			<div>
-				<a href="#" th:href="@{/staff/add}">Insert</a>
-			</div>
-			<br>
-		</div>
-		<h2 style="text-align: center; color: crimson; margin-bottom: 12px;" th:if="${message!=null}">[[${message}]] </h2>
 		<br>
+		<h1 style="text-align:center; padding-bottom: 1%;">Staff List</h1>
+		<h2 style="text-align: center; color: crimson; margin: 12px;" th:if="${message!=null}">[[${message}]] </h2>
 		<div class="content">
 			<div class="list">
 				<form th:action="@{/staff/list}" method="Post">
@@ -44,7 +39,13 @@
 						<option value="500">500</option>
 						<option value="1000">1000</option>
 					</select><br>
-					<input type="submit" placeholder="Search" class="submit_button">
+					
+					<div class="insert_button">
+						<input type="submit" placeholder="Search" class="submit_button">
+						<div>
+							<a href="#" th:href="@{/staff/add}">Insert</a>
+						</div>
+					</div>
 				</form>
 			</div>
 			<div class="details_table">

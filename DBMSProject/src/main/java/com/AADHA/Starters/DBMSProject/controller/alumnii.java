@@ -12,6 +12,7 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import org.springframework.web.servlet.support.RequestContextUtils;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
 import java.util.*;
 
 @Controller
@@ -39,7 +40,11 @@ public class alumnii {
     }
 
     @PostMapping("/staff/alumni/edit")
-    public String editAlumni(int del_SRN, int add_SRN, RedirectAttributes redirectAttributes){
+    public String editAlumni(int del_SRN, int add_SRN, RedirectAttributes redirectAttributes, HttpSession session){
+        int x = (int)session.getAttribute("authority");
+        if(x<3){
+            return "error/405.html";
+        }
         alumnidao adao = new alumnidao(j);
         alumni a = adao.getBySRN(add_SRN);
         if(a==null){

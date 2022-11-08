@@ -19,6 +19,8 @@ import com.AADHA.Starters.DBMSProject.dao.studentdao;
 import com.AADHA.Starters.DBMSProject.model.staff;
 import com.AADHA.Starters.DBMSProject.model.student;
 
+import javax.servlet.http.HttpSession;
+
 @Controller
 public class edit {
 
@@ -26,7 +28,8 @@ public class edit {
     JdbcTemplate j;
     
     @GetMapping("/staff/edit/{UID}")
-    public ModelAndView staffEdit(@PathVariable("UID") String UID){
+    public ModelAndView staffEdit(@PathVariable("UID") String UID, HttpSession session){
+        if((int)session.getAttribute("authority")<3) return new ModelAndView("error/405.html");
         ModelAndView mv = new ModelAndView("staffEdit.html");
         staffdao stfd = new staffdao(j);
         staff stf = stfd.getStaffByUID(UID);
@@ -69,7 +72,8 @@ public class edit {
     }
 
     @GetMapping("/student/edit/{UID}")
-    public ModelAndView studentEdit(@PathVariable("UID") String UID){
+    public ModelAndView studentEdit(@PathVariable("UID") String UID, HttpSession session){
+        if((int)session.getAttribute("authority")<3) return new ModelAndView("error/405.html");
         ModelAndView mv =  new ModelAndView("studentEdit.html");
         classdao cls = new classdao(j);
         studentdao stud = new studentdao(j);
@@ -108,7 +112,8 @@ public class edit {
     }
 
     @PostMapping("/staff/assign/edit")
-    public ModelAndView staffAssignEdit(String class_no,String section_no,String dept_name,String new_emp,String fil_emp_id,String fil_class_no,String fil_section_no,String fil_dept_name,String fil_limit){
+    public ModelAndView staffAssignEdit(String class_no,String section_no,String dept_name,String new_emp,String fil_emp_id,String fil_class_no,String fil_section_no,String fil_dept_name,String fil_limit, HttpSession session){
+        if((int)session.getAttribute("authority")<3) return new ModelAndView("error/405.html");
         ModelAndView mv = new ModelAndView("dummy/staffAssignRedirect.html");
         coursesdao crs=new coursesdao(j);
         crs.updateassign(class_no, section_no, dept_name, new_emp);

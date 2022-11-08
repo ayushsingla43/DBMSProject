@@ -1,39 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Alumni</title>
+    <link rel="stylesheet" href="/styles/alumni.css">
+    <link rel="stylesheet" href="/styles/dept.css">
+    <link rel="stylesheet" href="/bootstrap/bootstrap.css">
+    <script href="/bootstrap/bootstrap.js"></script>
+
+    <title>Our Alumni</title>
 </head>
+
 <body>
-    <br>
-    <h2 style="text-align: center; color: crimson; margin-bottom: 12px;" th:if="${message!=null}">[[${message}]] </h2>
-    <h1>Alumnis</h1>
-    <button th:if="${session.authority>=2}" onclick="func()">Click to edit!</button>
-    <div id="hidden" style="display: none;">
-        <form th:action="@{/staff/alumni/edit}" method="post">
-            <input type="number" name="del_SRN" placeholder="Delete SRN"><br>
-            <input type="number" name="add_SRN" placeholder="Insert SRN"><br>
-            <input type="submit">
-        </form>
+    <div>
+        <h2 style="text-align: center; color: crimson; margin-bottom: 12px;" th:if="${message!=null}">[[${message}]]
+        </h2>
+        <nav th:replace="components/navbar :: navbar"></nav>
+        <h1>Our Alumnis</h1>
+        <p th:if="${message!=null}" style="color: red;">[[${message}]]</p>
+        <div class="container">
+            <div class="wrapper">
+                <div class="wrapper2">
+                    <div class="alu_item" th:each="alu:${Alumnis}">
+                        <div class="info">
+                            <div class="photo">
+                                <img src="https://pbs.twimg.com/media/EjY_lxhUcAAqCde.jpg" alt="">
+                            </div>
+                            <h2>[[${alu.getName()}]]</h2>
+                            <a>[[${alu.getEmail()}]]</a>
+                            <div class="details">
+                                <table>
+                                    <tr>
+                                        <td>SRN</td>
+                                        <td>[[${alu.getSRN()}]]</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Gender</td>
+                                        <td>[[${alu.getGender()}]]</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Phone</td>
+                                        <td>[[${alu.getPhone_1()}]]
+                                            <br>
+                                            [[${alu.getPhone_2()}]]
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Admission Date</td>
+                                        <td>[[${alu.getAdmission_date()}]]</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Last Class</td>
+                                        <td>[[${alu.getLast_class()}]]</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Last year</td>
+                                        <td>[[${alu.getLeave_year()}]]</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="edit_alumni">
+            <button th:if="${session.authority>=2}" onclick="func()">Click to edit!</button>
+            <br>
+            <div class="edit">
+                <div id="hidden" style="display: none;">
+                    <form th:action="@{/staff/alumni/edit}" method="post">
+                        <input type="number" name="del_SRN" placeholder="Delete SRN"><br>
+                        <input type="number" name="add_SRN" placeholder="Insert SRN"><br>
+                        <input type="submit">
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
-    <p th:if="${message!=null}" style="color: red;">[[${message}]]</p>
-    <div th:each="alu:${Alumnis}">
-        <div>SRN: [[${alu.getSRN()}]]</div>
-        <div>Name: [[${alu.getName()}]]</div>
-        <div>Gender: [[${alu.getGender()}]]</div>
-        <div>Email: [[${alu.getEmail()}]]</div>
-        <div>Last Class: [[${alu.getLast_class()}]]</div>
-        <div>Leave Year: [[${alu.getLeave_year()}]]</div>
-        <div>Admission Date: [[${alu.getAdmission_date()}]]</div>
-        <div>Phones: [[${alu.getPhone_1()}]] , [[${alu.getPhone_2()}]]</div>
-        <div>Photo: [[${alu.getPhoto()}]]</div>
+
+
+
+
     </div>
+    <footer th:replace="components/footer :: footer">
+        </nav>
 </body>
 
 <script>
-    let func=function(){
+    let func = function () {
         let divEl = document.getElementById("hidden");
         divEl.style.display = "block";
     }
 </script>
+
 </html>

@@ -14,12 +14,13 @@
 <body>
     <div>
         <nav th:replace="components/navbar :: navbar"></nav>
-        <br>
-        <h2 style="text-align: center; color: crimson; margin-bottom: 12px;" th:if="${message!=null}">[[${message}]] </h2>
-        <br>
+        
+        <h2 style="text-align: center; color: crimson; margin: 12px;" th:if="${message!=null}">[[${message}]] </h2>
+        
+        <h1 style="text-align:center; padding-bottom: 20px;">Class [[${class.get("class_no")}]] Section [[${class.get("section_no")}]]</h1>
         <div class="content">
             <div class="container">
-                <h1>Class [[${class.get("class_no")}]] - [[${class.get("section_no")}]]</h1>
+                
                 <div class="main_details">
                     <table class="my_table">
                         <tr>

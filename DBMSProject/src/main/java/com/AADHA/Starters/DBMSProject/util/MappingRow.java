@@ -141,23 +141,6 @@ public final class MappingRow {
         }
     };
 
-    public static RowMapper<books> rmbooks = new RowMapper<books>(){
-        @Override
-        public books mapRow(ResultSet row, int ind) throws SQLException {
-            books bks = new books();
-            bks.setBook_id(row.getInt("book_id"));
-            bks.setAuthor(row.getString("author"));
-            bks.setGenre(row.getString("genre"));
-            bks.setName(row.getString("name"));
-            bks.setDOP(row.getString("DOP"));
-            bks.setISBN(row.getString("ISBN"));
-            bks.setReturn_date(row.getString("return_date"));
-            bks.setSRN_own(row.getInt("SRN_own"));
-            bks.setStaff_own(row.getInt("staff_own"));
-            return bks;
-        }
-    };
-
     public static RowMapper<alumni> rmalumni = new RowMapper<alumni>(){
         @Override
         public alumni mapRow(ResultSet row, int ind) throws SQLException {

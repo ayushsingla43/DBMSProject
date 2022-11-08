@@ -3,7 +3,8 @@ body {
     padding: 0;
     height: 100%;
     width: 100%;
-    background-color: #DBF3FC ;
+    background-color: #c5f5fc;
+    /* background-color: #DBF3FC ; */
    
 }
 /* 
@@ -24,29 +25,60 @@ body {
 
 .head {
 
+    
     padding-bottom: 10px;
-   
-    border-bottom: 1px solid black;
+    border: 1px solid black;
     max-height: 30%;
+    border-radius: 20px 20px 0px 0px;
+    color: white;
     text-align: center;
-   
+    background-color:  #01416F;
+    box-shadow: 0px 5px 10px grey;
 }
 
 .card {
-
-    background-color: #B4CDE6;
+    background-color: white;
     position: absolute;
     top: 50%;
-    left: 50%;        
+    left: 50%;
     transform: translate(-50%, -50%);
-    border: 2px solid black;
+    border: 1px solid black;
     border-radius: 20px;
     width: 400px;
-    height: 300px ;
+    height: 300px;
     display: flex;
     flex-direction: column;
-    
-    /* background-color: #e8e52b; */
+}
+
+.card2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.login-button{
+    display: block;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 2px -2px 6px grey ;
+    padding: 12px;
+    font-size: 24px;
+    margin-bottom: 16px;
+    flex-grow: 0;
+    min-width: 20%;
+    background-color: #01416F;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.login-button:hover{
+    min-width: 22%;
+    font-size: 25px;
+    background-color: #295472;
+    color:rgba(255, 255, 255, 0.763)
 }
 
 .card form {
@@ -54,10 +86,7 @@ body {
    margin-top: 5%;
 }
 
-.card2 {
-    text-align: center;
-    padding-top: 20px;
-}
+
 
 
 input {
@@ -81,6 +110,14 @@ input {
 a {
     color: inherit;
     text-decoration: inherit;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: 1px black solid;
+    border-radius: 10px;
+    width: fit-content;
+    /* margin-left: 98px; */
+    font-weight: lighter;
     
  }
 

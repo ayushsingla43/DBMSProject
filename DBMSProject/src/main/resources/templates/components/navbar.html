@@ -1,4 +1,3 @@
-
 <nav class="nav_bar" th:fragment="navbar">
     <div class="nav_content">
         <div class="img_div">
@@ -9,23 +8,25 @@
 
         <div class="nav_buttons ">
             <div class="item hover-underline-animation">
-                <span th:if="${session.authority==1}"><a href="studentProfile.html" th:href="@{'/student/profile/'+${session.student.getUID()}}">My profile</a></span>
-                 <span th:if="${session.authority>=2}"><a href="staffProfile.html" th:href="@{'/staff/profile/'+${session.staff.getUID()}}">My profile</a></span>
-             </div>
+                <span th:if="${session.authority==1}"><a href="studentProfile.html"
+                        th:href="@{'/student/profile/'+${session.student.getUID()}}">My profile</a></span>
+                <span th:if="${session.authority>=2}"><a href="staffProfile.html"
+                        th:href="@{'/staff/profile/'+${session.staff.getUID()}}">My profile</a></span>
+            </div>
 
             <div class="item hover-underline-animation">
                 <span th:if="${session.authority==1}">
                     <a th:href="@{'/student/results/'+${session.student.getUID()}}">Results</a>
-                </span> 
+                </span>
                 <span th:if="${session.authority>1}">
                     <a th:href="@{/staff/results}">Results</a>
                 </span>
             </div>
-            <div class="item hover-underline-animation">
-                <span th:if="${session.authority>1}">
+            <span th:if="${session.authority>2}">
+                <div class="item hover-underline-animation">
                     <a th:href="@{/staff/assign}">Assigned Teachers</a>
-                </span>
-            </div>
+                </div>
+            </span>
             <div class="item hover-underline-animation">
                 <span>
                     <a th:href="@{/student/alumni}">Alumni</a>
@@ -34,21 +35,24 @@
             <div class="dropdown">
                 <a class="dropbtn">Class</a>
                 <div class="dropdown-content">
-                    <a class="first" th:each="class:${session.classes}" th:href="@{'/staff/class/' +${class.get('class_no')}}+'-'+${class.get('section_no')}" method="get">Class [[${class.get('class_no')}]]-[[${class.get('section_no')}]]</a>
+                    <a class="first" th:each="class:${session.classes}"
+                        th:href="@{'/staff/class/' +${class.get('class_no')}}+'-'+${class.get('section_no')}"
+                        method="get">Class [[${class.get('class_no')}]]-[[${class.get('section_no')}]]</a>
                 </div>
             </div>
             <div class="dropdown">
                 <a class="dropbtn">Departments</a>
                 <div class="dropdown-content">
-                    <a class="first" th:each="dept:${session.depts}" th:href="@{'/staff/dept/' +${dept}}" method="get">[[${dept}]]</a>
+                    <a class="first" th:each="dept:${session.depts}" th:href="@{'/staff/dept/' +${dept}}"
+                        method="get">[[${dept}]]</a>
                 </div>
             </div>
-            <div class="item hover-underline-animation">
+            <div th:if="${session.authority>2}" class="item hover-underline-animation">
                 <a th:href="@{/staff/list}">Staff List</a>
             </div>
-            <div class="item hover-underline-animation">
+            <div th:if="${session.authority>1}" class="item hover-underline-animation">
                 <a th:href="@{/student/list}">Student List</a>
             </div>
         </div>
-    </div>  
+    </div>
 </nav>

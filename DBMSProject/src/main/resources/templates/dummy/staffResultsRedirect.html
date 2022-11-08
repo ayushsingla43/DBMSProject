@@ -9,8 +9,9 @@
 </head>
 
 <body>
+    <div id="switch">[[${filter.get('session')}]]</div>
     <h1>Redirecting to /staff/results</h1>
-    <form name="form1" th:action="@{/staff/results}" method="post">
+    <form th:if="${filter.get('session')}!=''" name="form1" th:action="@{/staff/results}" method="post">
         <input name="message" th:value="${message}">
         <input type="hidden" name="emp_id" th:value='${filter.get("emp_id")}'>
         <input type="hidden" name="SRN" th:value='${filter.get("SRN")}'>
@@ -20,8 +21,14 @@
         <input type="hidden" name="session" th:value='${filter.get("session")}'>
         <input type="hidden" name="limit" th:value='${filter.get("limit")}'>
     </form>
+    <form th:if="${filter.get('session')}==''" name="form2" th:action="@{/staff/insert/session}" method="post">
+        <input type="hidden" name="message" th:value="${message}">
+    </form>
     <script>
-        document.form1.submit();
+        let switchEl = document.getElementById("switch");
+        let value = switchEl.innerText;
+        if (value == '') { document.form2.submit(); }
+        else { document.form1.submit(); }
     </script>
 </body>
 

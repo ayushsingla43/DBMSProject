@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" th:href="@{/styles/list.css}">
     <link rel="stylesheet" href="/bootstrap/bootstrap.css">
-	<script href="/bootstrap/bootstrap.js"></script>
+    <script href="/bootstrap/bootstrap.js"></script>
     <title>Student_List</title>
 </head>
 
@@ -15,7 +15,8 @@
     <div>
         <nav th:replace="components/navbar :: navbar"></nav>
         <br>
-        <h2 style="text-align: center; color: crimson; margin-bottom: 12px;" th:if="${message!=null}">[[${message}]] </h2>
+        <h2 style="text-align: center; color: crimson; margin-bottom: 12px;" th:if="${message!=null}">[[${message}]]
+        </h2>
         <br>
         <div class="content">
             <div class="list">
@@ -46,8 +47,15 @@
                         <option value="500">500</option>
                         <option value="1000">1000</option>
                     </select><br>
-                    <input type="submit" class="submit_button">
+                    <div class="insert_button">
+                        <input type="submit" value="Search" class="submit_button">
+                    </div>
                 </form>
+                <div class="insert_button">
+                    <form th:action="@{/staff/insert/session}" method="post">
+                        <input type="submit" value="create session" class="submit_button">
+                    </form><br>
+                </div>
             </div>
             <div class="details_table">
                 <table>
@@ -55,28 +63,64 @@
                         <td>Student Id</td>
                         <td>Student Name</td>
                         <td>Class</td>
+                        <td>Subject</td>
                         <td>[[${css}]]</td>
-                        <td>Edit</td>
+                        <td th:if="${session.authority>2}">Edit</td>
                     </thead>
-                    <tr th:each="stud : ${students}">
-                        <td>[[${stud.get("SRN")}]]</td>
-                        <td>[[${stud.get("name")}]]</td>
-                        <td>[[${stud.get("class")}]]-[[${stud.get("section")}]]</td>
-                        <form th:action="@{/staff/result/edit}" method="post" onsubmit="return confirmSubmission()">
-                            <input type="hidden" name="stud_SRN" th:value='${stud.get("SRN")}'>
-                            <input type="hidden" name="stud_course" th:value='${css}'>
-                            <input type="hidden" name="stud_session" th:value='${stud.get("session_no")}'>
-                            <td><input type="number" name="stud_marks" min="0" max="100" th:value="${stud.get('marks')}"></td>
-                            <input type="hidden" name="fil_emp_id" th:value='${filter.get("emp_id")}'>
-                            <input type="hidden" name="fil_SRN" th:value='${filter.get("SRN")}'>
-                            <input type="hidden" name="fil_class" th:value='${filter.get("class_")}'>
-                            <input type="hidden" name="fil_section" th:value='${filter.get("section")}'>
-                            <input type="hidden" name="fil_course" th:value='${filter.get("course")}'>
-                            <input type="hidden" name="fil_session" th:value='${filter.get("session")}'>
-                            <input type="hidden" name="fil_limit" th:value='${filter.get("limit")}'>
-                            <td><input class="button" type="submit" value="Edit"></td>
-                        </form>
-                    </tr>
+                    <div th:if="${filter.get('session')}!=''">
+                        <tr th:each="stud : ${students}">
+                            <td>[[${stud.get("SRN")}]]</td>
+                            <td>[[${stud.get("name")}]]</td>
+                            <td>[[${stud.get("class")}]]-[[${stud.get("section")}]]</td>
+                            <td>[[${stud.get("course")}]]</td>
+                            <form th:action="@{/staff/result/edit}" method="post" onsubmit="return confirmSubmission()">
+                                <input type="hidden" name="stud_SRN" th:value='${stud.get("SRN")}'>
+                                <input type="hidden" name="stud_course" th:value="${css}">
+                                <input type="hidden" name="stud_session" th:value='${stud.get("session_no")}'>
+                                <div th:if="${stud.get('marks')!=null}">
+                                    <td><input type="number" name="stud_marks" min="0" max="100" th:value="${stud.get('marks')}"></td>
+                                </div>
+                                <div th:if="${stud.get('marks')==null}">
+                                    <td><input type="number" name="stud_marks" min="0" max="100"></td>
+                                </div>
+                                <input type="hidden" name="fil_emp_id" th:value='${filter.get("emp_id")}'>
+                                <input type="hidden" name="fil_SRN" th:value='${filter.get("SRN")}'>
+                                <input type="hidden" name="fil_class" th:value='${filter.get("class_")}'>
+                                <input type="hidden" name="fil_section" th:value='${filter.get("section")}'>
+                                <input type="hidden" name="fil_course" th:value='${filter.get("course")}'>
+                                <input type="hidden" name="fil_session" th:value='${filter.get("session")}'>
+                                <input type="hidden" name="fil_limit" th:value='${filter.get("limit")}'>
+                                <td th:if="${session.authority>2}"><input class="button" type="submit" value="Edit"></td>
+                            </form>
+                        </tr>
+                    </div>
+                    <div th:if="${filter.get('session')}==''">
+                        <tr th:each="stud : ${students}">
+                            <td>[[${stud.get("SRN")}]]</td>
+                            <td>[[${stud.get("name")}]]</td>
+                            <td>[[${stud.get("class")}]]-[[${stud.get("section")}]]</td>
+                            <td>[[${stud.get("course")}]]</td>
+                            <form th:action="@{/staff/result/edit}" method="post" onsubmit="return confirmSubmission()">
+                                <input type="hidden" name="stud_SRN" th:value='${stud.get("SRN")}'>
+                                <input type="hidden" name="stud_course" th:value='${stud.get("course")}'>
+                                <input type="hidden" name="stud_session" th:value='${stud.get("session_no")}'>
+                                <div th:if="${stud.get('marks')!=null}">
+                                    <td><input type="number" name="stud_marks" min="0" max="100" th:value="${stud.get('marks')}"></td>
+                                </div>
+                                <div th:if="${stud.get('marks')==null}">
+                                    <td><input type="number" name="stud_marks" min="0" max="100"></td>
+                                </div>
+                                <input type="hidden" name="fil_emp_id" value=''>
+                                <input type="hidden" name="fil_SRN" value=''>
+                                <input type="hidden" name="fil_class" value=''>
+                                <input type="hidden" name="fil_section" value=''>
+                                <input type="hidden" name="fil_course" value=''>
+                                <input type="hidden" name="fil_session" value=''>
+                                <input type="hidden" name="fil_limit" value=''>
+                                <td th:if="${session.authority>2}"><input class="button" type="submit" value="Edit"></td>
+                            </form>    
+                        </tr>
+                    </div>
                 </table>
             </div>
         </div>
