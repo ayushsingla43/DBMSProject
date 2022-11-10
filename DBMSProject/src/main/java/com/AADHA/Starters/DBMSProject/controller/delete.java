@@ -26,7 +26,7 @@ public class delete {
     @Autowired
     JdbcTemplate j;
 
-    @RequestMapping(value="/staff/student/delete/{UID}")
+    @RequestMapping("/staff/student/delete/{UID}")
     public ModelAndView getMethodName(@PathVariable("UID") String UID, HttpSession session) {
         if((int)session.getAttribute("authority")<3){
             return new ModelAndView("error/405.html");
@@ -41,6 +41,7 @@ public class delete {
         adao.addAlumini(stu.getSRN(), stu.getClass_no(), Integer.parseInt(session_no), stu.getName(), stu.getAdmission_date(),
         stu.getEmail(), stu.getPhone_1(), stu.getPhone_2(), stu.getPhoto(), stu.getGender(), stu.getAadhar_no());
         adao.updateShowAlumni(null,Integer.parseInt(UID.substring(3)));
+        mv.addObject("message","Student "+stu.getSRN()+" transferred succesfully");
         return mv;
     }
 

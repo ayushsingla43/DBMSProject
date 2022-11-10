@@ -13,8 +13,9 @@
 
 <body>
     <div>
-        <nav th:replace="components/navbar :: navbar"></nav>
+        <nav th:replace="components/navbar :: navbar">Assigned Teachers</nav>
         <br>
+        <h1 style="text-align:center; padding-bottom: 1%;">Assigned Teachers</h1>
         <h2 style="text-align: center; color: crimson; margin-bottom: 12px;" th:if="${message!=null}">[[${message}]] </h2>
         <br>
         <div class="content">

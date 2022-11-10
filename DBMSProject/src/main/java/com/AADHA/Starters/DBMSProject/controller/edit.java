@@ -38,7 +38,7 @@ public class edit {
     }
 
     @PostMapping("/staff/edit/{UID}")
-    public ModelAndView staffEdit(@PathVariable("UID") String UID, String stf_name, String stf_gender, int stf_exp, int stf_pin, int stf_salary, String stf_dob, String stf_email, String stf_bg, String stf_phone1, String stf_phone2, String stf_street, String stf_city, String stf_state, String stf_aadhar, String stf_pan, String stf_photo)
+    public ModelAndView staffEdit(@PathVariable("UID") String UID, String stf_name, String stf_gender, int stf_exp, int stf_pin, int stf_salary, String stf_dob, String stf_email, String stf_bg, String stf_phone1, String stf_phone2, String stf_street, String stf_city, String stf_state, String stf_aadhar, String stf_pan)
     {
         ModelAndView mv = new ModelAndView("staffEdit.html");
         staffdao stfdao = new staffdao(j);
@@ -63,7 +63,7 @@ public class edit {
             return mv;
         }
         
-        stfdao.editTeacher(UID,stf_name, stf_gender, stf_exp, stf_pin,stf_salary,stf_dob, stf_email, stf_bg, stf_phone1, stf_phone2, stf_street, stf_city, stf_state,stf_aadhar, stf_pan, stf_photo);
+        stfdao.editTeacher(UID,stf_name, stf_gender, stf_exp, stf_pin,stf_salary,stf_dob, stf_email, stf_bg, stf_phone1, stf_phone2, stf_street, stf_city, stf_state,stf_aadhar, stf_pan);
         System.out.println("vn");
         st=stfdao.getStaffByUID(UID);
         mv.addObject("stf", st);
@@ -87,7 +87,7 @@ public class edit {
     }
 
     @PostMapping("/student/edit/{UID}")
-    public ModelAndView insertStudent(@PathVariable("UID") String UID, String std_name, String std_gender, String std_date, Integer std_pin,String std_mother, String std_guardian, String std_class, String std_section,String std_dob, String std_email, String std_bg, String std_phone1, String std_phone2, String std_street, String std_city,String std_state, String std_aadhar, String std_photo)
+    public ModelAndView insertStudent(@PathVariable("UID") String UID, String std_name, String std_gender, String std_date, Integer std_pin,String std_mother, String std_guardian, String std_class, String std_section,String std_dob, String std_email, String std_bg, String std_phone1, String std_phone2, String std_street, String std_city,String std_state, String std_aadhar)
     {
         studentdao stddao = new studentdao(j);
         ModelAndView mv = new ModelAndView("studentEdit.html");
@@ -98,7 +98,7 @@ public class edit {
             mv.addObject("message", "Aadhar Number should be unique!");
             return mv;
         }
-        stddao.editStudent(UID,std_name,std_gender,std_date,std_pin,std_mother,std_guardian,Std_class,Std_section,std_dob,std_email,std_bg,std_phone1,std_phone2,std_street,std_city,std_state,std_aadhar,std_photo);
+        stddao.editStudent(UID,std_name,std_gender,std_date,std_pin,std_mother,std_guardian,Std_class,Std_section,std_dob,std_email,std_bg,std_phone1,std_phone2,std_street,std_city,std_state,std_aadhar);
         classdao cls = new classdao(j);
         List<String> class_no = cls.Classes();
         List<String> section_no = cls.Sections();

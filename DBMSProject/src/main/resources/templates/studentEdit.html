@@ -22,13 +22,18 @@
 					<h5 padding-left="10px">Personel details</h5>
 					<div class="block">
 						<div class="form-floating col-md-4 my_input">
-							
 							<input type="text" class="form-control" id="Std_name" name="std_name" placeholder="Name" required th:value="${stu.getName()}"><br>
 							<label for="Name">Name</label>
 						</div>
 						<div class="form-floating col-md-4 my_input">
-							<input type="text" class="form-control" id="Std_gender" name="std_gender" placeholder="Gender" th:value="${stu.getGender()}"><br>
-							<label for="Gender">Gender</label>
+							<select name="std_gender" class="form-control" id="Std_gender" required>
+								<option th:value="${stu.getGender()}" selected hidden>[[${stu.getGender()}]]</option>
+								<option value="N">None</option>
+								<option value="M">Male</option>
+								<option value="F">Female</option>
+								<br>
+								<label for="Gender">Gender</label>
+							</select>
 					    </div>
 						<div class="form-floating col-md-4 my_input">	
 							<input type="text" class="form-control" id="Std_bg" name="std_bg" placeholder="Blood Group" th:value="${stu.getBlood_grp()}"><br>
@@ -112,12 +117,8 @@
 							<label for="PIN">PIN</label>
 						</div>	
 
-					</div>	
-					<div class="form-floating col-md-4 my_input">
-						<input type="text" class="form-control" id="Std_photo" name="std_photo" placeholder="Photo" th:value="${stu.getPhoto()}"+><br>
-					</div>	
+					</div>
 					<div class="my_button">
-						
 						<button type="submit" class="btn btn-primary">Submit</button>
 					</div>	
 				</form>

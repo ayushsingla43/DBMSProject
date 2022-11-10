@@ -1,0 +1,8641 @@
+SRN,marks,course,session_no
+1001,23,Moral Science,2022
+1001,87,History,2022
+1001,96,Library,2022
+1001,100,Music,2022
+1001,76,Mathematics,2022
+1001,20,Civics,2022
+1001,93,Physics,2022
+1001,73,Sports,2022
+1002,80,Moral Science,2022
+1002,\N,History,2022
+1002,3,Library,2022
+1002,71,Music,2022
+1002,24,Mathematics,2022
+1002,62,Civics,2022
+1002,80,Physics,2022
+1002,13,Sports,2022
+1003,67,Moral Science,2022
+1003,\N,History,2022
+1003,63,Library,2022
+1003,95,Music,2022
+1003,67,Mathematics,2022
+1003,42,Civics,2022
+1003,1,Physics,2022
+1003,39,Sports,2022
+1004,53,Moral Science,2022
+1004,\N,History,2022
+1004,72,Library,2022
+1004,16,Music,2022
+1004,48,Mathematics,2022
+1004,79,Civics,2022
+1004,60,Physics,2022
+1004,69,Sports,2022
+1005,95,Moral Science,2022
+1005,37,History,2022
+1005,26,Library,2022
+1005,67,Music,2022
+1005,70,Mathematics,2022
+1005,91,Civics,2022
+1005,55,Physics,2022
+1005,\N,Sports,2022
+1006,91,Moral Science,2022
+1006,46,History,2022
+1006,98,Library,2022
+1006,99,Music,2022
+1006,56,Mathematics,2022
+1006,33,Civics,2022
+1006,32,Physics,2022
+1006,92,Sports,2022
+1007,79,Moral Science,2022
+1007,\N,History,2022
+1007,66,Library,2022
+1007,28,Music,2022
+1007,81,Mathematics,2022
+1007,55,Civics,2022
+1007,20,Physics,2022
+1007,31,Sports,2022
+1008,22,Moral Science,2022
+1008,11,History,2022
+1008,38,Library,2022
+1008,52,Music,2022
+1008,51,Mathematics,2022
+1008,10,Civics,2022
+1008,9,Physics,2022
+1008,60,Sports,2022
+1009,90,Moral Science,2022
+1009,83,History,2022
+1009,38,Library,2022
+1009,46,Music,2022
+1009,75,Mathematics,2022
+1009,86,Civics,2022
+1009,11,Physics,2022
+1009,87,Sports,2022
+1010,96,Moral Science,2022
+1010,60,History,2022
+1010,24,Library,2022
+1010,92,Music,2022
+1010,30,Mathematics,2022
+1010,83,Civics,2022
+1010,81,Physics,2022
+1010,34,Sports,2022
+1011,70,Moral Science,2022
+1011,84,History,2022
+1011,37,Library,2022
+1011,73,Music,2022
+1011,26,Mathematics,2022
+1011,69,Civics,2022
+1011,41,Physics,2022
+1011,77,Sports,2022
+1012,14,Moral Science,2022
+1012,6,History,2022
+1012,16,Library,2022
+1012,35,Music,2022
+1012,51,Mathematics,2022
+1012,73,Civics,2022
+1012,85,Physics,2022
+1012,63,Sports,2022
+1013,69,Moral Science,2022
+1013,45,History,2022
+1013,31,Library,2022
+1013,82,Music,2022
+1013,47,Mathematics,2022
+1013,33,Civics,2022
+1013,78,Physics,2022
+1013,85,Sports,2022
+1014,34,Moral Science,2022
+1014,91,History,2022
+1014,43,Library,2022
+1014,98,Music,2022
+1014,43,Mathematics,2022
+1014,42,Civics,2022
+1014,35,Physics,2022
+1014,83,Sports,2022
+1015,34,Moral Science,2022
+1015,44,History,2022
+1015,89,Library,2022
+1015,75,Music,2022
+1015,27,Mathematics,2022
+1015,78,Civics,2022
+1015,84,Physics,2022
+1015,48,Sports,2022
+1016,21,Moral Science,2022
+1016,74,History,2022
+1016,74,Library,2022
+1016,55,Music,2022
+1016,36,Mathematics,2022
+1016,95,Civics,2022
+1016,92,Physics,2022
+1016,92,Sports,2022
+1017,23,Moral Science,2022
+1017,38,History,2022
+1017,91,Library,2022
+1017,92,Music,2022
+1017,59,Mathematics,2022
+1017,83,Civics,2022
+1017,25,Physics,2022
+1017,12,Sports,2022
+1018,64,Moral Science,2022
+1018,100,History,2022
+1018,62,Library,2022
+1018,88,Music,2022
+1018,40,Mathematics,2022
+1018,17,Civics,2022
+1018,100,Physics,2022
+1018,61,Sports,2022
+1019,37,Moral Science,2022
+1019,88,History,2022
+1019,45,Library,2022
+1019,28,Music,2022
+1019,63,Mathematics,2022
+1019,22,Civics,2022
+1019,21,Physics,2022
+1019,6,Sports,2022
+1020,86,Moral Science,2022
+1020,94,History,2022
+1020,2,Library,2022
+1020,30,Music,2022
+1020,63,Mathematics,2022
+1020,58,Civics,2022
+1020,40,Physics,2022
+1020,58,Sports,2022
+1021,80,General Knowledge,2022
+1021,98,computer,2022
+1021,100,Music,2022
+1021,11,Mathematics,2022
+1021,24,English,2022
+1021,89,Physics,2022
+1021,77,Sports,2022
+1021,68,Art,2022
+1022,41,General Knowledge,2022
+1022,13,computer,2022
+1022,69,Music,2022
+1022,58,Mathematics,2022
+1022,94,English,2022
+1022,51,Physics,2022
+1022,83,Sports,2022
+1022,74,Art,2022
+1023,60,General Knowledge,2022
+1023,42,computer,2022
+1023,51,Music,2022
+1023,77,Mathematics,2022
+1023,82,English,2022
+1023,47,Physics,2022
+1023,63,Sports,2022
+1023,58,Art,2022
+1024,85,General Knowledge,2022
+1024,18,computer,2022
+1024,45,Music,2022
+1024,22,Mathematics,2022
+1024,90,English,2022
+1024,22,Physics,2022
+1024,93,Sports,2022
+1024,97,Art,2022
+1025,90,General Knowledge,2022
+1025,71,computer,2022
+1025,96,Music,2022
+1025,77,Mathematics,2022
+1025,67,English,2022
+1025,20,Physics,2022
+1025,60,Sports,2022
+1025,97,Art,2022
+1026,59,General Knowledge,2022
+1026,8,computer,2022
+1026,13,Music,2022
+1026,56,Mathematics,2022
+1026,91,English,2022
+1026,43,Physics,2022
+1026,86,Sports,2022
+1026,19,Art,2022
+1027,67,General Knowledge,2022
+1027,40,computer,2022
+1027,19,Music,2022
+1027,75,Mathematics,2022
+1027,66,English,2022
+1027,14,Physics,2022
+1027,1,Sports,2022
+1027,51,Art,2022
+1028,51,General Knowledge,2022
+1028,76,computer,2022
+1028,22,Music,2022
+1028,38,Mathematics,2022
+1028,42,English,2022
+1028,18,Physics,2022
+1028,50,Sports,2022
+1028,7,Art,2022
+1029,21,General Knowledge,2022
+1029,43,computer,2022
+1029,47,Music,2022
+1029,37,Mathematics,2022
+1029,63,English,2022
+1029,4,Physics,2022
+1029,83,Sports,2022
+1029,90,Art,2022
+1030,83,General Knowledge,2022
+1030,52,computer,2022
+1030,61,Music,2022
+1030,17,Mathematics,2022
+1030,69,English,2022
+1030,11,Physics,2022
+1030,85,Sports,2022
+1030,89,Art,2022
+1031,18,General Knowledge,2022
+1031,80,computer,2022
+1031,41,Music,2022
+1031,51,Mathematics,2022
+1031,64,English,2022
+1031,88,Physics,2022
+1031,60,Sports,2022
+1031,85,Art,2022
+1032,23,General Knowledge,2022
+1032,80,computer,2022
+1032,75,Music,2022
+1032,19,Mathematics,2022
+1032,44,English,2022
+1032,67,Physics,2022
+1032,74,Sports,2022
+1032,52,Art,2022
+1033,61,General Knowledge,2022
+1033,67,computer,2022
+1033,7,Music,2022
+1033,59,Mathematics,2022
+1033,94,English,2022
+1033,53,Physics,2022
+1033,40,Sports,2022
+1033,70,Art,2022
+1034,19,General Knowledge,2022
+1034,39,computer,2022
+1034,81,Music,2022
+1034,49,Mathematics,2022
+1034,55,English,2022
+1034,78,Physics,2022
+1034,72,Sports,2022
+1034,65,Art,2022
+1035,93,General Knowledge,2022
+1035,33,computer,2022
+1035,82,Music,2022
+1035,54,Mathematics,2022
+1035,90,English,2022
+1035,61,Physics,2022
+1035,76,Sports,2022
+1035,11,Art,2022
+1036,87,General Knowledge,2022
+1036,70,computer,2022
+1036,76,Music,2022
+1036,59,Mathematics,2022
+1036,85,English,2022
+1036,88,Physics,2022
+1036,57,Sports,2022
+1036,31,Art,2022
+1037,76,General Knowledge,2022
+1037,60,computer,2022
+1037,77,Music,2022
+1037,89,Mathematics,2022
+1037,80,English,2022
+1037,62,Physics,2022
+1037,34,Sports,2022
+1037,46,Art,2022
+1038,57,General Knowledge,2022
+1038,96,computer,2022
+1038,57,Music,2022
+1038,100,Mathematics,2022
+1038,27,English,2022
+1038,81,Physics,2022
+1038,30,Sports,2022
+1038,98,Art,2022
+1039,53,General Knowledge,2022
+1039,42,computer,2022
+1039,58,Music,2022
+1039,82,Mathematics,2022
+1039,0,English,2022
+1039,57,Physics,2022
+1039,84,Sports,2022
+1039,54,Art,2022
+1040,37,General Knowledge,2022
+1040,36,computer,2022
+1040,68,Music,2022
+1040,80,Mathematics,2022
+1040,23,English,2022
+1040,66,Physics,2022
+1040,35,Sports,2022
+1040,12,Art,2022
+1041,28,Dance,2022
+1041,53,Biology,2022
+1041,94,General Knowledge,2022
+1041,49,Geography,2022
+1041,4,Library,2022
+1041,25,Civics,2022
+1041,62,English,2022
+1041,40,Hindi,2022
+1042,37,Dance,2022
+1042,6,Biology,2022
+1042,12,General Knowledge,2022
+1042,72,Geography,2022
+1042,29,Library,2022
+1042,90,Civics,2022
+1042,37,English,2022
+1042,93,Hindi,2022
+1043,62,Dance,2022
+1043,70,Biology,2022
+1043,59,General Knowledge,2022
+1043,44,Geography,2022
+1043,86,Library,2022
+1043,22,Civics,2022
+1043,71,English,2022
+1043,39,Hindi,2022
+1044,98,Dance,2022
+1044,51,Biology,2022
+1044,91,General Knowledge,2022
+1044,97,Geography,2022
+1044,54,Library,2022
+1044,16,Civics,2022
+1044,82,English,2022
+1044,63,Hindi,2022
+1045,95,Dance,2022
+1045,12,Biology,2022
+1045,93,General Knowledge,2022
+1045,56,Geography,2022
+1045,47,Library,2022
+1045,26,Civics,2022
+1045,95,English,2022
+1045,52,Hindi,2022
+1046,49,Dance,2022
+1046,82,Biology,2022
+1046,87,General Knowledge,2022
+1046,35,Geography,2022
+1046,50,Library,2022
+1046,21,Civics,2022
+1046,95,English,2022
+1046,89,Hindi,2022
+1047,69,Dance,2022
+1047,71,Biology,2022
+1047,57,General Knowledge,2022
+1047,98,Geography,2022
+1047,99,Library,2022
+1047,38,Civics,2022
+1047,16,English,2022
+1047,37,Hindi,2022
+1048,52,Dance,2022
+1048,42,Biology,2022
+1048,42,General Knowledge,2022
+1048,17,Geography,2022
+1048,94,Library,2022
+1048,56,Civics,2022
+1048,78,English,2022
+1048,12,Hindi,2022
+1049,58,Dance,2022
+1049,8,Biology,2022
+1049,67,General Knowledge,2022
+1049,60,Geography,2022
+1049,65,Library,2022
+1049,93,Civics,2022
+1049,66,English,2022
+1049,78,Hindi,2022
+1050,96,Dance,2022
+1050,48,Biology,2022
+1050,30,General Knowledge,2022
+1050,64,Geography,2022
+1050,78,Library,2022
+1050,66,Civics,2022
+1050,34,English,2022
+1050,78,Hindi,2022
+1051,94,Dance,2022
+1051,66,Biology,2022
+1051,74,General Knowledge,2022
+1051,84,Geography,2022
+1051,86,Library,2022
+1051,62,Civics,2022
+1051,46,English,2022
+1051,53,Hindi,2022
+1052,70,Dance,2022
+1052,63,Biology,2022
+1052,37,General Knowledge,2022
+1052,49,Geography,2022
+1052,72,Library,2022
+1052,37,Civics,2022
+1052,35,English,2022
+1052,59,Hindi,2022
+1053,86,Dance,2022
+1053,100,Biology,2022
+1053,56,General Knowledge,2022
+1053,81,Geography,2022
+1053,59,Library,2022
+1053,8,Civics,2022
+1053,12,English,2022
+1053,41,Hindi,2022
+1054,62,Dance,2022
+1054,23,Biology,2022
+1054,49,General Knowledge,2022
+1054,95,Geography,2022
+1054,68,Library,2022
+1054,59,Civics,2022
+1054,31,English,2022
+1054,8,Hindi,2022
+1055,53,Dance,2022
+1055,74,Biology,2022
+1055,69,General Knowledge,2022
+1055,97,Geography,2022
+1055,37,Library,2022
+1055,39,Civics,2022
+1055,92,English,2022
+1055,15,Hindi,2022
+1056,51,Dance,2022
+1056,83,Biology,2022
+1056,61,General Knowledge,2022
+1056,88,Geography,2022
+1056,60,Library,2022
+1056,67,Civics,2022
+1056,93,English,2022
+1056,83,Hindi,2022
+1057,92,Dance,2022
+1057,93,Biology,2022
+1057,37,General Knowledge,2022
+1057,50,Geography,2022
+1057,24,Library,2022
+1057,50,Civics,2022
+1057,94,English,2022
+1057,74,Hindi,2022
+1058,76,Dance,2022
+1058,5,Biology,2022
+1058,53,General Knowledge,2022
+1058,23,Geography,2022
+1058,0,Library,2022
+1058,52,Civics,2022
+1058,3,English,2022
+1058,81,Hindi,2022
+1059,66,Dance,2022
+1059,45,Biology,2022
+1059,7,General Knowledge,2022
+1059,47,Geography,2022
+1059,32,Library,2022
+1059,81,Civics,2022
+1059,9,English,2022
+1059,95,Hindi,2022
+1060,74,Dance,2022
+1060,90,Biology,2022
+1060,59,General Knowledge,2022
+1060,47,Geography,2022
+1060,50,Library,2022
+1060,53,Civics,2022
+1060,40,English,2022
+1060,64,Hindi,2022
+1061,99,Biology,2022
+1061,72,Music,2022
+1061,82,Mathematics,2022
+1061,25,Civics,2022
+1061,39,English,2022
+1061,39,Physics,2022
+1061,75,Hindi,2022
+1061,10,Art,2022
+1061,54,Moral Science,2021
+1061,36,History,2021
+1061,39,Library,2021
+1061,28,Music,2021
+1061,80,Mathematics,2021
+1061,5,Civics,2021
+1061,71,Physics,2021
+1061,32,Sports,2021
+1062,71,Biology,2022
+1062,54,Music,2022
+1062,57,Mathematics,2022
+1062,59,Civics,2022
+1062,0,English,2022
+1062,94,Physics,2022
+1062,55,Hindi,2022
+1062,0,Art,2022
+1062,93,Moral Science,2021
+1062,53,History,2021
+1062,62,Library,2021
+1062,21,Music,2021
+1062,79,Mathematics,2021
+1062,13,Civics,2021
+1062,7,Physics,2021
+1062,2,Sports,2021
+1063,20,Biology,2022
+1063,96,Music,2022
+1063,74,Mathematics,2022
+1063,26,Civics,2022
+1063,95,English,2022
+1063,38,Physics,2022
+1063,75,Hindi,2022
+1063,76,Art,2022
+1063,49,Moral Science,2021
+1063,92,History,2021
+1063,51,Library,2021
+1063,24,Music,2021
+1063,77,Mathematics,2021
+1063,5,Civics,2021
+1063,65,Physics,2021
+1063,33,Sports,2021
+1064,69,Biology,2022
+1064,89,Music,2022
+1064,22,Mathematics,2022
+1064,88,Civics,2022
+1064,100,English,2022
+1064,82,Physics,2022
+1064,33,Hindi,2022
+1064,70,Art,2022
+1064,65,Moral Science,2021
+1064,11,History,2021
+1064,40,Library,2021
+1064,87,Music,2021
+1064,33,Mathematics,2021
+1064,93,Civics,2021
+1064,82,Physics,2021
+1064,21,Sports,2021
+1065,92,Biology,2022
+1065,61,Music,2022
+1065,36,Mathematics,2022
+1065,39,Civics,2022
+1065,97,English,2022
+1065,5,Physics,2022
+1065,68,Hindi,2022
+1065,38,Art,2022
+1065,78,Moral Science,2021
+1065,80,History,2021
+1065,75,Library,2021
+1065,45,Music,2021
+1065,48,Mathematics,2021
+1065,21,Civics,2021
+1065,43,Physics,2021
+1065,22,Sports,2021
+1066,47,Biology,2022
+1066,50,Music,2022
+1066,87,Mathematics,2022
+1066,56,Civics,2022
+1066,87,English,2022
+1066,55,Physics,2022
+1066,25,Hindi,2022
+1066,45,Art,2022
+1066,56,Moral Science,2021
+1066,93,History,2021
+1066,23,Library,2021
+1066,37,Music,2021
+1066,53,Mathematics,2021
+1066,36,Civics,2021
+1066,5,Physics,2021
+1066,69,Sports,2021
+1067,95,Biology,2022
+1067,46,Music,2022
+1067,58,Mathematics,2022
+1067,14,Civics,2022
+1067,59,English,2022
+1067,31,Physics,2022
+1067,63,Hindi,2022
+1067,39,Art,2022
+1067,76,Moral Science,2021
+1067,77,History,2021
+1067,77,Library,2021
+1067,26,Music,2021
+1067,29,Mathematics,2021
+1067,55,Civics,2021
+1067,54,Physics,2021
+1067,39,Sports,2021
+1068,78,Biology,2022
+1068,72,Music,2022
+1068,38,Mathematics,2022
+1068,44,Civics,2022
+1068,28,English,2022
+1068,41,Physics,2022
+1068,51,Hindi,2022
+1068,61,Art,2022
+1068,95,Moral Science,2021
+1068,51,History,2021
+1068,39,Library,2021
+1068,57,Music,2021
+1068,41,Mathematics,2021
+1068,63,Civics,2021
+1068,13,Physics,2021
+1068,50,Sports,2021
+1069,39,Biology,2022
+1069,70,Music,2022
+1069,56,Mathematics,2022
+1069,69,Civics,2022
+1069,64,English,2022
+1069,94,Physics,2022
+1069,54,Hindi,2022
+1069,97,Art,2022
+1069,41,Moral Science,2021
+1069,14,History,2021
+1069,98,Library,2021
+1069,96,Music,2021
+1069,32,Mathematics,2021
+1069,30,Civics,2021
+1069,91,Physics,2021
+1069,18,Sports,2021
+1070,41,Biology,2022
+1070,70,Music,2022
+1070,100,Mathematics,2022
+1070,45,Civics,2022
+1070,54,English,2022
+1070,58,Physics,2022
+1070,9,Hindi,2022
+1070,75,Art,2022
+1070,32,Moral Science,2021
+1070,58,History,2021
+1070,55,Library,2021
+1070,23,Music,2021
+1070,28,Mathematics,2021
+1070,41,Civics,2021
+1070,74,Physics,2021
+1070,78,Sports,2021
+1071,75,Biology,2022
+1071,94,Music,2022
+1071,62,Mathematics,2022
+1071,35,Civics,2022
+1071,14,English,2022
+1071,72,Physics,2022
+1071,98,Hindi,2022
+1071,10,Art,2022
+1071,90,Moral Science,2021
+1071,47,History,2021
+1071,61,Library,2021
+1071,91,Music,2021
+1071,82,Mathematics,2021
+1071,78,Civics,2021
+1071,82,Physics,2021
+1071,9,Sports,2021
+1072,98,Biology,2022
+1072,86,Music,2022
+1072,64,Mathematics,2022
+1072,80,Civics,2022
+1072,61,English,2022
+1072,31,Physics,2022
+1072,54,Hindi,2022
+1072,20,Art,2022
+1072,99,Moral Science,2021
+1072,68,History,2021
+1072,61,Library,2021
+1072,45,Music,2021
+1072,47,Mathematics,2021
+1072,57,Civics,2021
+1072,90,Physics,2021
+1072,69,Sports,2021
+1073,78,Biology,2022
+1073,79,Music,2022
+1073,93,Mathematics,2022
+1073,11,Civics,2022
+1073,62,English,2022
+1073,32,Physics,2022
+1073,83,Hindi,2022
+1073,17,Art,2022
+1073,55,Moral Science,2021
+1073,71,History,2021
+1073,43,Library,2021
+1073,46,Music,2021
+1073,80,Mathematics,2021
+1073,92,Civics,2021
+1073,35,Physics,2021
+1073,55,Sports,2021
+1074,69,Biology,2022
+1074,52,Music,2022
+1074,74,Mathematics,2022
+1074,27,Civics,2022
+1074,70,English,2022
+1074,66,Physics,2022
+1074,33,Hindi,2022
+1074,57,Art,2022
+1074,50,Moral Science,2021
+1074,91,History,2021
+1074,83,Library,2021
+1074,53,Music,2021
+1074,33,Mathematics,2021
+1074,97,Civics,2021
+1074,17,Physics,2021
+1074,27,Sports,2021
+1075,65,Biology,2022
+1075,46,Music,2022
+1075,99,Mathematics,2022
+1075,30,Civics,2022
+1075,82,English,2022
+1075,69,Physics,2022
+1075,36,Hindi,2022
+1075,71,Art,2022
+1075,90,Moral Science,2021
+1075,50,History,2021
+1075,81,Library,2021
+1075,5,Music,2021
+1075,84,Mathematics,2021
+1075,48,Civics,2021
+1075,17,Physics,2021
+1075,91,Sports,2021
+1076,21,Biology,2022
+1076,91,Music,2022
+1076,34,Mathematics,2022
+1076,71,Civics,2022
+1076,47,English,2022
+1076,22,Physics,2022
+1076,90,Hindi,2022
+1076,22,Art,2022
+1076,97,Moral Science,2021
+1076,83,History,2021
+1076,91,Library,2021
+1076,70,Music,2021
+1076,68,Mathematics,2021
+1076,2,Civics,2021
+1076,81,Physics,2021
+1076,50,Sports,2021
+1077,21,Biology,2022
+1077,40,Music,2022
+1077,52,Mathematics,2022
+1077,15,Civics,2022
+1077,36,English,2022
+1077,43,Physics,2022
+1077,52,Hindi,2022
+1077,87,Art,2022
+1077,41,Moral Science,2021
+1077,60,History,2021
+1077,26,Library,2021
+1077,72,Music,2021
+1077,75,Mathematics,2021
+1077,22,Civics,2021
+1077,21,Physics,2021
+1077,45,Sports,2021
+1078,75,Biology,2022
+1078,78,Music,2022
+1078,57,Mathematics,2022
+1078,99,Civics,2022
+1078,40,English,2022
+1078,84,Physics,2022
+1078,64,Hindi,2022
+1078,39,Art,2022
+1078,46,Moral Science,2021
+1078,59,History,2021
+1078,59,Library,2021
+1078,49,Music,2021
+1078,49,Mathematics,2021
+1078,58,Civics,2021
+1078,86,Physics,2021
+1078,44,Sports,2021
+1079,25,Biology,2022
+1079,99,Music,2022
+1079,63,Mathematics,2022
+1079,66,Civics,2022
+1079,3,English,2022
+1079,91,Physics,2022
+1079,55,Hindi,2022
+1079,95,Art,2022
+1079,83,Moral Science,2021
+1079,86,History,2021
+1079,26,Library,2021
+1079,68,Music,2021
+1079,21,Mathematics,2021
+1079,78,Civics,2021
+1079,92,Physics,2021
+1079,33,Sports,2021
+1080,73,Biology,2022
+1080,85,Music,2022
+1080,73,Mathematics,2022
+1080,55,Civics,2022
+1080,4,English,2022
+1080,70,Physics,2022
+1080,90,Hindi,2022
+1080,53,Art,2022
+1080,92,Moral Science,2021
+1080,21,History,2021
+1080,11,Library,2021
+1080,90,Music,2021
+1080,93,Mathematics,2021
+1080,59,Civics,2021
+1080,6,Physics,2021
+1080,68,Sports,2021
+1081,24,General Knowledge,2022
+1081,74,Dance,2022
+1081,35,History,2022
+1081,89,computer,2022
+1081,32,Library,2022
+1081,70,Physics,2022
+1081,25,Hindi,2022
+1081,72,Art,2022
+1081,40,General Knowledge,2021
+1081,73,computer,2021
+1081,92,Music,2021
+1081,27,Mathematics,2021
+1081,95,English,2021
+1081,64,Physics,2021
+1081,74,Sports,2021
+1081,98,Art,2021
+1082,37,General Knowledge,2022
+1082,97,Dance,2022
+1082,96,History,2022
+1082,79,computer,2022
+1082,42,Library,2022
+1082,67,Physics,2022
+1082,49,Hindi,2022
+1082,3,Art,2022
+1082,87,General Knowledge,2021
+1082,9,computer,2021
+1082,7,Music,2021
+1082,43,Mathematics,2021
+1082,64,English,2021
+1082,22,Physics,2021
+1082,31,Sports,2021
+1082,74,Art,2021
+1083,76,General Knowledge,2022
+1083,87,Dance,2022
+1083,90,History,2022
+1083,39,computer,2022
+1083,21,Library,2022
+1083,40,Physics,2022
+1083,47,Hindi,2022
+1083,61,Art,2022
+1083,91,General Knowledge,2021
+1083,56,computer,2021
+1083,37,Music,2021
+1083,28,Mathematics,2021
+1083,99,English,2021
+1083,52,Physics,2021
+1083,70,Sports,2021
+1083,72,Art,2021
+1084,64,General Knowledge,2022
+1084,10,Dance,2022
+1084,50,History,2022
+1084,97,computer,2022
+1084,78,Library,2022
+1084,72,Physics,2022
+1084,34,Hindi,2022
+1084,27,Art,2022
+1084,45,General Knowledge,2021
+1084,48,computer,2021
+1084,77,Music,2021
+1084,80,Mathematics,2021
+1084,3,English,2021
+1084,18,Physics,2021
+1084,53,Sports,2021
+1084,54,Art,2021
+1085,49,General Knowledge,2022
+1085,83,Dance,2022
+1085,32,History,2022
+1085,25,computer,2022
+1085,97,Library,2022
+1085,6,Physics,2022
+1085,29,Hindi,2022
+1085,24,Art,2022
+1085,17,General Knowledge,2021
+1085,77,computer,2021
+1085,65,Music,2021
+1085,68,Mathematics,2021
+1085,63,English,2021
+1085,77,Physics,2021
+1085,95,Sports,2021
+1085,57,Art,2021
+1086,54,General Knowledge,2022
+1086,80,Dance,2022
+1086,72,History,2022
+1086,27,computer,2022
+1086,71,Library,2022
+1086,93,Physics,2022
+1086,3,Hindi,2022
+1086,83,Art,2022
+1086,93,General Knowledge,2021
+1086,52,computer,2021
+1086,63,Music,2021
+1086,59,Mathematics,2021
+1086,20,English,2021
+1086,16,Physics,2021
+1086,86,Sports,2021
+1086,91,Art,2021
+1087,36,General Knowledge,2022
+1087,79,Dance,2022
+1087,60,History,2022
+1087,35,computer,2022
+1087,92,Library,2022
+1087,62,Physics,2022
+1087,40,Hindi,2022
+1087,51,Art,2022
+1087,51,General Knowledge,2021
+1087,81,computer,2021
+1087,99,Music,2021
+1087,98,Mathematics,2021
+1087,76,English,2021
+1087,48,Physics,2021
+1087,54,Sports,2021
+1087,85,Art,2021
+1088,21,General Knowledge,2022
+1088,11,Dance,2022
+1088,97,History,2022
+1088,64,computer,2022
+1088,25,Library,2022
+1088,91,Physics,2022
+1088,70,Hindi,2022
+1088,66,Art,2022
+1088,75,General Knowledge,2021
+1088,63,computer,2021
+1088,77,Music,2021
+1088,94,Mathematics,2021
+1088,35,English,2021
+1088,71,Physics,2021
+1088,50,Sports,2021
+1088,46,Art,2021
+1089,59,General Knowledge,2022
+1089,36,Dance,2022
+1089,100,History,2022
+1089,20,computer,2022
+1089,85,Library,2022
+1089,57,Physics,2022
+1089,9,Hindi,2022
+1089,51,Art,2022
+1089,17,General Knowledge,2021
+1089,47,computer,2021
+1089,45,Music,2021
+1089,56,Mathematics,2021
+1089,45,English,2021
+1089,20,Physics,2021
+1089,29,Sports,2021
+1089,62,Art,2021
+1090,21,General Knowledge,2022
+1090,69,Dance,2022
+1090,32,History,2022
+1090,18,computer,2022
+1090,96,Library,2022
+1090,25,Physics,2022
+1090,55,Hindi,2022
+1090,49,Art,2022
+1090,27,General Knowledge,2021
+1090,74,computer,2021
+1090,86,Music,2021
+1090,100,Mathematics,2021
+1090,49,English,2021
+1090,29,Physics,2021
+1090,87,Sports,2021
+1090,96,Art,2021
+1091,84,General Knowledge,2022
+1091,100,Dance,2022
+1091,78,History,2022
+1091,63,computer,2022
+1091,92,Library,2022
+1091,34,Physics,2022
+1091,76,Hindi,2022
+1091,94,Art,2022
+1091,75,General Knowledge,2021
+1091,63,computer,2021
+1091,3,Music,2021
+1091,48,Mathematics,2021
+1091,82,English,2021
+1091,63,Physics,2021
+1091,86,Sports,2021
+1091,79,Art,2021
+1092,12,General Knowledge,2022
+1092,92,Dance,2022
+1092,49,History,2022
+1092,49,computer,2022
+1092,32,Library,2022
+1092,66,Physics,2022
+1092,4,Hindi,2022
+1092,42,Art,2022
+1092,69,General Knowledge,2021
+1092,27,computer,2021
+1092,14,Music,2021
+1092,73,Mathematics,2021
+1092,51,English,2021
+1092,92,Physics,2021
+1092,73,Sports,2021
+1092,70,Art,2021
+1093,36,General Knowledge,2022
+1093,98,Dance,2022
+1093,88,History,2022
+1093,54,computer,2022
+1093,51,Library,2022
+1093,79,Physics,2022
+1093,70,Hindi,2022
+1093,44,Art,2022
+1093,44,General Knowledge,2021
+1093,90,computer,2021
+1093,51,Music,2021
+1093,78,Mathematics,2021
+1093,88,English,2021
+1093,69,Physics,2021
+1093,38,Sports,2021
+1093,42,Art,2021
+1094,7,General Knowledge,2022
+1094,86,Dance,2022
+1094,50,History,2022
+1094,97,computer,2022
+1094,97,Library,2022
+1094,21,Physics,2022
+1094,62,Hindi,2022
+1094,90,Art,2022
+1094,76,General Knowledge,2021
+1094,61,computer,2021
+1094,58,Music,2021
+1094,25,Mathematics,2021
+1094,95,English,2021
+1094,95,Physics,2021
+1094,9,Sports,2021
+1094,32,Art,2021
+1095,8,General Knowledge,2022
+1095,61,Dance,2022
+1095,55,History,2022
+1095,9,computer,2022
+1095,99,Library,2022
+1095,30,Physics,2022
+1095,21,Hindi,2022
+1095,75,Art,2022
+1095,99,General Knowledge,2021
+1095,31,computer,2021
+1095,40,Music,2021
+1095,4,Mathematics,2021
+1095,80,English,2021
+1095,87,Physics,2021
+1095,92,Sports,2021
+1095,58,Art,2021
+1096,78,General Knowledge,2022
+1096,15,Dance,2022
+1096,91,History,2022
+1096,55,computer,2022
+1096,56,Library,2022
+1096,68,Physics,2022
+1096,77,Hindi,2022
+1096,11,Art,2022
+1096,87,General Knowledge,2021
+1096,24,computer,2021
+1096,99,Music,2021
+1096,54,Mathematics,2021
+1096,26,English,2021
+1096,58,Physics,2021
+1096,26,Sports,2021
+1096,72,Art,2021
+1097,70,General Knowledge,2022
+1097,28,Dance,2022
+1097,55,History,2022
+1097,24,computer,2022
+1097,65,Library,2022
+1097,21,Physics,2022
+1097,9,Hindi,2022
+1097,68,Art,2022
+1097,58,General Knowledge,2021
+1097,31,computer,2021
+1097,94,Music,2021
+1097,92,Mathematics,2021
+1097,62,English,2021
+1097,31,Physics,2021
+1097,29,Sports,2021
+1097,99,Art,2021
+1098,60,General Knowledge,2022
+1098,70,Dance,2022
+1098,84,History,2022
+1098,86,computer,2022
+1098,66,Library,2022
+1098,20,Physics,2022
+1098,86,Hindi,2022
+1098,63,Art,2022
+1098,83,General Knowledge,2021
+1098,57,computer,2021
+1098,94,Music,2021
+1098,53,Mathematics,2021
+1098,22,English,2021
+1098,89,Physics,2021
+1098,100,Sports,2021
+1098,69,Art,2021
+1099,54,General Knowledge,2022
+1099,82,Dance,2022
+1099,24,History,2022
+1099,48,computer,2022
+1099,41,Library,2022
+1099,33,Physics,2022
+1099,67,Hindi,2022
+1099,87,Art,2022
+1099,6,General Knowledge,2021
+1099,10,computer,2021
+1099,100,Music,2021
+1099,22,Mathematics,2021
+1099,76,English,2021
+1099,73,Physics,2021
+1099,34,Sports,2021
+1099,63,Art,2021
+1100,50,General Knowledge,2022
+1100,10,Dance,2022
+1100,26,History,2022
+1100,57,computer,2022
+1100,96,Library,2022
+1100,100,Physics,2022
+1100,67,Hindi,2022
+1100,98,Art,2022
+1100,49,General Knowledge,2021
+1100,40,computer,2021
+1100,32,Music,2021
+1100,24,Mathematics,2021
+1100,36,English,2021
+1100,13,Physics,2021
+1100,94,Sports,2021
+1100,87,Art,2021
+1101,36,General Knowledge,2022
+1101,52,Biology,2022
+1101,60,Moral Science,2022
+1101,73,Dance,2022
+1101,78,History,2022
+1101,24,Library,2022
+1101,6,Chemistry,2022
+1101,78,Physics,2022
+1101,56,Dance,2021
+1101,25,Biology,2021
+1101,73,General Knowledge,2021
+1101,38,Geography,2021
+1101,49,Library,2021
+1101,80,Civics,2021
+1101,85,English,2021
+1101,93,Hindi,2021
+1102,55,General Knowledge,2022
+1102,75,Biology,2022
+1102,48,Moral Science,2022
+1102,39,Dance,2022
+1102,60,History,2022
+1102,60,Library,2022
+1102,83,Chemistry,2022
+1102,64,Physics,2022
+1102,81,Dance,2021
+1102,16,Biology,2021
+1102,70,General Knowledge,2021
+1102,32,Geography,2021
+1102,71,Library,2021
+1102,37,Civics,2021
+1102,85,English,2021
+1102,3,Hindi,2021
+1103,93,General Knowledge,2022
+1103,87,Biology,2022
+1103,100,Moral Science,2022
+1103,33,Dance,2022
+1103,35,History,2022
+1103,94,Library,2022
+1103,77,Chemistry,2022
+1103,34,Physics,2022
+1103,28,Dance,2021
+1103,39,Biology,2021
+1103,67,General Knowledge,2021
+1103,81,Geography,2021
+1103,83,Library,2021
+1103,6,Civics,2021
+1103,40,English,2021
+1103,11,Hindi,2021
+1104,48,General Knowledge,2022
+1104,19,Biology,2022
+1104,54,Moral Science,2022
+1104,60,Dance,2022
+1104,23,History,2022
+1104,41,Library,2022
+1104,86,Chemistry,2022
+1104,70,Physics,2022
+1104,36,Dance,2021
+1104,53,Biology,2021
+1104,47,General Knowledge,2021
+1104,97,Geography,2021
+1104,45,Library,2021
+1104,87,Civics,2021
+1104,63,English,2021
+1104,21,Hindi,2021
+1105,99,General Knowledge,2022
+1105,75,Biology,2022
+1105,13,Moral Science,2022
+1105,76,Dance,2022
+1105,84,History,2022
+1105,86,Library,2022
+1105,25,Chemistry,2022
+1105,51,Physics,2022
+1105,31,Dance,2021
+1105,70,Biology,2021
+1105,85,General Knowledge,2021
+1105,52,Geography,2021
+1105,7,Library,2021
+1105,91,Civics,2021
+1105,23,English,2021
+1105,99,Hindi,2021
+1106,86,General Knowledge,2022
+1106,35,Biology,2022
+1106,39,Moral Science,2022
+1106,46,Dance,2022
+1106,98,History,2022
+1106,62,Library,2022
+1106,50,Chemistry,2022
+1106,89,Physics,2022
+1106,56,Dance,2021
+1106,2,Biology,2021
+1106,37,General Knowledge,2021
+1106,70,Geography,2021
+1106,73,Library,2021
+1106,33,Civics,2021
+1106,4,English,2021
+1106,83,Hindi,2021
+1107,35,General Knowledge,2022
+1107,28,Biology,2022
+1107,21,Moral Science,2022
+1107,71,Dance,2022
+1107,42,History,2022
+1107,66,Library,2022
+1107,54,Chemistry,2022
+1107,92,Physics,2022
+1107,91,Dance,2021
+1107,73,Biology,2021
+1107,55,General Knowledge,2021
+1107,99,Geography,2021
+1107,50,Library,2021
+1107,75,Civics,2021
+1107,26,English,2021
+1107,46,Hindi,2021
+1108,61,General Knowledge,2022
+1108,36,Biology,2022
+1108,69,Moral Science,2022
+1108,75,Dance,2022
+1108,85,History,2022
+1108,72,Library,2022
+1108,37,Chemistry,2022
+1108,94,Physics,2022
+1108,37,Dance,2021
+1108,100,Biology,2021
+1108,100,General Knowledge,2021
+1108,7,Geography,2021
+1108,93,Library,2021
+1108,33,Civics,2021
+1108,51,English,2021
+1108,88,Hindi,2021
+1109,24,General Knowledge,2022
+1109,40,Biology,2022
+1109,76,Moral Science,2022
+1109,59,Dance,2022
+1109,29,History,2022
+1109,84,Library,2022
+1109,60,Chemistry,2022
+1109,84,Physics,2022
+1109,73,Dance,2021
+1109,65,Biology,2021
+1109,79,General Knowledge,2021
+1109,41,Geography,2021
+1109,55,Library,2021
+1109,40,Civics,2021
+1109,61,English,2021
+1109,25,Hindi,2021
+1110,88,General Knowledge,2022
+1110,39,Biology,2022
+1110,3,Moral Science,2022
+1110,92,Dance,2022
+1110,25,History,2022
+1110,19,Library,2022
+1110,38,Chemistry,2022
+1110,81,Physics,2022
+1110,39,Dance,2021
+1110,77,Biology,2021
+1110,38,General Knowledge,2021
+1110,72,Geography,2021
+1110,39,Library,2021
+1110,48,Civics,2021
+1110,0,English,2021
+1110,85,Hindi,2021
+1111,86,General Knowledge,2022
+1111,16,Biology,2022
+1111,87,Moral Science,2022
+1111,34,Dance,2022
+1111,52,History,2022
+1111,87,Library,2022
+1111,49,Chemistry,2022
+1111,26,Physics,2022
+1111,87,Dance,2021
+1111,3,Biology,2021
+1111,73,General Knowledge,2021
+1111,86,Geography,2021
+1111,33,Library,2021
+1111,44,Civics,2021
+1111,44,English,2021
+1111,66,Hindi,2021
+1112,54,General Knowledge,2022
+1112,100,Biology,2022
+1112,44,Moral Science,2022
+1112,31,Dance,2022
+1112,74,History,2022
+1112,56,Library,2022
+1112,86,Chemistry,2022
+1112,83,Physics,2022
+1112,85,Dance,2021
+1112,56,Biology,2021
+1112,64,General Knowledge,2021
+1112,26,Geography,2021
+1112,85,Library,2021
+1112,91,Civics,2021
+1112,78,English,2021
+1112,22,Hindi,2021
+1113,58,General Knowledge,2022
+1113,30,Biology,2022
+1113,63,Moral Science,2022
+1113,87,Dance,2022
+1113,78,History,2022
+1113,39,Library,2022
+1113,100,Chemistry,2022
+1113,98,Physics,2022
+1113,72,Dance,2021
+1113,70,Biology,2021
+1113,100,General Knowledge,2021
+1113,67,Geography,2021
+1113,22,Library,2021
+1113,65,Civics,2021
+1113,75,English,2021
+1113,28,Hindi,2021
+1114,23,General Knowledge,2022
+1114,69,Biology,2022
+1114,75,Moral Science,2022
+1114,24,Dance,2022
+1114,92,History,2022
+1114,95,Library,2022
+1114,40,Chemistry,2022
+1114,48,Physics,2022
+1114,7,Dance,2021
+1114,69,Biology,2021
+1114,83,General Knowledge,2021
+1114,29,Geography,2021
+1114,38,Library,2021
+1114,54,Civics,2021
+1114,91,English,2021
+1114,10,Hindi,2021
+1115,43,General Knowledge,2022
+1115,3,Biology,2022
+1115,99,Moral Science,2022
+1115,13,Dance,2022
+1115,69,History,2022
+1115,17,Library,2022
+1115,87,Chemistry,2022
+1115,13,Physics,2022
+1115,14,Dance,2021
+1115,95,Biology,2021
+1115,62,General Knowledge,2021
+1115,28,Geography,2021
+1115,46,Library,2021
+1115,22,Civics,2021
+1115,26,English,2021
+1115,29,Hindi,2021
+1116,32,General Knowledge,2022
+1116,84,Biology,2022
+1116,66,Moral Science,2022
+1116,70,Dance,2022
+1116,56,History,2022
+1116,74,Library,2022
+1116,100,Chemistry,2022
+1116,49,Physics,2022
+1116,68,Dance,2021
+1116,81,Biology,2021
+1116,69,General Knowledge,2021
+1116,75,Geography,2021
+1116,61,Library,2021
+1116,65,Civics,2021
+1116,50,English,2021
+1116,31,Hindi,2021
+1117,33,General Knowledge,2022
+1117,56,Biology,2022
+1117,44,Moral Science,2022
+1117,23,Dance,2022
+1117,82,History,2022
+1117,73,Library,2022
+1117,97,Chemistry,2022
+1117,98,Physics,2022
+1117,37,Dance,2021
+1117,11,Biology,2021
+1117,33,General Knowledge,2021
+1117,36,Geography,2021
+1117,36,Library,2021
+1117,66,Civics,2021
+1117,53,English,2021
+1117,30,Hindi,2021
+1118,11,General Knowledge,2022
+1118,65,Biology,2022
+1118,24,Moral Science,2022
+1118,22,Dance,2022
+1118,32,History,2022
+1118,88,Library,2022
+1118,40,Chemistry,2022
+1118,19,Physics,2022
+1118,99,Dance,2021
+1118,38,Biology,2021
+1118,27,General Knowledge,2021
+1118,57,Geography,2021
+1118,54,Library,2021
+1118,42,Civics,2021
+1118,60,English,2021
+1118,87,Hindi,2021
+1119,81,General Knowledge,2022
+1119,35,Biology,2022
+1119,24,Moral Science,2022
+1119,69,Dance,2022
+1119,63,History,2022
+1119,52,Library,2022
+1119,10,Chemistry,2022
+1119,57,Physics,2022
+1119,84,Dance,2021
+1119,92,Biology,2021
+1119,35,General Knowledge,2021
+1119,75,Geography,2021
+1119,70,Library,2021
+1119,60,Civics,2021
+1119,90,English,2021
+1119,43,Hindi,2021
+1120,52,General Knowledge,2022
+1120,97,Biology,2022
+1120,94,Moral Science,2022
+1120,75,Dance,2022
+1120,89,History,2022
+1120,45,Library,2022
+1120,49,Chemistry,2022
+1120,81,Physics,2022
+1120,29,Dance,2021
+1120,68,Biology,2021
+1120,81,General Knowledge,2021
+1120,51,Geography,2021
+1120,44,Library,2021
+1120,17,Civics,2021
+1120,47,English,2021
+1120,42,Hindi,2021
+1121,35,Dance,2022
+1121,6,Geography,2022
+1121,80,Moral Science,2022
+1121,8,Music,2022
+1121,86,Chemistry,2022
+1121,4,Civics,2022
+1121,76,Sports,2022
+1121,64,Art,2022
+1121,66,Biology,2021
+1121,54,Music,2021
+1121,51,Mathematics,2021
+1121,78,Civics,2021
+1121,81,English,2021
+1121,35,Physics,2021
+1121,60,Hindi,2021
+1121,65,Art,2021
+1121,88,Moral Science,2020
+1121,9,History,2020
+1121,10,Library,2020
+1121,54,Music,2020
+1121,64,Mathematics,2020
+1121,24,Civics,2020
+1121,57,Physics,2020
+1121,76,Sports,2020
+1122,72,Dance,2022
+1122,65,Geography,2022
+1122,2,Moral Science,2022
+1122,28,Music,2022
+1122,11,Chemistry,2022
+1122,98,Civics,2022
+1122,93,Sports,2022
+1122,38,Art,2022
+1122,67,Biology,2021
+1122,60,Music,2021
+1122,26,Mathematics,2021
+1122,63,Civics,2021
+1122,33,English,2021
+1122,56,Physics,2021
+1122,38,Hindi,2021
+1122,28,Art,2021
+1122,46,Moral Science,2020
+1122,44,History,2020
+1122,57,Library,2020
+1122,94,Music,2020
+1122,6,Mathematics,2020
+1122,85,Civics,2020
+1122,91,Physics,2020
+1122,49,Sports,2020
+1123,97,Dance,2022
+1123,84,Geography,2022
+1123,27,Moral Science,2022
+1123,61,Music,2022
+1123,22,Chemistry,2022
+1123,6,Civics,2022
+1123,91,Sports,2022
+1123,84,Art,2022
+1123,69,Biology,2021
+1123,98,Music,2021
+1123,35,Mathematics,2021
+1123,43,Civics,2021
+1123,73,English,2021
+1123,63,Physics,2021
+1123,39,Hindi,2021
+1123,81,Art,2021
+1123,25,Moral Science,2020
+1123,84,History,2020
+1123,71,Library,2020
+1123,29,Music,2020
+1123,77,Mathematics,2020
+1123,72,Civics,2020
+1123,71,Physics,2020
+1123,46,Sports,2020
+1124,54,Dance,2022
+1124,95,Geography,2022
+1124,66,Moral Science,2022
+1124,33,Music,2022
+1124,85,Chemistry,2022
+1124,65,Civics,2022
+1124,64,Sports,2022
+1124,60,Art,2022
+1124,92,Biology,2021
+1124,25,Music,2021
+1124,52,Mathematics,2021
+1124,3,Civics,2021
+1124,34,English,2021
+1124,91,Physics,2021
+1124,51,Hindi,2021
+1124,49,Art,2021
+1124,77,Moral Science,2020
+1124,81,History,2020
+1124,62,Library,2020
+1124,33,Music,2020
+1124,49,Mathematics,2020
+1124,95,Civics,2020
+1124,47,Physics,2020
+1124,92,Sports,2020
+1125,87,Dance,2022
+1125,78,Geography,2022
+1125,99,Moral Science,2022
+1125,73,Music,2022
+1125,25,Chemistry,2022
+1125,77,Civics,2022
+1125,12,Sports,2022
+1125,39,Art,2022
+1125,92,Biology,2021
+1125,32,Music,2021
+1125,100,Mathematics,2021
+1125,82,Civics,2021
+1125,87,English,2021
+1125,33,Physics,2021
+1125,41,Hindi,2021
+1125,39,Art,2021
+1125,23,Moral Science,2020
+1125,83,History,2020
+1125,35,Library,2020
+1125,41,Music,2020
+1125,62,Mathematics,2020
+1125,73,Civics,2020
+1125,79,Physics,2020
+1125,25,Sports,2020
+1126,23,Dance,2022
+1126,55,Geography,2022
+1126,81,Moral Science,2022
+1126,97,Music,2022
+1126,24,Chemistry,2022
+1126,45,Civics,2022
+1126,6,Sports,2022
+1126,50,Art,2022
+1126,24,Biology,2021
+1126,47,Music,2021
+1126,61,Mathematics,2021
+1126,89,Civics,2021
+1126,79,English,2021
+1126,52,Physics,2021
+1126,63,Hindi,2021
+1126,28,Art,2021
+1126,10,Moral Science,2020
+1126,95,History,2020
+1126,95,Library,2020
+1126,90,Music,2020
+1126,31,Mathematics,2020
+1126,32,Civics,2020
+1126,22,Physics,2020
+1126,31,Sports,2020
+1127,41,Dance,2022
+1127,7,Geography,2022
+1127,89,Moral Science,2022
+1127,14,Music,2022
+1127,42,Chemistry,2022
+1127,42,Civics,2022
+1127,88,Sports,2022
+1127,52,Art,2022
+1127,3,Biology,2021
+1127,43,Music,2021
+1127,55,Mathematics,2021
+1127,75,Civics,2021
+1127,65,English,2021
+1127,59,Physics,2021
+1127,81,Hindi,2021
+1127,25,Art,2021
+1127,13,Moral Science,2020
+1127,44,History,2020
+1127,47,Library,2020
+1127,92,Music,2020
+1127,91,Mathematics,2020
+1127,42,Civics,2020
+1127,17,Physics,2020
+1127,61,Sports,2020
+1128,67,Dance,2022
+1128,74,Geography,2022
+1128,25,Moral Science,2022
+1128,47,Music,2022
+1128,92,Chemistry,2022
+1128,80,Civics,2022
+1128,55,Sports,2022
+1128,2,Art,2022
+1128,50,Biology,2021
+1128,94,Music,2021
+1128,68,Mathematics,2021
+1128,15,Civics,2021
+1128,78,English,2021
+1128,78,Physics,2021
+1128,7,Hindi,2021
+1128,75,Art,2021
+1128,52,Moral Science,2020
+1128,77,History,2020
+1128,33,Library,2020
+1128,92,Music,2020
+1128,24,Mathematics,2020
+1128,29,Civics,2020
+1128,46,Physics,2020
+1128,80,Sports,2020
+1129,36,Dance,2022
+1129,67,Geography,2022
+1129,29,Moral Science,2022
+1129,66,Music,2022
+1129,42,Chemistry,2022
+1129,39,Civics,2022
+1129,28,Sports,2022
+1129,59,Art,2022
+1129,13,Biology,2021
+1129,94,Music,2021
+1129,76,Mathematics,2021
+1129,46,Civics,2021
+1129,40,English,2021
+1129,99,Physics,2021
+1129,67,Hindi,2021
+1129,45,Art,2021
+1129,32,Moral Science,2020
+1129,7,History,2020
+1129,65,Library,2020
+1129,70,Music,2020
+1129,49,Mathematics,2020
+1129,81,Civics,2020
+1129,83,Physics,2020
+1129,24,Sports,2020
+1130,69,Dance,2022
+1130,10,Geography,2022
+1130,52,Moral Science,2022
+1130,19,Music,2022
+1130,57,Chemistry,2022
+1130,62,Civics,2022
+1130,41,Sports,2022
+1130,21,Art,2022
+1130,75,Biology,2021
+1130,74,Music,2021
+1130,57,Mathematics,2021
+1130,58,Civics,2021
+1130,57,English,2021
+1130,94,Physics,2021
+1130,21,Hindi,2021
+1130,36,Art,2021
+1130,67,Moral Science,2020
+1130,60,History,2020
+1130,53,Library,2020
+1130,19,Music,2020
+1130,45,Mathematics,2020
+1130,35,Civics,2020
+1130,83,Physics,2020
+1130,48,Sports,2020
+1131,28,Dance,2022
+1131,92,Geography,2022
+1131,44,Moral Science,2022
+1131,4,Music,2022
+1131,53,Chemistry,2022
+1131,39,Civics,2022
+1131,25,Sports,2022
+1131,15,Art,2022
+1131,34,Biology,2021
+1131,72,Music,2021
+1131,95,Mathematics,2021
+1131,13,Civics,2021
+1131,60,English,2021
+1131,66,Physics,2021
+1131,0,Hindi,2021
+1131,86,Art,2021
+1131,25,Moral Science,2020
+1131,24,History,2020
+1131,95,Library,2020
+1131,51,Music,2020
+1131,76,Mathematics,2020
+1131,90,Civics,2020
+1131,50,Physics,2020
+1131,82,Sports,2020
+1132,72,Dance,2022
+1132,96,Geography,2022
+1132,21,Moral Science,2022
+1132,72,Music,2022
+1132,1,Chemistry,2022
+1132,58,Civics,2022
+1132,42,Sports,2022
+1132,53,Art,2022
+1132,22,Biology,2021
+1132,55,Music,2021
+1132,71,Mathematics,2021
+1132,43,Civics,2021
+1132,73,English,2021
+1132,28,Physics,2021
+1132,47,Hindi,2021
+1132,78,Art,2021
+1132,87,Moral Science,2020
+1132,24,History,2020
+1132,24,Library,2020
+1132,94,Music,2020
+1132,58,Mathematics,2020
+1132,43,Civics,2020
+1132,50,Physics,2020
+1132,25,Sports,2020
+1133,63,Dance,2022
+1133,43,Geography,2022
+1133,88,Moral Science,2022
+1133,2,Music,2022
+1133,67,Chemistry,2022
+1133,39,Civics,2022
+1133,32,Sports,2022
+1133,36,Art,2022
+1133,78,Biology,2021
+1133,83,Music,2021
+1133,73,Mathematics,2021
+1133,35,Civics,2021
+1133,26,English,2021
+1133,52,Physics,2021
+1133,10,Hindi,2021
+1133,94,Art,2021
+1133,45,Moral Science,2020
+1133,93,History,2020
+1133,87,Library,2020
+1133,32,Music,2020
+1133,34,Mathematics,2020
+1133,46,Civics,2020
+1133,21,Physics,2020
+1133,16,Sports,2020
+1134,54,Dance,2022
+1134,8,Geography,2022
+1134,27,Moral Science,2022
+1134,10,Music,2022
+1134,0,Chemistry,2022
+1134,54,Civics,2022
+1134,35,Sports,2022
+1134,70,Art,2022
+1134,49,Biology,2021
+1134,37,Music,2021
+1134,75,Mathematics,2021
+1134,92,Civics,2021
+1134,62,English,2021
+1134,31,Physics,2021
+1134,22,Hindi,2021
+1134,45,Art,2021
+1134,52,Moral Science,2020
+1134,80,History,2020
+1134,61,Library,2020
+1134,91,Music,2020
+1134,24,Mathematics,2020
+1134,87,Civics,2020
+1134,83,Physics,2020
+1134,75,Sports,2020
+1135,21,Dance,2022
+1135,47,Geography,2022
+1135,39,Moral Science,2022
+1135,34,Music,2022
+1135,31,Chemistry,2022
+1135,82,Civics,2022
+1135,59,Sports,2022
+1135,24,Art,2022
+1135,58,Biology,2021
+1135,71,Music,2021
+1135,82,Mathematics,2021
+1135,83,Civics,2021
+1135,52,English,2021
+1135,49,Physics,2021
+1135,64,Hindi,2021
+1135,54,Art,2021
+1135,55,Moral Science,2020
+1135,27,History,2020
+1135,31,Library,2020
+1135,20,Music,2020
+1135,52,Mathematics,2020
+1135,53,Civics,2020
+1135,70,Physics,2020
+1135,94,Sports,2020
+1136,85,Dance,2022
+1136,65,Geography,2022
+1136,90,Moral Science,2022
+1136,25,Music,2022
+1136,21,Chemistry,2022
+1136,68,Civics,2022
+1136,27,Sports,2022
+1136,28,Art,2022
+1136,33,Biology,2021
+1136,53,Music,2021
+1136,29,Mathematics,2021
+1136,49,Civics,2021
+1136,84,English,2021
+1136,25,Physics,2021
+1136,4,Hindi,2021
+1136,27,Art,2021
+1136,66,Moral Science,2020
+1136,3,History,2020
+1136,59,Library,2020
+1136,28,Music,2020
+1136,45,Mathematics,2020
+1136,68,Civics,2020
+1136,88,Physics,2020
+1136,53,Sports,2020
+1137,56,Dance,2022
+1137,28,Geography,2022
+1137,53,Moral Science,2022
+1137,67,Music,2022
+1137,80,Chemistry,2022
+1137,76,Civics,2022
+1137,30,Sports,2022
+1137,67,Art,2022
+1137,65,Biology,2021
+1137,85,Music,2021
+1137,73,Mathematics,2021
+1137,6,Civics,2021
+1137,70,English,2021
+1137,51,Physics,2021
+1137,65,Hindi,2021
+1137,57,Art,2021
+1137,77,Moral Science,2020
+1137,100,History,2020
+1137,66,Library,2020
+1137,23,Music,2020
+1137,75,Mathematics,2020
+1137,61,Civics,2020
+1137,40,Physics,2020
+1137,37,Sports,2020
+1138,85,Dance,2022
+1138,50,Geography,2022
+1138,21,Moral Science,2022
+1138,84,Music,2022
+1138,45,Chemistry,2022
+1138,89,Civics,2022
+1138,34,Sports,2022
+1138,89,Art,2022
+1138,42,Biology,2021
+1138,12,Music,2021
+1138,59,Mathematics,2021
+1138,60,Civics,2021
+1138,1,English,2021
+1138,89,Physics,2021
+1138,70,Hindi,2021
+1138,37,Art,2021
+1138,74,Moral Science,2020
+1138,21,History,2020
+1138,66,Library,2020
+1138,32,Music,2020
+1138,5,Mathematics,2020
+1138,95,Civics,2020
+1138,21,Physics,2020
+1138,96,Sports,2020
+1139,84,Dance,2022
+1139,39,Geography,2022
+1139,4,Moral Science,2022
+1139,94,Music,2022
+1139,45,Chemistry,2022
+1139,92,Civics,2022
+1139,94,Sports,2022
+1139,65,Art,2022
+1139,33,Biology,2021
+1139,6,Music,2021
+1139,27,Mathematics,2021
+1139,74,Civics,2021
+1139,70,English,2021
+1139,37,Physics,2021
+1139,73,Hindi,2021
+1139,41,Art,2021
+1139,46,Moral Science,2020
+1139,45,History,2020
+1139,72,Library,2020
+1139,3,Music,2020
+1139,94,Mathematics,2020
+1139,16,Civics,2020
+1139,96,Physics,2020
+1139,15,Sports,2020
+1140,6,Dance,2022
+1140,41,Geography,2022
+1140,26,Moral Science,2022
+1140,83,Music,2022
+1140,13,Chemistry,2022
+1140,44,Civics,2022
+1140,96,Sports,2022
+1140,85,Art,2022
+1140,57,Biology,2021
+1140,19,Music,2021
+1140,48,Mathematics,2021
+1140,53,Civics,2021
+1140,17,English,2021
+1140,23,Physics,2021
+1140,89,Hindi,2021
+1140,26,Art,2021
+1140,23,Moral Science,2020
+1140,76,History,2020
+1140,36,Library,2020
+1140,21,Music,2020
+1140,67,Mathematics,2020
+1140,24,Civics,2020
+1140,94,Physics,2020
+1140,16,Sports,2020
+1141,10,General Knowledge,2022
+1141,74,Geography,2022
+1141,25,Library,2022
+1141,95,Music,2022
+1141,5,Chemistry,2022
+1141,35,Physics,2022
+1141,84,Hindi,2022
+1141,38,Sports,2022
+1141,23,General Knowledge,2021
+1141,99,Dance,2021
+1141,31,History,2021
+1141,93,computer,2021
+1141,46,Library,2021
+1141,74,Physics,2021
+1141,36,Hindi,2021
+1141,21,Art,2021
+1141,91,General Knowledge,2020
+1141,35,computer,2020
+1141,100,Music,2020
+1141,36,Mathematics,2020
+1141,2,English,2020
+1141,85,Physics,2020
+1141,62,Sports,2020
+1141,98,Art,2020
+1142,84,General Knowledge,2022
+1142,51,Geography,2022
+1142,34,Library,2022
+1142,83,Music,2022
+1142,57,Chemistry,2022
+1142,11,Physics,2022
+1142,66,Hindi,2022
+1142,25,Sports,2022
+1142,96,General Knowledge,2021
+1142,58,Dance,2021
+1142,34,History,2021
+1142,70,computer,2021
+1142,26,Library,2021
+1142,39,Physics,2021
+1142,67,Hindi,2021
+1142,30,Art,2021
+1142,57,General Knowledge,2020
+1142,50,computer,2020
+1142,95,Music,2020
+1142,61,Mathematics,2020
+1142,91,English,2020
+1142,83,Physics,2020
+1142,57,Sports,2020
+1142,38,Art,2020
+1143,46,General Knowledge,2022
+1143,25,Geography,2022
+1143,50,Library,2022
+1143,71,Music,2022
+1143,0,Chemistry,2022
+1143,50,Physics,2022
+1143,32,Hindi,2022
+1143,11,Sports,2022
+1143,85,General Knowledge,2021
+1143,88,Dance,2021
+1143,74,History,2021
+1143,68,computer,2021
+1143,75,Library,2021
+1143,71,Physics,2021
+1143,92,Hindi,2021
+1143,84,Art,2021
+1143,59,General Knowledge,2020
+1143,90,computer,2020
+1143,80,Music,2020
+1143,48,Mathematics,2020
+1143,54,English,2020
+1143,5,Physics,2020
+1143,61,Sports,2020
+1143,41,Art,2020
+1144,38,General Knowledge,2022
+1144,83,Geography,2022
+1144,97,Library,2022
+1144,42,Music,2022
+1144,63,Chemistry,2022
+1144,23,Physics,2022
+1144,66,Hindi,2022
+1144,4,Sports,2022
+1144,92,General Knowledge,2021
+1144,6,Dance,2021
+1144,52,History,2021
+1144,15,computer,2021
+1144,72,Library,2021
+1144,92,Physics,2021
+1144,51,Hindi,2021
+1144,61,Art,2021
+1144,59,General Knowledge,2020
+1144,71,computer,2020
+1144,50,Music,2020
+1144,57,Mathematics,2020
+1144,54,English,2020
+1144,100,Physics,2020
+1144,55,Sports,2020
+1144,12,Art,2020
+1145,62,General Knowledge,2022
+1145,41,Geography,2022
+1145,89,Library,2022
+1145,86,Music,2022
+1145,78,Chemistry,2022
+1145,48,Physics,2022
+1145,22,Hindi,2022
+1145,29,Sports,2022
+1145,27,General Knowledge,2021
+1145,41,Dance,2021
+1145,66,History,2021
+1145,79,computer,2021
+1145,47,Library,2021
+1145,12,Physics,2021
+1145,83,Hindi,2021
+1145,52,Art,2021
+1145,53,General Knowledge,2020
+1145,91,computer,2020
+1145,62,Music,2020
+1145,20,Mathematics,2020
+1145,49,English,2020
+1145,66,Physics,2020
+1145,39,Sports,2020
+1145,37,Art,2020
+1146,46,General Knowledge,2022
+1146,49,Geography,2022
+1146,46,Library,2022
+1146,63,Music,2022
+1146,59,Chemistry,2022
+1146,50,Physics,2022
+1146,27,Hindi,2022
+1146,95,Sports,2022
+1146,32,General Knowledge,2021
+1146,41,Dance,2021
+1146,93,History,2021
+1146,56,computer,2021
+1146,12,Library,2021
+1146,93,Physics,2021
+1146,4,Hindi,2021
+1146,54,Art,2021
+1146,40,General Knowledge,2020
+1146,64,computer,2020
+1146,58,Music,2020
+1146,18,Mathematics,2020
+1146,91,English,2020
+1146,42,Physics,2020
+1146,98,Sports,2020
+1146,32,Art,2020
+1147,8,General Knowledge,2022
+1147,22,Geography,2022
+1147,11,Library,2022
+1147,36,Music,2022
+1147,20,Chemistry,2022
+1147,29,Physics,2022
+1147,71,Hindi,2022
+1147,28,Sports,2022
+1147,54,General Knowledge,2021
+1147,49,Dance,2021
+1147,51,History,2021
+1147,61,computer,2021
+1147,90,Library,2021
+1147,22,Physics,2021
+1147,9,Hindi,2021
+1147,65,Art,2021
+1147,7,General Knowledge,2020
+1147,28,computer,2020
+1147,72,Music,2020
+1147,74,Mathematics,2020
+1147,3,English,2020
+1147,59,Physics,2020
+1147,21,Sports,2020
+1147,24,Art,2020
+1148,61,General Knowledge,2022
+1148,39,Geography,2022
+1148,32,Library,2022
+1148,59,Music,2022
+1148,98,Chemistry,2022
+1148,34,Physics,2022
+1148,57,Hindi,2022
+1148,61,Sports,2022
+1148,100,General Knowledge,2021
+1148,83,Dance,2021
+1148,92,History,2021
+1148,48,computer,2021
+1148,96,Library,2021
+1148,29,Physics,2021
+1148,40,Hindi,2021
+1148,69,Art,2021
+1148,93,General Knowledge,2020
+1148,82,computer,2020
+1148,80,Music,2020
+1148,59,Mathematics,2020
+1148,85,English,2020
+1148,6,Physics,2020
+1148,24,Sports,2020
+1148,69,Art,2020
+1149,70,General Knowledge,2022
+1149,60,Geography,2022
+1149,65,Library,2022
+1149,22,Music,2022
+1149,82,Chemistry,2022
+1149,58,Physics,2022
+1149,37,Hindi,2022
+1149,7,Sports,2022
+1149,59,General Knowledge,2021
+1149,24,Dance,2021
+1149,53,History,2021
+1149,66,computer,2021
+1149,36,Library,2021
+1149,69,Physics,2021
+1149,81,Hindi,2021
+1149,95,Art,2021
+1149,71,General Knowledge,2020
+1149,91,computer,2020
+1149,42,Music,2020
+1149,30,Mathematics,2020
+1149,51,English,2020
+1149,77,Physics,2020
+1149,82,Sports,2020
+1149,52,Art,2020
+1150,64,General Knowledge,2022
+1150,77,Geography,2022
+1150,66,Library,2022
+1150,97,Music,2022
+1150,68,Chemistry,2022
+1150,89,Physics,2022
+1150,73,Hindi,2022
+1150,64,Sports,2022
+1150,45,General Knowledge,2021
+1150,94,Dance,2021
+1150,85,History,2021
+1150,58,computer,2021
+1150,31,Library,2021
+1150,94,Physics,2021
+1150,44,Hindi,2021
+1150,72,Art,2021
+1150,61,General Knowledge,2020
+1150,100,computer,2020
+1150,40,Music,2020
+1150,20,Mathematics,2020
+1150,96,English,2020
+1150,92,Physics,2020
+1150,83,Sports,2020
+1150,57,Art,2020
+1151,2,General Knowledge,2022
+1151,31,Geography,2022
+1151,34,Library,2022
+1151,56,Music,2022
+1151,0,Chemistry,2022
+1151,30,Physics,2022
+1151,86,Hindi,2022
+1151,42,Sports,2022
+1151,89,General Knowledge,2021
+1151,58,Dance,2021
+1151,77,History,2021
+1151,52,computer,2021
+1151,54,Library,2021
+1151,39,Physics,2021
+1151,65,Hindi,2021
+1151,97,Art,2021
+1151,62,General Knowledge,2020
+1151,47,computer,2020
+1151,31,Music,2020
+1151,68,Mathematics,2020
+1151,35,English,2020
+1151,67,Physics,2020
+1151,49,Sports,2020
+1151,91,Art,2020
+1152,18,General Knowledge,2022
+1152,31,Geography,2022
+1152,59,Library,2022
+1152,55,Music,2022
+1152,48,Chemistry,2022
+1152,39,Physics,2022
+1152,11,Hindi,2022
+1152,22,Sports,2022
+1152,68,General Knowledge,2021
+1152,21,Dance,2021
+1152,65,History,2021
+1152,28,computer,2021
+1152,33,Library,2021
+1152,79,Physics,2021
+1152,45,Hindi,2021
+1152,56,Art,2021
+1152,56,General Knowledge,2020
+1152,54,computer,2020
+1152,76,Music,2020
+1152,95,Mathematics,2020
+1152,66,English,2020
+1152,39,Physics,2020
+1152,94,Sports,2020
+1152,32,Art,2020
+1153,75,General Knowledge,2022
+1153,96,Geography,2022
+1153,45,Library,2022
+1153,63,Music,2022
+1153,78,Chemistry,2022
+1153,26,Physics,2022
+1153,55,Hindi,2022
+1153,66,Sports,2022
+1153,34,General Knowledge,2021
+1153,99,Dance,2021
+1153,43,History,2021
+1153,63,computer,2021
+1153,91,Library,2021
+1153,1,Physics,2021
+1153,86,Hindi,2021
+1153,36,Art,2021
+1153,6,General Knowledge,2020
+1153,100,computer,2020
+1153,74,Music,2020
+1153,57,Mathematics,2020
+1153,77,English,2020
+1153,98,Physics,2020
+1153,95,Sports,2020
+1153,28,Art,2020
+1154,77,General Knowledge,2022
+1154,75,Geography,2022
+1154,43,Library,2022
+1154,59,Music,2022
+1154,98,Chemistry,2022
+1154,12,Physics,2022
+1154,4,Hindi,2022
+1154,75,Sports,2022
+1154,79,General Knowledge,2021
+1154,17,Dance,2021
+1154,83,History,2021
+1154,35,computer,2021
+1154,73,Library,2021
+1154,29,Physics,2021
+1154,35,Hindi,2021
+1154,10,Art,2021
+1154,85,General Knowledge,2020
+1154,35,computer,2020
+1154,94,Music,2020
+1154,27,Mathematics,2020
+1154,37,English,2020
+1154,92,Physics,2020
+1154,63,Sports,2020
+1154,43,Art,2020
+1155,39,General Knowledge,2022
+1155,73,Geography,2022
+1155,59,Library,2022
+1155,24,Music,2022
+1155,65,Chemistry,2022
+1155,17,Physics,2022
+1155,5,Hindi,2022
+1155,49,Sports,2022
+1155,29,General Knowledge,2021
+1155,50,Dance,2021
+1155,75,History,2021
+1155,29,computer,2021
+1155,36,Library,2021
+1155,35,Physics,2021
+1155,48,Hindi,2021
+1155,41,Art,2021
+1155,70,General Knowledge,2020
+1155,63,computer,2020
+1155,47,Music,2020
+1155,32,Mathematics,2020
+1155,2,English,2020
+1155,32,Physics,2020
+1155,64,Sports,2020
+1155,38,Art,2020
+1156,46,General Knowledge,2022
+1156,95,Geography,2022
+1156,61,Library,2022
+1156,57,Music,2022
+1156,38,Chemistry,2022
+1156,68,Physics,2022
+1156,71,Hindi,2022
+1156,82,Sports,2022
+1156,86,General Knowledge,2021
+1156,71,Dance,2021
+1156,71,History,2021
+1156,88,computer,2021
+1156,22,Library,2021
+1156,7,Physics,2021
+1156,55,Hindi,2021
+1156,82,Art,2021
+1156,97,General Knowledge,2020
+1156,40,computer,2020
+1156,36,Music,2020
+1156,0,Mathematics,2020
+1156,23,English,2020
+1156,31,Physics,2020
+1156,86,Sports,2020
+1156,35,Art,2020
+1157,71,General Knowledge,2022
+1157,79,Geography,2022
+1157,64,Library,2022
+1157,59,Music,2022
+1157,30,Chemistry,2022
+1157,63,Physics,2022
+1157,25,Hindi,2022
+1157,94,Sports,2022
+1157,52,General Knowledge,2021
+1157,96,Dance,2021
+1157,43,History,2021
+1157,90,computer,2021
+1157,54,Library,2021
+1157,64,Physics,2021
+1157,9,Hindi,2021
+1157,43,Art,2021
+1157,85,General Knowledge,2020
+1157,98,computer,2020
+1157,21,Music,2020
+1157,62,Mathematics,2020
+1157,40,English,2020
+1157,47,Physics,2020
+1157,29,Sports,2020
+1157,28,Art,2020
+1158,29,General Knowledge,2022
+1158,29,Geography,2022
+1158,89,Library,2022
+1158,98,Music,2022
+1158,95,Chemistry,2022
+1158,32,Physics,2022
+1158,54,Hindi,2022
+1158,95,Sports,2022
+1158,52,General Knowledge,2021
+1158,100,Dance,2021
+1158,50,History,2021
+1158,26,computer,2021
+1158,42,Library,2021
+1158,28,Physics,2021
+1158,83,Hindi,2021
+1158,87,Art,2021
+1158,68,General Knowledge,2020
+1158,79,computer,2020
+1158,46,Music,2020
+1158,67,Mathematics,2020
+1158,11,English,2020
+1158,33,Physics,2020
+1158,34,Sports,2020
+1158,65,Art,2020
+1159,65,General Knowledge,2022
+1159,54,Geography,2022
+1159,35,Library,2022
+1159,20,Music,2022
+1159,27,Chemistry,2022
+1159,93,Physics,2022
+1159,94,Hindi,2022
+1159,88,Sports,2022
+1159,83,General Knowledge,2021
+1159,24,Dance,2021
+1159,67,History,2021
+1159,69,computer,2021
+1159,88,Library,2021
+1159,88,Physics,2021
+1159,65,Hindi,2021
+1159,79,Art,2021
+1159,0,General Knowledge,2020
+1159,28,computer,2020
+1159,50,Music,2020
+1159,44,Mathematics,2020
+1159,55,English,2020
+1159,34,Physics,2020
+1159,49,Sports,2020
+1159,53,Art,2020
+1160,53,General Knowledge,2022
+1160,51,Geography,2022
+1160,21,Library,2022
+1160,40,Music,2022
+1160,31,Chemistry,2022
+1160,28,Physics,2022
+1160,29,Hindi,2022
+1160,68,Sports,2022
+1160,17,General Knowledge,2021
+1160,36,Dance,2021
+1160,0,History,2021
+1160,39,computer,2021
+1160,31,Library,2021
+1160,18,Physics,2021
+1160,91,Hindi,2021
+1160,79,Art,2021
+1160,61,General Knowledge,2020
+1160,37,computer,2020
+1160,84,Music,2020
+1160,59,Mathematics,2020
+1160,21,English,2020
+1160,82,Physics,2020
+1160,96,Sports,2020
+1160,90,Art,2020
+1161,61,Moral Science,2022
+1161,76,Geography,2022
+1161,39,computer,2022
+1161,29,Chemistry,2022
+1161,43,Music,2022
+1161,60,Mathematics,2022
+1161,31,Civics,2022
+1161,60,Physics,2022
+1161,32,General Knowledge,2021
+1161,78,Biology,2021
+1161,9,Moral Science,2021
+1161,30,Dance,2021
+1161,80,History,2021
+1161,23,Library,2021
+1161,64,Chemistry,2021
+1161,35,Physics,2021
+1161,38,Dance,2020
+1161,99,Biology,2020
+1161,92,General Knowledge,2020
+1161,82,Geography,2020
+1161,38,Library,2020
+1161,88,Civics,2020
+1161,76,English,2020
+1161,31,Hindi,2020
+1162,92,Moral Science,2022
+1162,41,Geography,2022
+1162,86,computer,2022
+1162,39,Chemistry,2022
+1162,53,Music,2022
+1162,80,Mathematics,2022
+1162,88,Civics,2022
+1162,81,Physics,2022
+1162,21,General Knowledge,2021
+1162,52,Biology,2021
+1162,60,Moral Science,2021
+1162,44,Dance,2021
+1162,21,History,2021
+1162,16,Library,2021
+1162,38,Chemistry,2021
+1162,91,Physics,2021
+1162,77,Dance,2020
+1162,62,Biology,2020
+1162,57,General Knowledge,2020
+1162,79,Geography,2020
+1162,88,Library,2020
+1162,18,Civics,2020
+1162,92,English,2020
+1162,87,Hindi,2020
+1163,54,Moral Science,2022
+1163,83,Geography,2022
+1163,26,computer,2022
+1163,28,Chemistry,2022
+1163,72,Music,2022
+1163,38,Mathematics,2022
+1163,57,Civics,2022
+1163,40,Physics,2022
+1163,14,General Knowledge,2021
+1163,26,Biology,2021
+1163,19,Moral Science,2021
+1163,38,Dance,2021
+1163,26,History,2021
+1163,37,Library,2021
+1163,89,Chemistry,2021
+1163,77,Physics,2021
+1163,72,Dance,2020
+1163,35,Biology,2020
+1163,59,General Knowledge,2020
+1163,78,Geography,2020
+1163,38,Library,2020
+1163,53,Civics,2020
+1163,16,English,2020
+1163,99,Hindi,2020
+1164,41,Moral Science,2022
+1164,75,Geography,2022
+1164,9,computer,2022
+1164,56,Chemistry,2022
+1164,29,Music,2022
+1164,33,Mathematics,2022
+1164,39,Civics,2022
+1164,48,Physics,2022
+1164,59,General Knowledge,2021
+1164,90,Biology,2021
+1164,11,Moral Science,2021
+1164,25,Dance,2021
+1164,55,History,2021
+1164,38,Library,2021
+1164,83,Chemistry,2021
+1164,46,Physics,2021
+1164,47,Dance,2020
+1164,30,Biology,2020
+1164,85,General Knowledge,2020
+1164,66,Geography,2020
+1164,69,Library,2020
+1164,75,Civics,2020
+1164,22,English,2020
+1164,58,Hindi,2020
+1165,28,Moral Science,2022
+1165,100,Geography,2022
+1165,49,computer,2022
+1165,35,Chemistry,2022
+1165,61,Music,2022
+1165,83,Mathematics,2022
+1165,23,Civics,2022
+1165,92,Physics,2022
+1165,73,General Knowledge,2021
+1165,66,Biology,2021
+1165,92,Moral Science,2021
+1165,32,Dance,2021
+1165,16,History,2021
+1165,88,Library,2021
+1165,31,Chemistry,2021
+1165,21,Physics,2021
+1165,55,Dance,2020
+1165,63,Biology,2020
+1165,72,General Knowledge,2020
+1165,51,Geography,2020
+1165,83,Library,2020
+1165,61,Civics,2020
+1165,77,English,2020
+1165,64,Hindi,2020
+1166,64,Moral Science,2022
+1166,35,Geography,2022
+1166,86,computer,2022
+1166,44,Chemistry,2022
+1166,89,Music,2022
+1166,70,Mathematics,2022
+1166,44,Civics,2022
+1166,47,Physics,2022
+1166,49,General Knowledge,2021
+1166,53,Biology,2021
+1166,87,Moral Science,2021
+1166,32,Dance,2021
+1166,61,History,2021
+1166,56,Library,2021
+1166,68,Chemistry,2021
+1166,21,Physics,2021
+1166,32,Dance,2020
+1166,93,Biology,2020
+1166,72,General Knowledge,2020
+1166,49,Geography,2020
+1166,51,Library,2020
+1166,8,Civics,2020
+1166,94,English,2020
+1166,67,Hindi,2020
+1167,77,Moral Science,2022
+1167,24,Geography,2022
+1167,97,computer,2022
+1167,6,Chemistry,2022
+1167,60,Music,2022
+1167,10,Mathematics,2022
+1167,79,Civics,2022
+1167,71,Physics,2022
+1167,93,General Knowledge,2021
+1167,91,Biology,2021
+1167,84,Moral Science,2021
+1167,73,Dance,2021
+1167,88,History,2021
+1167,13,Library,2021
+1167,5,Chemistry,2021
+1167,70,Physics,2021
+1167,96,Dance,2020
+1167,91,Biology,2020
+1167,20,General Knowledge,2020
+1167,22,Geography,2020
+1167,47,Library,2020
+1167,74,Civics,2020
+1167,42,English,2020
+1167,65,Hindi,2020
+1168,3,Moral Science,2022
+1168,36,Geography,2022
+1168,100,computer,2022
+1168,65,Chemistry,2022
+1168,73,Music,2022
+1168,42,Mathematics,2022
+1168,54,Civics,2022
+1168,12,Physics,2022
+1168,62,General Knowledge,2021
+1168,89,Biology,2021
+1168,30,Moral Science,2021
+1168,31,Dance,2021
+1168,31,History,2021
+1168,79,Library,2021
+1168,82,Chemistry,2021
+1168,51,Physics,2021
+1168,86,Dance,2020
+1168,63,Biology,2020
+1168,46,General Knowledge,2020
+1168,53,Geography,2020
+1168,19,Library,2020
+1168,62,Civics,2020
+1168,30,English,2020
+1168,21,Hindi,2020
+1169,46,Moral Science,2022
+1169,49,Geography,2022
+1169,89,computer,2022
+1169,31,Chemistry,2022
+1169,91,Music,2022
+1169,75,Mathematics,2022
+1169,99,Civics,2022
+1169,84,Physics,2022
+1169,52,General Knowledge,2021
+1169,99,Biology,2021
+1169,90,Moral Science,2021
+1169,83,Dance,2021
+1169,41,History,2021
+1169,41,Library,2021
+1169,51,Chemistry,2021
+1169,79,Physics,2021
+1169,99,Dance,2020
+1169,92,Biology,2020
+1169,71,General Knowledge,2020
+1169,61,Geography,2020
+1169,86,Library,2020
+1169,52,Civics,2020
+1169,45,English,2020
+1169,12,Hindi,2020
+1170,38,Moral Science,2022
+1170,65,Geography,2022
+1170,53,computer,2022
+1170,34,Chemistry,2022
+1170,6,Music,2022
+1170,51,Mathematics,2022
+1170,87,Civics,2022
+1170,67,Physics,2022
+1170,49,General Knowledge,2021
+1170,28,Biology,2021
+1170,28,Moral Science,2021
+1170,87,Dance,2021
+1170,57,History,2021
+1170,21,Library,2021
+1170,53,Chemistry,2021
+1170,26,Physics,2021
+1170,49,Dance,2020
+1170,98,Biology,2020
+1170,24,General Knowledge,2020
+1170,3,Geography,2020
+1170,41,Library,2020
+1170,59,Civics,2020
+1170,97,English,2020
+1170,96,Hindi,2020
+1171,90,Moral Science,2022
+1171,88,Geography,2022
+1171,99,computer,2022
+1171,55,Chemistry,2022
+1171,30,Music,2022
+1171,86,Mathematics,2022
+1171,77,Civics,2022
+1171,62,Physics,2022
+1171,87,General Knowledge,2021
+1171,99,Biology,2021
+1171,30,Moral Science,2021
+1171,33,Dance,2021
+1171,63,History,2021
+1171,92,Library,2021
+1171,69,Chemistry,2021
+1171,79,Physics,2021
+1171,63,Dance,2020
+1171,10,Biology,2020
+1171,84,General Knowledge,2020
+1171,26,Geography,2020
+1171,56,Library,2020
+1171,14,Civics,2020
+1171,94,English,2020
+1171,33,Hindi,2020
+1172,36,Moral Science,2022
+1172,61,Geography,2022
+1172,74,computer,2022
+1172,94,Chemistry,2022
+1172,11,Music,2022
+1172,42,Mathematics,2022
+1172,87,Civics,2022
+1172,88,Physics,2022
+1172,95,General Knowledge,2021
+1172,99,Biology,2021
+1172,39,Moral Science,2021
+1172,69,Dance,2021
+1172,96,History,2021
+1172,90,Library,2021
+1172,80,Chemistry,2021
+1172,23,Physics,2021
+1172,37,Dance,2020
+1172,52,Biology,2020
+1172,77,General Knowledge,2020
+1172,58,Geography,2020
+1172,96,Library,2020
+1172,83,Civics,2020
+1172,77,English,2020
+1172,79,Hindi,2020
+1173,26,Moral Science,2022
+1173,5,Geography,2022
+1173,3,computer,2022
+1173,59,Chemistry,2022
+1173,72,Music,2022
+1173,30,Mathematics,2022
+1173,84,Civics,2022
+1173,83,Physics,2022
+1173,54,General Knowledge,2021
+1173,90,Biology,2021
+1173,72,Moral Science,2021
+1173,91,Dance,2021
+1173,90,History,2021
+1173,29,Library,2021
+1173,30,Chemistry,2021
+1173,17,Physics,2021
+1173,66,Dance,2020
+1173,25,Biology,2020
+1173,24,General Knowledge,2020
+1173,87,Geography,2020
+1173,73,Library,2020
+1173,99,Civics,2020
+1173,77,English,2020
+1173,42,Hindi,2020
+1174,7,Moral Science,2022
+1174,5,Geography,2022
+1174,33,computer,2022
+1174,58,Chemistry,2022
+1174,86,Music,2022
+1174,42,Mathematics,2022
+1174,16,Civics,2022
+1174,14,Physics,2022
+1174,89,General Knowledge,2021
+1174,34,Biology,2021
+1174,23,Moral Science,2021
+1174,86,Dance,2021
+1174,53,History,2021
+1174,82,Library,2021
+1174,14,Chemistry,2021
+1174,88,Physics,2021
+1174,96,Dance,2020
+1174,41,Biology,2020
+1174,95,General Knowledge,2020
+1174,34,Geography,2020
+1174,72,Library,2020
+1174,81,Civics,2020
+1174,2,English,2020
+1174,52,Hindi,2020
+1175,93,Moral Science,2022
+1175,85,Geography,2022
+1175,49,computer,2022
+1175,93,Chemistry,2022
+1175,21,Music,2022
+1175,39,Mathematics,2022
+1175,99,Civics,2022
+1175,86,Physics,2022
+1175,36,General Knowledge,2021
+1175,59,Biology,2021
+1175,53,Moral Science,2021
+1175,82,Dance,2021
+1175,57,History,2021
+1175,84,Library,2021
+1175,57,Chemistry,2021
+1175,55,Physics,2021
+1175,51,Dance,2020
+1175,97,Biology,2020
+1175,49,General Knowledge,2020
+1175,13,Geography,2020
+1175,35,Library,2020
+1175,87,Civics,2020
+1175,54,English,2020
+1175,77,Hindi,2020
+1176,52,Moral Science,2022
+1176,44,Geography,2022
+1176,93,computer,2022
+1176,69,Chemistry,2022
+1176,75,Music,2022
+1176,18,Mathematics,2022
+1176,88,Civics,2022
+1176,31,Physics,2022
+1176,84,General Knowledge,2021
+1176,68,Biology,2021
+1176,75,Moral Science,2021
+1176,73,Dance,2021
+1176,88,History,2021
+1176,69,Library,2021
+1176,24,Chemistry,2021
+1176,58,Physics,2021
+1176,96,Dance,2020
+1176,45,Biology,2020
+1176,61,General Knowledge,2020
+1176,82,Geography,2020
+1176,37,Library,2020
+1176,55,Civics,2020
+1176,37,English,2020
+1176,100,Hindi,2020
+1177,96,Moral Science,2022
+1177,68,Geography,2022
+1177,21,computer,2022
+1177,4,Chemistry,2022
+1177,82,Music,2022
+1177,87,Mathematics,2022
+1177,40,Civics,2022
+1177,43,Physics,2022
+1177,88,General Knowledge,2021
+1177,68,Biology,2021
+1177,86,Moral Science,2021
+1177,87,Dance,2021
+1177,95,History,2021
+1177,65,Library,2021
+1177,97,Chemistry,2021
+1177,29,Physics,2021
+1177,74,Dance,2020
+1177,49,Biology,2020
+1177,60,General Knowledge,2020
+1177,14,Geography,2020
+1177,74,Library,2020
+1177,56,Civics,2020
+1177,20,English,2020
+1177,91,Hindi,2020
+1178,82,Moral Science,2022
+1178,38,Geography,2022
+1178,99,computer,2022
+1178,95,Chemistry,2022
+1178,25,Music,2022
+1178,94,Mathematics,2022
+1178,91,Civics,2022
+1178,39,Physics,2022
+1178,17,General Knowledge,2021
+1178,32,Biology,2021
+1178,54,Moral Science,2021
+1178,45,Dance,2021
+1178,22,History,2021
+1178,96,Library,2021
+1178,52,Chemistry,2021
+1178,48,Physics,2021
+1178,68,Dance,2020
+1178,60,Biology,2020
+1178,3,General Knowledge,2020
+1178,39,Geography,2020
+1178,74,Library,2020
+1178,52,Civics,2020
+1178,39,English,2020
+1178,71,Hindi,2020
+1179,50,Moral Science,2022
+1179,48,Geography,2022
+1179,98,computer,2022
+1179,24,Chemistry,2022
+1179,67,Music,2022
+1179,94,Mathematics,2022
+1179,81,Civics,2022
+1179,79,Physics,2022
+1179,76,General Knowledge,2021
+1179,96,Biology,2021
+1179,23,Moral Science,2021
+1179,11,Dance,2021
+1179,94,History,2021
+1179,43,Library,2021
+1179,85,Chemistry,2021
+1179,49,Physics,2021
+1179,57,Dance,2020
+1179,57,Biology,2020
+1179,79,General Knowledge,2020
+1179,37,Geography,2020
+1179,57,Library,2020
+1179,24,Civics,2020
+1179,44,English,2020
+1179,82,Hindi,2020
+1180,64,Moral Science,2022
+1180,87,Geography,2022
+1180,37,computer,2022
+1180,76,Chemistry,2022
+1180,67,Music,2022
+1180,57,Mathematics,2022
+1180,61,Civics,2022
+1180,40,Physics,2022
+1180,40,General Knowledge,2021
+1180,64,Biology,2021
+1180,70,Moral Science,2021
+1180,65,Dance,2021
+1180,23,History,2021
+1180,95,Library,2021
+1180,48,Chemistry,2021
+1180,88,Physics,2021
+1180,55,Dance,2020
+1180,49,Biology,2020
+1180,50,General Knowledge,2020
+1180,93,Geography,2020
+1180,56,Library,2020
+1180,72,Civics,2020
+1180,81,English,2020
+1180,89,Hindi,2020
+1181,75,Biology,2022
+1181,52,Dance,2022
+1181,40,History,2022
+1181,88,Music,2022
+1181,96,English,2022
+1181,36,Hindi,2022
+1181,91,Sports,2022
+1181,7,Art,2022
+1181,77,Dance,2021
+1181,93,Geography,2021
+1181,84,Moral Science,2021
+1181,17,Music,2021
+1181,68,Chemistry,2021
+1181,23,Civics,2021
+1181,98,Sports,2021
+1181,47,Art,2021
+1181,49,Biology,2020
+1181,59,Music,2020
+1181,78,Mathematics,2020
+1181,69,Civics,2020
+1181,40,English,2020
+1181,16,Physics,2020
+1181,38,Hindi,2020
+1181,39,Art,2020
+1182,39,Biology,2022
+1182,79,Dance,2022
+1182,65,History,2022
+1182,60,Music,2022
+1182,92,English,2022
+1182,39,Hindi,2022
+1182,37,Sports,2022
+1182,33,Art,2022
+1182,42,Dance,2021
+1182,2,Geography,2021
+1182,81,Moral Science,2021
+1182,51,Music,2021
+1182,70,Chemistry,2021
+1182,24,Civics,2021
+1182,86,Sports,2021
+1182,76,Art,2021
+1182,92,Biology,2020
+1182,67,Music,2020
+1182,2,Mathematics,2020
+1182,1,Civics,2020
+1182,40,English,2020
+1182,18,Physics,2020
+1182,66,Hindi,2020
+1182,88,Art,2020
+1183,36,Biology,2022
+1183,69,Dance,2022
+1183,51,History,2022
+1183,11,Music,2022
+1183,87,English,2022
+1183,32,Hindi,2022
+1183,38,Sports,2022
+1183,62,Art,2022
+1183,39,Dance,2021
+1183,50,Geography,2021
+1183,48,Moral Science,2021
+1183,68,Music,2021
+1183,96,Chemistry,2021
+1183,43,Civics,2021
+1183,84,Sports,2021
+1183,36,Art,2021
+1183,34,Biology,2020
+1183,92,Music,2020
+1183,27,Mathematics,2020
+1183,45,Civics,2020
+1183,41,English,2020
+1183,60,Physics,2020
+1183,54,Hindi,2020
+1183,59,Art,2020
+1184,89,Biology,2022
+1184,25,Dance,2022
+1184,74,History,2022
+1184,56,Music,2022
+1184,11,English,2022
+1184,45,Hindi,2022
+1184,89,Sports,2022
+1184,53,Art,2022
+1184,53,Dance,2021
+1184,90,Geography,2021
+1184,71,Moral Science,2021
+1184,54,Music,2021
+1184,28,Chemistry,2021
+1184,73,Civics,2021
+1184,4,Sports,2021
+1184,68,Art,2021
+1184,91,Biology,2020
+1184,92,Music,2020
+1184,70,Mathematics,2020
+1184,77,Civics,2020
+1184,62,English,2020
+1184,41,Physics,2020
+1184,99,Hindi,2020
+1184,45,Art,2020
+1185,35,Biology,2022
+1185,51,Dance,2022
+1185,74,History,2022
+1185,76,Music,2022
+1185,56,English,2022
+1185,47,Hindi,2022
+1185,30,Sports,2022
+1185,69,Art,2022
+1185,57,Dance,2021
+1185,62,Geography,2021
+1185,72,Moral Science,2021
+1185,36,Music,2021
+1185,6,Chemistry,2021
+1185,63,Civics,2021
+1185,99,Sports,2021
+1185,57,Art,2021
+1185,35,Biology,2020
+1185,60,Music,2020
+1185,29,Mathematics,2020
+1185,11,Civics,2020
+1185,62,English,2020
+1185,100,Physics,2020
+1185,100,Hindi,2020
+1185,63,Art,2020
+1186,22,Biology,2022
+1186,42,Dance,2022
+1186,24,History,2022
+1186,35,Music,2022
+1186,81,English,2022
+1186,61,Hindi,2022
+1186,60,Sports,2022
+1186,70,Art,2022
+1186,22,Dance,2021
+1186,48,Geography,2021
+1186,72,Moral Science,2021
+1186,29,Music,2021
+1186,41,Chemistry,2021
+1186,45,Civics,2021
+1186,55,Sports,2021
+1186,39,Art,2021
+1186,63,Biology,2020
+1186,76,Music,2020
+1186,98,Mathematics,2020
+1186,34,Civics,2020
+1186,58,English,2020
+1186,28,Physics,2020
+1186,63,Hindi,2020
+1186,45,Art,2020
+1187,35,Biology,2022
+1187,31,Dance,2022
+1187,65,History,2022
+1187,93,Music,2022
+1187,54,English,2022
+1187,79,Hindi,2022
+1187,58,Sports,2022
+1187,10,Art,2022
+1187,97,Dance,2021
+1187,55,Geography,2021
+1187,45,Moral Science,2021
+1187,59,Music,2021
+1187,36,Chemistry,2021
+1187,9,Civics,2021
+1187,91,Sports,2021
+1187,93,Art,2021
+1187,35,Biology,2020
+1187,36,Music,2020
+1187,89,Mathematics,2020
+1187,41,Civics,2020
+1187,86,English,2020
+1187,64,Physics,2020
+1187,67,Hindi,2020
+1187,97,Art,2020
+1188,38,Biology,2022
+1188,93,Dance,2022
+1188,16,History,2022
+1188,26,Music,2022
+1188,92,English,2022
+1188,73,Hindi,2022
+1188,98,Sports,2022
+1188,12,Art,2022
+1188,92,Dance,2021
+1188,90,Geography,2021
+1188,51,Moral Science,2021
+1188,54,Music,2021
+1188,88,Chemistry,2021
+1188,96,Civics,2021
+1188,97,Sports,2021
+1188,69,Art,2021
+1188,96,Biology,2020
+1188,51,Music,2020
+1188,78,Mathematics,2020
+1188,6,Civics,2020
+1188,82,English,2020
+1188,78,Physics,2020
+1188,82,Hindi,2020
+1188,41,Art,2020
+1189,73,Biology,2022
+1189,54,Dance,2022
+1189,21,History,2022
+1189,98,Music,2022
+1189,5,English,2022
+1189,56,Hindi,2022
+1189,74,Sports,2022
+1189,33,Art,2022
+1189,87,Dance,2021
+1189,35,Geography,2021
+1189,11,Moral Science,2021
+1189,47,Music,2021
+1189,2,Chemistry,2021
+1189,25,Civics,2021
+1189,78,Sports,2021
+1189,56,Art,2021
+1189,91,Biology,2020
+1189,35,Music,2020
+1189,30,Mathematics,2020
+1189,25,Civics,2020
+1189,55,English,2020
+1189,32,Physics,2020
+1189,30,Hindi,2020
+1189,88,Art,2020
+1190,68,Biology,2022
+1190,66,Dance,2022
+1190,4,History,2022
+1190,14,Music,2022
+1190,29,English,2022
+1190,11,Hindi,2022
+1190,89,Sports,2022
+1190,98,Art,2022
+1190,62,Dance,2021
+1190,28,Geography,2021
+1190,20,Moral Science,2021
+1190,16,Music,2021
+1190,58,Chemistry,2021
+1190,86,Civics,2021
+1190,68,Sports,2021
+1190,35,Art,2021
+1190,25,Biology,2020
+1190,90,Music,2020
+1190,69,Mathematics,2020
+1190,78,Civics,2020
+1190,18,English,2020
+1190,22,Physics,2020
+1190,32,Hindi,2020
+1190,89,Art,2020
+1191,38,Biology,2022
+1191,26,Dance,2022
+1191,93,History,2022
+1191,72,Music,2022
+1191,20,English,2022
+1191,33,Hindi,2022
+1191,89,Sports,2022
+1191,56,Art,2022
+1191,28,Dance,2021
+1191,92,Geography,2021
+1191,48,Moral Science,2021
+1191,58,Music,2021
+1191,75,Chemistry,2021
+1191,84,Civics,2021
+1191,79,Sports,2021
+1191,13,Art,2021
+1191,23,Biology,2020
+1191,37,Music,2020
+1191,15,Mathematics,2020
+1191,23,Civics,2020
+1191,59,English,2020
+1191,74,Physics,2020
+1191,56,Hindi,2020
+1191,18,Art,2020
+1192,98,Biology,2022
+1192,97,Dance,2022
+1192,84,History,2022
+1192,82,Music,2022
+1192,51,English,2022
+1192,38,Hindi,2022
+1192,51,Sports,2022
+1192,78,Art,2022
+1192,40,Dance,2021
+1192,88,Geography,2021
+1192,21,Moral Science,2021
+1192,33,Music,2021
+1192,50,Chemistry,2021
+1192,25,Civics,2021
+1192,69,Sports,2021
+1192,89,Art,2021
+1192,29,Biology,2020
+1192,27,Music,2020
+1192,2,Mathematics,2020
+1192,45,Civics,2020
+1192,37,English,2020
+1192,54,Physics,2020
+1192,46,Hindi,2020
+1192,81,Art,2020
+1193,75,Biology,2022
+1193,48,Dance,2022
+1193,48,History,2022
+1193,23,Music,2022
+1193,74,English,2022
+1193,26,Hindi,2022
+1193,74,Sports,2022
+1193,34,Art,2022
+1193,24,Dance,2021
+1193,74,Geography,2021
+1193,52,Moral Science,2021
+1193,96,Music,2021
+1193,55,Chemistry,2021
+1193,62,Civics,2021
+1193,56,Sports,2021
+1193,47,Art,2021
+1193,55,Biology,2020
+1193,49,Music,2020
+1193,42,Mathematics,2020
+1193,80,Civics,2020
+1193,86,English,2020
+1193,93,Physics,2020
+1193,76,Hindi,2020
+1193,68,Art,2020
+1194,47,Biology,2022
+1194,73,Dance,2022
+1194,22,History,2022
+1194,75,Music,2022
+1194,93,English,2022
+1194,81,Hindi,2022
+1194,52,Sports,2022
+1194,48,Art,2022
+1194,84,Dance,2021
+1194,14,Geography,2021
+1194,64,Moral Science,2021
+1194,78,Music,2021
+1194,86,Chemistry,2021
+1194,74,Civics,2021
+1194,91,Sports,2021
+1194,4,Art,2021
+1194,26,Biology,2020
+1194,71,Music,2020
+1194,57,Mathematics,2020
+1194,59,Civics,2020
+1194,12,English,2020
+1194,30,Physics,2020
+1194,17,Hindi,2020
+1194,87,Art,2020
+1195,3,Biology,2022
+1195,23,Dance,2022
+1195,36,History,2022
+1195,30,Music,2022
+1195,72,English,2022
+1195,77,Hindi,2022
+1195,10,Sports,2022
+1195,65,Art,2022
+1195,85,Dance,2021
+1195,69,Geography,2021
+1195,84,Moral Science,2021
+1195,36,Music,2021
+1195,73,Chemistry,2021
+1195,57,Civics,2021
+1195,28,Sports,2021
+1195,64,Art,2021
+1195,88,Biology,2020
+1195,48,Music,2020
+1195,87,Mathematics,2020
+1195,63,Civics,2020
+1195,59,English,2020
+1195,16,Physics,2020
+1195,34,Hindi,2020
+1195,98,Art,2020
+1196,14,Biology,2022
+1196,53,Dance,2022
+1196,4,History,2022
+1196,56,Music,2022
+1196,66,English,2022
+1196,73,Hindi,2022
+1196,91,Sports,2022
+1196,87,Art,2022
+1196,68,Dance,2021
+1196,88,Geography,2021
+1196,38,Moral Science,2021
+1196,47,Music,2021
+1196,53,Chemistry,2021
+1196,75,Civics,2021
+1196,89,Sports,2021
+1196,18,Art,2021
+1196,41,Biology,2020
+1196,78,Music,2020
+1196,28,Mathematics,2020
+1196,50,Civics,2020
+1196,70,English,2020
+1196,72,Physics,2020
+1196,80,Hindi,2020
+1196,78,Art,2020
+1197,92,Biology,2022
+1197,83,Dance,2022
+1197,45,History,2022
+1197,29,Music,2022
+1197,94,English,2022
+1197,37,Hindi,2022
+1197,78,Sports,2022
+1197,82,Art,2022
+1197,71,Dance,2021
+1197,41,Geography,2021
+1197,56,Moral Science,2021
+1197,49,Music,2021
+1197,6,Chemistry,2021
+1197,18,Civics,2021
+1197,59,Sports,2021
+1197,31,Art,2021
+1197,88,Biology,2020
+1197,61,Music,2020
+1197,10,Mathematics,2020
+1197,98,Civics,2020
+1197,35,English,2020
+1197,39,Physics,2020
+1197,0,Hindi,2020
+1197,70,Art,2020
+1198,6,Biology,2022
+1198,25,Dance,2022
+1198,46,History,2022
+1198,34,Music,2022
+1198,67,English,2022
+1198,97,Hindi,2022
+1198,60,Sports,2022
+1198,39,Art,2022
+1198,21,Dance,2021
+1198,76,Geography,2021
+1198,55,Moral Science,2021
+1198,61,Music,2021
+1198,49,Chemistry,2021
+1198,11,Civics,2021
+1198,92,Sports,2021
+1198,83,Art,2021
+1198,88,Biology,2020
+1198,35,Music,2020
+1198,89,Mathematics,2020
+1198,68,Civics,2020
+1198,45,English,2020
+1198,67,Physics,2020
+1198,78,Hindi,2020
+1198,37,Art,2020
+1199,15,Biology,2022
+1199,33,Dance,2022
+1199,70,History,2022
+1199,45,Music,2022
+1199,38,English,2022
+1199,65,Hindi,2022
+1199,34,Sports,2022
+1199,83,Art,2022
+1199,67,Dance,2021
+1199,62,Geography,2021
+1199,77,Moral Science,2021
+1199,28,Music,2021
+1199,98,Chemistry,2021
+1199,55,Civics,2021
+1199,59,Sports,2021
+1199,91,Art,2021
+1199,33,Biology,2020
+1199,16,Music,2020
+1199,84,Mathematics,2020
+1199,72,Civics,2020
+1199,56,English,2020
+1199,29,Physics,2020
+1199,10,Hindi,2020
+1199,64,Art,2020
+1200,60,Biology,2022
+1200,23,Dance,2022
+1200,83,History,2022
+1200,75,Music,2022
+1200,71,English,2022
+1200,66,Hindi,2022
+1200,5,Sports,2022
+1200,81,Art,2022
+1200,51,Dance,2021
+1200,75,Geography,2021
+1200,52,Moral Science,2021
+1200,95,Music,2021
+1200,79,Chemistry,2021
+1200,81,Civics,2021
+1200,59,Sports,2021
+1200,77,Art,2021
+1200,73,Biology,2020
+1200,34,Music,2020
+1200,39,Mathematics,2020
+1200,31,Civics,2020
+1200,46,English,2020
+1200,70,Physics,2020
+1200,7,Hindi,2020
+1200,71,Art,2020
+1201,79,General Knowledge,2022
+1201,88,Dance,2022
+1201,37,Geography,2022
+1201,69,computer,2022
+1201,98,Civics,2022
+1201,63,Physics,2022
+1201,69,Hindi,2022
+1201,100,Art,2022
+1201,47,General Knowledge,2021
+1201,44,Geography,2021
+1201,80,Library,2021
+1201,69,Music,2021
+1201,55,Chemistry,2021
+1201,99,Physics,2021
+1201,58,Hindi,2021
+1201,10,Sports,2021
+1201,89,General Knowledge,2020
+1201,7,Dance,2020
+1201,35,History,2020
+1201,96,computer,2020
+1201,83,Library,2020
+1201,37,Physics,2020
+1201,43,Hindi,2020
+1201,12,Art,2020
+1202,81,General Knowledge,2022
+1202,50,Dance,2022
+1202,89,Geography,2022
+1202,85,computer,2022
+1202,43,Civics,2022
+1202,51,Physics,2022
+1202,65,Hindi,2022
+1202,49,Art,2022
+1202,29,General Knowledge,2021
+1202,16,Geography,2021
+1202,100,Library,2021
+1202,35,Music,2021
+1202,56,Chemistry,2021
+1202,20,Physics,2021
+1202,78,Hindi,2021
+1202,83,Sports,2021
+1202,30,General Knowledge,2020
+1202,42,Dance,2020
+1202,87,History,2020
+1202,29,computer,2020
+1202,3,Library,2020
+1202,70,Physics,2020
+1202,43,Hindi,2020
+1202,58,Art,2020
+1203,58,General Knowledge,2022
+1203,96,Dance,2022
+1203,40,Geography,2022
+1203,87,computer,2022
+1203,33,Civics,2022
+1203,4,Physics,2022
+1203,66,Hindi,2022
+1203,70,Art,2022
+1203,29,General Knowledge,2021
+1203,35,Geography,2021
+1203,37,Library,2021
+1203,33,Music,2021
+1203,52,Chemistry,2021
+1203,63,Physics,2021
+1203,62,Hindi,2021
+1203,65,Sports,2021
+1203,45,General Knowledge,2020
+1203,69,Dance,2020
+1203,58,History,2020
+1203,29,computer,2020
+1203,60,Library,2020
+1203,2,Physics,2020
+1203,6,Hindi,2020
+1203,14,Art,2020
+1204,67,General Knowledge,2022
+1204,79,Dance,2022
+1204,68,Geography,2022
+1204,26,computer,2022
+1204,73,Civics,2022
+1204,71,Physics,2022
+1204,63,Hindi,2022
+1204,40,Art,2022
+1204,3,General Knowledge,2021
+1204,75,Geography,2021
+1204,82,Library,2021
+1204,65,Music,2021
+1204,37,Chemistry,2021
+1204,21,Physics,2021
+1204,64,Hindi,2021
+1204,77,Sports,2021
+1204,83,General Knowledge,2020
+1204,17,Dance,2020
+1204,74,History,2020
+1204,4,computer,2020
+1204,54,Library,2020
+1204,16,Physics,2020
+1204,46,Hindi,2020
+1204,97,Art,2020
+1205,48,General Knowledge,2022
+1205,65,Dance,2022
+1205,38,Geography,2022
+1205,63,computer,2022
+1205,100,Civics,2022
+1205,46,Physics,2022
+1205,31,Hindi,2022
+1205,40,Art,2022
+1205,44,General Knowledge,2021
+1205,78,Geography,2021
+1205,35,Library,2021
+1205,64,Music,2021
+1205,95,Chemistry,2021
+1205,35,Physics,2021
+1205,17,Hindi,2021
+1205,44,Sports,2021
+1205,49,General Knowledge,2020
+1205,93,Dance,2020
+1205,86,History,2020
+1205,54,computer,2020
+1205,31,Library,2020
+1205,90,Physics,2020
+1205,57,Hindi,2020
+1205,75,Art,2020
+1206,43,General Knowledge,2022
+1206,35,Dance,2022
+1206,72,Geography,2022
+1206,19,computer,2022
+1206,61,Civics,2022
+1206,0,Physics,2022
+1206,69,Hindi,2022
+1206,91,Art,2022
+1206,68,General Knowledge,2021
+1206,63,Geography,2021
+1206,87,Library,2021
+1206,35,Music,2021
+1206,17,Chemistry,2021
+1206,47,Physics,2021
+1206,22,Hindi,2021
+1206,75,Sports,2021
+1206,33,General Knowledge,2020
+1206,23,Dance,2020
+1206,87,History,2020
+1206,96,computer,2020
+1206,98,Library,2020
+1206,59,Physics,2020
+1206,35,Hindi,2020
+1206,33,Art,2020
+1207,22,General Knowledge,2022
+1207,68,Dance,2022
+1207,40,Geography,2022
+1207,70,computer,2022
+1207,62,Civics,2022
+1207,61,Physics,2022
+1207,97,Hindi,2022
+1207,84,Art,2022
+1207,94,General Knowledge,2021
+1207,49,Geography,2021
+1207,52,Library,2021
+1207,35,Music,2021
+1207,48,Chemistry,2021
+1207,73,Physics,2021
+1207,95,Hindi,2021
+1207,68,Sports,2021
+1207,94,General Knowledge,2020
+1207,74,Dance,2020
+1207,24,History,2020
+1207,100,computer,2020
+1207,75,Library,2020
+1207,25,Physics,2020
+1207,54,Hindi,2020
+1207,39,Art,2020
+1208,18,General Knowledge,2022
+1208,67,Dance,2022
+1208,88,Geography,2022
+1208,99,computer,2022
+1208,75,Civics,2022
+1208,28,Physics,2022
+1208,93,Hindi,2022
+1208,73,Art,2022
+1208,18,General Knowledge,2021
+1208,38,Geography,2021
+1208,87,Library,2021
+1208,74,Music,2021
+1208,55,Chemistry,2021
+1208,73,Physics,2021
+1208,29,Hindi,2021
+1208,64,Sports,2021
+1208,11,General Knowledge,2020
+1208,88,Dance,2020
+1208,66,History,2020
+1208,39,computer,2020
+1208,41,Library,2020
+1208,74,Physics,2020
+1208,31,Hindi,2020
+1208,44,Art,2020
+1209,52,General Knowledge,2022
+1209,61,Dance,2022
+1209,50,Geography,2022
+1209,99,computer,2022
+1209,90,Civics,2022
+1209,62,Physics,2022
+1209,92,Hindi,2022
+1209,69,Art,2022
+1209,57,General Knowledge,2021
+1209,87,Geography,2021
+1209,94,Library,2021
+1209,87,Music,2021
+1209,37,Chemistry,2021
+1209,24,Physics,2021
+1209,80,Hindi,2021
+1209,26,Sports,2021
+1209,3,General Knowledge,2020
+1209,31,Dance,2020
+1209,98,History,2020
+1209,76,computer,2020
+1209,48,Library,2020
+1209,50,Physics,2020
+1209,72,Hindi,2020
+1209,51,Art,2020
+1210,37,General Knowledge,2022
+1210,99,Dance,2022
+1210,52,Geography,2022
+1210,32,computer,2022
+1210,41,Civics,2022
+1210,47,Physics,2022
+1210,46,Hindi,2022
+1210,42,Art,2022
+1210,34,General Knowledge,2021
+1210,80,Geography,2021
+1210,40,Library,2021
+1210,99,Music,2021
+1210,52,Chemistry,2021
+1210,56,Physics,2021
+1210,82,Hindi,2021
+1210,97,Sports,2021
+1210,99,General Knowledge,2020
+1210,95,Dance,2020
+1210,27,History,2020
+1210,60,computer,2020
+1210,56,Library,2020
+1210,81,Physics,2020
+1210,29,Hindi,2020
+1210,33,Art,2020
+1211,74,General Knowledge,2022
+1211,88,Dance,2022
+1211,4,Geography,2022
+1211,35,computer,2022
+1211,55,Civics,2022
+1211,54,Physics,2022
+1211,74,Hindi,2022
+1211,88,Art,2022
+1211,78,General Knowledge,2021
+1211,8,Geography,2021
+1211,82,Library,2021
+1211,87,Music,2021
+1211,80,Chemistry,2021
+1211,67,Physics,2021
+1211,88,Hindi,2021
+1211,77,Sports,2021
+1211,71,General Knowledge,2020
+1211,89,Dance,2020
+1211,51,History,2020
+1211,34,computer,2020
+1211,86,Library,2020
+1211,34,Physics,2020
+1211,2,Hindi,2020
+1211,30,Art,2020
+1212,80,General Knowledge,2022
+1212,6,Dance,2022
+1212,73,Geography,2022
+1212,91,computer,2022
+1212,99,Civics,2022
+1212,39,Physics,2022
+1212,65,Hindi,2022
+1212,51,Art,2022
+1212,26,General Knowledge,2021
+1212,63,Geography,2021
+1212,3,Library,2021
+1212,27,Music,2021
+1212,29,Chemistry,2021
+1212,60,Physics,2021
+1212,25,Hindi,2021
+1212,75,Sports,2021
+1212,26,General Knowledge,2020
+1212,52,Dance,2020
+1212,57,History,2020
+1212,49,computer,2020
+1212,66,Library,2020
+1212,85,Physics,2020
+1212,45,Hindi,2020
+1212,72,Art,2020
+1213,86,General Knowledge,2022
+1213,25,Dance,2022
+1213,69,Geography,2022
+1213,24,computer,2022
+1213,25,Civics,2022
+1213,28,Physics,2022
+1213,94,Hindi,2022
+1213,27,Art,2022
+1213,94,General Knowledge,2021
+1213,99,Geography,2021
+1213,18,Library,2021
+1213,6,Music,2021
+1213,75,Chemistry,2021
+1213,79,Physics,2021
+1213,55,Hindi,2021
+1213,77,Sports,2021
+1213,29,General Knowledge,2020
+1213,72,Dance,2020
+1213,34,History,2020
+1213,20,computer,2020
+1213,90,Library,2020
+1213,49,Physics,2020
+1213,30,Hindi,2020
+1213,75,Art,2020
+1214,49,General Knowledge,2022
+1214,30,Dance,2022
+1214,59,Geography,2022
+1214,25,computer,2022
+1214,29,Civics,2022
+1214,24,Physics,2022
+1214,43,Hindi,2022
+1214,32,Art,2022
+1214,70,General Knowledge,2021
+1214,37,Geography,2021
+1214,94,Library,2021
+1214,92,Music,2021
+1214,76,Chemistry,2021
+1214,15,Physics,2021
+1214,28,Hindi,2021
+1214,100,Sports,2021
+1214,30,General Knowledge,2020
+1214,54,Dance,2020
+1214,49,History,2020
+1214,60,computer,2020
+1214,3,Library,2020
+1214,53,Physics,2020
+1214,98,Hindi,2020
+1214,100,Art,2020
+1215,79,General Knowledge,2022
+1215,98,Dance,2022
+1215,55,Geography,2022
+1215,85,computer,2022
+1215,87,Civics,2022
+1215,71,Physics,2022
+1215,51,Hindi,2022
+1215,65,Art,2022
+1215,52,General Knowledge,2021
+1215,32,Geography,2021
+1215,82,Library,2021
+1215,57,Music,2021
+1215,29,Chemistry,2021
+1215,30,Physics,2021
+1215,29,Hindi,2021
+1215,48,Sports,2021
+1215,3,General Knowledge,2020
+1215,95,Dance,2020
+1215,64,History,2020
+1215,68,computer,2020
+1215,40,Library,2020
+1215,86,Physics,2020
+1215,97,Hindi,2020
+1215,95,Art,2020
+1216,47,General Knowledge,2022
+1216,91,Dance,2022
+1216,92,Geography,2022
+1216,36,computer,2022
+1216,76,Civics,2022
+1216,36,Physics,2022
+1216,48,Hindi,2022
+1216,83,Art,2022
+1216,50,General Knowledge,2021
+1216,61,Geography,2021
+1216,56,Library,2021
+1216,25,Music,2021
+1216,89,Chemistry,2021
+1216,67,Physics,2021
+1216,98,Hindi,2021
+1216,90,Sports,2021
+1216,36,General Knowledge,2020
+1216,58,Dance,2020
+1216,60,History,2020
+1216,40,computer,2020
+1216,39,Library,2020
+1216,51,Physics,2020
+1216,80,Hindi,2020
+1216,30,Art,2020
+1217,42,General Knowledge,2022
+1217,62,Dance,2022
+1217,36,Geography,2022
+1217,86,computer,2022
+1217,18,Civics,2022
+1217,86,Physics,2022
+1217,49,Hindi,2022
+1217,2,Art,2022
+1217,24,General Knowledge,2021
+1217,53,Geography,2021
+1217,62,Library,2021
+1217,82,Music,2021
+1217,30,Chemistry,2021
+1217,43,Physics,2021
+1217,94,Hindi,2021
+1217,0,Sports,2021
+1217,75,General Knowledge,2020
+1217,11,Dance,2020
+1217,37,History,2020
+1217,18,computer,2020
+1217,48,Library,2020
+1217,6,Physics,2020
+1217,92,Hindi,2020
+1217,62,Art,2020
+1218,76,General Knowledge,2022
+1218,95,Dance,2022
+1218,66,Geography,2022
+1218,82,computer,2022
+1218,59,Civics,2022
+1218,72,Physics,2022
+1218,3,Hindi,2022
+1218,50,Art,2022
+1218,19,General Knowledge,2021
+1218,18,Geography,2021
+1218,23,Library,2021
+1218,28,Music,2021
+1218,35,Chemistry,2021
+1218,39,Physics,2021
+1218,8,Hindi,2021
+1218,67,Sports,2021
+1218,68,General Knowledge,2020
+1218,97,Dance,2020
+1218,44,History,2020
+1218,40,computer,2020
+1218,67,Library,2020
+1218,81,Physics,2020
+1218,89,Hindi,2020
+1218,59,Art,2020
+1219,80,General Knowledge,2022
+1219,59,Dance,2022
+1219,27,Geography,2022
+1219,84,computer,2022
+1219,82,Civics,2022
+1219,19,Physics,2022
+1219,65,Hindi,2022
+1219,99,Art,2022
+1219,84,General Knowledge,2021
+1219,27,Geography,2021
+1219,48,Library,2021
+1219,68,Music,2021
+1219,55,Chemistry,2021
+1219,86,Physics,2021
+1219,84,Hindi,2021
+1219,18,Sports,2021
+1219,50,General Knowledge,2020
+1219,47,Dance,2020
+1219,49,History,2020
+1219,11,computer,2020
+1219,72,Library,2020
+1219,22,Physics,2020
+1219,44,Hindi,2020
+1219,79,Art,2020
+1220,25,General Knowledge,2022
+1220,51,Dance,2022
+1220,60,Geography,2022
+1220,46,computer,2022
+1220,36,Civics,2022
+1220,16,Physics,2022
+1220,34,Hindi,2022
+1220,25,Art,2022
+1220,78,General Knowledge,2021
+1220,22,Geography,2021
+1220,14,Library,2021
+1220,86,Music,2021
+1220,34,Chemistry,2021
+1220,25,Physics,2021
+1220,22,Hindi,2021
+1220,28,Sports,2021
+1220,33,General Knowledge,2020
+1220,11,Dance,2020
+1220,21,History,2020
+1220,97,computer,2020
+1220,51,Library,2020
+1220,21,Physics,2020
+1220,62,Hindi,2020
+1220,77,Art,2020
+1221,94,General Knowledge,2022
+1221,24,Biology,2022
+1221,86,Geography,2022
+1221,84,Library,2022
+1221,96,Chemistry,2022
+1221,99,Physics,2022
+1221,55,Hindi,2022
+1221,34,Sports,2022
+1221,28,Moral Science,2021
+1221,96,Geography,2021
+1221,86,computer,2021
+1221,35,Chemistry,2021
+1221,37,Music,2021
+1221,98,Mathematics,2021
+1221,61,Civics,2021
+1221,51,Physics,2021
+1221,97,General Knowledge,2020
+1221,11,Biology,2020
+1221,79,Moral Science,2020
+1221,56,Dance,2020
+1221,50,History,2020
+1221,61,Library,2020
+1221,48,Chemistry,2020
+1221,46,Physics,2020
+1222,85,General Knowledge,2022
+1222,73,Biology,2022
+1222,44,Geography,2022
+1222,82,Library,2022
+1222,44,Chemistry,2022
+1222,64,Physics,2022
+1222,100,Hindi,2022
+1222,78,Sports,2022
+1222,76,Moral Science,2021
+1222,78,Geography,2021
+1222,13,computer,2021
+1222,12,Chemistry,2021
+1222,68,Music,2021
+1222,72,Mathematics,2021
+1222,68,Civics,2021
+1222,78,Physics,2021
+1222,28,General Knowledge,2020
+1222,57,Biology,2020
+1222,52,Moral Science,2020
+1222,67,Dance,2020
+1222,58,History,2020
+1222,85,Library,2020
+1222,77,Chemistry,2020
+1222,35,Physics,2020
+1223,55,General Knowledge,2022
+1223,81,Biology,2022
+1223,63,Geography,2022
+1223,50,Library,2022
+1223,87,Chemistry,2022
+1223,26,Physics,2022
+1223,96,Hindi,2022
+1223,21,Sports,2022
+1223,100,Moral Science,2021
+1223,24,Geography,2021
+1223,56,computer,2021
+1223,88,Chemistry,2021
+1223,78,Music,2021
+1223,84,Mathematics,2021
+1223,36,Civics,2021
+1223,84,Physics,2021
+1223,66,General Knowledge,2020
+1223,15,Biology,2020
+1223,60,Moral Science,2020
+1223,74,Dance,2020
+1223,47,History,2020
+1223,69,Library,2020
+1223,10,Chemistry,2020
+1223,47,Physics,2020
+1224,69,General Knowledge,2022
+1224,87,Biology,2022
+1224,58,Geography,2022
+1224,34,Library,2022
+1224,57,Chemistry,2022
+1224,29,Physics,2022
+1224,97,Hindi,2022
+1224,35,Sports,2022
+1224,74,Moral Science,2021
+1224,31,Geography,2021
+1224,89,computer,2021
+1224,48,Chemistry,2021
+1224,34,Music,2021
+1224,84,Mathematics,2021
+1224,60,Civics,2021
+1224,46,Physics,2021
+1224,68,General Knowledge,2020
+1224,41,Biology,2020
+1224,10,Moral Science,2020
+1224,5,Dance,2020
+1224,13,History,2020
+1224,28,Library,2020
+1224,94,Chemistry,2020
+1224,89,Physics,2020
+1225,51,General Knowledge,2022
+1225,64,Biology,2022
+1225,30,Geography,2022
+1225,38,Library,2022
+1225,29,Chemistry,2022
+1225,11,Physics,2022
+1225,22,Hindi,2022
+1225,64,Sports,2022
+1225,1,Moral Science,2021
+1225,47,Geography,2021
+1225,46,computer,2021
+1225,98,Chemistry,2021
+1225,75,Music,2021
+1225,71,Mathematics,2021
+1225,72,Civics,2021
+1225,92,Physics,2021
+1225,34,General Knowledge,2020
+1225,87,Biology,2020
+1225,75,Moral Science,2020
+1225,7,Dance,2020
+1225,37,History,2020
+1225,85,Library,2020
+1225,28,Chemistry,2020
+1225,27,Physics,2020
+1226,60,General Knowledge,2022
+1226,25,Biology,2022
+1226,2,Geography,2022
+1226,24,Library,2022
+1226,47,Chemistry,2022
+1226,26,Physics,2022
+1226,98,Hindi,2022
+1226,35,Sports,2022
+1226,1,Moral Science,2021
+1226,26,Geography,2021
+1226,68,computer,2021
+1226,65,Chemistry,2021
+1226,88,Music,2021
+1226,78,Mathematics,2021
+1226,50,Civics,2021
+1226,56,Physics,2021
+1226,59,General Knowledge,2020
+1226,47,Biology,2020
+1226,84,Moral Science,2020
+1226,28,Dance,2020
+1226,12,History,2020
+1226,84,Library,2020
+1226,35,Chemistry,2020
+1226,53,Physics,2020
+1227,49,General Knowledge,2022
+1227,49,Biology,2022
+1227,85,Geography,2022
+1227,84,Library,2022
+1227,21,Chemistry,2022
+1227,51,Physics,2022
+1227,82,Hindi,2022
+1227,98,Sports,2022
+1227,23,Moral Science,2021
+1227,93,Geography,2021
+1227,48,computer,2021
+1227,51,Chemistry,2021
+1227,23,Music,2021
+1227,43,Mathematics,2021
+1227,37,Civics,2021
+1227,74,Physics,2021
+1227,63,General Knowledge,2020
+1227,79,Biology,2020
+1227,22,Moral Science,2020
+1227,45,Dance,2020
+1227,81,History,2020
+1227,36,Library,2020
+1227,98,Chemistry,2020
+1227,63,Physics,2020
+1228,40,General Knowledge,2022
+1228,65,Biology,2022
+1228,7,Geography,2022
+1228,80,Library,2022
+1228,39,Chemistry,2022
+1228,81,Physics,2022
+1228,0,Hindi,2022
+1228,19,Sports,2022
+1228,79,Moral Science,2021
+1228,21,Geography,2021
+1228,80,computer,2021
+1228,32,Chemistry,2021
+1228,30,Music,2021
+1228,100,Mathematics,2021
+1228,89,Civics,2021
+1228,21,Physics,2021
+1228,66,General Knowledge,2020
+1228,44,Biology,2020
+1228,25,Moral Science,2020
+1228,84,Dance,2020
+1228,42,History,2020
+1228,53,Library,2020
+1228,71,Chemistry,2020
+1228,82,Physics,2020
+1229,80,General Knowledge,2022
+1229,13,Biology,2022
+1229,74,Geography,2022
+1229,54,Library,2022
+1229,69,Chemistry,2022
+1229,47,Physics,2022
+1229,30,Hindi,2022
+1229,21,Sports,2022
+1229,97,Moral Science,2021
+1229,57,Geography,2021
+1229,80,computer,2021
+1229,96,Chemistry,2021
+1229,67,Music,2021
+1229,100,Mathematics,2021
+1229,82,Civics,2021
+1229,57,Physics,2021
+1229,47,General Knowledge,2020
+1229,44,Biology,2020
+1229,50,Moral Science,2020
+1229,91,Dance,2020
+1229,16,History,2020
+1229,23,Library,2020
+1229,87,Chemistry,2020
+1229,51,Physics,2020
+1230,84,General Knowledge,2022
+1230,45,Biology,2022
+1230,46,Geography,2022
+1230,61,Library,2022
+1230,89,Chemistry,2022
+1230,92,Physics,2022
+1230,51,Hindi,2022
+1230,46,Sports,2022
+1230,96,Moral Science,2021
+1230,75,Geography,2021
+1230,57,computer,2021
+1230,69,Chemistry,2021
+1230,54,Music,2021
+1230,23,Mathematics,2021
+1230,17,Civics,2021
+1230,96,Physics,2021
+1230,42,General Knowledge,2020
+1230,50,Biology,2020
+1230,100,Moral Science,2020
+1230,62,Dance,2020
+1230,76,History,2020
+1230,34,Library,2020
+1230,53,Chemistry,2020
+1230,26,Physics,2020
+1231,74,General Knowledge,2022
+1231,6,Biology,2022
+1231,55,Geography,2022
+1231,80,Library,2022
+1231,77,Chemistry,2022
+1231,58,Physics,2022
+1231,41,Hindi,2022
+1231,3,Sports,2022
+1231,74,Moral Science,2021
+1231,39,Geography,2021
+1231,58,computer,2021
+1231,54,Chemistry,2021
+1231,52,Music,2021
+1231,32,Mathematics,2021
+1231,11,Civics,2021
+1231,82,Physics,2021
+1231,31,General Knowledge,2020
+1231,45,Biology,2020
+1231,21,Moral Science,2020
+1231,60,Dance,2020
+1231,29,History,2020
+1231,80,Library,2020
+1231,69,Chemistry,2020
+1231,76,Physics,2020
+1232,74,General Knowledge,2022
+1232,83,Biology,2022
+1232,97,Geography,2022
+1232,50,Library,2022
+1232,38,Chemistry,2022
+1232,43,Physics,2022
+1232,75,Hindi,2022
+1232,21,Sports,2022
+1232,19,Moral Science,2021
+1232,74,Geography,2021
+1232,24,computer,2021
+1232,74,Chemistry,2021
+1232,11,Music,2021
+1232,100,Mathematics,2021
+1232,71,Civics,2021
+1232,24,Physics,2021
+1232,73,General Knowledge,2020
+1232,49,Biology,2020
+1232,78,Moral Science,2020
+1232,61,Dance,2020
+1232,19,History,2020
+1232,97,Library,2020
+1232,25,Chemistry,2020
+1232,19,Physics,2020
+1233,34,General Knowledge,2022
+1233,6,Biology,2022
+1233,62,Geography,2022
+1233,22,Library,2022
+1233,82,Chemistry,2022
+1233,81,Physics,2022
+1233,49,Hindi,2022
+1233,45,Sports,2022
+1233,14,Moral Science,2021
+1233,21,Geography,2021
+1233,29,computer,2021
+1233,2,Chemistry,2021
+1233,87,Music,2021
+1233,92,Mathematics,2021
+1233,88,Civics,2021
+1233,60,Physics,2021
+1233,66,General Knowledge,2020
+1233,72,Biology,2020
+1233,63,Moral Science,2020
+1233,27,Dance,2020
+1233,28,History,2020
+1233,30,Library,2020
+1233,33,Chemistry,2020
+1233,26,Physics,2020
+1234,13,General Knowledge,2022
+1234,61,Biology,2022
+1234,29,Geography,2022
+1234,94,Library,2022
+1234,77,Chemistry,2022
+1234,89,Physics,2022
+1234,95,Hindi,2022
+1234,43,Sports,2022
+1234,11,Moral Science,2021
+1234,98,Geography,2021
+1234,65,computer,2021
+1234,46,Chemistry,2021
+1234,45,Music,2021
+1234,42,Mathematics,2021
+1234,71,Civics,2021
+1234,87,Physics,2021
+1234,69,General Knowledge,2020
+1234,62,Biology,2020
+1234,73,Moral Science,2020
+1234,57,Dance,2020
+1234,27,History,2020
+1234,52,Library,2020
+1234,50,Chemistry,2020
+1234,90,Physics,2020
+1235,58,General Knowledge,2022
+1235,36,Biology,2022
+1235,66,Geography,2022
+1235,84,Library,2022
+1235,3,Chemistry,2022
+1235,52,Physics,2022
+1235,82,Hindi,2022
+1235,9,Sports,2022
+1235,65,Moral Science,2021
+1235,62,Geography,2021
+1235,80,computer,2021
+1235,56,Chemistry,2021
+1235,26,Music,2021
+1235,99,Mathematics,2021
+1235,97,Civics,2021
+1235,67,Physics,2021
+1235,52,General Knowledge,2020
+1235,12,Biology,2020
+1235,36,Moral Science,2020
+1235,85,Dance,2020
+1235,46,History,2020
+1235,63,Library,2020
+1235,58,Chemistry,2020
+1235,15,Physics,2020
+1236,68,General Knowledge,2022
+1236,88,Biology,2022
+1236,33,Geography,2022
+1236,62,Library,2022
+1236,50,Chemistry,2022
+1236,51,Physics,2022
+1236,76,Hindi,2022
+1236,46,Sports,2022
+1236,51,Moral Science,2021
+1236,85,Geography,2021
+1236,87,computer,2021
+1236,26,Chemistry,2021
+1236,26,Music,2021
+1236,94,Mathematics,2021
+1236,21,Civics,2021
+1236,28,Physics,2021
+1236,61,General Knowledge,2020
+1236,73,Biology,2020
+1236,90,Moral Science,2020
+1236,61,Dance,2020
+1236,65,History,2020
+1236,4,Library,2020
+1236,62,Chemistry,2020
+1236,69,Physics,2020
+1237,96,General Knowledge,2022
+1237,44,Biology,2022
+1237,11,Geography,2022
+1237,85,Library,2022
+1237,77,Chemistry,2022
+1237,58,Physics,2022
+1237,81,Hindi,2022
+1237,32,Sports,2022
+1237,66,Moral Science,2021
+1237,97,Geography,2021
+1237,52,computer,2021
+1237,8,Chemistry,2021
+1237,89,Music,2021
+1237,29,Mathematics,2021
+1237,35,Civics,2021
+1237,50,Physics,2021
+1237,50,General Knowledge,2020
+1237,45,Biology,2020
+1237,54,Moral Science,2020
+1237,90,Dance,2020
+1237,26,History,2020
+1237,100,Library,2020
+1237,31,Chemistry,2020
+1237,88,Physics,2020
+1238,56,General Knowledge,2022
+1238,4,Biology,2022
+1238,99,Geography,2022
+1238,31,Library,2022
+1238,93,Chemistry,2022
+1238,75,Physics,2022
+1238,5,Hindi,2022
+1238,61,Sports,2022
+1238,99,Moral Science,2021
+1238,33,Geography,2021
+1238,32,computer,2021
+1238,99,Chemistry,2021
+1238,66,Music,2021
+1238,10,Mathematics,2021
+1238,15,Civics,2021
+1238,49,Physics,2021
+1238,28,General Knowledge,2020
+1238,59,Biology,2020
+1238,79,Moral Science,2020
+1238,23,Dance,2020
+1238,28,History,2020
+1238,87,Library,2020
+1238,37,Chemistry,2020
+1238,5,Physics,2020
+1239,35,General Knowledge,2022
+1239,48,Biology,2022
+1239,26,Geography,2022
+1239,73,Library,2022
+1239,91,Chemistry,2022
+1239,45,Physics,2022
+1239,18,Hindi,2022
+1239,55,Sports,2022
+1239,34,Moral Science,2021
+1239,37,Geography,2021
+1239,82,computer,2021
+1239,41,Chemistry,2021
+1239,68,Music,2021
+1239,80,Mathematics,2021
+1239,27,Civics,2021
+1239,90,Physics,2021
+1239,84,General Knowledge,2020
+1239,3,Biology,2020
+1239,26,Moral Science,2020
+1239,96,Dance,2020
+1239,50,History,2020
+1239,4,Library,2020
+1239,53,Chemistry,2020
+1239,96,Physics,2020
+1240,19,General Knowledge,2022
+1240,31,Biology,2022
+1240,95,Geography,2022
+1240,30,Library,2022
+1240,29,Chemistry,2022
+1240,10,Physics,2022
+1240,81,Hindi,2022
+1240,67,Sports,2022
+1240,71,Moral Science,2021
+1240,79,Geography,2021
+1240,41,computer,2021
+1240,74,Chemistry,2021
+1240,65,Music,2021
+1240,45,Mathematics,2021
+1240,33,Civics,2021
+1240,68,Physics,2021
+1240,49,General Knowledge,2020
+1240,18,Biology,2020
+1240,88,Moral Science,2020
+1240,32,Dance,2020
+1240,84,History,2020
+1240,71,Library,2020
+1240,1,Chemistry,2020
+1240,37,Physics,2020
+1241,49,Dance,2022
+1241,87,Geography,2022
+1241,22,Moral Science,2022
+1241,62,Chemistry,2022
+1241,79,Music,2022
+1241,77,Mathematics,2022
+1241,74,Civics,2022
+1241,28,Hindi,2022
+1241,94,Biology,2021
+1241,26,Dance,2021
+1241,37,History,2021
+1241,96,Music,2021
+1241,3,English,2021
+1241,24,Hindi,2021
+1241,61,Sports,2021
+1241,87,Art,2021
+1241,75,Dance,2020
+1241,62,Geography,2020
+1241,68,Moral Science,2020
+1241,44,Music,2020
+1241,100,Chemistry,2020
+1241,3,Civics,2020
+1241,79,Sports,2020
+1241,46,Art,2020
+1242,57,Dance,2022
+1242,93,Geography,2022
+1242,70,Moral Science,2022
+1242,9,Chemistry,2022
+1242,87,Music,2022
+1242,94,Mathematics,2022
+1242,61,Civics,2022
+1242,50,Hindi,2022
+1242,65,Biology,2021
+1242,53,Dance,2021
+1242,4,History,2021
+1242,82,Music,2021
+1242,95,English,2021
+1242,6,Hindi,2021
+1242,54,Sports,2021
+1242,79,Art,2021
+1242,11,Dance,2020
+1242,99,Geography,2020
+1242,63,Moral Science,2020
+1242,76,Music,2020
+1242,95,Chemistry,2020
+1242,30,Civics,2020
+1242,51,Sports,2020
+1242,57,Art,2020
+1243,79,Dance,2022
+1243,72,Geography,2022
+1243,84,Moral Science,2022
+1243,22,Chemistry,2022
+1243,41,Music,2022
+1243,56,Mathematics,2022
+1243,32,Civics,2022
+1243,68,Hindi,2022
+1243,59,Biology,2021
+1243,21,Dance,2021
+1243,71,History,2021
+1243,90,Music,2021
+1243,30,English,2021
+1243,3,Hindi,2021
+1243,76,Sports,2021
+1243,74,Art,2021
+1243,90,Dance,2020
+1243,59,Geography,2020
+1243,43,Moral Science,2020
+1243,25,Music,2020
+1243,90,Chemistry,2020
+1243,74,Civics,2020
+1243,64,Sports,2020
+1243,49,Art,2020
+1244,77,Dance,2022
+1244,98,Geography,2022
+1244,55,Moral Science,2022
+1244,61,Chemistry,2022
+1244,67,Music,2022
+1244,40,Mathematics,2022
+1244,79,Civics,2022
+1244,91,Hindi,2022
+1244,32,Biology,2021
+1244,49,Dance,2021
+1244,25,History,2021
+1244,60,Music,2021
+1244,96,English,2021
+1244,45,Hindi,2021
+1244,26,Sports,2021
+1244,48,Art,2021
+1244,83,Dance,2020
+1244,63,Geography,2020
+1244,54,Moral Science,2020
+1244,78,Music,2020
+1244,85,Chemistry,2020
+1244,64,Civics,2020
+1244,6,Sports,2020
+1244,49,Art,2020
+1245,70,Dance,2022
+1245,20,Geography,2022
+1245,95,Moral Science,2022
+1245,66,Chemistry,2022
+1245,96,Music,2022
+1245,35,Mathematics,2022
+1245,74,Civics,2022
+1245,82,Hindi,2022
+1245,50,Biology,2021
+1245,73,Dance,2021
+1245,18,History,2021
+1245,11,Music,2021
+1245,22,English,2021
+1245,92,Hindi,2021
+1245,21,Sports,2021
+1245,44,Art,2021
+1245,36,Dance,2020
+1245,52,Geography,2020
+1245,68,Moral Science,2020
+1245,48,Music,2020
+1245,77,Chemistry,2020
+1245,23,Civics,2020
+1245,99,Sports,2020
+1245,100,Art,2020
+1246,37,Dance,2022
+1246,44,Geography,2022
+1246,42,Moral Science,2022
+1246,56,Chemistry,2022
+1246,36,Music,2022
+1246,93,Mathematics,2022
+1246,33,Civics,2022
+1246,24,Hindi,2022
+1246,68,Biology,2021
+1246,84,Dance,2021
+1246,67,History,2021
+1246,99,Music,2021
+1246,61,English,2021
+1246,62,Hindi,2021
+1246,40,Sports,2021
+1246,97,Art,2021
+1246,46,Dance,2020
+1246,70,Geography,2020
+1246,26,Moral Science,2020
+1246,49,Music,2020
+1246,29,Chemistry,2020
+1246,89,Civics,2020
+1246,90,Sports,2020
+1246,49,Art,2020
+1247,36,Dance,2022
+1247,31,Geography,2022
+1247,49,Moral Science,2022
+1247,65,Chemistry,2022
+1247,68,Music,2022
+1247,70,Mathematics,2022
+1247,100,Civics,2022
+1247,61,Hindi,2022
+1247,28,Biology,2021
+1247,30,Dance,2021
+1247,78,History,2021
+1247,97,Music,2021
+1247,27,English,2021
+1247,39,Hindi,2021
+1247,60,Sports,2021
+1247,70,Art,2021
+1247,71,Dance,2020
+1247,89,Geography,2020
+1247,72,Moral Science,2020
+1247,45,Music,2020
+1247,22,Chemistry,2020
+1247,91,Civics,2020
+1247,83,Sports,2020
+1247,62,Art,2020
+1248,76,Dance,2022
+1248,78,Geography,2022
+1248,59,Moral Science,2022
+1248,59,Chemistry,2022
+1248,65,Music,2022
+1248,43,Mathematics,2022
+1248,21,Civics,2022
+1248,34,Hindi,2022
+1248,0,Biology,2021
+1248,82,Dance,2021
+1248,26,History,2021
+1248,46,Music,2021
+1248,60,English,2021
+1248,34,Hindi,2021
+1248,57,Sports,2021
+1248,5,Art,2021
+1248,22,Dance,2020
+1248,52,Geography,2020
+1248,35,Moral Science,2020
+1248,71,Music,2020
+1248,64,Chemistry,2020
+1248,8,Civics,2020
+1248,25,Sports,2020
+1248,54,Art,2020
+1249,66,Dance,2022
+1249,44,Geography,2022
+1249,31,Moral Science,2022
+1249,24,Chemistry,2022
+1249,78,Music,2022
+1249,42,Mathematics,2022
+1249,89,Civics,2022
+1249,76,Hindi,2022
+1249,81,Biology,2021
+1249,25,Dance,2021
+1249,40,History,2021
+1249,93,Music,2021
+1249,35,English,2021
+1249,13,Hindi,2021
+1249,74,Sports,2021
+1249,26,Art,2021
+1249,63,Dance,2020
+1249,67,Geography,2020
+1249,90,Moral Science,2020
+1249,10,Music,2020
+1249,88,Chemistry,2020
+1249,22,Civics,2020
+1249,35,Sports,2020
+1249,30,Art,2020
+1250,25,Dance,2022
+1250,55,Geography,2022
+1250,98,Moral Science,2022
+1250,5,Chemistry,2022
+1250,89,Music,2022
+1250,58,Mathematics,2022
+1250,98,Civics,2022
+1250,77,Hindi,2022
+1250,37,Biology,2021
+1250,40,Dance,2021
+1250,52,History,2021
+1250,92,Music,2021
+1250,51,English,2021
+1250,18,Hindi,2021
+1250,21,Sports,2021
+1250,16,Art,2021
+1250,51,Dance,2020
+1250,51,Geography,2020
+1250,31,Moral Science,2020
+1250,91,Music,2020
+1250,56,Chemistry,2020
+1250,75,Civics,2020
+1250,31,Sports,2020
+1250,74,Art,2020
+1251,100,Dance,2022
+1251,57,Geography,2022
+1251,65,Moral Science,2022
+1251,86,Chemistry,2022
+1251,39,Music,2022
+1251,70,Mathematics,2022
+1251,44,Civics,2022
+1251,37,Hindi,2022
+1251,41,Biology,2021
+1251,58,Dance,2021
+1251,19,History,2021
+1251,42,Music,2021
+1251,15,English,2021
+1251,77,Hindi,2021
+1251,38,Sports,2021
+1251,96,Art,2021
+1251,54,Dance,2020
+1251,0,Geography,2020
+1251,56,Moral Science,2020
+1251,59,Music,2020
+1251,50,Chemistry,2020
+1251,35,Civics,2020
+1251,24,Sports,2020
+1251,92,Art,2020
+1252,51,Dance,2022
+1252,89,Geography,2022
+1252,66,Moral Science,2022
+1252,65,Chemistry,2022
+1252,97,Music,2022
+1252,53,Mathematics,2022
+1252,77,Civics,2022
+1252,72,Hindi,2022
+1252,76,Biology,2021
+1252,38,Dance,2021
+1252,91,History,2021
+1252,47,Music,2021
+1252,69,English,2021
+1252,9,Hindi,2021
+1252,22,Sports,2021
+1252,94,Art,2021
+1252,4,Dance,2020
+1252,12,Geography,2020
+1252,24,Moral Science,2020
+1252,0,Music,2020
+1252,96,Chemistry,2020
+1252,42,Civics,2020
+1252,51,Sports,2020
+1252,13,Art,2020
+1253,76,Dance,2022
+1253,56,Geography,2022
+1253,62,Moral Science,2022
+1253,37,Chemistry,2022
+1253,6,Music,2022
+1253,17,Mathematics,2022
+1253,56,Civics,2022
+1253,32,Hindi,2022
+1253,72,Biology,2021
+1253,26,Dance,2021
+1253,96,History,2021
+1253,27,Music,2021
+1253,90,English,2021
+1253,42,Hindi,2021
+1253,51,Sports,2021
+1253,68,Art,2021
+1253,65,Dance,2020
+1253,37,Geography,2020
+1253,86,Moral Science,2020
+1253,53,Music,2020
+1253,86,Chemistry,2020
+1253,31,Civics,2020
+1253,33,Sports,2020
+1253,78,Art,2020
+1254,1,Dance,2022
+1254,91,Geography,2022
+1254,61,Moral Science,2022
+1254,24,Chemistry,2022
+1254,90,Music,2022
+1254,58,Mathematics,2022
+1254,59,Civics,2022
+1254,58,Hindi,2022
+1254,88,Biology,2021
+1254,83,Dance,2021
+1254,26,History,2021
+1254,63,Music,2021
+1254,89,English,2021
+1254,85,Hindi,2021
+1254,45,Sports,2021
+1254,42,Art,2021
+1254,30,Dance,2020
+1254,53,Geography,2020
+1254,43,Moral Science,2020
+1254,19,Music,2020
+1254,10,Chemistry,2020
+1254,33,Civics,2020
+1254,43,Sports,2020
+1254,42,Art,2020
+1255,34,Dance,2022
+1255,81,Geography,2022
+1255,81,Moral Science,2022
+1255,67,Chemistry,2022
+1255,95,Music,2022
+1255,77,Mathematics,2022
+1255,72,Civics,2022
+1255,98,Hindi,2022
+1255,22,Biology,2021
+1255,50,Dance,2021
+1255,85,History,2021
+1255,9,Music,2021
+1255,61,English,2021
+1255,35,Hindi,2021
+1255,9,Sports,2021
+1255,55,Art,2021
+1255,55,Dance,2020
+1255,61,Geography,2020
+1255,23,Moral Science,2020
+1255,8,Music,2020
+1255,55,Chemistry,2020
+1255,91,Civics,2020
+1255,48,Sports,2020
+1255,87,Art,2020
+1256,24,Dance,2022
+1256,73,Geography,2022
+1256,33,Moral Science,2022
+1256,27,Chemistry,2022
+1256,93,Music,2022
+1256,45,Mathematics,2022
+1256,69,Civics,2022
+1256,71,Hindi,2022
+1256,63,Biology,2021
+1256,77,Dance,2021
+1256,67,History,2021
+1256,34,Music,2021
+1256,50,English,2021
+1256,28,Hindi,2021
+1256,13,Sports,2021
+1256,98,Art,2021
+1256,48,Dance,2020
+1256,29,Geography,2020
+1256,54,Moral Science,2020
+1256,11,Music,2020
+1256,58,Chemistry,2020
+1256,89,Civics,2020
+1256,26,Sports,2020
+1256,24,Art,2020
+1257,43,Dance,2022
+1257,58,Geography,2022
+1257,51,Moral Science,2022
+1257,8,Chemistry,2022
+1257,3,Music,2022
+1257,38,Mathematics,2022
+1257,76,Civics,2022
+1257,97,Hindi,2022
+1257,40,Biology,2021
+1257,92,Dance,2021
+1257,45,History,2021
+1257,44,Music,2021
+1257,26,English,2021
+1257,97,Hindi,2021
+1257,42,Sports,2021
+1257,76,Art,2021
+1257,35,Dance,2020
+1257,21,Geography,2020
+1257,93,Moral Science,2020
+1257,78,Music,2020
+1257,30,Chemistry,2020
+1257,95,Civics,2020
+1257,87,Sports,2020
+1257,71,Art,2020
+1258,78,Dance,2022
+1258,94,Geography,2022
+1258,79,Moral Science,2022
+1258,87,Chemistry,2022
+1258,64,Music,2022
+1258,89,Mathematics,2022
+1258,98,Civics,2022
+1258,100,Hindi,2022
+1258,95,Biology,2021
+1258,46,Dance,2021
+1258,74,History,2021
+1258,41,Music,2021
+1258,90,English,2021
+1258,69,Hindi,2021
+1258,75,Sports,2021
+1258,28,Art,2021
+1258,69,Dance,2020
+1258,94,Geography,2020
+1258,45,Moral Science,2020
+1258,42,Music,2020
+1258,35,Chemistry,2020
+1258,23,Civics,2020
+1258,41,Sports,2020
+1258,98,Art,2020
+1259,52,Dance,2022
+1259,31,Geography,2022
+1259,98,Moral Science,2022
+1259,63,Chemistry,2022
+1259,51,Music,2022
+1259,23,Mathematics,2022
+1259,82,Civics,2022
+1259,64,Hindi,2022
+1259,93,Biology,2021
+1259,82,Dance,2021
+1259,37,History,2021
+1259,52,Music,2021
+1259,45,English,2021
+1259,56,Hindi,2021
+1259,35,Sports,2021
+1259,54,Art,2021
+1259,100,Dance,2020
+1259,13,Geography,2020
+1259,91,Moral Science,2020
+1259,53,Music,2020
+1259,94,Chemistry,2020
+1259,64,Civics,2020
+1259,68,Sports,2020
+1259,49,Art,2020
+1260,31,Dance,2022
+1260,78,Geography,2022
+1260,5,Moral Science,2022
+1260,81,Chemistry,2022
+1260,30,Music,2022
+1260,18,Mathematics,2022
+1260,63,Civics,2022
+1260,76,Hindi,2022
+1260,39,Biology,2021
+1260,61,Dance,2021
+1260,29,History,2021
+1260,42,Music,2021
+1260,45,English,2021
+1260,75,Hindi,2021
+1260,35,Sports,2021
+1260,8,Art,2021
+1260,48,Dance,2020
+1260,15,Geography,2020
+1260,64,Moral Science,2020
+1260,64,Music,2020
+1260,94,Chemistry,2020
+1260,53,Civics,2020
+1260,37,Sports,2020
+1260,32,Art,2020
+1261,1,Biology,2022
+1261,96,Dance,2022
+1261,88,Moral Science,2022
+1261,9,computer,2022
+1261,22,Library,2022
+1261,37,Mathematics,2022
+1261,22,Civics,2022
+1261,84,Hindi,2022
+1261,3,General Knowledge,2021
+1261,43,Dance,2021
+1261,100,Geography,2021
+1261,98,computer,2021
+1261,38,Civics,2021
+1261,55,Physics,2021
+1261,35,Hindi,2021
+1261,18,Art,2021
+1261,60,General Knowledge,2020
+1261,42,Geography,2020
+1261,58,Library,2020
+1261,50,Music,2020
+1261,44,Chemistry,2020
+1261,65,Physics,2020
+1261,93,Hindi,2020
+1261,66,Sports,2020
+1262,88,Biology,2022
+1262,87,Dance,2022
+1262,71,Moral Science,2022
+1262,91,computer,2022
+1262,100,Library,2022
+1262,34,Mathematics,2022
+1262,70,Civics,2022
+1262,84,Hindi,2022
+1262,63,General Knowledge,2021
+1262,63,Dance,2021
+1262,53,Geography,2021
+1262,7,computer,2021
+1262,48,Civics,2021
+1262,14,Physics,2021
+1262,48,Hindi,2021
+1262,84,Art,2021
+1262,100,General Knowledge,2020
+1262,79,Geography,2020
+1262,31,Library,2020
+1262,48,Music,2020
+1262,76,Chemistry,2020
+1262,42,Physics,2020
+1262,53,Hindi,2020
+1262,66,Sports,2020
+1263,65,Biology,2022
+1263,50,Dance,2022
+1263,32,Moral Science,2022
+1263,84,computer,2022
+1263,86,Library,2022
+1263,68,Mathematics,2022
+1263,60,Civics,2022
+1263,3,Hindi,2022
+1263,14,General Knowledge,2021
+1263,35,Dance,2021
+1263,78,Geography,2021
+1263,81,computer,2021
+1263,46,Civics,2021
+1263,78,Physics,2021
+1263,74,Hindi,2021
+1263,69,Art,2021
+1263,53,General Knowledge,2020
+1263,30,Geography,2020
+1263,80,Library,2020
+1263,36,Music,2020
+1263,52,Chemistry,2020
+1263,89,Physics,2020
+1263,28,Hindi,2020
+1263,84,Sports,2020
+1264,40,Biology,2022
+1264,55,Dance,2022
+1264,87,Moral Science,2022
+1264,78,computer,2022
+1264,84,Library,2022
+1264,31,Mathematics,2022
+1264,18,Civics,2022
+1264,55,Hindi,2022
+1264,80,General Knowledge,2021
+1264,70,Dance,2021
+1264,74,Geography,2021
+1264,9,computer,2021
+1264,74,Civics,2021
+1264,63,Physics,2021
+1264,76,Hindi,2021
+1264,78,Art,2021
+1264,65,General Knowledge,2020
+1264,43,Geography,2020
+1264,35,Library,2020
+1264,58,Music,2020
+1264,98,Chemistry,2020
+1264,87,Physics,2020
+1264,78,Hindi,2020
+1264,70,Sports,2020
+1265,50,Biology,2022
+1265,73,Dance,2022
+1265,74,Moral Science,2022
+1265,89,computer,2022
+1265,35,Library,2022
+1265,27,Mathematics,2022
+1265,55,Civics,2022
+1265,30,Hindi,2022
+1265,70,General Knowledge,2021
+1265,82,Dance,2021
+1265,30,Geography,2021
+1265,62,computer,2021
+1265,85,Civics,2021
+1265,15,Physics,2021
+1265,68,Hindi,2021
+1265,49,Art,2021
+1265,91,General Knowledge,2020
+1265,41,Geography,2020
+1265,11,Library,2020
+1265,61,Music,2020
+1265,35,Chemistry,2020
+1265,20,Physics,2020
+1265,99,Hindi,2020
+1265,29,Sports,2020
+1266,44,Biology,2022
+1266,4,Dance,2022
+1266,100,Moral Science,2022
+1266,81,computer,2022
+1266,100,Library,2022
+1266,93,Mathematics,2022
+1266,84,Civics,2022
+1266,86,Hindi,2022
+1266,29,General Knowledge,2021
+1266,33,Dance,2021
+1266,40,Geography,2021
+1266,9,computer,2021
+1266,30,Civics,2021
+1266,19,Physics,2021
+1266,45,Hindi,2021
+1266,68,Art,2021
+1266,60,General Knowledge,2020
+1266,94,Geography,2020
+1266,51,Library,2020
+1266,62,Music,2020
+1266,4,Chemistry,2020
+1266,54,Physics,2020
+1266,86,Hindi,2020
+1266,25,Sports,2020
+1267,48,Biology,2022
+1267,49,Dance,2022
+1267,92,Moral Science,2022
+1267,62,computer,2022
+1267,21,Library,2022
+1267,64,Mathematics,2022
+1267,5,Civics,2022
+1267,59,Hindi,2022
+1267,35,General Knowledge,2021
+1267,36,Dance,2021
+1267,25,Geography,2021
+1267,48,computer,2021
+1267,28,Civics,2021
+1267,34,Physics,2021
+1267,39,Hindi,2021
+1267,61,Art,2021
+1267,28,General Knowledge,2020
+1267,57,Geography,2020
+1267,87,Library,2020
+1267,54,Music,2020
+1267,56,Chemistry,2020
+1267,0,Physics,2020
+1267,25,Hindi,2020
+1267,7,Sports,2020
+1268,57,Biology,2022
+1268,98,Dance,2022
+1268,49,Moral Science,2022
+1268,72,computer,2022
+1268,40,Library,2022
+1268,35,Mathematics,2022
+1268,41,Civics,2022
+1268,20,Hindi,2022
+1268,42,General Knowledge,2021
+1268,81,Dance,2021
+1268,53,Geography,2021
+1268,48,computer,2021
+1268,68,Civics,2021
+1268,55,Physics,2021
+1268,30,Hindi,2021
+1268,23,Art,2021
+1268,55,General Knowledge,2020
+1268,49,Geography,2020
+1268,79,Library,2020
+1268,86,Music,2020
+1268,90,Chemistry,2020
+1268,77,Physics,2020
+1268,57,Hindi,2020
+1268,25,Sports,2020
+1269,95,Biology,2022
+1269,67,Dance,2022
+1269,52,Moral Science,2022
+1269,5,computer,2022
+1269,77,Library,2022
+1269,32,Mathematics,2022
+1269,66,Civics,2022
+1269,69,Hindi,2022
+1269,51,General Knowledge,2021
+1269,26,Dance,2021
+1269,46,Geography,2021
+1269,54,computer,2021
+1269,13,Civics,2021
+1269,57,Physics,2021
+1269,82,Hindi,2021
+1269,23,Art,2021
+1269,91,General Knowledge,2020
+1269,46,Geography,2020
+1269,4,Library,2020
+1269,31,Music,2020
+1269,45,Chemistry,2020
+1269,12,Physics,2020
+1269,91,Hindi,2020
+1269,43,Sports,2020
+1270,91,Biology,2022
+1270,25,Dance,2022
+1270,58,Moral Science,2022
+1270,67,computer,2022
+1270,71,Library,2022
+1270,58,Mathematics,2022
+1270,68,Civics,2022
+1270,27,Hindi,2022
+1270,39,General Knowledge,2021
+1270,31,Dance,2021
+1270,35,Geography,2021
+1270,86,computer,2021
+1270,81,Civics,2021
+1270,23,Physics,2021
+1270,40,Hindi,2021
+1270,41,Art,2021
+1270,3,General Knowledge,2020
+1270,85,Geography,2020
+1270,74,Library,2020
+1270,88,Music,2020
+1270,65,Chemistry,2020
+1270,48,Physics,2020
+1270,51,Hindi,2020
+1270,37,Sports,2020
+1271,27,Biology,2022
+1271,65,Dance,2022
+1271,32,Moral Science,2022
+1271,28,computer,2022
+1271,30,Library,2022
+1271,42,Mathematics,2022
+1271,17,Civics,2022
+1271,86,Hindi,2022
+1271,28,General Knowledge,2021
+1271,49,Dance,2021
+1271,91,Geography,2021
+1271,39,computer,2021
+1271,25,Civics,2021
+1271,47,Physics,2021
+1271,83,Hindi,2021
+1271,77,Art,2021
+1271,59,General Knowledge,2020
+1271,25,Geography,2020
+1271,31,Library,2020
+1271,19,Music,2020
+1271,95,Chemistry,2020
+1271,54,Physics,2020
+1271,92,Hindi,2020
+1271,26,Sports,2020
+1272,64,Biology,2022
+1272,64,Dance,2022
+1272,39,Moral Science,2022
+1272,72,computer,2022
+1272,38,Library,2022
+1272,95,Mathematics,2022
+1272,84,Civics,2022
+1272,85,Hindi,2022
+1272,73,General Knowledge,2021
+1272,82,Dance,2021
+1272,76,Geography,2021
+1272,81,computer,2021
+1272,71,Civics,2021
+1272,1,Physics,2021
+1272,32,Hindi,2021
+1272,89,Art,2021
+1272,40,General Knowledge,2020
+1272,36,Geography,2020
+1272,96,Library,2020
+1272,51,Music,2020
+1272,65,Chemistry,2020
+1272,61,Physics,2020
+1272,27,Hindi,2020
+1272,83,Sports,2020
+1273,51,Biology,2022
+1273,0,Dance,2022
+1273,58,Moral Science,2022
+1273,69,computer,2022
+1273,77,Library,2022
+1273,84,Mathematics,2022
+1273,45,Civics,2022
+1273,45,Hindi,2022
+1273,66,General Knowledge,2021
+1273,29,Dance,2021
+1273,75,Geography,2021
+1273,32,computer,2021
+1273,1,Civics,2021
+1273,87,Physics,2021
+1273,22,Hindi,2021
+1273,66,Art,2021
+1273,91,General Knowledge,2020
+1273,16,Geography,2020
+1273,22,Library,2020
+1273,70,Music,2020
+1273,18,Chemistry,2020
+1273,57,Physics,2020
+1273,58,Hindi,2020
+1273,90,Sports,2020
+1274,42,Biology,2022
+1274,41,Dance,2022
+1274,87,Moral Science,2022
+1274,58,computer,2022
+1274,47,Library,2022
+1274,78,Mathematics,2022
+1274,52,Civics,2022
+1274,23,Hindi,2022
+1274,49,General Knowledge,2021
+1274,74,Dance,2021
+1274,21,Geography,2021
+1274,62,computer,2021
+1274,51,Civics,2021
+1274,92,Physics,2021
+1274,36,Hindi,2021
+1274,21,Art,2021
+1274,80,General Knowledge,2020
+1274,23,Geography,2020
+1274,57,Library,2020
+1274,63,Music,2020
+1274,31,Chemistry,2020
+1274,42,Physics,2020
+1274,88,Hindi,2020
+1274,8,Sports,2020
+1275,94,Biology,2022
+1275,94,Dance,2022
+1275,45,Moral Science,2022
+1275,74,computer,2022
+1275,83,Library,2022
+1275,27,Mathematics,2022
+1275,56,Civics,2022
+1275,45,Hindi,2022
+1275,60,General Knowledge,2021
+1275,81,Dance,2021
+1275,60,Geography,2021
+1275,81,computer,2021
+1275,43,Civics,2021
+1275,12,Physics,2021
+1275,92,Hindi,2021
+1275,28,Art,2021
+1275,99,General Knowledge,2020
+1275,68,Geography,2020
+1275,41,Library,2020
+1275,11,Music,2020
+1275,4,Chemistry,2020
+1275,25,Physics,2020
+1275,100,Hindi,2020
+1275,52,Sports,2020
+1276,70,Biology,2022
+1276,88,Dance,2022
+1276,22,Moral Science,2022
+1276,69,computer,2022
+1276,51,Library,2022
+1276,6,Mathematics,2022
+1276,26,Civics,2022
+1276,57,Hindi,2022
+1276,92,General Knowledge,2021
+1276,51,Dance,2021
+1276,47,Geography,2021
+1276,76,computer,2021
+1276,36,Civics,2021
+1276,27,Physics,2021
+1276,73,Hindi,2021
+1276,45,Art,2021
+1276,27,General Knowledge,2020
+1276,67,Geography,2020
+1276,85,Library,2020
+1276,80,Music,2020
+1276,84,Chemistry,2020
+1276,84,Physics,2020
+1276,11,Hindi,2020
+1276,22,Sports,2020
+1277,67,Biology,2022
+1277,77,Dance,2022
+1277,62,Moral Science,2022
+1277,36,computer,2022
+1277,18,Library,2022
+1277,87,Mathematics,2022
+1277,77,Civics,2022
+1277,99,Hindi,2022
+1277,25,General Knowledge,2021
+1277,41,Dance,2021
+1277,66,Geography,2021
+1277,69,computer,2021
+1277,47,Civics,2021
+1277,35,Physics,2021
+1277,68,Hindi,2021
+1277,88,Art,2021
+1277,26,General Knowledge,2020
+1277,61,Geography,2020
+1277,70,Library,2020
+1277,83,Music,2020
+1277,23,Chemistry,2020
+1277,72,Physics,2020
+1277,37,Hindi,2020
+1277,47,Sports,2020
+1278,34,Biology,2022
+1278,84,Dance,2022
+1278,25,Moral Science,2022
+1278,21,computer,2022
+1278,86,Library,2022
+1278,24,Mathematics,2022
+1278,78,Civics,2022
+1278,82,Hindi,2022
+1278,93,General Knowledge,2021
+1278,54,Dance,2021
+1278,8,Geography,2021
+1278,12,computer,2021
+1278,3,Civics,2021
+1278,30,Physics,2021
+1278,33,Hindi,2021
+1278,52,Art,2021
+1278,38,General Knowledge,2020
+1278,36,Geography,2020
+1278,55,Library,2020
+1278,39,Music,2020
+1278,67,Chemistry,2020
+1278,41,Physics,2020
+1278,94,Hindi,2020
+1278,48,Sports,2020
+1279,50,Biology,2022
+1279,85,Dance,2022
+1279,54,Moral Science,2022
+1279,17,computer,2022
+1279,74,Library,2022
+1279,72,Mathematics,2022
+1279,22,Civics,2022
+1279,40,Hindi,2022
+1279,46,General Knowledge,2021
+1279,68,Dance,2021
+1279,99,Geography,2021
+1279,22,computer,2021
+1279,98,Civics,2021
+1279,30,Physics,2021
+1279,24,Hindi,2021
+1279,42,Art,2021
+1279,68,General Knowledge,2020
+1279,68,Geography,2020
+1279,27,Library,2020
+1279,60,Music,2020
+1279,46,Chemistry,2020
+1279,23,Physics,2020
+1279,53,Hindi,2020
+1279,63,Sports,2020
+1280,91,Biology,2022
+1280,32,Dance,2022
+1280,32,Moral Science,2022
+1280,2,computer,2022
+1280,29,Library,2022
+1280,90,Mathematics,2022
+1280,81,Civics,2022
+1280,100,Hindi,2022
+1280,62,General Knowledge,2021
+1280,60,Dance,2021
+1280,53,Geography,2021
+1280,15,computer,2021
+1280,99,Civics,2021
+1280,19,Physics,2021
+1280,94,Hindi,2021
+1280,70,Art,2021
+1280,26,General Knowledge,2020
+1280,45,Geography,2020
+1280,44,Library,2020
+1280,84,Music,2020
+1280,19,Chemistry,2020
+1280,96,Physics,2020
+1280,37,Hindi,2020
+1280,10,Sports,2020
+1281,90,General Knowledge,2022
+1281,58,Geography,2022
+1281,89,Library,2022
+1281,40,computer,2022
+1281,61,Mathematics,2022
+1281,53,Civics,2022
+1281,38,Physics,2022
+1281,37,Art,2022
+1281,59,General Knowledge,2021
+1281,84,Biology,2021
+1281,100,Geography,2021
+1281,46,Library,2021
+1281,55,Chemistry,2021
+1281,22,Physics,2021
+1281,66,Hindi,2021
+1281,37,Sports,2021
+1281,81,Moral Science,2020
+1281,99,Geography,2020
+1281,36,computer,2020
+1281,35,Chemistry,2020
+1281,94,Music,2020
+1281,40,Mathematics,2020
+1281,42,Civics,2020
+1281,93,Physics,2020
+1282,82,General Knowledge,2022
+1282,68,Geography,2022
+1282,40,Library,2022
+1282,77,computer,2022
+1282,90,Mathematics,2022
+1282,27,Civics,2022
+1282,86,Physics,2022
+1282,37,Art,2022
+1282,59,General Knowledge,2021
+1282,83,Biology,2021
+1282,36,Geography,2021
+1282,24,Library,2021
+1282,84,Chemistry,2021
+1282,89,Physics,2021
+1282,82,Hindi,2021
+1282,65,Sports,2021
+1282,67,Moral Science,2020
+1282,44,Geography,2020
+1282,85,computer,2020
+1282,34,Chemistry,2020
+1282,84,Music,2020
+1282,83,Mathematics,2020
+1282,45,Civics,2020
+1282,83,Physics,2020
+1283,0,General Knowledge,2022
+1283,91,Geography,2022
+1283,79,Library,2022
+1283,24,computer,2022
+1283,78,Mathematics,2022
+1283,100,Civics,2022
+1283,86,Physics,2022
+1283,11,Art,2022
+1283,88,General Knowledge,2021
+1283,83,Biology,2021
+1283,24,Geography,2021
+1283,28,Library,2021
+1283,94,Chemistry,2021
+1283,79,Physics,2021
+1283,96,Hindi,2021
+1283,55,Sports,2021
+1283,100,Moral Science,2020
+1283,94,Geography,2020
+1283,55,computer,2020
+1283,75,Chemistry,2020
+1283,94,Music,2020
+1283,80,Mathematics,2020
+1283,84,Civics,2020
+1283,38,Physics,2020
+1284,55,General Knowledge,2022
+1284,63,Geography,2022
+1284,20,Library,2022
+1284,43,computer,2022
+1284,48,Mathematics,2022
+1284,73,Civics,2022
+1284,30,Physics,2022
+1284,88,Art,2022
+1284,61,General Knowledge,2021
+1284,76,Biology,2021
+1284,47,Geography,2021
+1284,39,Library,2021
+1284,26,Chemistry,2021
+1284,53,Physics,2021
+1284,98,Hindi,2021
+1284,30,Sports,2021
+1284,58,Moral Science,2020
+1284,23,Geography,2020
+1284,61,computer,2020
+1284,16,Chemistry,2020
+1284,8,Music,2020
+1284,50,Mathematics,2020
+1284,33,Civics,2020
+1284,81,Physics,2020
+1285,69,General Knowledge,2022
+1285,67,Geography,2022
+1285,98,Library,2022
+1285,76,computer,2022
+1285,39,Mathematics,2022
+1285,71,Civics,2022
+1285,31,Physics,2022
+1285,50,Art,2022
+1285,95,General Knowledge,2021
+1285,19,Biology,2021
+1285,99,Geography,2021
+1285,52,Library,2021
+1285,34,Chemistry,2021
+1285,63,Physics,2021
+1285,88,Hindi,2021
+1285,62,Sports,2021
+1285,43,Moral Science,2020
+1285,89,Geography,2020
+1285,24,computer,2020
+1285,42,Chemistry,2020
+1285,70,Music,2020
+1285,60,Mathematics,2020
+1285,32,Civics,2020
+1285,93,Physics,2020
+1286,41,General Knowledge,2022
+1286,52,Geography,2022
+1286,26,Library,2022
+1286,62,computer,2022
+1286,55,Mathematics,2022
+1286,88,Civics,2022
+1286,88,Physics,2022
+1286,7,Art,2022
+1286,35,General Knowledge,2021
+1286,63,Biology,2021
+1286,27,Geography,2021
+1286,55,Library,2021
+1286,47,Chemistry,2021
+1286,25,Physics,2021
+1286,42,Hindi,2021
+1286,4,Sports,2021
+1286,30,Moral Science,2020
+1286,85,Geography,2020
+1286,30,computer,2020
+1286,81,Chemistry,2020
+1286,24,Music,2020
+1286,4,Mathematics,2020
+1286,31,Civics,2020
+1286,42,Physics,2020
+1287,49,General Knowledge,2022
+1287,29,Geography,2022
+1287,83,Library,2022
+1287,54,computer,2022
+1287,53,Mathematics,2022
+1287,61,Civics,2022
+1287,23,Physics,2022
+1287,21,Art,2022
+1287,35,General Knowledge,2021
+1287,4,Biology,2021
+1287,26,Geography,2021
+1287,39,Library,2021
+1287,17,Chemistry,2021
+1287,13,Physics,2021
+1287,93,Hindi,2021
+1287,89,Sports,2021
+1287,80,Moral Science,2020
+1287,15,Geography,2020
+1287,98,computer,2020
+1287,64,Chemistry,2020
+1287,57,Music,2020
+1287,89,Mathematics,2020
+1287,32,Civics,2020
+1287,80,Physics,2020
+1288,11,General Knowledge,2022
+1288,31,Geography,2022
+1288,31,Library,2022
+1288,88,computer,2022
+1288,21,Mathematics,2022
+1288,32,Civics,2022
+1288,70,Physics,2022
+1288,93,Art,2022
+1288,93,General Knowledge,2021
+1288,71,Biology,2021
+1288,2,Geography,2021
+1288,35,Library,2021
+1288,41,Chemistry,2021
+1288,72,Physics,2021
+1288,76,Hindi,2021
+1288,90,Sports,2021
+1288,35,Moral Science,2020
+1288,88,Geography,2020
+1288,39,computer,2020
+1288,50,Chemistry,2020
+1288,90,Music,2020
+1288,80,Mathematics,2020
+1288,93,Civics,2020
+1288,82,Physics,2020
+1289,46,General Knowledge,2022
+1289,63,Geography,2022
+1289,37,Library,2022
+1289,50,computer,2022
+1289,95,Mathematics,2022
+1289,91,Civics,2022
+1289,56,Physics,2022
+1289,56,Art,2022
+1289,12,General Knowledge,2021
+1289,99,Biology,2021
+1289,36,Geography,2021
+1289,54,Library,2021
+1289,98,Chemistry,2021
+1289,33,Physics,2021
+1289,36,Hindi,2021
+1289,77,Sports,2021
+1289,28,Moral Science,2020
+1289,76,Geography,2020
+1289,87,computer,2020
+1289,53,Chemistry,2020
+1289,44,Music,2020
+1289,72,Mathematics,2020
+1289,55,Civics,2020
+1289,29,Physics,2020
+1290,17,General Knowledge,2022
+1290,80,Geography,2022
+1290,2,Library,2022
+1290,0,computer,2022
+1290,85,Mathematics,2022
+1290,78,Civics,2022
+1290,44,Physics,2022
+1290,19,Art,2022
+1290,1,General Knowledge,2021
+1290,10,Biology,2021
+1290,33,Geography,2021
+1290,41,Library,2021
+1290,56,Chemistry,2021
+1290,87,Physics,2021
+1290,60,Hindi,2021
+1290,98,Sports,2021
+1290,99,Moral Science,2020
+1290,98,Geography,2020
+1290,65,computer,2020
+1290,70,Chemistry,2020
+1290,65,Music,2020
+1290,94,Mathematics,2020
+1290,79,Civics,2020
+1290,6,Physics,2020
+1291,66,General Knowledge,2022
+1291,93,Geography,2022
+1291,85,Library,2022
+1291,21,computer,2022
+1291,64,Mathematics,2022
+1291,39,Civics,2022
+1291,45,Physics,2022
+1291,37,Art,2022
+1291,41,General Knowledge,2021
+1291,10,Biology,2021
+1291,81,Geography,2021
+1291,94,Library,2021
+1291,43,Chemistry,2021
+1291,66,Physics,2021
+1291,82,Hindi,2021
+1291,98,Sports,2021
+1291,79,Moral Science,2020
+1291,59,Geography,2020
+1291,99,computer,2020
+1291,7,Chemistry,2020
+1291,61,Music,2020
+1291,69,Mathematics,2020
+1291,100,Civics,2020
+1291,88,Physics,2020
+1292,5,General Knowledge,2022
+1292,75,Geography,2022
+1292,47,Library,2022
+1292,61,computer,2022
+1292,32,Mathematics,2022
+1292,60,Civics,2022
+1292,18,Physics,2022
+1292,86,Art,2022
+1292,95,General Knowledge,2021
+1292,47,Biology,2021
+1292,100,Geography,2021
+1292,43,Library,2021
+1292,86,Chemistry,2021
+1292,98,Physics,2021
+1292,6,Hindi,2021
+1292,92,Sports,2021
+1292,53,Moral Science,2020
+1292,74,Geography,2020
+1292,80,computer,2020
+1292,73,Chemistry,2020
+1292,87,Music,2020
+1292,98,Mathematics,2020
+1292,87,Civics,2020
+1292,48,Physics,2020
+1293,93,General Knowledge,2022
+1293,88,Geography,2022
+1293,46,Library,2022
+1293,89,computer,2022
+1293,64,Mathematics,2022
+1293,53,Civics,2022
+1293,61,Physics,2022
+1293,51,Art,2022
+1293,44,General Knowledge,2021
+1293,41,Biology,2021
+1293,51,Geography,2021
+1293,34,Library,2021
+1293,69,Chemistry,2021
+1293,96,Physics,2021
+1293,97,Hindi,2021
+1293,15,Sports,2021
+1293,96,Moral Science,2020
+1293,41,Geography,2020
+1293,41,computer,2020
+1293,21,Chemistry,2020
+1293,35,Music,2020
+1293,45,Mathematics,2020
+1293,22,Civics,2020
+1293,22,Physics,2020
+1294,67,General Knowledge,2022
+1294,86,Geography,2022
+1294,47,Library,2022
+1294,98,computer,2022
+1294,98,Mathematics,2022
+1294,21,Civics,2022
+1294,46,Physics,2022
+1294,57,Art,2022
+1294,36,General Knowledge,2021
+1294,82,Biology,2021
+1294,33,Geography,2021
+1294,52,Library,2021
+1294,32,Chemistry,2021
+1294,53,Physics,2021
+1294,80,Hindi,2021
+1294,48,Sports,2021
+1294,83,Moral Science,2020
+1294,78,Geography,2020
+1294,95,computer,2020
+1294,3,Chemistry,2020
+1294,69,Music,2020
+1294,84,Mathematics,2020
+1294,99,Civics,2020
+1294,97,Physics,2020
+1295,40,General Knowledge,2022
+1295,61,Geography,2022
+1295,39,Library,2022
+1295,91,computer,2022
+1295,88,Mathematics,2022
+1295,21,Civics,2022
+1295,85,Physics,2022
+1295,24,Art,2022
+1295,28,General Knowledge,2021
+1295,96,Biology,2021
+1295,42,Geography,2021
+1295,81,Library,2021
+1295,48,Chemistry,2021
+1295,28,Physics,2021
+1295,91,Hindi,2021
+1295,96,Sports,2021
+1295,72,Moral Science,2020
+1295,47,Geography,2020
+1295,61,computer,2020
+1295,40,Chemistry,2020
+1295,41,Music,2020
+1295,36,Mathematics,2020
+1295,99,Civics,2020
+1295,81,Physics,2020
+1296,88,General Knowledge,2022
+1296,99,Geography,2022
+1296,30,Library,2022
+1296,87,computer,2022
+1296,6,Mathematics,2022
+1296,78,Civics,2022
+1296,31,Physics,2022
+1296,35,Art,2022
+1296,47,General Knowledge,2021
+1296,14,Biology,2021
+1296,91,Geography,2021
+1296,53,Library,2021
+1296,66,Chemistry,2021
+1296,73,Physics,2021
+1296,93,Hindi,2021
+1296,44,Sports,2021
+1296,68,Moral Science,2020
+1296,88,Geography,2020
+1296,71,computer,2020
+1296,73,Chemistry,2020
+1296,74,Music,2020
+1296,38,Mathematics,2020
+1296,54,Civics,2020
+1296,33,Physics,2020
+1297,62,General Knowledge,2022
+1297,96,Geography,2022
+1297,82,Library,2022
+1297,84,computer,2022
+1297,64,Mathematics,2022
+1297,67,Civics,2022
+1297,76,Physics,2022
+1297,62,Art,2022
+1297,66,General Knowledge,2021
+1297,28,Biology,2021
+1297,33,Geography,2021
+1297,63,Library,2021
+1297,31,Chemistry,2021
+1297,91,Physics,2021
+1297,23,Hindi,2021
+1297,14,Sports,2021
+1297,89,Moral Science,2020
+1297,65,Geography,2020
+1297,43,computer,2020
+1297,82,Chemistry,2020
+1297,91,Music,2020
+1297,70,Mathematics,2020
+1297,97,Civics,2020
+1297,73,Physics,2020
+1298,48,General Knowledge,2022
+1298,42,Geography,2022
+1298,28,Library,2022
+1298,98,computer,2022
+1298,34,Mathematics,2022
+1298,78,Civics,2022
+1298,95,Physics,2022
+1298,63,Art,2022
+1298,85,General Knowledge,2021
+1298,58,Biology,2021
+1298,37,Geography,2021
+1298,44,Library,2021
+1298,63,Chemistry,2021
+1298,61,Physics,2021
+1298,63,Hindi,2021
+1298,8,Sports,2021
+1298,57,Moral Science,2020
+1298,42,Geography,2020
+1298,27,computer,2020
+1298,94,Chemistry,2020
+1298,50,Music,2020
+1298,54,Mathematics,2020
+1298,23,Civics,2020
+1298,81,Physics,2020
+1299,47,General Knowledge,2022
+1299,45,Geography,2022
+1299,86,Library,2022
+1299,38,computer,2022
+1299,85,Mathematics,2022
+1299,16,Civics,2022
+1299,77,Physics,2022
+1299,60,Art,2022
+1299,15,General Knowledge,2021
+1299,76,Biology,2021
+1299,8,Geography,2021
+1299,22,Library,2021
+1299,31,Chemistry,2021
+1299,94,Physics,2021
+1299,74,Hindi,2021
+1299,66,Sports,2021
+1299,32,Moral Science,2020
+1299,31,Geography,2020
+1299,10,computer,2020
+1299,65,Chemistry,2020
+1299,36,Music,2020
+1299,2,Mathematics,2020
+1299,30,Civics,2020
+1299,27,Physics,2020
+1300,48,General Knowledge,2022
+1300,11,Geography,2022
+1300,94,Library,2022
+1300,78,computer,2022
+1300,38,Mathematics,2022
+1300,95,Civics,2022
+1300,88,Physics,2022
+1300,57,Art,2022
+1300,91,General Knowledge,2021
+1300,33,Biology,2021
+1300,52,Geography,2021
+1300,82,Library,2021
+1300,64,Chemistry,2021
+1300,10,Physics,2021
+1300,18,Hindi,2021
+1300,72,Sports,2021
+1300,20,Moral Science,2020
+1300,66,Geography,2020
+1300,15,computer,2020
+1300,84,Chemistry,2020
+1300,36,Music,2020
+1300,61,Mathematics,2020
+1300,34,Civics,2020
+1300,40,Physics,2020
+1301,44,General Knowledge,2022
+1301,93,Dance,2022
+1301,46,Music,2022
+1301,74,Civics,2022
+1301,56,Physics,2022
+1301,44,Hindi,2022
+1301,71,Sports,2022
+1301,30,Art,2022
+1301,66,Dance,2021
+1301,55,Geography,2021
+1301,62,Moral Science,2021
+1301,51,Chemistry,2021
+1301,26,Music,2021
+1301,78,Mathematics,2021
+1301,65,Civics,2021
+1301,95,Hindi,2021
+1301,55,Biology,2020
+1301,95,Dance,2020
+1301,80,History,2020
+1301,57,Music,2020
+1301,84,English,2020
+1301,34,Hindi,2020
+1301,19,Sports,2020
+1301,91,Art,2020
+1302,32,General Knowledge,2022
+1302,86,Dance,2022
+1302,43,Music,2022
+1302,100,Civics,2022
+1302,72,Physics,2022
+1302,90,Hindi,2022
+1302,48,Sports,2022
+1302,68,Art,2022
+1302,75,Dance,2021
+1302,92,Geography,2021
+1302,44,Moral Science,2021
+1302,52,Chemistry,2021
+1302,65,Music,2021
+1302,70,Mathematics,2021
+1302,21,Civics,2021
+1302,68,Hindi,2021
+1302,47,Biology,2020
+1302,32,Dance,2020
+1302,62,History,2020
+1302,56,Music,2020
+1302,14,English,2020
+1302,86,Hindi,2020
+1302,43,Sports,2020
+1302,64,Art,2020
+1303,46,General Knowledge,2022
+1303,57,Dance,2022
+1303,90,Music,2022
+1303,7,Civics,2022
+1303,63,Physics,2022
+1303,27,Hindi,2022
+1303,84,Sports,2022
+1303,25,Art,2022
+1303,79,Dance,2021
+1303,74,Geography,2021
+1303,52,Moral Science,2021
+1303,69,Chemistry,2021
+1303,62,Music,2021
+1303,95,Mathematics,2021
+1303,53,Civics,2021
+1303,17,Hindi,2021
+1303,88,Biology,2020
+1303,42,Dance,2020
+1303,32,History,2020
+1303,30,Music,2020
+1303,45,English,2020
+1303,0,Hindi,2020
+1303,63,Sports,2020
+1303,71,Art,2020
+1304,73,General Knowledge,2022
+1304,32,Dance,2022
+1304,25,Music,2022
+1304,80,Civics,2022
+1304,33,Physics,2022
+1304,79,Hindi,2022
+1304,44,Sports,2022
+1304,75,Art,2022
+1304,56,Dance,2021
+1304,10,Geography,2021
+1304,21,Moral Science,2021
+1304,13,Chemistry,2021
+1304,60,Music,2021
+1304,89,Mathematics,2021
+1304,41,Civics,2021
+1304,97,Hindi,2021
+1304,87,Biology,2020
+1304,22,Dance,2020
+1304,69,History,2020
+1304,6,Music,2020
+1304,35,English,2020
+1304,27,Hindi,2020
+1304,51,Sports,2020
+1304,98,Art,2020
+1305,12,General Knowledge,2022
+1305,82,Dance,2022
+1305,28,Music,2022
+1305,22,Civics,2022
+1305,48,Physics,2022
+1305,99,Hindi,2022
+1305,61,Sports,2022
+1305,50,Art,2022
+1305,37,Dance,2021
+1305,96,Geography,2021
+1305,75,Moral Science,2021
+1305,55,Chemistry,2021
+1305,72,Music,2021
+1305,69,Mathematics,2021
+1305,96,Civics,2021
+1305,68,Hindi,2021
+1305,94,Biology,2020
+1305,96,Dance,2020
+1305,91,History,2020
+1305,81,Music,2020
+1305,96,English,2020
+1305,72,Hindi,2020
+1305,24,Sports,2020
+1305,92,Art,2020
+1306,73,General Knowledge,2022
+1306,51,Dance,2022
+1306,33,Music,2022
+1306,92,Civics,2022
+1306,92,Physics,2022
+1306,55,Hindi,2022
+1306,40,Sports,2022
+1306,1,Art,2022
+1306,74,Dance,2021
+1306,98,Geography,2021
+1306,93,Moral Science,2021
+1306,89,Chemistry,2021
+1306,100,Music,2021
+1306,42,Mathematics,2021
+1306,63,Civics,2021
+1306,47,Hindi,2021
+1306,96,Biology,2020
+1306,75,Dance,2020
+1306,1,History,2020
+1306,64,Music,2020
+1306,91,English,2020
+1306,23,Hindi,2020
+1306,41,Sports,2020
+1306,37,Art,2020
+1307,17,General Knowledge,2022
+1307,30,Dance,2022
+1307,39,Music,2022
+1307,48,Civics,2022
+1307,47,Physics,2022
+1307,29,Hindi,2022
+1307,39,Sports,2022
+1307,24,Art,2022
+1307,76,Dance,2021
+1307,29,Geography,2021
+1307,36,Moral Science,2021
+1307,15,Chemistry,2021
+1307,32,Music,2021
+1307,65,Mathematics,2021
+1307,62,Civics,2021
+1307,53,Hindi,2021
+1307,30,Biology,2020
+1307,67,Dance,2020
+1307,97,History,2020
+1307,58,Music,2020
+1307,30,English,2020
+1307,87,Hindi,2020
+1307,1,Sports,2020
+1307,33,Art,2020
+1308,37,General Knowledge,2022
+1308,29,Dance,2022
+1308,93,Music,2022
+1308,48,Civics,2022
+1308,95,Physics,2022
+1308,94,Hindi,2022
+1308,38,Sports,2022
+1308,86,Art,2022
+1308,58,Dance,2021
+1308,92,Geography,2021
+1308,64,Moral Science,2021
+1308,76,Chemistry,2021
+1308,61,Music,2021
+1308,61,Mathematics,2021
+1308,22,Civics,2021
+1308,79,Hindi,2021
+1308,29,Biology,2020
+1308,23,Dance,2020
+1308,50,History,2020
+1308,71,Music,2020
+1308,17,English,2020
+1308,84,Hindi,2020
+1308,86,Sports,2020
+1308,33,Art,2020
+1309,70,General Knowledge,2022
+1309,26,Dance,2022
+1309,61,Music,2022
+1309,16,Civics,2022
+1309,61,Physics,2022
+1309,44,Hindi,2022
+1309,100,Sports,2022
+1309,98,Art,2022
+1309,26,Dance,2021
+1309,79,Geography,2021
+1309,51,Moral Science,2021
+1309,55,Chemistry,2021
+1309,22,Music,2021
+1309,46,Mathematics,2021
+1309,36,Civics,2021
+1309,59,Hindi,2021
+1309,93,Biology,2020
+1309,34,Dance,2020
+1309,70,History,2020
+1309,45,Music,2020
+1309,58,English,2020
+1309,76,Hindi,2020
+1309,76,Sports,2020
+1309,30,Art,2020
+1310,18,General Knowledge,2022
+1310,76,Dance,2022
+1310,30,Music,2022
+1310,90,Civics,2022
+1310,85,Physics,2022
+1310,47,Hindi,2022
+1310,80,Sports,2022
+1310,63,Art,2022
+1310,32,Dance,2021
+1310,84,Geography,2021
+1310,25,Moral Science,2021
+1310,55,Chemistry,2021
+1310,45,Music,2021
+1310,69,Mathematics,2021
+1310,77,Civics,2021
+1310,82,Hindi,2021
+1310,32,Biology,2020
+1310,95,Dance,2020
+1310,87,History,2020
+1310,24,Music,2020
+1310,57,English,2020
+1310,65,Hindi,2020
+1310,18,Sports,2020
+1310,96,Art,2020
+1311,8,General Knowledge,2022
+1311,92,Dance,2022
+1311,51,Music,2022
+1311,34,Civics,2022
+1311,23,Physics,2022
+1311,81,Hindi,2022
+1311,30,Sports,2022
+1311,23,Art,2022
+1311,64,Dance,2021
+1311,18,Geography,2021
+1311,90,Moral Science,2021
+1311,71,Chemistry,2021
+1311,93,Music,2021
+1311,75,Mathematics,2021
+1311,75,Civics,2021
+1311,56,Hindi,2021
+1311,45,Biology,2020
+1311,100,Dance,2020
+1311,0,History,2020
+1311,88,Music,2020
+1311,87,English,2020
+1311,25,Hindi,2020
+1311,40,Sports,2020
+1311,36,Art,2020
+1312,99,General Knowledge,2022
+1312,45,Dance,2022
+1312,30,Music,2022
+1312,11,Civics,2022
+1312,98,Physics,2022
+1312,41,Hindi,2022
+1312,33,Sports,2022
+1312,29,Art,2022
+1312,96,Dance,2021
+1312,34,Geography,2021
+1312,78,Moral Science,2021
+1312,25,Chemistry,2021
+1312,35,Music,2021
+1312,76,Mathematics,2021
+1312,79,Civics,2021
+1312,42,Hindi,2021
+1312,54,Biology,2020
+1312,96,Dance,2020
+1312,13,History,2020
+1312,35,Music,2020
+1312,37,English,2020
+1312,43,Hindi,2020
+1312,26,Sports,2020
+1312,35,Art,2020
+1313,10,General Knowledge,2022
+1313,22,Dance,2022
+1313,68,Music,2022
+1313,96,Civics,2022
+1313,27,Physics,2022
+1313,56,Hindi,2022
+1313,46,Sports,2022
+1313,95,Art,2022
+1313,61,Dance,2021
+1313,97,Geography,2021
+1313,89,Moral Science,2021
+1313,35,Chemistry,2021
+1313,74,Music,2021
+1313,45,Mathematics,2021
+1313,32,Civics,2021
+1313,60,Hindi,2021
+1313,80,Biology,2020
+1313,25,Dance,2020
+1313,92,History,2020
+1313,30,Music,2020
+1313,19,English,2020
+1313,95,Hindi,2020
+1313,78,Sports,2020
+1313,58,Art,2020
+1314,52,General Knowledge,2022
+1314,68,Dance,2022
+1314,79,Music,2022
+1314,46,Civics,2022
+1314,87,Physics,2022
+1314,87,Hindi,2022
+1314,90,Sports,2022
+1314,31,Art,2022
+1314,43,Dance,2021
+1314,1,Geography,2021
+1314,33,Moral Science,2021
+1314,58,Chemistry,2021
+1314,75,Music,2021
+1314,90,Mathematics,2021
+1314,64,Civics,2021
+1314,40,Hindi,2021
+1314,66,Biology,2020
+1314,86,Dance,2020
+1314,25,History,2020
+1314,31,Music,2020
+1314,25,English,2020
+1314,84,Hindi,2020
+1314,98,Sports,2020
+1314,21,Art,2020
+1315,84,General Knowledge,2022
+1315,30,Dance,2022
+1315,49,Music,2022
+1315,61,Civics,2022
+1315,72,Physics,2022
+1315,64,Hindi,2022
+1315,8,Sports,2022
+1315,74,Art,2022
+1315,89,Dance,2021
+1315,54,Geography,2021
+1315,92,Moral Science,2021
+1315,23,Chemistry,2021
+1315,70,Music,2021
+1315,56,Mathematics,2021
+1315,8,Civics,2021
+1315,75,Hindi,2021
+1315,35,Biology,2020
+1315,95,Dance,2020
+1315,23,History,2020
+1315,76,Music,2020
+1315,69,English,2020
+1315,91,Hindi,2020
+1315,84,Sports,2020
+1315,87,Art,2020
+1316,96,General Knowledge,2022
+1316,26,Dance,2022
+1316,38,Music,2022
+1316,52,Civics,2022
+1316,51,Physics,2022
+1316,37,Hindi,2022
+1316,100,Sports,2022
+1316,27,Art,2022
+1316,57,Dance,2021
+1316,98,Geography,2021
+1316,41,Moral Science,2021
+1316,32,Chemistry,2021
+1316,17,Music,2021
+1316,40,Mathematics,2021
+1316,40,Civics,2021
+1316,33,Hindi,2021
+1316,63,Biology,2020
+1316,15,Dance,2020
+1316,13,History,2020
+1316,51,Music,2020
+1316,15,English,2020
+1316,97,Hindi,2020
+1316,24,Sports,2020
+1316,67,Art,2020
+1317,28,General Knowledge,2022
+1317,89,Dance,2022
+1317,25,Music,2022
+1317,55,Civics,2022
+1317,59,Physics,2022
+1317,58,Hindi,2022
+1317,21,Sports,2022
+1317,56,Art,2022
+1317,0,Dance,2021
+1317,31,Geography,2021
+1317,78,Moral Science,2021
+1317,19,Chemistry,2021
+1317,22,Music,2021
+1317,63,Mathematics,2021
+1317,54,Civics,2021
+1317,18,Hindi,2021
+1317,57,Biology,2020
+1317,68,Dance,2020
+1317,27,History,2020
+1317,93,Music,2020
+1317,77,English,2020
+1317,37,Hindi,2020
+1317,48,Sports,2020
+1317,11,Art,2020
+1318,78,General Knowledge,2022
+1318,93,Dance,2022
+1318,30,Music,2022
+1318,34,Civics,2022
+1318,19,Physics,2022
+1318,91,Hindi,2022
+1318,74,Sports,2022
+1318,40,Art,2022
+1318,26,Dance,2021
+1318,63,Geography,2021
+1318,61,Moral Science,2021
+1318,93,Chemistry,2021
+1318,77,Music,2021
+1318,25,Mathematics,2021
+1318,34,Civics,2021
+1318,88,Hindi,2021
+1318,28,Biology,2020
+1318,5,Dance,2020
+1318,59,History,2020
+1318,38,Music,2020
+1318,83,English,2020
+1318,63,Hindi,2020
+1318,23,Sports,2020
+1318,35,Art,2020
+1319,32,General Knowledge,2022
+1319,48,Dance,2022
+1319,28,Music,2022
+1319,55,Civics,2022
+1319,82,Physics,2022
+1319,34,Hindi,2022
+1319,19,Sports,2022
+1319,54,Art,2022
+1319,43,Dance,2021
+1319,96,Geography,2021
+1319,65,Moral Science,2021
+1319,75,Chemistry,2021
+1319,8,Music,2021
+1319,94,Mathematics,2021
+1319,30,Civics,2021
+1319,26,Hindi,2021
+1319,24,Biology,2020
+1319,26,Dance,2020
+1319,12,History,2020
+1319,64,Music,2020
+1319,10,English,2020
+1319,31,Hindi,2020
+1319,74,Sports,2020
+1319,44,Art,2020
+1320,14,General Knowledge,2022
+1320,83,Dance,2022
+1320,27,Music,2022
+1320,98,Civics,2022
+1320,74,Physics,2022
+1320,31,Hindi,2022
+1320,91,Sports,2022
+1320,68,Art,2022
+1320,36,Dance,2021
+1320,66,Geography,2021
+1320,89,Moral Science,2021
+1320,22,Chemistry,2021
+1320,60,Music,2021
+1320,96,Mathematics,2021
+1320,91,Civics,2021
+1320,58,Hindi,2021
+1320,45,Biology,2020
+1320,11,Dance,2020
+1320,73,History,2020
+1320,39,Music,2020
+1320,74,English,2020
+1320,64,Hindi,2020
+1320,48,Sports,2020
+1320,71,Art,2020
+1321,64,Biology,2022
+1321,81,Moral Science,2022
+1321,86,Geography,2022
+1321,80,Library,2022
+1321,21,Mathematics,2022
+1321,23,Civics,2022
+1321,35,Hindi,2022
+1321,60,Art,2022
+1321,89,Biology,2021
+1321,80,Dance,2021
+1321,25,Moral Science,2021
+1321,34,computer,2021
+1321,44,Library,2021
+1321,94,Mathematics,2021
+1321,27,Civics,2021
+1321,79,Hindi,2021
+1321,65,General Knowledge,2020
+1321,70,Dance,2020
+1321,40,Geography,2020
+1321,52,computer,2020
+1321,49,Civics,2020
+1321,23,Physics,2020
+1321,69,Hindi,2020
+1321,32,Art,2020
+1322,36,Biology,2022
+1322,46,Moral Science,2022
+1322,20,Geography,2022
+1322,78,Library,2022
+1322,25,Mathematics,2022
+1322,94,Civics,2022
+1322,52,Hindi,2022
+1322,37,Art,2022
+1322,94,Biology,2021
+1322,84,Dance,2021
+1322,83,Moral Science,2021
+1322,55,computer,2021
+1322,34,Library,2021
+1322,74,Mathematics,2021
+1322,54,Civics,2021
+1322,45,Hindi,2021
+1322,69,General Knowledge,2020
+1322,92,Dance,2020
+1322,98,Geography,2020
+1322,60,computer,2020
+1322,82,Civics,2020
+1322,44,Physics,2020
+1322,20,Hindi,2020
+1322,53,Art,2020
+1323,97,Biology,2022
+1323,78,Moral Science,2022
+1323,27,Geography,2022
+1323,0,Library,2022
+1323,36,Mathematics,2022
+1323,67,Civics,2022
+1323,90,Hindi,2022
+1323,56,Art,2022
+1323,84,Biology,2021
+1323,30,Dance,2021
+1323,81,Moral Science,2021
+1323,31,computer,2021
+1323,87,Library,2021
+1323,30,Mathematics,2021
+1323,22,Civics,2021
+1323,35,Hindi,2021
+1323,82,General Knowledge,2020
+1323,86,Dance,2020
+1323,85,Geography,2020
+1323,56,computer,2020
+1323,30,Civics,2020
+1323,7,Physics,2020
+1323,33,Hindi,2020
+1323,35,Art,2020
+1324,48,Biology,2022
+1324,41,Moral Science,2022
+1324,52,Geography,2022
+1324,19,Library,2022
+1324,31,Mathematics,2022
+1324,87,Civics,2022
+1324,51,Hindi,2022
+1324,24,Art,2022
+1324,70,Biology,2021
+1324,84,Dance,2021
+1324,70,Moral Science,2021
+1324,16,computer,2021
+1324,79,Library,2021
+1324,99,Mathematics,2021
+1324,65,Civics,2021
+1324,9,Hindi,2021
+1324,49,General Knowledge,2020
+1324,78,Dance,2020
+1324,69,Geography,2020
+1324,88,computer,2020
+1324,26,Civics,2020
+1324,50,Physics,2020
+1324,67,Hindi,2020
+1324,56,Art,2020
+1325,35,Biology,2022
+1325,39,Moral Science,2022
+1325,95,Geography,2022
+1325,63,Library,2022
+1325,88,Mathematics,2022
+1325,33,Civics,2022
+1325,23,Hindi,2022
+1325,9,Art,2022
+1325,21,Biology,2021
+1325,17,Dance,2021
+1325,50,Moral Science,2021
+1325,24,computer,2021
+1325,58,Library,2021
+1325,99,Mathematics,2021
+1325,66,Civics,2021
+1325,27,Hindi,2021
+1325,23,General Knowledge,2020
+1325,36,Dance,2020
+1325,66,Geography,2020
+1325,61,computer,2020
+1325,57,Civics,2020
+1325,55,Physics,2020
+1325,78,Hindi,2020
+1325,43,Art,2020
+1326,27,Biology,2022
+1326,26,Moral Science,2022
+1326,48,Geography,2022
+1326,31,Library,2022
+1326,40,Mathematics,2022
+1326,57,Civics,2022
+1326,71,Hindi,2022
+1326,60,Art,2022
+1326,2,Biology,2021
+1326,51,Dance,2021
+1326,75,Moral Science,2021
+1326,61,computer,2021
+1326,48,Library,2021
+1326,65,Mathematics,2021
+1326,56,Civics,2021
+1326,75,Hindi,2021
+1326,29,General Knowledge,2020
+1326,72,Dance,2020
+1326,95,Geography,2020
+1326,40,computer,2020
+1326,7,Civics,2020
+1326,43,Physics,2020
+1326,27,Hindi,2020
+1326,58,Art,2020
+1327,30,Biology,2022
+1327,59,Moral Science,2022
+1327,60,Geography,2022
+1327,59,Library,2022
+1327,98,Mathematics,2022
+1327,90,Civics,2022
+1327,71,Hindi,2022
+1327,58,Art,2022
+1327,54,Biology,2021
+1327,76,Dance,2021
+1327,5,Moral Science,2021
+1327,45,computer,2021
+1327,7,Library,2021
+1327,64,Mathematics,2021
+1327,34,Civics,2021
+1327,24,Hindi,2021
+1327,50,General Knowledge,2020
+1327,64,Dance,2020
+1327,24,Geography,2020
+1327,94,computer,2020
+1327,55,Civics,2020
+1327,76,Physics,2020
+1327,45,Hindi,2020
+1327,23,Art,2020
+1328,18,Biology,2022
+1328,39,Moral Science,2022
+1328,43,Geography,2022
+1328,31,Library,2022
+1328,24,Mathematics,2022
+1328,91,Civics,2022
+1328,47,Hindi,2022
+1328,21,Art,2022
+1328,40,Biology,2021
+1328,63,Dance,2021
+1328,67,Moral Science,2021
+1328,24,computer,2021
+1328,51,Library,2021
+1328,74,Mathematics,2021
+1328,82,Civics,2021
+1328,51,Hindi,2021
+1328,36,General Knowledge,2020
+1328,58,Dance,2020
+1328,69,Geography,2020
+1328,81,computer,2020
+1328,97,Civics,2020
+1328,28,Physics,2020
+1328,50,Hindi,2020
+1328,51,Art,2020
+1329,87,Biology,2022
+1329,82,Moral Science,2022
+1329,89,Geography,2022
+1329,61,Library,2022
+1329,86,Mathematics,2022
+1329,72,Civics,2022
+1329,63,Hindi,2022
+1329,67,Art,2022
+1329,32,Biology,2021
+1329,20,Dance,2021
+1329,32,Moral Science,2021
+1329,30,computer,2021
+1329,67,Library,2021
+1329,80,Mathematics,2021
+1329,81,Civics,2021
+1329,39,Hindi,2021
+1329,76,General Knowledge,2020
+1329,6,Dance,2020
+1329,33,Geography,2020
+1329,11,computer,2020
+1329,58,Civics,2020
+1329,80,Physics,2020
+1329,41,Hindi,2020
+1329,12,Art,2020
+1330,6,Biology,2022
+1330,79,Moral Science,2022
+1330,97,Geography,2022
+1330,50,Library,2022
+1330,23,Mathematics,2022
+1330,80,Civics,2022
+1330,67,Hindi,2022
+1330,15,Art,2022
+1330,97,Biology,2021
+1330,79,Dance,2021
+1330,97,Moral Science,2021
+1330,8,computer,2021
+1330,84,Library,2021
+1330,81,Mathematics,2021
+1330,57,Civics,2021
+1330,48,Hindi,2021
+1330,48,General Knowledge,2020
+1330,71,Dance,2020
+1330,36,Geography,2020
+1330,36,computer,2020
+1330,4,Civics,2020
+1330,45,Physics,2020
+1330,33,Hindi,2020
+1330,57,Art,2020
+1331,4,Biology,2022
+1331,62,Moral Science,2022
+1331,92,Geography,2022
+1331,82,Library,2022
+1331,24,Mathematics,2022
+1331,19,Civics,2022
+1331,70,Hindi,2022
+1331,22,Art,2022
+1331,72,Biology,2021
+1331,74,Dance,2021
+1331,17,Moral Science,2021
+1331,4,computer,2021
+1331,65,Library,2021
+1331,25,Mathematics,2021
+1331,46,Civics,2021
+1331,64,Hindi,2021
+1331,3,General Knowledge,2020
+1331,64,Dance,2020
+1331,81,Geography,2020
+1331,15,computer,2020
+1331,92,Civics,2020
+1331,60,Physics,2020
+1331,38,Hindi,2020
+1331,60,Art,2020
+1332,14,Biology,2022
+1332,41,Moral Science,2022
+1332,99,Geography,2022
+1332,79,Library,2022
+1332,23,Mathematics,2022
+1332,44,Civics,2022
+1332,59,Hindi,2022
+1332,65,Art,2022
+1332,22,Biology,2021
+1332,96,Dance,2021
+1332,27,Moral Science,2021
+1332,88,computer,2021
+1332,1,Library,2021
+1332,27,Mathematics,2021
+1332,46,Civics,2021
+1332,94,Hindi,2021
+1332,88,General Knowledge,2020
+1332,93,Dance,2020
+1332,49,Geography,2020
+1332,14,computer,2020
+1332,82,Civics,2020
+1332,40,Physics,2020
+1332,29,Hindi,2020
+1332,74,Art,2020
+1333,40,Biology,2022
+1333,91,Moral Science,2022
+1333,54,Geography,2022
+1333,100,Library,2022
+1333,97,Mathematics,2022
+1333,40,Civics,2022
+1333,64,Hindi,2022
+1333,35,Art,2022
+1333,55,Biology,2021
+1333,44,Dance,2021
+1333,7,Moral Science,2021
+1333,21,computer,2021
+1333,13,Library,2021
+1333,85,Mathematics,2021
+1333,10,Civics,2021
+1333,99,Hindi,2021
+1333,21,General Knowledge,2020
+1333,64,Dance,2020
+1333,81,Geography,2020
+1333,60,computer,2020
+1333,80,Civics,2020
+1333,87,Physics,2020
+1333,29,Hindi,2020
+1333,61,Art,2020
+1334,81,Biology,2022
+1334,69,Moral Science,2022
+1334,16,Geography,2022
+1334,29,Library,2022
+1334,95,Mathematics,2022
+1334,94,Civics,2022
+1334,82,Hindi,2022
+1334,88,Art,2022
+1334,42,Biology,2021
+1334,65,Dance,2021
+1334,47,Moral Science,2021
+1334,42,computer,2021
+1334,66,Library,2021
+1334,86,Mathematics,2021
+1334,16,Civics,2021
+1334,59,Hindi,2021
+1334,29,General Knowledge,2020
+1334,24,Dance,2020
+1334,11,Geography,2020
+1334,92,computer,2020
+1334,91,Civics,2020
+1334,76,Physics,2020
+1334,19,Hindi,2020
+1334,20,Art,2020
+1335,54,Biology,2022
+1335,79,Moral Science,2022
+1335,92,Geography,2022
+1335,79,Library,2022
+1335,78,Mathematics,2022
+1335,61,Civics,2022
+1335,9,Hindi,2022
+1335,52,Art,2022
+1335,37,Biology,2021
+1335,99,Dance,2021
+1335,76,Moral Science,2021
+1335,87,computer,2021
+1335,76,Library,2021
+1335,65,Mathematics,2021
+1335,71,Civics,2021
+1335,46,Hindi,2021
+1335,91,General Knowledge,2020
+1335,56,Dance,2020
+1335,25,Geography,2020
+1335,1,computer,2020
+1335,85,Civics,2020
+1335,29,Physics,2020
+1335,77,Hindi,2020
+1335,99,Art,2020
+1336,62,Biology,2022
+1336,5,Moral Science,2022
+1336,66,Geography,2022
+1336,77,Library,2022
+1336,44,Mathematics,2022
+1336,69,Civics,2022
+1336,91,Hindi,2022
+1336,33,Art,2022
+1336,92,Biology,2021
+1336,87,Dance,2021
+1336,81,Moral Science,2021
+1336,51,computer,2021
+1336,39,Library,2021
+1336,54,Mathematics,2021
+1336,1,Civics,2021
+1336,67,Hindi,2021
+1336,73,General Knowledge,2020
+1336,47,Dance,2020
+1336,46,Geography,2020
+1336,62,computer,2020
+1336,18,Civics,2020
+1336,81,Physics,2020
+1336,5,Hindi,2020
+1336,34,Art,2020
+1337,55,Biology,2022
+1337,10,Moral Science,2022
+1337,84,Geography,2022
+1337,90,Library,2022
+1337,86,Mathematics,2022
+1337,2,Civics,2022
+1337,75,Hindi,2022
+1337,21,Art,2022
+1337,49,Biology,2021
+1337,77,Dance,2021
+1337,37,Moral Science,2021
+1337,38,computer,2021
+1337,85,Library,2021
+1337,71,Mathematics,2021
+1337,81,Civics,2021
+1337,74,Hindi,2021
+1337,98,General Knowledge,2020
+1337,14,Dance,2020
+1337,92,Geography,2020
+1337,73,computer,2020
+1337,31,Civics,2020
+1337,74,Physics,2020
+1337,21,Hindi,2020
+1337,86,Art,2020
+1338,55,Biology,2022
+1338,70,Moral Science,2022
+1338,22,Geography,2022
+1338,55,Library,2022
+1338,87,Mathematics,2022
+1338,32,Civics,2022
+1338,96,Hindi,2022
+1338,36,Art,2022
+1338,43,Biology,2021
+1338,44,Dance,2021
+1338,9,Moral Science,2021
+1338,41,computer,2021
+1338,8,Library,2021
+1338,31,Mathematics,2021
+1338,80,Civics,2021
+1338,69,Hindi,2021
+1338,83,General Knowledge,2020
+1338,30,Dance,2020
+1338,96,Geography,2020
+1338,29,computer,2020
+1338,42,Civics,2020
+1338,94,Physics,2020
+1338,49,Hindi,2020
+1338,8,Art,2020
+1339,74,Biology,2022
+1339,58,Moral Science,2022
+1339,69,Geography,2022
+1339,75,Library,2022
+1339,78,Mathematics,2022
+1339,49,Civics,2022
+1339,50,Hindi,2022
+1339,100,Art,2022
+1339,82,Biology,2021
+1339,65,Dance,2021
+1339,57,Moral Science,2021
+1339,43,computer,2021
+1339,85,Library,2021
+1339,30,Mathematics,2021
+1339,99,Civics,2021
+1339,98,Hindi,2021
+1339,21,General Knowledge,2020
+1339,28,Dance,2020
+1339,53,Geography,2020
+1339,58,computer,2020
+1339,27,Civics,2020
+1339,77,Physics,2020
+1339,83,Hindi,2020
+1339,48,Art,2020
+1340,77,Biology,2022
+1340,48,Moral Science,2022
+1340,25,Geography,2022
+1340,97,Library,2022
+1340,53,Mathematics,2022
+1340,53,Civics,2022
+1340,5,Hindi,2022
+1340,56,Art,2022
+1340,73,Biology,2021
+1340,3,Dance,2021
+1340,31,Moral Science,2021
+1340,84,computer,2021
+1340,96,Library,2021
+1340,40,Mathematics,2021
+1340,100,Civics,2021
+1340,39,Hindi,2021
+1340,50,General Knowledge,2020
+1340,82,Dance,2020
+1340,99,Geography,2020
+1340,55,computer,2020
+1340,4,Civics,2020
+1340,70,Physics,2020
+1340,68,Hindi,2020
+1340,44,Art,2020
+1341,25,Dance,2022
+1341,45,Moral Science,2022
+1341,58,History,2022
+1341,2,computer,2022
+1341,77,Library,2022
+1341,74,Chemistry,2022
+1341,10,Physics,2022
+1341,88,Hindi,2022
+1341,49,General Knowledge,2021
+1341,21,Geography,2021
+1341,50,Library,2021
+1341,53,computer,2021
+1341,11,Mathematics,2021
+1341,90,Civics,2021
+1341,43,Physics,2021
+1341,34,Art,2021
+1341,12,General Knowledge,2020
+1341,82,Biology,2020
+1341,83,Geography,2020
+1341,23,Library,2020
+1341,35,Chemistry,2020
+1341,82,Physics,2020
+1341,66,Hindi,2020
+1341,8,Sports,2020
+1342,29,Dance,2022
+1342,56,Moral Science,2022
+1342,33,History,2022
+1342,40,computer,2022
+1342,28,Library,2022
+1342,15,Chemistry,2022
+1342,15,Physics,2022
+1342,14,Hindi,2022
+1342,54,General Knowledge,2021
+1342,59,Geography,2021
+1342,3,Library,2021
+1342,72,computer,2021
+1342,76,Mathematics,2021
+1342,95,Civics,2021
+1342,62,Physics,2021
+1342,34,Art,2021
+1342,47,General Knowledge,2020
+1342,51,Biology,2020
+1342,87,Geography,2020
+1342,59,Library,2020
+1342,68,Chemistry,2020
+1342,55,Physics,2020
+1342,27,Hindi,2020
+1342,41,Sports,2020
+1343,26,Dance,2022
+1343,74,Moral Science,2022
+1343,88,History,2022
+1343,87,computer,2022
+1343,10,Library,2022
+1343,39,Chemistry,2022
+1343,32,Physics,2022
+1343,48,Hindi,2022
+1343,44,General Knowledge,2021
+1343,80,Geography,2021
+1343,37,Library,2021
+1343,95,computer,2021
+1343,43,Mathematics,2021
+1343,46,Civics,2021
+1343,66,Physics,2021
+1343,36,Art,2021
+1343,39,General Knowledge,2020
+1343,63,Biology,2020
+1343,21,Geography,2020
+1343,39,Library,2020
+1343,68,Chemistry,2020
+1343,74,Physics,2020
+1343,37,Hindi,2020
+1343,13,Sports,2020
+1344,43,Dance,2022
+1344,40,Moral Science,2022
+1344,45,History,2022
+1344,42,computer,2022
+1344,67,Library,2022
+1344,89,Chemistry,2022
+1344,30,Physics,2022
+1344,34,Hindi,2022
+1344,78,General Knowledge,2021
+1344,59,Geography,2021
+1344,65,Library,2021
+1344,97,computer,2021
+1344,80,Mathematics,2021
+1344,86,Civics,2021
+1344,33,Physics,2021
+1344,22,Art,2021
+1344,98,General Knowledge,2020
+1344,5,Biology,2020
+1344,6,Geography,2020
+1344,23,Library,2020
+1344,85,Chemistry,2020
+1344,68,Physics,2020
+1344,48,Hindi,2020
+1344,53,Sports,2020
+1345,50,Dance,2022
+1345,87,Moral Science,2022
+1345,47,History,2022
+1345,68,computer,2022
+1345,100,Library,2022
+1345,41,Chemistry,2022
+1345,80,Physics,2022
+1345,77,Hindi,2022
+1345,75,General Knowledge,2021
+1345,28,Geography,2021
+1345,81,Library,2021
+1345,74,computer,2021
+1345,80,Mathematics,2021
+1345,23,Civics,2021
+1345,79,Physics,2021
+1345,5,Art,2021
+1345,86,General Knowledge,2020
+1345,40,Biology,2020
+1345,30,Geography,2020
+1345,53,Library,2020
+1345,40,Chemistry,2020
+1345,64,Physics,2020
+1345,76,Hindi,2020
+1345,76,Sports,2020
+1346,49,Dance,2022
+1346,20,Moral Science,2022
+1346,42,History,2022
+1346,39,computer,2022
+1346,67,Library,2022
+1346,65,Chemistry,2022
+1346,40,Physics,2022
+1346,99,Hindi,2022
+1346,87,General Knowledge,2021
+1346,89,Geography,2021
+1346,35,Library,2021
+1346,61,computer,2021
+1346,21,Mathematics,2021
+1346,36,Civics,2021
+1346,17,Physics,2021
+1346,32,Art,2021
+1346,91,General Knowledge,2020
+1346,88,Biology,2020
+1346,31,Geography,2020
+1346,70,Library,2020
+1346,56,Chemistry,2020
+1346,29,Physics,2020
+1346,77,Hindi,2020
+1346,6,Sports,2020
+1347,95,Dance,2022
+1347,28,Moral Science,2022
+1347,56,History,2022
+1347,59,computer,2022
+1347,61,Library,2022
+1347,47,Chemistry,2022
+1347,48,Physics,2022
+1347,79,Hindi,2022
+1347,53,General Knowledge,2021
+1347,43,Geography,2021
+1347,49,Library,2021
+1347,33,computer,2021
+1347,52,Mathematics,2021
+1347,73,Civics,2021
+1347,26,Physics,2021
+1347,73,Art,2021
+1347,37,General Knowledge,2020
+1347,40,Biology,2020
+1347,74,Geography,2020
+1347,39,Library,2020
+1347,23,Chemistry,2020
+1347,81,Physics,2020
+1347,70,Hindi,2020
+1347,72,Sports,2020
+1348,61,Dance,2022
+1348,6,Moral Science,2022
+1348,95,History,2022
+1348,38,computer,2022
+1348,24,Library,2022
+1348,54,Chemistry,2022
+1348,32,Physics,2022
+1348,48,Hindi,2022
+1348,78,General Knowledge,2021
+1348,59,Geography,2021
+1348,64,Library,2021
+1348,94,computer,2021
+1348,48,Mathematics,2021
+1348,98,Civics,2021
+1348,90,Physics,2021
+1348,73,Art,2021
+1348,29,General Knowledge,2020
+1348,97,Biology,2020
+1348,69,Geography,2020
+1348,86,Library,2020
+1348,59,Chemistry,2020
+1348,69,Physics,2020
+1348,49,Hindi,2020
+1348,45,Sports,2020
+1349,60,Dance,2022
+1349,39,Moral Science,2022
+1349,52,History,2022
+1349,28,computer,2022
+1349,93,Library,2022
+1349,19,Chemistry,2022
+1349,35,Physics,2022
+1349,69,Hindi,2022
+1349,34,General Knowledge,2021
+1349,50,Geography,2021
+1349,95,Library,2021
+1349,89,computer,2021
+1349,85,Mathematics,2021
+1349,73,Civics,2021
+1349,69,Physics,2021
+1349,83,Art,2021
+1349,67,General Knowledge,2020
+1349,32,Biology,2020
+1349,70,Geography,2020
+1349,95,Library,2020
+1349,83,Chemistry,2020
+1349,4,Physics,2020
+1349,96,Hindi,2020
+1349,38,Sports,2020
+1350,71,Dance,2022
+1350,61,Moral Science,2022
+1350,33,History,2022
+1350,49,computer,2022
+1350,6,Library,2022
+1350,30,Chemistry,2022
+1350,99,Physics,2022
+1350,44,Hindi,2022
+1350,85,General Knowledge,2021
+1350,62,Geography,2021
+1350,43,Library,2021
+1350,63,computer,2021
+1350,59,Mathematics,2021
+1350,48,Civics,2021
+1350,1,Physics,2021
+1350,57,Art,2021
+1350,77,General Knowledge,2020
+1350,49,Biology,2020
+1350,71,Geography,2020
+1350,8,Library,2020
+1350,11,Chemistry,2020
+1350,47,Physics,2020
+1350,53,Hindi,2020
+1350,16,Sports,2020
+1351,14,Dance,2022
+1351,71,Moral Science,2022
+1351,97,History,2022
+1351,95,computer,2022
+1351,33,Library,2022
+1351,9,Chemistry,2022
+1351,72,Physics,2022
+1351,38,Hindi,2022
+1351,82,General Knowledge,2021
+1351,76,Geography,2021
+1351,44,Library,2021
+1351,38,computer,2021
+1351,69,Mathematics,2021
+1351,50,Civics,2021
+1351,61,Physics,2021
+1351,74,Art,2021
+1351,98,General Knowledge,2020
+1351,90,Biology,2020
+1351,23,Geography,2020
+1351,35,Library,2020
+1351,84,Chemistry,2020
+1351,46,Physics,2020
+1351,88,Hindi,2020
+1351,31,Sports,2020
+1352,85,Dance,2022
+1352,28,Moral Science,2022
+1352,69,History,2022
+1352,58,computer,2022
+1352,38,Library,2022
+1352,10,Chemistry,2022
+1352,30,Physics,2022
+1352,28,Hindi,2022
+1352,7,General Knowledge,2021
+1352,48,Geography,2021
+1352,91,Library,2021
+1352,44,computer,2021
+1352,84,Mathematics,2021
+1352,35,Civics,2021
+1352,100,Physics,2021
+1352,28,Art,2021
+1352,64,General Knowledge,2020
+1352,82,Biology,2020
+1352,79,Geography,2020
+1352,35,Library,2020
+1352,60,Chemistry,2020
+1352,54,Physics,2020
+1352,12,Hindi,2020
+1352,59,Sports,2020
+1353,85,Dance,2022
+1353,76,Moral Science,2022
+1353,87,History,2022
+1353,22,computer,2022
+1353,10,Library,2022
+1353,67,Chemistry,2022
+1353,54,Physics,2022
+1353,78,Hindi,2022
+1353,50,General Knowledge,2021
+1353,57,Geography,2021
+1353,0,Library,2021
+1353,58,computer,2021
+1353,25,Mathematics,2021
+1353,45,Civics,2021
+1353,44,Physics,2021
+1353,35,Art,2021
+1353,98,General Knowledge,2020
+1353,73,Biology,2020
+1353,71,Geography,2020
+1353,83,Library,2020
+1353,64,Chemistry,2020
+1353,81,Physics,2020
+1353,98,Hindi,2020
+1353,94,Sports,2020
+1354,43,Dance,2022
+1354,95,Moral Science,2022
+1354,38,History,2022
+1354,49,computer,2022
+1354,82,Library,2022
+1354,53,Chemistry,2022
+1354,61,Physics,2022
+1354,64,Hindi,2022
+1354,53,General Knowledge,2021
+1354,55,Geography,2021
+1354,74,Library,2021
+1354,52,computer,2021
+1354,82,Mathematics,2021
+1354,47,Civics,2021
+1354,53,Physics,2021
+1354,18,Art,2021
+1354,93,General Knowledge,2020
+1354,61,Biology,2020
+1354,41,Geography,2020
+1354,37,Library,2020
+1354,44,Chemistry,2020
+1354,61,Physics,2020
+1354,38,Hindi,2020
+1354,47,Sports,2020
+1355,84,Dance,2022
+1355,38,Moral Science,2022
+1355,52,History,2022
+1355,7,computer,2022
+1355,28,Library,2022
+1355,89,Chemistry,2022
+1355,90,Physics,2022
+1355,31,Hindi,2022
+1355,99,General Knowledge,2021
+1355,81,Geography,2021
+1355,66,Library,2021
+1355,69,computer,2021
+1355,66,Mathematics,2021
+1355,24,Civics,2021
+1355,8,Physics,2021
+1355,29,Art,2021
+1355,51,General Knowledge,2020
+1355,67,Biology,2020
+1355,88,Geography,2020
+1355,54,Library,2020
+1355,82,Chemistry,2020
+1355,23,Physics,2020
+1355,94,Hindi,2020
+1355,44,Sports,2020
+1356,41,Dance,2022
+1356,35,Moral Science,2022
+1356,77,History,2022
+1356,87,computer,2022
+1356,31,Library,2022
+1356,79,Chemistry,2022
+1356,91,Physics,2022
+1356,12,Hindi,2022
+1356,60,General Knowledge,2021
+1356,59,Geography,2021
+1356,71,Library,2021
+1356,17,computer,2021
+1356,77,Mathematics,2021
+1356,48,Civics,2021
+1356,55,Physics,2021
+1356,56,Art,2021
+1356,49,General Knowledge,2020
+1356,30,Biology,2020
+1356,27,Geography,2020
+1356,34,Library,2020
+1356,65,Chemistry,2020
+1356,23,Physics,2020
+1356,48,Hindi,2020
+1356,94,Sports,2020
+1357,15,Dance,2022
+1357,79,Moral Science,2022
+1357,57,History,2022
+1357,78,computer,2022
+1357,36,Library,2022
+1357,96,Chemistry,2022
+1357,23,Physics,2022
+1357,26,Hindi,2022
+1357,49,General Knowledge,2021
+1357,56,Geography,2021
+1357,26,Library,2021
+1357,19,computer,2021
+1357,26,Mathematics,2021
+1357,94,Civics,2021
+1357,100,Physics,2021
+1357,79,Art,2021
+1357,38,General Knowledge,2020
+1357,80,Biology,2020
+1357,51,Geography,2020
+1357,49,Library,2020
+1357,73,Chemistry,2020
+1357,63,Physics,2020
+1357,60,Hindi,2020
+1357,100,Sports,2020
+1358,41,Dance,2022
+1358,96,Moral Science,2022
+1358,34,History,2022
+1358,6,computer,2022
+1358,71,Library,2022
+1358,63,Chemistry,2022
+1358,50,Physics,2022
+1358,5,Hindi,2022
+1358,49,General Knowledge,2021
+1358,44,Geography,2021
+1358,78,Library,2021
+1358,95,computer,2021
+1358,73,Mathematics,2021
+1358,96,Civics,2021
+1358,60,Physics,2021
+1358,80,Art,2021
+1358,72,General Knowledge,2020
+1358,81,Biology,2020
+1358,93,Geography,2020
+1358,63,Library,2020
+1358,1,Chemistry,2020
+1358,97,Physics,2020
+1358,26,Hindi,2020
+1358,33,Sports,2020
+1359,51,Dance,2022
+1359,65,Moral Science,2022
+1359,90,History,2022
+1359,87,computer,2022
+1359,57,Library,2022
+1359,4,Chemistry,2022
+1359,44,Physics,2022
+1359,34,Hindi,2022
+1359,95,General Knowledge,2021
+1359,0,Geography,2021
+1359,70,Library,2021
+1359,73,computer,2021
+1359,54,Mathematics,2021
+1359,80,Civics,2021
+1359,34,Physics,2021
+1359,52,Art,2021
+1359,65,General Knowledge,2020
+1359,43,Biology,2020
+1359,79,Geography,2020
+1359,98,Library,2020
+1359,70,Chemistry,2020
+1359,78,Physics,2020
+1359,52,Hindi,2020
+1359,53,Sports,2020
+1360,83,Dance,2022
+1360,62,Moral Science,2022
+1360,75,History,2022
+1360,42,computer,2022
+1360,84,Library,2022
+1360,2,Chemistry,2022
+1360,29,Physics,2022
+1360,50,Hindi,2022
+1360,57,General Knowledge,2021
+1360,87,Geography,2021
+1360,13,Library,2021
+1360,83,computer,2021
+1360,80,Mathematics,2021
+1360,32,Civics,2021
+1360,42,Physics,2021
+1360,47,Art,2021
+1360,88,General Knowledge,2020
+1360,86,Biology,2020
+1360,32,Geography,2020
+1360,54,Library,2020
+1360,71,Chemistry,2020
+1360,23,Physics,2020
+1360,98,Hindi,2020
+1360,29,Sports,2020
+1361,31,Biology,2022
+1361,3,Dance,2022
+1361,66,Moral Science,2022
+1361,21,computer,2022
+1361,15,Chemistry,2022
+1361,95,Library,2022
+1361,89,English,2022
+1361,100,Sports,2022
+1361,31,General Knowledge,2021
+1361,66,Dance,2021
+1361,29,Music,2021
+1361,60,Civics,2021
+1361,82,Physics,2021
+1361,59,Hindi,2021
+1361,89,Sports,2021
+1361,31,Art,2021
+1361,56,Dance,2020
+1361,74,Geography,2020
+1361,63,Moral Science,2020
+1361,42,Chemistry,2020
+1361,86,Music,2020
+1361,97,Mathematics,2020
+1361,92,Civics,2020
+1361,53,Hindi,2020
+1362,90,Biology,2022
+1362,8,Dance,2022
+1362,35,Moral Science,2022
+1362,38,computer,2022
+1362,99,Chemistry,2022
+1362,88,Library,2022
+1362,47,English,2022
+1362,38,Sports,2022
+1362,12,General Knowledge,2021
+1362,19,Dance,2021
+1362,97,Music,2021
+1362,30,Civics,2021
+1362,52,Physics,2021
+1362,98,Hindi,2021
+1362,18,Sports,2021
+1362,24,Art,2021
+1362,34,Dance,2020
+1362,52,Geography,2020
+1362,88,Moral Science,2020
+1362,72,Chemistry,2020
+1362,1,Music,2020
+1362,81,Mathematics,2020
+1362,55,Civics,2020
+1362,90,Hindi,2020
+1363,99,Biology,2022
+1363,55,Dance,2022
+1363,68,Moral Science,2022
+1363,14,computer,2022
+1363,12,Chemistry,2022
+1363,41,Library,2022
+1363,35,English,2022
+1363,34,Sports,2022
+1363,79,General Knowledge,2021
+1363,75,Dance,2021
+1363,84,Music,2021
+1363,23,Civics,2021
+1363,46,Physics,2021
+1363,29,Hindi,2021
+1363,36,Sports,2021
+1363,42,Art,2021
+1363,75,Dance,2020
+1363,15,Geography,2020
+1363,69,Moral Science,2020
+1363,66,Chemistry,2020
+1363,22,Music,2020
+1363,88,Mathematics,2020
+1363,64,Civics,2020
+1363,36,Hindi,2020
+1364,64,Biology,2022
+1364,100,Dance,2022
+1364,58,Moral Science,2022
+1364,76,computer,2022
+1364,70,Chemistry,2022
+1364,54,Library,2022
+1364,37,English,2022
+1364,87,Sports,2022
+1364,44,General Knowledge,2021
+1364,91,Dance,2021
+1364,48,Music,2021
+1364,39,Civics,2021
+1364,43,Physics,2021
+1364,73,Hindi,2021
+1364,30,Sports,2021
+1364,21,Art,2021
+1364,93,Dance,2020
+1364,79,Geography,2020
+1364,24,Moral Science,2020
+1364,45,Chemistry,2020
+1364,70,Music,2020
+1364,40,Mathematics,2020
+1364,69,Civics,2020
+1364,86,Hindi,2020
+1365,86,Biology,2022
+1365,91,Dance,2022
+1365,67,Moral Science,2022
+1365,98,computer,2022
+1365,60,Chemistry,2022
+1365,55,Library,2022
+1365,33,English,2022
+1365,49,Sports,2022
+1365,37,General Knowledge,2021
+1365,9,Dance,2021
+1365,31,Music,2021
+1365,39,Civics,2021
+1365,47,Physics,2021
+1365,49,Hindi,2021
+1365,77,Sports,2021
+1365,19,Art,2021
+1365,96,Dance,2020
+1365,21,Geography,2020
+1365,0,Moral Science,2020
+1365,6,Chemistry,2020
+1365,14,Music,2020
+1365,89,Mathematics,2020
+1365,53,Civics,2020
+1365,54,Hindi,2020
+1366,86,Biology,2022
+1366,57,Dance,2022
+1366,38,Moral Science,2022
+1366,52,computer,2022
+1366,45,Chemistry,2022
+1366,41,Library,2022
+1366,98,English,2022
+1366,70,Sports,2022
+1366,37,General Knowledge,2021
+1366,0,Dance,2021
+1366,23,Music,2021
+1366,98,Civics,2021
+1366,21,Physics,2021
+1366,100,Hindi,2021
+1366,88,Sports,2021
+1366,84,Art,2021
+1366,73,Dance,2020
+1366,38,Geography,2020
+1366,68,Moral Science,2020
+1366,93,Chemistry,2020
+1366,54,Music,2020
+1366,23,Mathematics,2020
+1366,93,Civics,2020
+1366,70,Hindi,2020
+1367,64,Biology,2022
+1367,32,Dance,2022
+1367,89,Moral Science,2022
+1367,75,computer,2022
+1367,57,Chemistry,2022
+1367,69,Library,2022
+1367,56,English,2022
+1367,90,Sports,2022
+1367,43,General Knowledge,2021
+1367,85,Dance,2021
+1367,4,Music,2021
+1367,59,Civics,2021
+1367,65,Physics,2021
+1367,9,Hindi,2021
+1367,22,Sports,2021
+1367,81,Art,2021
+1367,97,Dance,2020
+1367,17,Geography,2020
+1367,86,Moral Science,2020
+1367,25,Chemistry,2020
+1367,32,Music,2020
+1367,26,Mathematics,2020
+1367,1,Civics,2020
+1367,32,Hindi,2020
+1368,93,Biology,2022
+1368,91,Dance,2022
+1368,89,Moral Science,2022
+1368,49,computer,2022
+1368,88,Chemistry,2022
+1368,25,Library,2022
+1368,57,English,2022
+1368,23,Sports,2022
+1368,19,General Knowledge,2021
+1368,15,Dance,2021
+1368,77,Music,2021
+1368,71,Civics,2021
+1368,1,Physics,2021
+1368,88,Hindi,2021
+1368,1,Sports,2021
+1368,82,Art,2021
+1368,43,Dance,2020
+1368,73,Geography,2020
+1368,55,Moral Science,2020
+1368,61,Chemistry,2020
+1368,88,Music,2020
+1368,52,Mathematics,2020
+1368,19,Civics,2020
+1368,82,Hindi,2020
+1369,70,Biology,2022
+1369,87,Dance,2022
+1369,26,Moral Science,2022
+1369,27,computer,2022
+1369,11,Chemistry,2022
+1369,54,Library,2022
+1369,43,English,2022
+1369,94,Sports,2022
+1369,76,General Knowledge,2021
+1369,24,Dance,2021
+1369,41,Music,2021
+1369,89,Civics,2021
+1369,20,Physics,2021
+1369,88,Hindi,2021
+1369,53,Sports,2021
+1369,89,Art,2021
+1369,0,Dance,2020
+1369,39,Geography,2020
+1369,2,Moral Science,2020
+1369,83,Chemistry,2020
+1369,35,Music,2020
+1369,28,Mathematics,2020
+1369,31,Civics,2020
+1369,71,Hindi,2020
+1370,42,Biology,2022
+1370,77,Dance,2022
+1370,26,Moral Science,2022
+1370,23,computer,2022
+1370,33,Chemistry,2022
+1370,51,Library,2022
+1370,93,English,2022
+1370,90,Sports,2022
+1370,89,General Knowledge,2021
+1370,98,Dance,2021
+1370,48,Music,2021
+1370,100,Civics,2021
+1370,92,Physics,2021
+1370,36,Hindi,2021
+1370,38,Sports,2021
+1370,33,Art,2021
+1370,38,Dance,2020
+1370,90,Geography,2020
+1370,63,Moral Science,2020
+1370,68,Chemistry,2020
+1370,37,Music,2020
+1370,48,Mathematics,2020
+1370,47,Civics,2020
+1370,65,Hindi,2020
+1371,93,Biology,2022
+1371,35,Dance,2022
+1371,37,Moral Science,2022
+1371,62,computer,2022
+1371,21,Chemistry,2022
+1371,60,Library,2022
+1371,49,English,2022
+1371,82,Sports,2022
+1371,99,General Knowledge,2021
+1371,32,Dance,2021
+1371,87,Music,2021
+1371,17,Civics,2021
+1371,84,Physics,2021
+1371,51,Hindi,2021
+1371,14,Sports,2021
+1371,84,Art,2021
+1371,11,Dance,2020
+1371,33,Geography,2020
+1371,72,Moral Science,2020
+1371,87,Chemistry,2020
+1371,49,Music,2020
+1371,87,Mathematics,2020
+1371,72,Civics,2020
+1371,36,Hindi,2020
+1372,79,Biology,2022
+1372,80,Dance,2022
+1372,74,Moral Science,2022
+1372,88,computer,2022
+1372,25,Chemistry,2022
+1372,52,Library,2022
+1372,52,English,2022
+1372,93,Sports,2022
+1372,78,General Knowledge,2021
+1372,53,Dance,2021
+1372,39,Music,2021
+1372,78,Civics,2021
+1372,77,Physics,2021
+1372,65,Hindi,2021
+1372,86,Sports,2021
+1372,49,Art,2021
+1372,14,Dance,2020
+1372,98,Geography,2020
+1372,72,Moral Science,2020
+1372,96,Chemistry,2020
+1372,76,Music,2020
+1372,79,Mathematics,2020
+1372,31,Civics,2020
+1372,91,Hindi,2020
+1373,66,Biology,2022
+1373,70,Dance,2022
+1373,8,Moral Science,2022
+1373,16,computer,2022
+1373,39,Chemistry,2022
+1373,34,Library,2022
+1373,90,English,2022
+1373,39,Sports,2022
+1373,97,General Knowledge,2021
+1373,58,Dance,2021
+1373,26,Music,2021
+1373,69,Civics,2021
+1373,81,Physics,2021
+1373,28,Hindi,2021
+1373,44,Sports,2021
+1373,64,Art,2021
+1373,88,Dance,2020
+1373,66,Geography,2020
+1373,81,Moral Science,2020
+1373,33,Chemistry,2020
+1373,65,Music,2020
+1373,34,Mathematics,2020
+1373,1,Civics,2020
+1373,51,Hindi,2020
+1374,88,Biology,2022
+1374,39,Dance,2022
+1374,89,Moral Science,2022
+1374,85,computer,2022
+1374,49,Chemistry,2022
+1374,97,Library,2022
+1374,47,English,2022
+1374,6,Sports,2022
+1374,22,General Knowledge,2021
+1374,97,Dance,2021
+1374,69,Music,2021
+1374,92,Civics,2021
+1374,12,Physics,2021
+1374,80,Hindi,2021
+1374,51,Sports,2021
+1374,91,Art,2021
+1374,100,Dance,2020
+1374,34,Geography,2020
+1374,30,Moral Science,2020
+1374,0,Chemistry,2020
+1374,45,Music,2020
+1374,29,Mathematics,2020
+1374,27,Civics,2020
+1374,41,Hindi,2020
+1375,94,Biology,2022
+1375,17,Dance,2022
+1375,77,Moral Science,2022
+1375,53,computer,2022
+1375,43,Chemistry,2022
+1375,38,Library,2022
+1375,86,English,2022
+1375,23,Sports,2022
+1375,21,General Knowledge,2021
+1375,4,Dance,2021
+1375,6,Music,2021
+1375,99,Civics,2021
+1375,35,Physics,2021
+1375,77,Hindi,2021
+1375,30,Sports,2021
+1375,36,Art,2021
+1375,79,Dance,2020
+1375,99,Geography,2020
+1375,64,Moral Science,2020
+1375,54,Chemistry,2020
+1375,96,Music,2020
+1375,4,Mathematics,2020
+1375,52,Civics,2020
+1375,64,Hindi,2020
+1376,99,Biology,2022
+1376,35,Dance,2022
+1376,86,Moral Science,2022
+1376,16,computer,2022
+1376,29,Chemistry,2022
+1376,59,Library,2022
+1376,33,English,2022
+1376,31,Sports,2022
+1376,49,General Knowledge,2021
+1376,82,Dance,2021
+1376,29,Music,2021
+1376,93,Civics,2021
+1376,89,Physics,2021
+1376,56,Hindi,2021
+1376,46,Sports,2021
+1376,48,Art,2021
+1376,21,Dance,2020
+1376,24,Geography,2020
+1376,42,Moral Science,2020
+1376,5,Chemistry,2020
+1376,81,Music,2020
+1376,59,Mathematics,2020
+1376,70,Civics,2020
+1376,97,Hindi,2020
+1377,19,Biology,2022
+1377,23,Dance,2022
+1377,49,Moral Science,2022
+1377,73,computer,2022
+1377,49,Chemistry,2022
+1377,67,Library,2022
+1377,99,English,2022
+1377,42,Sports,2022
+1377,90,General Knowledge,2021
+1377,53,Dance,2021
+1377,37,Music,2021
+1377,73,Civics,2021
+1377,89,Physics,2021
+1377,82,Hindi,2021
+1377,21,Sports,2021
+1377,49,Art,2021
+1377,91,Dance,2020
+1377,89,Geography,2020
+1377,66,Moral Science,2020
+1377,22,Chemistry,2020
+1377,58,Music,2020
+1377,28,Mathematics,2020
+1377,26,Civics,2020
+1377,79,Hindi,2020
+1378,38,Biology,2022
+1378,90,Dance,2022
+1378,32,Moral Science,2022
+1378,42,computer,2022
+1378,71,Chemistry,2022
+1378,37,Library,2022
+1378,44,English,2022
+1378,60,Sports,2022
+1378,16,General Knowledge,2021
+1378,59,Dance,2021
+1378,27,Music,2021
+1378,34,Civics,2021
+1378,61,Physics,2021
+1378,22,Hindi,2021
+1378,2,Sports,2021
+1378,89,Art,2021
+1378,33,Dance,2020
+1378,70,Geography,2020
+1378,23,Moral Science,2020
+1378,74,Chemistry,2020
+1378,51,Music,2020
+1378,94,Mathematics,2020
+1378,34,Civics,2020
+1378,58,Hindi,2020
+1379,72,Biology,2022
+1379,81,Dance,2022
+1379,70,Moral Science,2022
+1379,83,computer,2022
+1379,81,Chemistry,2022
+1379,85,Library,2022
+1379,30,English,2022
+1379,54,Sports,2022
+1379,54,General Knowledge,2021
+1379,89,Dance,2021
+1379,1,Music,2021
+1379,66,Civics,2021
+1379,72,Physics,2021
+1379,90,Hindi,2021
+1379,11,Sports,2021
+1379,45,Art,2021
+1379,82,Dance,2020
+1379,75,Geography,2020
+1379,74,Moral Science,2020
+1379,67,Chemistry,2020
+1379,45,Music,2020
+1379,66,Mathematics,2020
+1379,40,Civics,2020
+1379,45,Hindi,2020
+1380,94,Biology,2022
+1380,88,Dance,2022
+1380,45,Moral Science,2022
+1380,91,computer,2022
+1380,81,Chemistry,2022
+1380,87,Library,2022
+1380,55,English,2022
+1380,73,Sports,2022
+1380,77,General Knowledge,2021
+1380,26,Dance,2021
+1380,99,Music,2021
+1380,97,Civics,2021
+1380,93,Physics,2021
+1380,2,Hindi,2021
+1380,80,Sports,2021
+1380,85,Art,2021
+1380,63,Dance,2020
+1380,99,Geography,2020
+1380,53,Moral Science,2020
+1380,2,Chemistry,2020
+1380,31,Music,2020
+1380,58,Mathematics,2020
+1380,59,Civics,2020
+1380,55,Hindi,2020
+1381,88,Biology,2022
+1381,14,General Knowledge,2022
+1381,73,computer,2022
+1381,31,Library,2022
+1381,42,Music,2022
+1381,31,Civics,2022
+1381,14,Hindi,2022
+1381,23,Art,2022
+1381,90,Biology,2021
+1381,67,Moral Science,2021
+1381,95,Geography,2021
+1381,27,Library,2021
+1381,90,Mathematics,2021
+1381,84,Civics,2021
+1381,34,Hindi,2021
+1381,72,Art,2021
+1381,74,Biology,2020
+1381,75,Dance,2020
+1381,80,Moral Science,2020
+1381,89,computer,2020
+1381,31,Library,2020
+1381,47,Mathematics,2020
+1381,85,Civics,2020
+1381,67,Hindi,2020
+1382,20,Biology,2022
+1382,63,General Knowledge,2022
+1382,71,computer,2022
+1382,79,Library,2022
+1382,92,Music,2022
+1382,62,Civics,2022
+1382,60,Hindi,2022
+1382,99,Art,2022
+1382,37,Biology,2021
+1382,83,Moral Science,2021
+1382,60,Geography,2021
+1382,87,Library,2021
+1382,35,Mathematics,2021
+1382,67,Civics,2021
+1382,92,Hindi,2021
+1382,96,Art,2021
+1382,45,Biology,2020
+1382,21,Dance,2020
+1382,10,Moral Science,2020
+1382,63,computer,2020
+1382,43,Library,2020
+1382,78,Mathematics,2020
+1382,93,Civics,2020
+1382,80,Hindi,2020
+1383,74,Biology,2022
+1383,46,General Knowledge,2022
+1383,25,computer,2022
+1383,13,Library,2022
+1383,36,Music,2022
+1383,80,Civics,2022
+1383,60,Hindi,2022
+1383,96,Art,2022
+1383,70,Biology,2021
+1383,87,Moral Science,2021
+1383,94,Geography,2021
+1383,31,Library,2021
+1383,20,Mathematics,2021
+1383,100,Civics,2021
+1383,51,Hindi,2021
+1383,46,Art,2021
+1383,47,Biology,2020
+1383,91,Dance,2020
+1383,52,Moral Science,2020
+1383,100,computer,2020
+1383,10,Library,2020
+1383,26,Mathematics,2020
+1383,1,Civics,2020
+1383,77,Hindi,2020
+1384,8,Biology,2022
+1384,64,General Knowledge,2022
+1384,94,computer,2022
+1384,42,Library,2022
+1384,62,Music,2022
+1384,63,Civics,2022
+1384,36,Hindi,2022
+1384,30,Art,2022
+1384,97,Biology,2021
+1384,18,Moral Science,2021
+1384,36,Geography,2021
+1384,97,Library,2021
+1384,15,Mathematics,2021
+1384,56,Civics,2021
+1384,46,Hindi,2021
+1384,47,Art,2021
+1384,40,Biology,2020
+1384,100,Dance,2020
+1384,91,Moral Science,2020
+1384,26,computer,2020
+1384,19,Library,2020
+1384,18,Mathematics,2020
+1384,21,Civics,2020
+1384,60,Hindi,2020
+1385,77,Biology,2022
+1385,54,General Knowledge,2022
+1385,95,computer,2022
+1385,87,Library,2022
+1385,43,Music,2022
+1385,69,Civics,2022
+1385,76,Hindi,2022
+1385,84,Art,2022
+1385,22,Biology,2021
+1385,74,Moral Science,2021
+1385,20,Geography,2021
+1385,34,Library,2021
+1385,29,Mathematics,2021
+1385,15,Civics,2021
+1385,95,Hindi,2021
+1385,4,Art,2021
+1385,11,Biology,2020
+1385,31,Dance,2020
+1385,23,Moral Science,2020
+1385,86,computer,2020
+1385,65,Library,2020
+1385,75,Mathematics,2020
+1385,62,Civics,2020
+1385,54,Hindi,2020
+1386,47,Biology,2022
+1386,49,General Knowledge,2022
+1386,80,computer,2022
+1386,55,Library,2022
+1386,91,Music,2022
+1386,59,Civics,2022
+1386,61,Hindi,2022
+1386,98,Art,2022
+1386,89,Biology,2021
+1386,70,Moral Science,2021
+1386,71,Geography,2021
+1386,88,Library,2021
+1386,53,Mathematics,2021
+1386,82,Civics,2021
+1386,63,Hindi,2021
+1386,42,Art,2021
+1386,69,Biology,2020
+1386,86,Dance,2020
+1386,21,Moral Science,2020
+1386,28,computer,2020
+1386,83,Library,2020
+1386,57,Mathematics,2020
+1386,65,Civics,2020
+1386,29,Hindi,2020
+1387,5,Biology,2022
+1387,26,General Knowledge,2022
+1387,14,computer,2022
+1387,92,Library,2022
+1387,49,Music,2022
+1387,46,Civics,2022
+1387,61,Hindi,2022
+1387,75,Art,2022
+1387,81,Biology,2021
+1387,17,Moral Science,2021
+1387,75,Geography,2021
+1387,3,Library,2021
+1387,100,Mathematics,2021
+1387,82,Civics,2021
+1387,66,Hindi,2021
+1387,46,Art,2021
+1387,32,Biology,2020
+1387,73,Dance,2020
+1387,35,Moral Science,2020
+1387,76,computer,2020
+1387,59,Library,2020
+1387,21,Mathematics,2020
+1387,97,Civics,2020
+1387,60,Hindi,2020
+1388,3,Biology,2022
+1388,0,General Knowledge,2022
+1388,82,computer,2022
+1388,12,Library,2022
+1388,56,Music,2022
+1388,73,Civics,2022
+1388,49,Hindi,2022
+1388,100,Art,2022
+1388,70,Biology,2021
+1388,28,Moral Science,2021
+1388,86,Geography,2021
+1388,99,Library,2021
+1388,32,Mathematics,2021
+1388,30,Civics,2021
+1388,18,Hindi,2021
+1388,38,Art,2021
+1388,61,Biology,2020
+1388,63,Dance,2020
+1388,31,Moral Science,2020
+1388,87,computer,2020
+1388,93,Library,2020
+1388,98,Mathematics,2020
+1388,53,Civics,2020
+1388,65,Hindi,2020
+1389,33,Biology,2022
+1389,46,General Knowledge,2022
+1389,19,computer,2022
+1389,30,Library,2022
+1389,81,Music,2022
+1389,92,Civics,2022
+1389,32,Hindi,2022
+1389,95,Art,2022
+1389,33,Biology,2021
+1389,59,Moral Science,2021
+1389,85,Geography,2021
+1389,97,Library,2021
+1389,12,Mathematics,2021
+1389,87,Civics,2021
+1389,52,Hindi,2021
+1389,51,Art,2021
+1389,46,Biology,2020
+1389,58,Dance,2020
+1389,68,Moral Science,2020
+1389,62,computer,2020
+1389,37,Library,2020
+1389,60,Mathematics,2020
+1389,41,Civics,2020
+1389,78,Hindi,2020
+1390,67,Biology,2022
+1390,49,General Knowledge,2022
+1390,32,computer,2022
+1390,0,Library,2022
+1390,52,Music,2022
+1390,95,Civics,2022
+1390,37,Hindi,2022
+1390,90,Art,2022
+1390,57,Biology,2021
+1390,63,Moral Science,2021
+1390,16,Geography,2021
+1390,64,Library,2021
+1390,86,Mathematics,2021
+1390,31,Civics,2021
+1390,83,Hindi,2021
+1390,31,Art,2021
+1390,14,Biology,2020
+1390,36,Dance,2020
+1390,16,Moral Science,2020
+1390,90,computer,2020
+1390,22,Library,2020
+1390,98,Mathematics,2020
+1390,58,Civics,2020
+1390,20,Hindi,2020
+1391,27,Biology,2022
+1391,81,General Knowledge,2022
+1391,45,computer,2022
+1391,47,Library,2022
+1391,14,Music,2022
+1391,73,Civics,2022
+1391,92,Hindi,2022
+1391,92,Art,2022
+1391,85,Biology,2021
+1391,69,Moral Science,2021
+1391,70,Geography,2021
+1391,79,Library,2021
+1391,89,Mathematics,2021
+1391,25,Civics,2021
+1391,57,Hindi,2021
+1391,16,Art,2021
+1391,95,Biology,2020
+1391,82,Dance,2020
+1391,97,Moral Science,2020
+1391,52,computer,2020
+1391,67,Library,2020
+1391,38,Mathematics,2020
+1391,43,Civics,2020
+1391,91,Hindi,2020
+1392,83,Biology,2022
+1392,2,General Knowledge,2022
+1392,66,computer,2022
+1392,8,Library,2022
+1392,88,Music,2022
+1392,73,Civics,2022
+1392,99,Hindi,2022
+1392,29,Art,2022
+1392,83,Biology,2021
+1392,43,Moral Science,2021
+1392,11,Geography,2021
+1392,18,Library,2021
+1392,36,Mathematics,2021
+1392,57,Civics,2021
+1392,94,Hindi,2021
+1392,21,Art,2021
+1392,29,Biology,2020
+1392,94,Dance,2020
+1392,26,Moral Science,2020
+1392,95,computer,2020
+1392,21,Library,2020
+1392,56,Mathematics,2020
+1392,59,Civics,2020
+1392,66,Hindi,2020
+1393,73,Biology,2022
+1393,17,General Knowledge,2022
+1393,46,computer,2022
+1393,43,Library,2022
+1393,27,Music,2022
+1393,84,Civics,2022
+1393,32,Hindi,2022
+1393,57,Art,2022
+1393,28,Biology,2021
+1393,59,Moral Science,2021
+1393,43,Geography,2021
+1393,84,Library,2021
+1393,34,Mathematics,2021
+1393,55,Civics,2021
+1393,52,Hindi,2021
+1393,68,Art,2021
+1393,26,Biology,2020
+1393,27,Dance,2020
+1393,87,Moral Science,2020
+1393,94,computer,2020
+1393,51,Library,2020
+1393,100,Mathematics,2020
+1393,10,Civics,2020
+1393,70,Hindi,2020
+1394,24,Biology,2022
+1394,49,General Knowledge,2022
+1394,56,computer,2022
+1394,78,Library,2022
+1394,86,Music,2022
+1394,22,Civics,2022
+1394,93,Hindi,2022
+1394,19,Art,2022
+1394,54,Biology,2021
+1394,45,Moral Science,2021
+1394,84,Geography,2021
+1394,61,Library,2021
+1394,54,Mathematics,2021
+1394,86,Civics,2021
+1394,48,Hindi,2021
+1394,78,Art,2021
+1394,44,Biology,2020
+1394,61,Dance,2020
+1394,10,Moral Science,2020
+1394,37,computer,2020
+1394,87,Library,2020
+1394,47,Mathematics,2020
+1394,35,Civics,2020
+1394,81,Hindi,2020
+1395,67,Biology,2022
+1395,18,General Knowledge,2022
+1395,94,computer,2022
+1395,8,Library,2022
+1395,49,Music,2022
+1395,87,Civics,2022
+1395,3,Hindi,2022
+1395,99,Art,2022
+1395,6,Biology,2021
+1395,68,Moral Science,2021
+1395,33,Geography,2021
+1395,70,Library,2021
+1395,67,Mathematics,2021
+1395,28,Civics,2021
+1395,33,Hindi,2021
+1395,73,Art,2021
+1395,5,Biology,2020
+1395,35,Dance,2020
+1395,48,Moral Science,2020
+1395,99,computer,2020
+1395,81,Library,2020
+1395,59,Mathematics,2020
+1395,45,Civics,2020
+1395,72,Hindi,2020
+1396,99,Biology,2022
+1396,28,General Knowledge,2022
+1396,98,computer,2022
+1396,25,Library,2022
+1396,30,Music,2022
+1396,95,Civics,2022
+1396,74,Hindi,2022
+1396,66,Art,2022
+1396,55,Biology,2021
+1396,58,Moral Science,2021
+1396,68,Geography,2021
+1396,22,Library,2021
+1396,99,Mathematics,2021
+1396,48,Civics,2021
+1396,86,Hindi,2021
+1396,30,Art,2021
+1396,43,Biology,2020
+1396,92,Dance,2020
+1396,34,Moral Science,2020
+1396,96,computer,2020
+1396,99,Library,2020
+1396,92,Mathematics,2020
+1396,35,Civics,2020
+1396,36,Hindi,2020
+1397,34,Biology,2022
+1397,53,General Knowledge,2022
+1397,82,computer,2022
+1397,25,Library,2022
+1397,2,Music,2022
+1397,64,Civics,2022
+1397,43,Hindi,2022
+1397,51,Art,2022
+1397,100,Biology,2021
+1397,57,Moral Science,2021
+1397,51,Geography,2021
+1397,62,Library,2021
+1397,95,Mathematics,2021
+1397,81,Civics,2021
+1397,97,Hindi,2021
+1397,0,Art,2021
+1397,58,Biology,2020
+1397,81,Dance,2020
+1397,21,Moral Science,2020
+1397,33,computer,2020
+1397,32,Library,2020
+1397,98,Mathematics,2020
+1397,25,Civics,2020
+1397,37,Hindi,2020
+1398,22,Biology,2022
+1398,64,General Knowledge,2022
+1398,91,computer,2022
+1398,66,Library,2022
+1398,34,Music,2022
+1398,53,Civics,2022
+1398,31,Hindi,2022
+1398,68,Art,2022
+1398,87,Biology,2021
+1398,7,Moral Science,2021
+1398,84,Geography,2021
+1398,20,Library,2021
+1398,76,Mathematics,2021
+1398,27,Civics,2021
+1398,22,Hindi,2021
+1398,52,Art,2021
+1398,92,Biology,2020
+1398,62,Dance,2020
+1398,6,Moral Science,2020
+1398,91,computer,2020
+1398,3,Library,2020
+1398,46,Mathematics,2020
+1398,34,Civics,2020
+1398,44,Hindi,2020
+1399,16,Biology,2022
+1399,8,General Knowledge,2022
+1399,21,computer,2022
+1399,44,Library,2022
+1399,26,Music,2022
+1399,9,Civics,2022
+1399,58,Hindi,2022
+1399,85,Art,2022
+1399,22,Biology,2021
+1399,54,Moral Science,2021
+1399,5,Geography,2021
+1399,39,Library,2021
+1399,22,Mathematics,2021
+1399,29,Civics,2021
+1399,53,Hindi,2021
+1399,67,Art,2021
+1399,95,Biology,2020
+1399,63,Dance,2020
+1399,1,Moral Science,2020
+1399,36,computer,2020
+1399,14,Library,2020
+1399,15,Mathematics,2020
+1399,61,Civics,2020
+1399,65,Hindi,2020
+1400,23,Biology,2022
+1400,35,General Knowledge,2022
+1400,76,computer,2022
+1400,67,Library,2022
+1400,88,Music,2022
+1400,80,Civics,2022
+1400,96,Hindi,2022
+1400,80,Art,2022
+1400,99,Biology,2021
+1400,96,Moral Science,2021
+1400,77,Geography,2021
+1400,47,Library,2021
+1400,99,Mathematics,2021
+1400,36,Civics,2021
+1400,74,Hindi,2021
+1400,39,Art,2021
+1400,98,Biology,2020
+1400,54,Dance,2020
+1400,71,Moral Science,2020
+1400,40,computer,2020
+1400,68,Library,2020
+1400,62,Mathematics,2020
+1400,41,Civics,2020
+1400,44,Hindi,2020
+1401,97,General Knowledge,2022
+1401,77,Dance,2022
+1401,34,Moral Science,2022
+1401,32,Library,2022
+1401,4,Music,2022
+1401,21,Chemistry,2022
+1401,49,English,2022
+1401,32,Hindi,2022
+1401,20,Dance,2021
+1401,26,Moral Science,2021
+1401,13,History,2021
+1401,88,computer,2021
+1401,12,Library,2021
+1401,79,Chemistry,2021
+1401,85,Physics,2021
+1401,90,Hindi,2021
+1401,18,General Knowledge,2020
+1401,34,Geography,2020
+1401,84,Library,2020
+1401,0,computer,2020
+1401,7,Mathematics,2020
+1401,63,Civics,2020
+1401,79,Physics,2020
+1401,68,Art,2020
+1402,35,General Knowledge,2022
+1402,24,Dance,2022
+1402,98,Moral Science,2022
+1402,81,Library,2022
+1402,94,Music,2022
+1402,38,Chemistry,2022
+1402,39,English,2022
+1402,86,Hindi,2022
+1402,33,Dance,2021
+1402,33,Moral Science,2021
+1402,8,History,2021
+1402,68,computer,2021
+1402,93,Library,2021
+1402,3,Chemistry,2021
+1402,21,Physics,2021
+1402,64,Hindi,2021
+1402,32,General Knowledge,2020
+1402,11,Geography,2020
+1402,83,Library,2020
+1402,61,computer,2020
+1402,91,Mathematics,2020
+1402,63,Civics,2020
+1402,81,Physics,2020
+1402,50,Art,2020
+1403,24,General Knowledge,2022
+1403,19,Dance,2022
+1403,59,Moral Science,2022
+1403,93,Library,2022
+1403,94,Music,2022
+1403,55,Chemistry,2022
+1403,53,English,2022
+1403,23,Hindi,2022
+1403,69,Dance,2021
+1403,96,Moral Science,2021
+1403,87,History,2021
+1403,94,computer,2021
+1403,95,Library,2021
+1403,15,Chemistry,2021
+1403,51,Physics,2021
+1403,5,Hindi,2021
+1403,22,General Knowledge,2020
+1403,82,Geography,2020
+1403,64,Library,2020
+1403,70,computer,2020
+1403,30,Mathematics,2020
+1403,31,Civics,2020
+1403,22,Physics,2020
+1403,41,Art,2020
+1404,72,General Knowledge,2022
+1404,38,Dance,2022
+1404,99,Moral Science,2022
+1404,46,Library,2022
+1404,24,Music,2022
+1404,36,Chemistry,2022
+1404,54,English,2022
+1404,34,Hindi,2022
+1404,98,Dance,2021
+1404,96,Moral Science,2021
+1404,90,History,2021
+1404,65,computer,2021
+1404,34,Library,2021
+1404,93,Chemistry,2021
+1404,91,Physics,2021
+1404,66,Hindi,2021
+1404,23,General Knowledge,2020
+1404,71,Geography,2020
+1404,1,Library,2020
+1404,84,computer,2020
+1404,81,Mathematics,2020
+1404,33,Civics,2020
+1404,41,Physics,2020
+1404,61,Art,2020
+1405,27,General Knowledge,2022
+1405,64,Dance,2022
+1405,57,Moral Science,2022
+1405,65,Library,2022
+1405,64,Music,2022
+1405,86,Chemistry,2022
+1405,67,English,2022
+1405,43,Hindi,2022
+1405,18,Dance,2021
+1405,12,Moral Science,2021
+1405,12,History,2021
+1405,63,computer,2021
+1405,54,Library,2021
+1405,75,Chemistry,2021
+1405,57,Physics,2021
+1405,57,Hindi,2021
+1405,93,General Knowledge,2020
+1405,26,Geography,2020
+1405,14,Library,2020
+1405,11,computer,2020
+1405,28,Mathematics,2020
+1405,98,Civics,2020
+1405,86,Physics,2020
+1405,63,Art,2020
+1406,81,General Knowledge,2022
+1406,41,Dance,2022
+1406,40,Moral Science,2022
+1406,93,Library,2022
+1406,35,Music,2022
+1406,40,Chemistry,2022
+1406,46,English,2022
+1406,28,Hindi,2022
+1406,40,Dance,2021
+1406,35,Moral Science,2021
+1406,91,History,2021
+1406,37,computer,2021
+1406,35,Library,2021
+1406,100,Chemistry,2021
+1406,91,Physics,2021
+1406,28,Hindi,2021
+1406,34,General Knowledge,2020
+1406,64,Geography,2020
+1406,78,Library,2020
+1406,2,computer,2020
+1406,13,Mathematics,2020
+1406,42,Civics,2020
+1406,11,Physics,2020
+1406,29,Art,2020
+1407,73,General Knowledge,2022
+1407,50,Dance,2022
+1407,54,Moral Science,2022
+1407,59,Library,2022
+1407,44,Music,2022
+1407,55,Chemistry,2022
+1407,32,English,2022
+1407,91,Hindi,2022
+1407,25,Dance,2021
+1407,73,Moral Science,2021
+1407,47,History,2021
+1407,79,computer,2021
+1407,27,Library,2021
+1407,53,Chemistry,2021
+1407,39,Physics,2021
+1407,61,Hindi,2021
+1407,46,General Knowledge,2020
+1407,1,Geography,2020
+1407,66,Library,2020
+1407,75,computer,2020
+1407,71,Mathematics,2020
+1407,4,Civics,2020
+1407,79,Physics,2020
+1407,96,Art,2020
+1408,90,General Knowledge,2022
+1408,99,Dance,2022
+1408,8,Moral Science,2022
+1408,99,Library,2022
+1408,21,Music,2022
+1408,33,Chemistry,2022
+1408,50,English,2022
+1408,82,Hindi,2022
+1408,75,Dance,2021
+1408,91,Moral Science,2021
+1408,26,History,2021
+1408,25,computer,2021
+1408,94,Library,2021
+1408,41,Chemistry,2021
+1408,58,Physics,2021
+1408,79,Hindi,2021
+1408,47,General Knowledge,2020
+1408,9,Geography,2020
+1408,42,Library,2020
+1408,4,computer,2020
+1408,67,Mathematics,2020
+1408,88,Civics,2020
+1408,63,Physics,2020
+1408,54,Art,2020
+1409,98,General Knowledge,2022
+1409,81,Dance,2022
+1409,72,Moral Science,2022
+1409,44,Library,2022
+1409,20,Music,2022
+1409,2,Chemistry,2022
+1409,98,English,2022
+1409,32,Hindi,2022
+1409,0,Dance,2021
+1409,37,Moral Science,2021
+1409,11,History,2021
+1409,34,computer,2021
+1409,34,Library,2021
+1409,8,Chemistry,2021
+1409,60,Physics,2021
+1409,29,Hindi,2021
+1409,50,General Knowledge,2020
+1409,30,Geography,2020
+1409,99,Library,2020
+1409,33,computer,2020
+1409,91,Mathematics,2020
+1409,43,Civics,2020
+1409,23,Physics,2020
+1409,49,Art,2020
+1410,77,General Knowledge,2022
+1410,65,Dance,2022
+1410,95,Moral Science,2022
+1410,49,Library,2022
+1410,91,Music,2022
+1410,21,Chemistry,2022
+1410,7,English,2022
+1410,63,Hindi,2022
+1410,67,Dance,2021
+1410,19,Moral Science,2021
+1410,71,History,2021
+1410,85,computer,2021
+1410,53,Library,2021
+1410,22,Chemistry,2021
+1410,19,Physics,2021
+1410,59,Hindi,2021
+1410,84,General Knowledge,2020
+1410,33,Geography,2020
+1410,96,Library,2020
+1410,89,computer,2020
+1410,74,Mathematics,2020
+1410,94,Civics,2020
+1410,84,Physics,2020
+1410,29,Art,2020
+1411,97,General Knowledge,2022
+1411,79,Dance,2022
+1411,29,Moral Science,2022
+1411,3,Library,2022
+1411,78,Music,2022
+1411,45,Chemistry,2022
+1411,34,English,2022
+1411,31,Hindi,2022
+1411,91,Dance,2021
+1411,93,Moral Science,2021
+1411,58,History,2021
+1411,26,computer,2021
+1411,26,Library,2021
+1411,94,Chemistry,2021
+1411,47,Physics,2021
+1411,34,Hindi,2021
+1411,24,General Knowledge,2020
+1411,16,Geography,2020
+1411,48,Library,2020
+1411,86,computer,2020
+1411,44,Mathematics,2020
+1411,70,Civics,2020
+1411,62,Physics,2020
+1411,86,Art,2020
+1412,83,General Knowledge,2022
+1412,80,Dance,2022
+1412,64,Moral Science,2022
+1412,87,Library,2022
+1412,32,Music,2022
+1412,53,Chemistry,2022
+1412,8,English,2022
+1412,36,Hindi,2022
+1412,99,Dance,2021
+1412,86,Moral Science,2021
+1412,7,History,2021
+1412,89,computer,2021
+1412,42,Library,2021
+1412,92,Chemistry,2021
+1412,2,Physics,2021
+1412,68,Hindi,2021
+1412,38,General Knowledge,2020
+1412,78,Geography,2020
+1412,28,Library,2020
+1412,53,computer,2020
+1412,5,Mathematics,2020
+1412,38,Civics,2020
+1412,53,Physics,2020
+1412,22,Art,2020
+1413,82,General Knowledge,2022
+1413,26,Dance,2022
+1413,50,Moral Science,2022
+1413,60,Library,2022
+1413,73,Music,2022
+1413,94,Chemistry,2022
+1413,28,English,2022
+1413,45,Hindi,2022
+1413,39,Dance,2021
+1413,99,Moral Science,2021
+1413,74,History,2021
+1413,49,computer,2021
+1413,37,Library,2021
+1413,15,Chemistry,2021
+1413,42,Physics,2021
+1413,34,Hindi,2021
+1413,49,General Knowledge,2020
+1413,100,Geography,2020
+1413,31,Library,2020
+1413,21,computer,2020
+1413,18,Mathematics,2020
+1413,11,Civics,2020
+1413,58,Physics,2020
+1413,67,Art,2020
+1414,66,General Knowledge,2022
+1414,88,Dance,2022
+1414,50,Moral Science,2022
+1414,37,Library,2022
+1414,33,Music,2022
+1414,73,Chemistry,2022
+1414,52,English,2022
+1414,98,Hindi,2022
+1414,40,Dance,2021
+1414,81,Moral Science,2021
+1414,79,History,2021
+1414,23,computer,2021
+1414,60,Library,2021
+1414,33,Chemistry,2021
+1414,100,Physics,2021
+1414,53,Hindi,2021
+1414,45,General Knowledge,2020
+1414,69,Geography,2020
+1414,84,Library,2020
+1414,19,computer,2020
+1414,37,Mathematics,2020
+1414,86,Civics,2020
+1414,31,Physics,2020
+1414,23,Art,2020
+1415,0,General Knowledge,2022
+1415,92,Dance,2022
+1415,32,Moral Science,2022
+1415,83,Library,2022
+1415,66,Music,2022
+1415,99,Chemistry,2022
+1415,48,English,2022
+1415,95,Hindi,2022
+1415,48,Dance,2021
+1415,84,Moral Science,2021
+1415,21,History,2021
+1415,46,computer,2021
+1415,82,Library,2021
+1415,44,Chemistry,2021
+1415,99,Physics,2021
+1415,63,Hindi,2021
+1415,79,General Knowledge,2020
+1415,65,Geography,2020
+1415,51,Library,2020
+1415,7,computer,2020
+1415,61,Mathematics,2020
+1415,90,Civics,2020
+1415,83,Physics,2020
+1415,88,Art,2020
+1416,2,General Knowledge,2022
+1416,66,Dance,2022
+1416,61,Moral Science,2022
+1416,33,Library,2022
+1416,34,Music,2022
+1416,50,Chemistry,2022
+1416,88,English,2022
+1416,24,Hindi,2022
+1416,45,Dance,2021
+1416,64,Moral Science,2021
+1416,32,History,2021
+1416,78,computer,2021
+1416,59,Library,2021
+1416,25,Chemistry,2021
+1416,34,Physics,2021
+1416,89,Hindi,2021
+1416,65,General Knowledge,2020
+1416,42,Geography,2020
+1416,12,Library,2020
+1416,26,computer,2020
+1416,48,Mathematics,2020
+1416,26,Civics,2020
+1416,64,Physics,2020
+1416,100,Art,2020
+1417,56,General Knowledge,2022
+1417,63,Dance,2022
+1417,45,Moral Science,2022
+1417,47,Library,2022
+1417,62,Music,2022
+1417,51,Chemistry,2022
+1417,8,English,2022
+1417,78,Hindi,2022
+1417,74,Dance,2021
+1417,90,Moral Science,2021
+1417,57,History,2021
+1417,40,computer,2021
+1417,76,Library,2021
+1417,85,Chemistry,2021
+1417,10,Physics,2021
+1417,94,Hindi,2021
+1417,33,General Knowledge,2020
+1417,52,Geography,2020
+1417,40,Library,2020
+1417,83,computer,2020
+1417,40,Mathematics,2020
+1417,2,Civics,2020
+1417,90,Physics,2020
+1417,84,Art,2020
+1418,22,General Knowledge,2022
+1418,89,Dance,2022
+1418,33,Moral Science,2022
+1418,3,Library,2022
+1418,36,Music,2022
+1418,62,Chemistry,2022
+1418,78,English,2022
+1418,59,Hindi,2022
+1418,41,Dance,2021
+1418,82,Moral Science,2021
+1418,89,History,2021
+1418,38,computer,2021
+1418,27,Library,2021
+1418,4,Chemistry,2021
+1418,71,Physics,2021
+1418,60,Hindi,2021
+1418,41,General Knowledge,2020
+1418,99,Geography,2020
+1418,37,Library,2020
+1418,69,computer,2020
+1418,0,Mathematics,2020
+1418,96,Civics,2020
+1418,92,Physics,2020
+1418,33,Art,2020
+1419,57,General Knowledge,2022
+1419,28,Dance,2022
+1419,22,Moral Science,2022
+1419,71,Library,2022
+1419,5,Music,2022
+1419,36,Chemistry,2022
+1419,4,English,2022
+1419,38,Hindi,2022
+1419,46,Dance,2021
+1419,7,Moral Science,2021
+1419,48,History,2021
+1419,79,computer,2021
+1419,90,Library,2021
+1419,97,Chemistry,2021
+1419,95,Physics,2021
+1419,56,Hindi,2021
+1419,93,General Knowledge,2020
+1419,87,Geography,2020
+1419,67,Library,2020
+1419,9,computer,2020
+1419,70,Mathematics,2020
+1419,85,Civics,2020
+1419,53,Physics,2020
+1419,37,Art,2020
+1420,17,General Knowledge,2022
+1420,75,Dance,2022
+1420,37,Moral Science,2022
+1420,12,Library,2022
+1420,98,Music,2022
+1420,72,Chemistry,2022
+1420,47,English,2022
+1420,52,Hindi,2022
+1420,57,Dance,2021
+1420,78,Moral Science,2021
+1420,78,History,2021
+1420,60,computer,2021
+1420,37,Library,2021
+1420,30,Chemistry,2021
+1420,20,Physics,2021
+1420,52,Hindi,2021
+1420,65,General Knowledge,2020
+1420,86,Geography,2020
+1420,40,Library,2020
+1420,36,computer,2020
+1420,46,Mathematics,2020
+1420,52,Civics,2020
+1420,31,Physics,2020
+1420,18,Art,2020

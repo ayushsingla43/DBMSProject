@@ -50,7 +50,6 @@
                         </select>
                         <input type="submit" placeholder="Show" class="submit_button">
                     </form>
-                    <input type="checkbox" checked data-toggle="toggle" data-on="Hello<br>World" data-off="Goodbye<br>World">
                 </div>
                 <div class="details_table">
                     <table>
@@ -64,7 +63,7 @@
                         </thead>
                         <tr th:each="staff: ${staffs}">
                             <td>[[${staff.get("emp_id")}]]</td>
-                            <td>[[${staff.get("name")}]]</td>
+                            <td class="highlight"><a th:href="@{'/staff/profile/'+${staff.get('UID')}}"> [[${staff.get("name")}]]</a></td>
                             <td>[[${staff.get("phone_1")}]]</td>
                             <td>[[${staff.get("joining_date")}]]</td>
                             <td>[[${staff.get("leaving_date")}]]</td>

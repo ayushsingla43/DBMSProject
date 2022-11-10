@@ -28,8 +28,14 @@
                                 <input class="form-control" type="text" id="Stf_name" name="stf_name" required>
                             </div>
                             <div class="form-floating col-md-4 my_input">
-                                <label for="Stf_gender">Gender</label>
-                                <input class="form-control" type="text" id="Stf_gender" name="stf_gender">
+                                <select name="stf_gender" class="form-control" id="Stf_gender" required>
+                                    <option value="" disabled selected hidden></option>
+                                    <option value="N">None</option>
+                                    <option value="M">Male</option>
+                                    <option value="F">Female</option>
+                                    <br>
+                                    <label for="Gender">Gender</label>
+                                </select>
                             </div>
                             <div class="form-floating col-md-4 my_input">
                                 <label for="Stf_dob">Date of Birth</label>
@@ -95,13 +101,9 @@
                                 <label for="Stf_pin">PIN</label>
                                 <input class="form-control" type="number" id="Stf_pin" name="stf_pin">
                             </div>
-                            <div class="form-floating col-md-4 my_input">
-                                <label for="Stf_photo">Photo</label>
-                                <input class="form-control" type="text" id="Stf_photo" name="stf_photo">
-                            </div>
-                            <div class="my_button">
-                                <button type="submit" class="btn btn-primary">Submit</button>
-                            </div>
+                        </div>
+                        <div class="my_button">
+                            <button type="submit" class="btn btn-primary">Submit</button>
                         </div>
                     </form>
                 </div>

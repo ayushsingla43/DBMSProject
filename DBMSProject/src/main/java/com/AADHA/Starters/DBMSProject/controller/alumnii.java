@@ -40,7 +40,7 @@ public class alumnii {
     }
 
     @PostMapping("/staff/alumni/edit")
-    public String editAlumni(int del_SRN, int add_SRN, RedirectAttributes redirectAttributes, HttpSession session){
+    public String editAlumni(Integer del_SRN, int add_SRN, RedirectAttributes redirectAttributes, HttpSession session){
         int x = (int)session.getAttribute("authority");
         if(x<3){
             return "error/405.html";
@@ -49,9 +49,9 @@ public class alumnii {
         alumni a = adao.getBySRN(add_SRN);
         if(a==null){
             redirectAttributes.addFlashAttribute("message", "Alumni does not exist!");
-            return "redirect:/staff/alumni";
+            return "redirect:/student/alumni";
         }
         adao.updateShowAlumni(del_SRN, add_SRN);
-        return "redirect:/staff/alumni";
+        return "redirect:/student/alumni";
     }
 }

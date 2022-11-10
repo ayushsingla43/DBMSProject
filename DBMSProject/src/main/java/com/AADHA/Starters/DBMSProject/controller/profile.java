@@ -21,13 +21,7 @@ public class profile {
     JdbcTemplate j;
 
     @GetMapping("/staff/profile/{UID}")
-    public ModelAndView profStaff(@PathVariable("UID") String str, HttpSession session){
-        int x = (int) session.getAttribute("authority");
-        if(x==1) return new ModelAndView("error/405.html");
-        else if (x==2) {
-            String UID = (String)session.getAttribute("UID");
-            if(!UID.equals(str)) return new ModelAndView("error/405.html");
-        }
+    public ModelAndView profStaff(@PathVariable("UID") String str){
         ModelAndView mv = new ModelAndView("staffProfile.html");
         staffdao stfd = new staffdao(j);
         workindao wrkd = new workindao(j);

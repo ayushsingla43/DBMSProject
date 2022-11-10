@@ -61,6 +61,13 @@ body{
     align-items: center;
     justify-content: center;
     padding-bottom: 10px;
+   
   }
+
+  .my_button button {
+    background-color: #0b5f9b !important;
+    border: none;
+  }
+  
 
 

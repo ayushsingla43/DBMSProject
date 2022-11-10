@@ -1,0 +1,184 @@
+drop database school;
+create database school;
+use school;
+
+create table staff(
+	emp_id int primary key auto_increment,
+	name varchar(30) not null,
+    photo varchar(100),
+    gender char(1),
+    phone_1 char(10) not null unique,
+    phone_2 char(10),
+    DOB varchar(15) not null,
+    email varchar(50) not null unique,
+    blood_grp varchar(5),
+    exp_years int,
+    salary int not null,
+    PIN int,street varchar(30), city varchar(30), state varchar(20),
+    Aadhar_no varchar(15) not null unique,
+    PAN_no varchar(20) not null unique,
+    curr int default 1,
+    UID varchar(20) unique,
+    password varchar(20) not null
+);
+
+create table department(
+	dept_name varchar(20) primary key,
+    contact char(10) not null unique,
+    email varchar(50) not null unique,
+    floor_no int not null,
+    room_no int not null,
+    head int,
+    foreign key(head) references staff(emp_id) on delete set null on update set null
+);
+
+create table works_in(
+	emp_id int,
+    dept_name varchar(20),
+    joining_date varchar(15) not null,
+    leaving_date varchar(15),
+    primary key(emp_id,dept_name),
+    foreign key(emp_id) references staff(emp_id) on delete cascade on update cascade,
+    foreign key(dept_name) references department(dept_name) on delete cascade on update cascade
+);
+
+create table class(
+	class_no int,
+    section_no int,
+    floor_no int not null,
+    room_no int not null,
+    incharge int,
+    foreign key(incharge) references staff(emp_id),
+    primary key(class_no,section_no)
+);
+
+create table student(
+	SRN int primary key auto_increment,
+    name varchar(30) not null,
+    photo varchar(100),
+    gender char(1),
+    phone_1 char(10) not null,
+    phone_2 char(10),
+    DOB varchar(15) not null,
+    admission_date varchar(15) not null,
+    email varchar(50) not null,
+    blood_grp varchar(5),
+    guardian varchar(30) not null,
+    mother varchar(30),
+    PIN int,street varchar(30), city varchar(30), state varchar(20),
+    Aadhar_no varchar(15) not null unique,
+    class_no int,
+    section_no int,
+    UID varchar(20) unique ,
+    password varchar(20) not null,
+    foreign key(class_no,section_no) references class(class_no,section_no) on delete set null on update set null
+);
+
+create table courses(
+	class_no int,
+    section_no int,
+    emp_id int,
+    session_no int,
+    dept_name varchar(20),
+    primary key(class_no,section_no,dept_name,session_no),
+    foreign key(class_no,section_no) references class(class_no,section_no) on delete cascade on update cascade,
+    foreign key(emp_id) references staff(emp_id) on delete set null on update set null,
+    foreign key(dept_name) references department(dept_name) on delete cascade on update cascade
+);
+
+create table prev_class(
+	SRN int,
+    session_no int,
+    class_no int,
+    section_no int,
+    primary key(SRN,session_no)
+);
+
+create table results(
+	SRN int,
+    session_no int,
+    course varchar(20),
+    marks int,
+    primary key(SRN,session_no,course),
+    foreign key(SRN,session_no) references prev_class(SRN,session_no)
+);
+
+create table alumni(
+	SRN int primary key,
+    name varchar(30) not null,
+    photo varchar(100),
+    gender char(1),
+    phone_1 char(10) not null,
+    phone_2 char(10),
+    admission_date varchar(15) not null,
+    email varchar(50) not null,
+    Aadhar_no varchar(15) not null,
+    last_class int not null,
+    leave_year int not null
+);
+
+LOAD DATA INFILE "D:/my_sql2/data/Uploads/staff.csv"
+INTO TABLE staff
+FIELDS TERMINATED BY ','
+optionally enclosed by '\"'
+LINES TERMINATED BY '\n'
+ignore 1 rows
+(emp_id,name,gender,phone_1,phone_2,DOB,email,blood_grp,exp_years,salary,PIN,street,city,Aadhar_no,PAN_no,state,UID,password,curr);
+
+LOAD DATA INFILE "D:/my_sql2/data/Uploads/department.csv"
+INTO TABLE department
+FIELDS TERMINATED BY ','
+LINES TERMINATED BY '\n'
+ignore 1 rows
+(dept_name,contact,email,floor_no,room_no,head);
+
+LOAD DATA INFILE "D:/my_sql2/data/Uploads/works_in.csv"
+INTO TABLE works_in
+FIELDS TERMINATED BY ','
+LINES TERMINATED BY '\n'
+ignore 1 rows
+(dept_name,joining_date,leaving_date,emp_id);
+
+LOAD DATA INFILE "D:/my_sql2/data/Uploads/class.csv"
+INTO TABLE class
+FIELDS TERMINATED BY ','
+LINES TERMINATED BY '\n'
+ignore 1 rows
+(class_no,section_no,floor_no,room_no,incharge);
+
+LOAD DATA INFILE "D:/my_sql2/data/Uploads/student.csv"
+INTO TABLE student
+FIELDS TERMINATED BY ','
+optionally enclosed by '\"'
+LINES TERMINATED BY '\n'
+ignore 1 rows
+(SRN,name,gender,phone_1,phone_2,DOB,admission_date,email,blood_grp,guardian,mother,PIN,street,city,Aadhar_no,state,photo,UID,password,class_no,section_no);
+
+LOAD DATA INFILE "D:/my_sql2/data/Uploads/courses.csv"
+INTO TABLE courses
+FIELDS TERMINATED BY ','
+optionally enclosed by '\"'
+LINES TERMINATED BY '\n'
+ignore 1 rows
+(section_no,emp_id,session_no,dept_name,class_no);
+
+LOAD DATA INFILE "D:/my_sql2/data/Uploads/prev_class.csv"
+INTO TABLE prev_class
+FIELDS TERMINATED BY ','
+optionally enclosed by '\"'
+LINES TERMINATED BY '\n'
+ignore 1 rows
+(SRN,session_no,class_no,section_no);
+
+LOAD DATA INFILE "D:/my_sql2/data/Uploads//results.csv"
+INTO TABLE results
+FIELDS TERMINATED BY ','
+optionally enclosed by '\"'
+LINES TERMINATED BY '\n'
+ignore 1 rows
+(SRN,marks,course,session_no);
+
+create table show_alumni(
+	SRN int primary key,
+    foreign key(SRN) references alumni(SRN)
+);

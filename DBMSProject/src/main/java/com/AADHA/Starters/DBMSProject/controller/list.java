@@ -49,7 +49,8 @@ public class list {
     }
 
     @GetMapping("/student/list")
-    public ModelAndView student_list(){
+    public ModelAndView student_list(HttpSession session){
+        if((int)(session.getAttribute("authority"))<2) return new ModelAndView("error/405.html");
         ModelAndView mv = new ModelAndView("studentList.html");
         classdao cls = new classdao(j);
         List<String> class_no = cls.Classes();
@@ -74,7 +75,8 @@ public class list {
     }
 
     @GetMapping("/staff/assign")
-    public ModelAndView assign(){
+    public ModelAndView assign(HttpSession session){
+        if((int)(session.getAttribute("authority"))<3) return new ModelAndView("error/405.html");
         ModelAndView mv=new ModelAndView("staffAssign.html");
         classdao cls = new classdao(j);
         coursesdao crs=new coursesdao(j);

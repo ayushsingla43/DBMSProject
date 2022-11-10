@@ -1,0 +1,433 @@
+section_no,emp_id,session_no,dept_name,class_no
+1,1053,2022,Physics,6
+1,1053,2021,Physics,6
+1,1053,2020,Physics,6
+1,1004,2022,History,6
+1,1004,2021,History,6
+1,1004,2020,History,6
+1,1016,2022,Sports,6
+1,1016,2021,Sports,6
+1,1016,2020,Sports,6
+1,1043,2022,Mathematics,6
+1,1043,2021,Mathematics,6
+1,1043,2020,Mathematics,6
+1,1041,2022,Moral Science,6
+1,1041,2021,Moral Science,6
+1,1041,2020,Moral Science,6
+1,1026,2022,Music,6
+1,1026,2021,Music,6
+1,1026,2020,Music,6
+1,1011,2022,Library,6
+1,1011,2021,Library,6
+1,1011,2020,Library,6
+1,1014,2022,Civics,6
+1,1014,2021,Civics,6
+1,1014,2020,Civics,6
+2,1027,2022,Music,6
+2,1027,2021,Music,6
+2,1027,2020,Music,6
+2,1048,2022,Mathematics,6
+2,1048,2021,Mathematics,6
+2,1048,2020,Mathematics,6
+2,1018,2022,English,6
+2,1018,2021,English,6
+2,1018,2020,English,6
+2,1056,2022,Physics,6
+2,1056,2021,Physics,6
+2,1056,2020,Physics,6
+2,1017,2022,Sports,6
+2,1017,2021,Sports,6
+2,1017,2020,Sports,6
+2,1028,2022,General Knowledge,6
+2,1028,2021,General Knowledge,6
+2,1028,2020,General Knowledge,6
+2,1033,2022,computer,6
+2,1033,2021,computer,6
+2,1033,2020,computer,6
+2,1019,2022,Art,6
+2,1019,2021,Art,6
+2,1019,2020,Art,6
+3,1013,2022,Dance,6
+3,1013,2021,Dance,6
+3,1013,2020,Dance,6
+3,1043,2022,English,6
+3,1043,2021,English,6
+3,1043,2020,English,6
+3,1012,2022,Library,6
+3,1012,2021,Library,6
+3,1012,2020,Library,6
+3,1003,2022,Biology,6
+3,1003,2021,Biology,6
+3,1003,2020,Biology,6
+3,1038,2022,Civics,6
+3,1038,2021,Civics,6
+3,1038,2020,Civics,6
+3,1003,2022,Hindi,6
+3,1003,2021,Hindi,6
+3,1003,2020,Hindi,6
+3,1029,2022,General Knowledge,6
+3,1029,2021,General Knowledge,6
+3,1029,2020,General Knowledge,6
+3,1013,2022,Geography,6
+3,1013,2021,Geography,6
+3,1013,2020,Geography,6
+1,1014,2022,Civics,7
+1,1014,2021,Civics,7
+1,1014,2020,Civics,7
+1,1043,2022,Mathematics,7
+1,1043,2021,Mathematics,7
+1,1043,2020,Mathematics,7
+1,1053,2022,Physics,7
+1,1053,2021,Physics,7
+1,1053,2020,Physics,7
+1,1076,2022,Hindi,7
+1,1076,2021,Hindi,7
+1,1076,2020,Hindi,7
+1,1026,2022,Music,7
+1,1026,2021,Music,7
+1,1026,2020,Music,7
+1,1018,2022,English,7
+1,1018,2021,English,7
+1,1018,2020,English,7
+1,1036,2022,Art,7
+1,1036,2021,Art,7
+1,1036,2020,Art,7
+1,1033,2022,Biology,7
+1,1033,2021,Biology,7
+1,1033,2020,Biology,7
+2,1018,2022,History,7
+2,1018,2021,History,7
+2,1018,2020,History,7
+2,1003,2022,Hindi,7
+2,1003,2021,Hindi,7
+2,1003,2020,Hindi,7
+2,1028,2022,General Knowledge,7
+2,1028,2021,General Knowledge,7
+2,1028,2020,General Knowledge,7
+2,1073,2022,computer,7
+2,1073,2021,computer,7
+2,1073,2020,computer,7
+2,1056,2022,Physics,7
+2,1056,2021,Physics,7
+2,1056,2020,Physics,7
+2,1011,2022,Library,7
+2,1011,2021,Library,7
+2,1011,2020,Library,7
+2,1031,2022,Dance,7
+2,1031,2021,Dance,7
+2,1031,2020,Dance,7
+2,1019,2022,Art,7
+2,1019,2021,Art,7
+2,1019,2020,Art,7
+3,1042,2022,Moral Science,7
+3,1042,2021,Moral Science,7
+3,1042,2020,Moral Science,7
+3,1029,2022,General Knowledge,7
+3,1029,2021,General Knowledge,7
+3,1029,2020,General Knowledge,7
+3,1004,2022,History,7
+3,1004,2021,History,7
+3,1004,2020,History,7
+3,1003,2022,Biology,7
+3,1003,2021,Biology,7
+3,1003,2020,Biology,7
+3,1013,2022,Dance,7
+3,1013,2021,Dance,7
+3,1013,2020,Dance,7
+3,1053,2022,Physics,7
+3,1053,2021,Physics,7
+3,1053,2020,Physics,7
+3,1028,2022,Chemistry,7
+3,1028,2021,Chemistry,7
+3,1028,2020,Chemistry,7
+3,1012,2022,Library,7
+3,1012,2021,Library,7
+3,1012,2020,Library,7
+1,1036,2022,Art,8
+1,1036,2021,Art,8
+1,1036,2020,Art,8
+1,1016,2022,Sports,8
+1,1016,2021,Sports,8
+1,1016,2020,Sports,8
+1,1039,2022,Geography,8
+1,1039,2021,Geography,8
+1,1039,2020,Geography,8
+1,1027,2022,Music,8
+1,1027,2021,Music,8
+1,1027,2020,Music,8
+1,1038,2022,Civics,8
+1,1038,2021,Civics,8
+1,1038,2020,Civics,8
+1,1041,2022,Moral Science,8
+1,1041,2021,Moral Science,8
+1,1041,2020,Moral Science,8
+1,1044,2022,Chemistry,8
+1,1044,2021,Chemistry,8
+1,1044,2020,Chemistry,8
+1,1031,2022,Dance,8
+1,1031,2021,Dance,8
+1,1031,2020,Dance,8
+2,1013,2022,Geography,8
+2,1013,2021,Geography,8
+2,1013,2020,Geography,8
+2,1026,2022,Music,8
+2,1026,2021,Music,8
+2,1026,2020,Music,8
+2,1028,2022,General Knowledge,8
+2,1028,2021,General Knowledge,8
+2,1028,2020,General Knowledge,8
+2,1017,2022,Sports,8
+2,1017,2021,Sports,8
+2,1017,2020,Sports,8
+2,1056,2022,Physics,8
+2,1056,2021,Physics,8
+2,1056,2020,Physics,8
+2,1076,2022,Hindi,8
+2,1076,2021,Hindi,8
+2,1076,2020,Hindi,8
+2,1028,2022,Chemistry,8
+2,1028,2021,Chemistry,8
+2,1028,2020,Chemistry,8
+2,1011,2022,Library,8
+2,1011,2021,Library,8
+2,1011,2020,Library,8
+3,1042,2022,Moral Science,8
+3,1042,2021,Moral Science,8
+3,1042,2020,Moral Science,8
+3,1039,2022,Geography,8
+3,1039,2021,Geography,8
+3,1039,2020,Geography,8
+3,1014,2022,Civics,8
+3,1014,2021,Civics,8
+3,1014,2020,Civics,8
+3,1033,2022,computer,8
+3,1033,2021,computer,8
+3,1033,2020,computer,8
+3,1048,2022,Mathematics,8
+3,1048,2021,Mathematics,8
+3,1048,2020,Mathematics,8
+3,1044,2022,Chemistry,8
+3,1044,2021,Chemistry,8
+3,1044,2020,Chemistry,8
+3,1027,2022,Music,8
+3,1027,2021,Music,8
+3,1027,2020,Music,8
+3,1053,2022,Physics,8
+3,1053,2021,Physics,8
+3,1053,2020,Physics,8
+1,1033,2022,Biology,9
+1,1033,2021,Biology,9
+1,1033,2020,Biology,9
+1,1013,2022,Dance,9
+1,1013,2021,Dance,9
+1,1013,2020,Dance,9
+1,1018,2022,History,9
+1,1018,2021,History,9
+1,1018,2020,History,9
+1,1026,2022,Music,9
+1,1026,2021,Music,9
+1,1026,2020,Music,9
+1,1019,2022,Art,9
+1,1019,2021,Art,9
+1,1019,2020,Art,9
+1,1016,2022,Sports,9
+1,1016,2021,Sports,9
+1,1016,2020,Sports,9
+1,1003,2022,Hindi,9
+1,1003,2021,Hindi,9
+1,1003,2020,Hindi,9
+1,1043,2022,English,9
+1,1043,2021,English,9
+1,1043,2020,English,9
+2,1029,2022,General Knowledge,9
+2,1029,2021,General Knowledge,9
+2,1029,2020,General Knowledge,9
+2,1013,2022,Geography,9
+2,1013,2021,Geography,9
+2,1013,2020,Geography,9
+2,1076,2022,Hindi,9
+2,1076,2021,Hindi,9
+2,1076,2020,Hindi,9
+2,1038,2022,Civics,9
+2,1038,2021,Civics,9
+2,1038,2020,Civics,9
+2,1036,2022,Art,9
+2,1036,2021,Art,9
+2,1036,2020,Art,9
+2,1073,2022,computer,9
+2,1073,2021,computer,9
+2,1073,2020,computer,9
+2,1031,2022,Dance,9
+2,1031,2021,Dance,9
+2,1031,2020,Dance,9
+2,1056,2022,Physics,9
+2,1056,2021,Physics,9
+2,1056,2020,Physics,9
+3,1012,2022,Library,9
+3,1012,2021,Library,9
+3,1012,2020,Library,9
+3,1003,2022,Hindi,9
+3,1003,2021,Hindi,9
+3,1003,2020,Hindi,9
+3,1053,2022,Physics,9
+3,1053,2021,Physics,9
+3,1053,2020,Physics,9
+3,1028,2022,General Knowledge,9
+3,1028,2021,General Knowledge,9
+3,1028,2020,General Knowledge,9
+3,1028,2022,Chemistry,9
+3,1028,2021,Chemistry,9
+3,1028,2020,Chemistry,9
+3,1017,2022,Sports,9
+3,1017,2021,Sports,9
+3,1017,2020,Sports,9
+3,1039,2022,Geography,9
+3,1039,2021,Geography,9
+3,1039,2020,Geography,9
+3,1003,2022,Biology,9
+3,1003,2021,Biology,9
+3,1003,2020,Biology,9
+1,1013,2022,Geography,10
+1,1013,2021,Geography,10
+1,1013,2020,Geography,10
+1,1027,2022,Music,10
+1,1027,2021,Music,10
+1,1027,2020,Music,10
+1,1043,2022,Mathematics,10
+1,1043,2021,Mathematics,10
+1,1043,2020,Mathematics,10
+1,1014,2022,Civics,10
+1,1014,2021,Civics,10
+1,1014,2020,Civics,10
+1,1044,2022,Chemistry,10
+1,1044,2021,Chemistry,10
+1,1044,2020,Chemistry,10
+1,1041,2022,Moral Science,10
+1,1041,2021,Moral Science,10
+1,1041,2020,Moral Science,10
+1,1013,2022,Dance,10
+1,1013,2021,Dance,10
+1,1013,2020,Dance,10
+1,1076,2022,Hindi,10
+1,1076,2021,Hindi,10
+1,1076,2020,Hindi,10
+2,1033,2022,Biology,10
+2,1033,2021,Biology,10
+2,1033,2020,Biology,10
+2,1038,2022,Civics,10
+2,1038,2021,Civics,10
+2,1038,2020,Civics,10
+2,1011,2022,Library,10
+2,1011,2021,Library,10
+2,1011,2020,Library,10
+2,1048,2022,Mathematics,10
+2,1048,2021,Mathematics,10
+2,1048,2020,Mathematics,10
+2,1033,2022,computer,10
+2,1033,2021,computer,10
+2,1033,2020,computer,10
+2,1003,2022,Hindi,10
+2,1003,2021,Hindi,10
+2,1003,2020,Hindi,10
+2,1042,2022,Moral Science,10
+2,1042,2021,Moral Science,10
+2,1042,2020,Moral Science,10
+2,1031,2022,Dance,10
+2,1031,2021,Dance,10
+2,1031,2020,Dance,10
+3,1039,2022,Geography,10
+3,1039,2021,Geography,10
+3,1039,2020,Geography,10
+3,1012,2022,Library,10
+3,1012,2021,Library,10
+3,1012,2020,Library,10
+3,1019,2022,Art,10
+3,1019,2021,Art,10
+3,1019,2020,Art,10
+3,1014,2022,Civics,10
+3,1014,2021,Civics,10
+3,1014,2020,Civics,10
+3,1043,2022,Mathematics,10
+3,1043,2021,Mathematics,10
+3,1043,2020,Mathematics,10
+3,1029,2022,General Knowledge,10
+3,1029,2021,General Knowledge,10
+3,1029,2020,General Knowledge,10
+3,1073,2022,computer,10
+3,1073,2021,computer,10
+3,1073,2020,computer,10
+3,1056,2022,Physics,10
+3,1056,2021,Physics,10
+3,1056,2020,Physics,10
+1,1028,2022,General Knowledge,11
+1,1028,2021,General Knowledge,11
+1,1013,2022,Dance,11
+1,1013,2021,Dance,11
+1,1016,2022,Sports,11
+1,1016,2021,Sports,11
+1,1026,2022,Music,11
+1,1026,2021,Music,11
+1,1076,2022,Hindi,11
+1,1076,2021,Hindi,11
+1,1036,2022,Art,11
+1,1036,2021,Art,11
+1,1038,2022,Civics,11
+1,1038,2021,Civics,11
+1,1053,2022,Physics,11
+1,1053,2021,Physics,11
+2,1014,2022,Civics,11
+2,1014,2021,Civics,11
+2,1003,2022,Biology,11
+2,1003,2021,Biology,11
+2,1019,2022,Art,11
+2,1019,2021,Art,11
+2,1048,2022,Mathematics,11
+2,1048,2021,Mathematics,11
+2,1003,2022,Hindi,11
+2,1003,2021,Hindi,11
+2,1041,2022,Moral Science,11
+2,1041,2021,Moral Science,11
+2,1013,2022,Geography,11
+2,1013,2021,Geography,11
+2,1011,2022,Library,11
+2,1011,2021,Library,11
+3,1028,2022,Chemistry,11
+3,1028,2021,Chemistry,11
+3,1012,2022,Library,11
+3,1012,2021,Library,11
+3,1031,2022,Dance,11
+3,1031,2021,Dance,11
+3,1076,2022,Hindi,11
+3,1076,2021,Hindi,11
+3,1033,2022,computer,11
+3,1033,2021,computer,11
+3,1042,2022,Moral Science,11
+3,1042,2021,Moral Science,11
+3,1056,2022,Physics,11
+3,1056,2021,Physics,11
+3,1004,2022,History,11
+3,1004,2021,History,11
+1,1033,2022,Biology,12
+1,1041,2022,Moral Science,12
+1,1073,2022,computer,12
+1,1013,2022,Dance,12
+1,1044,2022,Chemistry,12
+1,1011,2022,Library,12
+1,1017,2022,Sports,12
+1,1018,2022,English,12
+2,1012,2022,Library,12
+2,1033,2022,computer,12
+2,1038,2022,Civics,12
+2,1036,2022,Art,12
+2,1027,2022,Music,12
+2,1003,2022,Biology,12
+2,1029,2022,General Knowledge,12
+2,1003,2022,Hindi,12
+3,1043,2022,English,12
+3,1011,2022,Library,12
+3,1028,2022,General Knowledge,12
+3,1042,2022,Moral Science,12
+3,1076,2022,Hindi,12
+3,1026,2022,Music,12
+3,1028,2022,Chemistry,12
+3,1031,2022,Dance,12

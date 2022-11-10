@@ -21,7 +21,7 @@
             <div class="details-1">
                 <div class="profile_pic">
                     <div>
-                        <img src="https://pbs.twimg.com/media/EjY_lxhUcAAqCde.jpg" alt="img">
+                        <img th:src="@{/images/SOUTH_KA_HERO.jpeg}" alt="img">
                     </div>
                 </div>
                 <div class="profile_details">
@@ -49,10 +49,6 @@
                             <td colspan="2">Email:</td>
                             <td colspan="2">[[${stf.getEmail()}]]</td>
                         </tr>
-                        <tr>
-                            <td colspan="2">Contact:</td>
-                            <td colspan="2">[[${stf.getPhone_1()}]], [[${stf.getPhone_2()}]]</td>
-                        </tr>
                     </table>
                 </div>
             </div>
@@ -78,6 +74,11 @@
                     <tr>
                         <td class="attribute">Experience Years</td>
                         <td class="value">[[${stf.getExp_years()}]]</td>
+                    </tr>
+
+                    <tr>
+                        <td class="attribute">Contact </td>
+                        <td class="value">[[${stf.getPhone_1()}]], [[${stf.getPhone_2()}]]</td>
                     </tr>
                 </table>
             </div>

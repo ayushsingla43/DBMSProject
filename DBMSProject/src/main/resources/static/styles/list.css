@@ -24,6 +24,7 @@ body {
     display: flex;
     align-self: center;
     justify-content: center;
+    color: white;
     
     
 }
@@ -32,23 +33,28 @@ body {
     border: 1px solid black;
     border-radius: 10px;
     background-color: #0b5f9b;
-    text-align: center;
     max-width: max-content;
     max-height: max-content;
-    padding: 0px 5px 0px 5px;
-    font-weight: 400;
-    font-size: 15pt;
+    padding: 10px 15px 0px 15px;
+  
+    font-size: 15px;
     margin-left: 2%;
 
 }
 
+.insert_button a{
+    text-align:center;
+}
+
+
 .submit_button {
+    color: white;
     border: 1px solid black;
     border-radius: 10px;
-    /* margin: 8px 45%; */
-    width: 10%;
+    margin-right: 5px;
+    min-width: fit-content;
     font-size: 15px;
-    padding: 2px;
+    padding: 10px 10px 10px 10px;
     background-color: #0b5f9b;
 }
 

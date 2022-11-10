@@ -139,7 +139,6 @@ public class result {
 
     @PostMapping("/staff/result/edit")
     public ModelAndView editResult(String stud_SRN,String stud_course,String stud_session,String stud_marks,String fil_emp_id,String fil_SRN,String fil_class,String fil_section,String fil_course,String fil_session,String fil_limit){
-        System.out.println(stud_course);
         ModelAndView mv = new ModelAndView("dummy/staffResultsRedirect.html");
         resultsdao rdao = new resultsdao(j);
         Map<String,Object> filter = new HashMap<String,Object>() {{

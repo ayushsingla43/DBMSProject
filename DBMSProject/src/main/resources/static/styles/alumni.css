@@ -20,19 +20,15 @@ body {
 
 .wrapper {
 
-    /* max-height: 70vh; */
     width: 100vh;
     display: flex;
     justify-content: center;
     width: 100%;
-    /* border: 2px solid black; */
-    /* border-radius: 10px; */
-    /* background: #DBF3FC; */
     background-color: #DBF3FC;
 }
 
 .wrapper2 {
-    /* width: 95%; */
+    width: auto;
     padding: 0px 20px 0px 20px;
     display: flex;
     flex-wrap: nowrap; 
@@ -154,8 +150,40 @@ td {
 }
 
 .edit_alumni{
-
+    margin-top: 2%;
     display: flex;
     align-items: center;
+    flex-direction: column;
+}
+.edit {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     justify-content: center;
+    text-align: center;
+}
+.edit input,
+select {
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 1.5px solid rgba(0, 0, 0, .4);
+    font-size: 12pt;
+    margin: 0px 5px 0px 5px;
+}
+
+.submit_button {
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-right: 5px;
+    min-width: fit-content;
+    font-size: 15px;
+    padding: 5px;
+    background-color: #0b5f9b !important;
+}
+
+.submit_button:hover {
+    cursor: pointer;
+    background-color: #0b5f9b;
 }

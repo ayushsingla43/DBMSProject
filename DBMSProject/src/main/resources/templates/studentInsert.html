@@ -29,8 +29,14 @@
 								<label for="Name">Name</label>
 							</div>
 							<div class="form-floating col-md-4 my_input">
-								<input type="text" class="form-control" id="Std_gender" name="std_gender">
-								<label for="Gender">Gender</label>
+								<select name="std_gender" class="form-control" id="Std_gender" required>
+									<option value="" disabled selected hidden></option>
+									<option value="N">None</option>
+									<option value="M">Male</option>
+									<option value="F">Female</option>
+									<br>
+									<label for="Gender">Gender</label>
+								</select>
 							</div>
 							<div class="form-floating col-md-4 my_input">
 								<input type="text" class="form-control" id="Std_bg" name="std_bg">
@@ -117,9 +123,6 @@
 								<input type="number" class="form-control" id="Std_pin" name="std_pin">
 								<label for="PIN">PIN</label>
 							</div>
-						</div>
-						<div class="form-floating col-md-4 my_input">
-							<input type="text" class="form-control" id="Std_photo" name="std_photo" placeholder="Photo">
 						</div>
 						<div class="my_button">
 							<button type="submit" class="btn btn-primary">Submit</button>

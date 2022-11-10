@@ -39,11 +39,11 @@
                         <option value="200">200</option>
                         <option value="500">500</option>
                         <option value="1000">1000</option>
-                    </select><br>              
-					<div class="insert_button">
-						<input type="submit" placeholder="Search" class="submit_button">
-						<div><a th:if="${session.authority>2}" href="#" th:href="@{/student/add}">Insert</a></div>
-					</div>
+                    </select><br>
+                    <div class="insert_button">
+                        <input type="submit" placeholder="Search" class="submit_button">
+                        <div th:if="${session.authority>2}"><a href="#" th:href="@{/student/add}">Insert</a></div>
+                    </div>
                 </form>
             </div>
             <div class="details_table">
@@ -58,12 +58,17 @@
                     </thead>
                     <tr th:each="stud : ${students}">
                         <td>[[${stud.get("SRN")}]]</td>
-                        <td class="highlight"><a th:href="'/student/profile/'+${stud.get('UID')}">[[${stud.get("name")}]]</a></td>
+                        <td class="highlight"><a
+                                th:href="'/student/profile/'+${stud.get('UID')}">[[${stud.get("name")}]]</a></td>
                         <td>[[${stud.get("phone_1")}]]</td>
                         <td>[[${stud.get("class_no")}]]-[[${stud.get("section_no")}]]</td>
-                        <td class="button" th:if="${session.authority>1}"><a th:href="'/student/results/'+${stud.get('UID')}">Results</a> </td>
-                        <td class="button" th:if="${session.authority>2}"><a th:href="'/staff/student/delete/'+${stud.get('UID')}" onclick="return confirmSubmission()">Transfer</a></td>
-                        <td class="button" th:if="${session.authority>2}"><a th:href="@{'/student/edit/'+${stud.get('UID')}}">Edit</a></td>
+                        <td class="button" th:if="${session.authority>1}"><a
+                                th:href="'/student/results/'+${stud.get('UID')}">Results</a> </td>
+                        <td class="button" th:if="${session.authority>2}"><a
+                                th:href="'/staff/student/delete/'+${stud.get('UID')}"
+                                onclick="return confirmSubmission()">Transfer</a></td>
+                        <td class="button" th:if="${session.authority>2}"><a
+                                th:href="@{'/student/edit/'+${stud.get('UID')}}">Edit</a></td>
                     </tr>
                 </table>
             </div>

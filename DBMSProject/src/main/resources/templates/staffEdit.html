@@ -28,7 +28,14 @@
                         </div>
                         <div class="form-floating col-md-4 my_input">
                             <label for="Stf_gender">Gender</label>
-                           <input class="form-control" type="text" id="Stf_gender" name="stf_gender" placeholder="Gender" th:value="${stf.getGender()}"><br>
+                            <select name="std_gender" class="form-control" id="Std_gender" required>
+                                <option th:value="${stf.getGender()}" selected hidden>[[${stf.getGender()}]]</option>
+								<option value="N">None</option>
+								<option value="M">Male</option>
+								<option value="F">Female</option>
+								<br>
+								<label for="Gender">Gender</label>
+							</select><br>
                         </div>
                         <div class="form-floating col-md-4 my_input">
                             <label for="Stf_dob">Date of Birth</label>
@@ -96,17 +103,11 @@
                         <div class="form-floating col-md-4 my_input">
                             <label for="Stf_pin">PIN</label>
                             <input class="form-control" type="number" id="Stf_pin" name="stf_pin" placeholder="PIN" th:value="${stf.getPIN()}"><br>
-                        </div>    
-                    
-                        <div class="form-floating col-md-4 my_input">
-                            <label for="Stf_photo">Photo</label>
-                            <input class="form-control" type="text" id="Stf_photo" name="stf_photo" placeholder="Photo" th:value="${stf.getPhoto()}"><br>
-                        </div>
-                        <div class="my_button">
-                            <button type="submit" class="btn btn-primary">Submit</button>
-                        </div>    
+                        </div>  
                     </div>
-                    
+                    <div class="my_button">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>  
                 </form>
             </div>    
         </div>    

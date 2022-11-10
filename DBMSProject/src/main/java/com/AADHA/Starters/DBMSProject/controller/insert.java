@@ -37,7 +37,7 @@ public class insert {
     }
 
     @PostMapping("/staff/add")
-    public ModelAndView insertTeacher(String stf_name, String stf_gender, int stf_exp, int stf_pin, int stf_salary, String stf_dob, String stf_email, String stf_bg, String stf_phone1, String stf_phone2, String stf_street, String stf_city, String stf_state, String stf_aadhar, String stf_pan, String stf_photo){
+    public ModelAndView insertTeacher(String stf_name, String stf_gender, int stf_exp, int stf_pin, int stf_salary, String stf_dob, String stf_email, String stf_bg, String stf_phone1, String stf_phone2, String stf_street, String stf_city, String stf_state, String stf_aadhar, String stf_pan){
         ModelAndView mv = new ModelAndView("staffInsert.html");
         staffdao stfdao = new staffdao(j);
         staff st=stfdao.getStaffByAttribute("phone_1", stf_phone1);
@@ -70,8 +70,7 @@ public class insert {
             buffer.append((char) randomLimitedint);
         }
         String password = buffer.toString();
-        stfdao.insertTeacher(stf_name, stf_gender, stf_exp, stf_pin,stf_salary,stf_dob, stf_email, stf_bg, stf_phone1, stf_phone2, stf_street, stf_city, stf_state,stf_aadhar, stf_pan, stf_photo, password
-        );
+        stfdao.insertTeacher(stf_name, stf_gender, stf_exp, stf_pin,stf_salary,stf_dob, stf_email, stf_bg, stf_phone1, stf_phone2, stf_street, stf_city, stf_state,stf_aadhar, stf_pan, password);
         mv.setViewName("staffShowUID.html");
         mv.addObject("addedStaff", stfdao.getStaffByAttribute("Aadhar_no", stf_aadhar));
         return mv;
@@ -90,7 +89,7 @@ public class insert {
     }
 
     @PostMapping("/student/add")
-    public ModelAndView insertStudent(String std_name, String std_gender, String std_date, Integer std_pin,String std_mother, String std_guardian, String std_class, String std_section,String std_dob, String std_email, String std_bg, String std_phone1, String std_phone2, String std_street, String std_city,String std_state, String std_aadhar, String std_photo)
+    public ModelAndView insertStudent(String std_name, String std_gender, String std_date, Integer std_pin,String std_mother, String std_guardian, String std_class, String std_section,String std_dob, String std_email, String std_bg, String std_phone1, String std_phone2, String std_street, String std_city,String std_state, String std_aadhar)
     {
         ModelAndView mv = new ModelAndView("studentInsert.html");
         studentdao stddao = new studentdao(j);
@@ -110,7 +109,7 @@ public class insert {
             mv.addObject("message", "Aadhar Number should be unique!");
             return mv;
         }
-        stddao.insertStudent(std_name,std_gender,std_date,std_pin,std_mother,std_guardian,Std_class,Std_section,std_dob,std_email,std_bg,std_phone1,std_phone2,std_street,std_city,std_state,std_aadhar,std_photo,password);
+        stddao.insertStudent(std_name,std_gender,std_date,std_pin,std_mother,std_guardian,Std_class,Std_section,std_dob,std_email,std_bg,std_phone1,std_phone2,std_street,std_city,std_state,std_aadhar,password);
         mv.setViewName("studentShowUID.html");
         mv.addObject("addedStudent", stddao.getStudentByAttribute("Aadhar_no", std_aadhar));
         return mv;
